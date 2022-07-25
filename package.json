@@ -1,0 +1,13 @@
+{
+  "name": "realescrape",
+  "version": "1.0.0",
+  "description": "`curl https://espc.com/properties?p=1&ps=5&new=7`",
+  "main": "src.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@192.168.0.48:3000:bmordue/realescrape.git"
+  }
+}
