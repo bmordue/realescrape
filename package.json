@@ -11,10 +11,11 @@
     "url": "git@192.168.0.48:3000:bmordue/realescrape.git"
   },
   "dependencies": {
-    "node-fetch": "^3.2.10",
+    "node-fetch": "^2.6.7",
     "typescript": "^4.7.4"
   },
   "devDependencies": {
-    "@types/node": "^18.6.4"
+    "@types/node": "^18.6.4",
+    "@types/node-fetch": "^2.6.2"
   }
 }

@@ -1,13 +1,7 @@
-// `curl https://espc.com/properties?p=1&ps=5&new=7`
-
-//Look for XHR to /list
-
-//DevTools copy as Fetch in console:
-
-import { inspect } from 'util';
 import fetch from 'node-fetch';
+import { writeFileSync } from 'fs'; 
 
-async function main() {
+async function getResultsPage(page: number, pageSize: number) {
     const resp = await fetch("https://espc.com/properties/search/list", {
         // "credentials": "include",
         "headers": {
@@ -17,15 +11,38 @@ async function main() {
             "Content-Type": "application/json;charset=utf-8",
             "Sec-Fetch-Dest": "empty",
             "Sec-Fetch-Mode": "cors",
-            "Sec-Fetch-Site": "same-origin"
+            "Sec-Fetch-Site": "same-origin",
+            "Referrer": "https://espc.com/properties?p=3&ps=5&new=7",
         },
-        "referrer": "https://espc.com/properties?p=3&ps=5&new=7",
-        "body": "{\"page\":3,\"pageSize\":5,\"sortBy\":null,\"locations\":[{\"displayText\":\"Scotland\",\"key\":\"scotland\",\"category\":0}],\"radiuses\":[],\"school\":null,\"rental\":false,\"minBeds\":\"\",\"minPrice\":\"\",\"maxPrice\":\"\",\"new\":7,\"fixedPrice\":false,\"virtualTour\":false,\"underOffer\":false,\"featured\":false,\"exclusive\":false,\"orgId\":null,\"ptype\":[],\"freeText\":[],\"view\":\"list\",\"keywords\":[],\"epc\":[],\"sids\":[]}",
+        "body": `{\"page\":${page},\"pageSize\":${pageSize},\"sortBy\":null,\"locations\":[{\"displayText\":\"Scotland\",\"key\":\"scotland\",\"category\":0}],\"radiuses\":[],\"school\":null,\"rental\":false,\"minBeds\":\"\",\"minPrice\":\"\",\"maxPrice\":\"\",\"new\":7,\"fixedPrice\":false,\"virtualTour\":false,\"underOffer\":false,\"featured\":false,\"exclusive\":false,\"orgId\":null,\"ptype\":[],\"freeText\":[],\"view\":\"list\",\"keywords\":[],\"epc\":[],\"sids\":[]}`,
         "method": "POST"
 //        "mode": "cors"
     });
+    return resp.json();
+}
 
-    console.log(inspect(resp));
+async function main() {
+    const pageSize = 50;
+    const outFile = 'results.txt';
+
+    const pageOneData = await getResultsPage(1, pageSize);
+    console.log(`Got first page with ${pageOneData.results.length} results`);
+
+    const highestPage = 1 + Math.trunc( pageOneData.totalResults / pageSize );
+    console.log(`Expecting ${pageOneData.totalResults} total results over ${highestPage} pages of ${pageSize} items`);
+
+    let collectedResults: Array<any> = pageOneData.results;
+
+    let currPage = 1;
+    while (currPage < highestPage) {
+        currPage++;
+        const pageData = await getResultsPage(currPage, pageSize);
+        console.log(`Got page ${currPage} with ${pageData.results.length} results`);
+        collectedResults = collectedResults.concat(pageData.results);
+    }
+
+    writeFileSync(outFile, JSON.stringify(collectedResults));
+    console.log(`Wrote ${collectedResults.length} results to ${outFile}`);
 }
 
 main();
