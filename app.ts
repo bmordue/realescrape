@@ -3,7 +3,6 @@ import { writeFileSync } from 'fs';
 
 async function getResultsPage(page: number, pageSize: number) {
     const resp = await fetch("https://espc.com/properties/search/list", {
-        // "credentials": "include",
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0",
             "Accept": "application/json, text/plain, */*",
@@ -16,7 +15,6 @@ async function getResultsPage(page: number, pageSize: number) {
         },
         "body": `{\"page\":${page},\"pageSize\":${pageSize},\"sortBy\":null,\"locations\":[{\"displayText\":\"Scotland\",\"key\":\"scotland\",\"category\":0}],\"radiuses\":[],\"school\":null,\"rental\":false,\"minBeds\":\"\",\"minPrice\":\"\",\"maxPrice\":\"\",\"new\":7,\"fixedPrice\":false,\"virtualTour\":false,\"underOffer\":false,\"featured\":false,\"exclusive\":false,\"orgId\":null,\"ptype\":[],\"freeText\":[],\"view\":\"list\",\"keywords\":[],\"epc\":[],\"sids\":[]}`,
         "method": "POST"
-//        "mode": "cors"
     });
     return resp.json();
 }
@@ -41,7 +39,7 @@ async function main() {
         collectedResults = collectedResults.concat(pageData.results);
     }
 
-    writeFileSync(outFile, JSON.stringify(collectedResults));
+    writeFileSync(outFile, JSON.stringify(collectedResults, null, 4));
     console.log(`Wrote ${collectedResults.length} results to ${outFile}`);
 }
 
