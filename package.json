@@ -2,7 +2,7 @@
   "name": "realescrape",
   "version": "0.0.1",
   "scripts": {
-    "build": "tsc",
+    "prestart": "tsc",
     "start": "node built/app.js"
   },
   "dependencies": {
