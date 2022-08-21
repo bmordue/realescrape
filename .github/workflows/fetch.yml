@@ -11,18 +11,12 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v3
-
-  - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
       with:
         node-version: 16
     - run: npm ci
     - name: Scrape
       run: npm start
-
-    - name: Fetch latest data
-      run: |-
-        curl https://www.fire.ca.gov/umbraco/Api/IncidentApi/GetIncidents | jq . > incidents.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
@@ -31,16 +25,3 @@ jobs:
         timestamp=$(date -u)
         git commit -m "Latest data: ${timestamp}" || exit 0
         git push
-on:
-  schedule:
-    - cron:  '13 0 * * *' # daily 
-name: Scrape Data
-jobs:
-  build:
-    name: Build
-    runs-on: ubuntu-latest
-    steps:
-  
-    - uses: mikeal/publish-to-github-action@main
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub sets this for you
