@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 import { writeFileSync } from 'fs'; 
 
 async function getResultsPage(page: number, pageSize: number, region: string) {
-    const resp = await fetch(,`https://${region}.com/properties/search/list`, {
+    const resp = await fetch(`https://${region}.com/properties/search/list`, {
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0",
             "Accept": "application/json, text/plain, */*",
