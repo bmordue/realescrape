@@ -20,7 +20,7 @@ async function getResultsPage(page: number, pageSize: number, region: string) {
 }
 
 async function main() {
-    [ "espc" , "pspc" ].forEach((region) => {
+    [ "espc" , "pspc" ].forEach(async (region) => {
         console.log('Starting region ' + region);
     const pageSize = 50;
     const outFile = 'results-' + region + '.txt';
