@@ -1,8 +1,8 @@
 import fetch from 'node-fetch';
 import { writeFileSync } from 'fs'; 
 
-async function getResultsPage(page: number, pageSize: number) {
-    const resp = await fetch("https://espc.com/properties/search/list", {
+async function getResultsPage(page: number, pageSize: number, region: string) {
+    const resp = await fetch(,`https://${region}.com/properties/search/list`, {
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0",
             "Accept": "application/json, text/plain, */*",
@@ -11,7 +11,7 @@ async function getResultsPage(page: number, pageSize: number) {
             "Sec-Fetch-Dest": "empty",
             "Sec-Fetch-Mode": "cors",
             "Sec-Fetch-Site": "same-origin",
-            "Referrer": "https://espc.com/properties?p=3&ps=5&new=7",
+            "Referrer": `https://${region}.com/properties?p=3&ps=5&new=7`,
         },
         "body": `{\"page\":${page},\"pageSize\":${pageSize},\"sortBy\":null,\"locations\":[{\"displayText\":\"Scotland\",\"key\":\"scotland\",\"category\":0}],\"radiuses\":[],\"school\":null,\"rental\":false,\"minBeds\":\"\",\"minPrice\":\"\",\"maxPrice\":\"\",\"new\":7,\"fixedPrice\":false,\"virtualTour\":false,\"underOffer\":false,\"featured\":false,\"exclusive\":false,\"orgId\":null,\"ptype\":[],\"freeText\":[],\"view\":\"list\",\"keywords\":[],\"epc\":[],\"sids\":[]}`,
         "method": "POST"
@@ -20,10 +20,12 @@ async function getResultsPage(page: number, pageSize: number) {
 }
 
 async function main() {
+    [ "espc" , "pspc" ].forEach((region) => {
+        console.log('Starting region ' + region);
     const pageSize = 50;
-    const outFile = 'results.txt';
+    const outFile = 'results-' + region + '.txt';
 
-    const pageOneData = await getResultsPage(1, pageSize);
+    const pageOneData = await getResultsPage(1, pageSize, region);
     console.log(`Got first page with ${pageOneData.results.length} results`);
 
     const highestPage = 1 + Math.trunc( pageOneData.totalResults / pageSize );
@@ -34,13 +36,15 @@ async function main() {
     let currPage = 1;
     while (currPage < highestPage) {
         currPage++;
-        const pageData = await getResultsPage(currPage, pageSize);
+        const pageData = await getResultsPage(currPage, pageSize, region);
         console.log(`Got page ${currPage} with ${pageData.results.length} results`);
         collectedResults = collectedResults.concat(pageData.results);
     }
 
     writeFileSync(outFile, JSON.stringify(collectedResults, null, 4));
     console.log(`Wrote ${collectedResults.length} results to ${outFile}`);
+        });
+    
 }
 
 main();
