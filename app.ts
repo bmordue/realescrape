@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 import { writeFileSync } from 'fs'; 
 
 async function getResultsPage(page: number, pageSize: number, region: string) {
-    const resp = await fetch(`https://${region}.com/properties/search/list`, {
+    const resp = await fetch(`https://${region}/properties/search/list`, {
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0",
             "Accept": "application/json, text/plain, */*",
@@ -11,7 +11,7 @@ async function getResultsPage(page: number, pageSize: number, region: string) {
             "Sec-Fetch-Dest": "empty",
             "Sec-Fetch-Mode": "cors",
             "Sec-Fetch-Site": "same-origin",
-            "Referrer": `https://${region}.com/properties?p=3&ps=5&new=7`,
+            "Referrer": `https://${region}/properties?p=3&ps=5&new=7`,
         },
         "body": `{\"page\":${page},\"pageSize\":${pageSize},\"sortBy\":null,\"locations\":[{\"displayText\":\"Scotland\",\"key\":\"scotland\",\"category\":0}],\"radiuses\":[],\"school\":null,\"rental\":false,\"minBeds\":\"\",\"minPrice\":\"\",\"maxPrice\":\"\",\"new\":7,\"fixedPrice\":false,\"virtualTour\":false,\"underOffer\":false,\"featured\":false,\"exclusive\":false,\"orgId\":null,\"ptype\":[],\"freeText\":[],\"view\":\"list\",\"keywords\":[],\"epc\":[],\"sids\":[]}`,
         "method": "POST"
@@ -20,7 +20,7 @@ async function getResultsPage(page: number, pageSize: number, region: string) {
 }
 
 async function main() {
-    [ "espc" , "pspc" ].forEach(async (region) => {
+    [ "espc.com" , "pspc.co.uk" ].forEach(async (region) => {
         console.log('Starting region ' + region);
     const pageSize = 50;
     const outFile = 'results-' + region + '.txt';
