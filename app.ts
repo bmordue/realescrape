@@ -10,7 +10,7 @@ interface RegionInfo {
 };
 
 async function espcGetResultsPage(page: number, pageSize: number, region: RegionInfo) {
-    const resp = await fetch(`https://${region}/properties/search/list`, {
+    const resp = await fetch(`https://${region.host}/properties/search/list`, {
         "headers": {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0",
             "Accept": "application/json, text/plain, */*",
@@ -19,7 +19,7 @@ async function espcGetResultsPage(page: number, pageSize: number, region: Region
             "Sec-Fetch-Dest": "empty",
             "Sec-Fetch-Mode": "cors",
             "Sec-Fetch-Site": "same-origin",
-            "Referrer": `https://${region}/properties?p=3&ps=5&new=7`,
+            "Referrer": `https://${region.host}/properties?p=3&ps=5&new=7`,
         },
         "body": `{\"page\":${page},\"pageSize\":${pageSize},\"sortBy\":null,\"locations\":[{\"displayText\":\"Scotland\",\"key\":\"scotland\",\"category\":0}],\"radiuses\":[],\"school\":null,\"rental\":false,\"minBeds\":\"\",\"minPrice\":\"\",\"maxPrice\":\"\",\"new\":7,\"fixedPrice\":false,\"virtualTour\":false,\"underOffer\":false,\"featured\":false,\"exclusive\":false,\"orgId\":null,\"ptype\":[],\"freeText\":[],\"view\":\"list\",\"keywords\":[],\"epc\":[],\"sids\":[]}`,
         "method": "POST"
@@ -30,7 +30,7 @@ async function espcGetResultsPage(page: number, pageSize: number, region: Region
 async function pspcGetResultsPage(page: number, pageSize: number, region: RegionInfo) {
 
     // TODO: or use /new.asp??
-    const resp = await fetch(`https://${region}/all-properties.asp`, {
+    const resp = await fetch(`https://${region.host}/all-properties.asp`, {
         "headers": {
             // "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0",
             // "Accept": "application/json, text/plain, */*",
@@ -39,7 +39,7 @@ async function pspcGetResultsPage(page: number, pageSize: number, region: Region
             // "Sec-Fetch-Dest": "empty",
             // "Sec-Fetch-Mode": "cors",
             // "Sec-Fetch-Site": "same-origin",
-            // "Referrer": `https://${region}/`,
+            // "Referrer": `https://${region.host}/`,
         },
         "body": `{\"page\":${page},\"pageSize\":${pageSize},\"sortBy\":null,\"locations\":[{\"displayText\":\"Scotland\",\"key\":\"scotland\",\"category\":0}],\"radiuses\":[],\"school\":null,\"rental\":false,\"minBeds\":\"\",\"minPrice\":\"\",\"maxPrice\":\"\",\"new\":7,\"fixedPrice\":false,\"virtualTour\":false,\"underOffer\":false,\"featured\":false,\"exclusive\":false,\"orgId\":null,\"ptype\":[],\"freeText\":[],\"view\":\"list\",\"keywords\":[],\"epc\":[],\"sids\":[]}`,
         "method": "POST"
