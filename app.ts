@@ -50,6 +50,16 @@ async function pspcGetResultsPage(page: number, pageSize: number, region: Region
     return { results: parsedResults, totalresults: parsedResults.length };
 }
 
+
+interface PropertyResult {
+    url?: string,
+    figure?: string,
+    address: string,
+    summary: string,
+    priceDescription: string,
+    agent: string,
+    propertyRef: string,
+};
 // <a href="/2-Bed-Detached-Bungalow-For-Sale-Speybank-10-Letham-Road-Perth-PH1-2AP" class="property">
 // <figure><img src="https://docs.pspc.co.uk/photos/961478.jpg?width=294&amp;r=209692-0" alt="Speybank, 10 Letham Road, Perth PH1 2AP"></figure>
 // <h2>Speybank, 10 Letham Road, Perth PH1 2AP</h2>
@@ -61,16 +71,16 @@ async function pspcGetResultsPage(page: number, pageSize: number, region: Region
 function parseHtmlResults(html: string) {
     const $ = cheerio.load(html);
 
-    const results = [];
-    $('a.property').each((el) => {
+    const results: PropertyResult[] = [];
+    $('a.property').each((i, el) => {
         results.push({
-            url: el.attr('href'),
-            figure: el.find('img').attr('href'),
-            address: el.find('h2').text(),
-            summary: el.find('p').first().text(),
-            priceDescription: el.find('h3').text(),
-            agent: el.find('h4').text(),
-            propertRef: el.find('h5')
+            url: $(el).attr('href'),
+            figure: $(el).find('img').attr('href'),
+            address: $(el).find('h2').text(),
+            summary: $(el).find('p').first().text(),
+            priceDescription: $(el).find('h3').text(),
+            agent: $(el).find('h4').text(),
+            propertyRef: $(el).find('h5').text()
         });
     });
     return results;
