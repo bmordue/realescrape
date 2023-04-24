@@ -53,36 +53,36 @@ async function pspcGetResultsPage(page: number, pageSize: number, region: Region
 
 interface PropertyResult {
     url?: string,
-    figure?: string,
+    id: string,
     address: string,
+    postcode: string,
     summary: string,
     priceDescription: string,
-    agent: string,
-    propertyRef: string,
 };
-// <a href="/2-Bed-Detached-Bungalow-For-Sale-Speybank-10-Letham-Road-Perth-PH1-2AP" class="property">
-// <figure><img src="https://docs.pspc.co.uk/photos/961478.jpg?width=294&amp;r=209692-0" alt="Speybank, 10 Letham Road, Perth PH1 2AP"></figure>
-// <h2>Speybank, 10 Letham Road, Perth PH1 2AP</h2>
-// <p>2 bed Detached Bungalow</p>
-// <h3>Offers Over £220,000</h3>
-// <h4>Miller Hendry</h4>
-// <h5>Property Ref: 961478</h5>
-// </a>
+// <tr>
+// <td><a href="/2-Bed-Semi-Detached-Bungalow-For-Sale-1-Smithfield-Crescent-Blairgowrie-PH10-6UD">961419</a></td>
+// <td>1 Smithfield Crescent Blairgowrie</td>
+// <td>PH10-6UD</td>
+// <td>Semi-Detached Bungalow</td>
+// <td class="tar">Offers Over &pound;150,000</td>
+// </tr>
 function parseHtmlResults(html: string) {
     const $ = cheerio.load(html);
+    // console.log(html);
 
+    console.log(`Number of PSPC property entries: ${$('table.data > tbody > tr').length}`);
     const results: PropertyResult[] = [];
-    $('a.property').each((i, el) => {
-        results.push({
-            url: $(el).attr('href'),
-            figure: $(el).find('img').attr('href'),
-            address: $(el).find('h2').text(),
-            summary: $(el).find('p').first().text(),
-            priceDescription: $(el).find('h3').text(),
-            agent: $(el).find('h4').text(),
-            propertyRef: $(el).find('h5').text()
-        });
+    $('table.data > tbody > tr').each((i, el) => {
+        results[i] = {
+            url: $(el).find('td > a').attr('href'),
+            id: $(el).find('td').first().text(),
+            address: $(el).find('td').eq(1).text(),
+            postcode: $(el).find('td').eq(2).text(),
+            summary: $(el).find('td').eq(3).text(),
+            priceDescription: $(el).find('td.tar').text()
+        };
     });
+    console.log(`results.length: ${results.length}`);
     return results;
 }
 
