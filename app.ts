@@ -45,17 +45,54 @@ async function pspcGetResultsPage(page: number, pageSize: number, region: Region
         "method": "POST"
     });
     const html = await resp.text();
-    const parsedResults = parseHtmlResults(html);
+    const parsedResults = pspcParseHtmlResults(html, `https://${region.host}`);
 
     return { results: parsedResults, totalresults: parsedResults.length };
 }
 
+async function hspcGetResultsPage(page: number, pageSize: number, region: RegionInfo) {
+    const resp = await fetch('https://hspc.co.uk/all-properties.asp', {});
+    const html = await resp.text();
+    const parsedResults = hspcParseHtmlResults(html, `https://${region.host}`);
+
+    return { results: parsedResults, totalresults: parsedResults.length };
+}
+
+// <tr>
+// <td>59909</td>
+// <td></td>
+// <td>Raon Eorna, Polbain, Achiltibuie</td>
+// <td>5 beds</td>
+// <td>Detached Villa</td>
+// <td>Offers Over £445,000</td>
+// <td><a href="/Detached-Villa-For-Sale-Raon-Eorna-Polbain-Achiltibuie-IV26-2YW">view</a></td>
+// </tr>
+
+function hspcParseHtmlResults(html: string, baseUrl = '') {
+    const $ = cheerio.load(html);
+
+    console.log(`Number of HSPC property entries: ${$('body table > tbody > tr').length}`);
+    const results: PropertyResult[] = [];
+    $('body table > tbody > tr').each((i, el) => {
+        results[i] = {
+            id: $(el).find('td').first().text(),
+            address: $(el).find('td').eq(2).text(),
+            bedrooms: $(el).find('td').eq(3).text(),
+            summary: $(el).find('td').eq(4).text(),
+            priceDescription: $(el).find('td').eq(5).text(),
+            url: baseUrl + $(el).find('td > a').attr('href')
+        };
+    });
+
+    return results;
+}
 
 interface PropertyResult {
     url?: string,
     id: string,
     address: string,
-    postcode: string,
+    bedrooms?: string,
+    postcode?: string,
     summary: string,
     priceDescription: string,
 };
@@ -66,15 +103,14 @@ interface PropertyResult {
 // <td>Semi-Detached Bungalow</td>
 // <td class="tar">Offers Over &pound;150,000</td>
 // </tr>
-function parseHtmlResults(html: string) {
+function pspcParseHtmlResults(html: string, baseUrl = '') {
     const $ = cheerio.load(html);
-    // console.log(html);
 
     console.log(`Number of PSPC property entries: ${$('table.data > tbody > tr').length}`);
     const results: PropertyResult[] = [];
     $('table.data > tbody > tr').each((i, el) => {
         results[i] = {
-            url: $(el).find('td > a').attr('href'),
+            url: baseUrl + $(el).find('td > a').attr('href'),
             id: $(el).find('td').first().text(),
             address: $(el).find('td').eq(1).text(),
             postcode: $(el).find('td').eq(2).text(),
@@ -120,8 +156,9 @@ async function main() {
     const regions: RegionInfo[] = [
         { label: 'espc', name: 'Edinburgh', host: 'espc.com', getResultsFn: espcGetResultsPage },
         { label: 'pspc', name: 'Perthshire', host: 'www.pspc.co.uk', getResultsFn: pspcGetResultsPage },
-        //        { label: 'hspc', name: 'Inverness',  getResultsFn: espcGetResultsPage },
+        { label: 'hspc', name: 'Highlands and Islands', host: 'hspc.co.uk', getResultsFn: hspcGetResultsPage },
         //        { label: 'tspc', name: 'Tayside', getResultsFn: espcGetResultsPage }
+        // Dumfries & Galloway!
     ];
 
     await Promise.all(regions.map(writeAllPages));
