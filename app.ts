@@ -1,14 +1,22 @@
 import fetch from 'node-fetch';
 import { writeFileSync } from 'fs';
 import * as cheerio from 'cheerio';
+import { createHash } from 'crypto';
 
 interface PropertyResult {
+    id: string,
     url?: string,
     address: string,
     bedrooms?: number,
     summary: string,
     priceDescription: string,
 };
+
+function hashCode(str: string) {
+    const hash = createHash('md5');
+    hash.update(str);
+    return hash.digest('hex');
+}
 
 async function writeAllResults(propertyType: string) {
     const outFilename = `results-sspc-${propertyType}.json`;
@@ -25,13 +33,14 @@ async function writeAllResults(propertyType: string) {
 
     const results: PropertyResult[] = [];
     $(resultsSelector).each((i, el) => {
-        results[i] = {
+        const prop = {
             url: host + $(el).attr('href'),
             address: $(el).find('h4').text(),
             priceDescription: $(el).find('.pp').text(),
             summary: $(el).find('.pt').text().trim(),
             bedrooms: parseInt($(el).find('.pb > span').text())
         };
+        results[i] = { ...prop, id: hashCode(prop.url) };
     });
 
     writeFileSync(outFilename, JSON.stringify(results, null, 4));
