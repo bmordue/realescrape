@@ -40,20 +40,20 @@
         "id": "27bd8f76795f99302c9c311e91d2e02b"
     },
     {
-        "url": "https://www.sspc.co.uk/23-Carfrae-Gardens-EDINBURGH-EH4-3SF-3-Bedroom-Detached-Bungalow-ESPC",
-        "address": "23 Carfrae Gardens, EDINBURGH EH4 3SF",
-        "priceDescription": "Offers over £515,000",
-        "summary": "Detached Bungalow",
-        "bedrooms": 3,
-        "id": "ab1ae926a5dcd4beb4615baa0353763c"
-    },
-    {
         "url": "https://www.sspc.co.uk/72-Durham-Avenue-EDINBURGH-EH15-1RW-3-Bedroom-Detached-Bungalow-ESPC",
         "address": "72 Durham Avenue, EDINBURGH EH15 1RW",
         "priceDescription": "Offers over £515,000",
         "summary": "Detached Bungalow",
         "bedrooms": 3,
         "id": "b73cd3869cfd128bd54c92ed67a99ef1"
+    },
+    {
+        "url": "https://www.sspc.co.uk/23-Carfrae-Gardens-EDINBURGH-EH4-3SF-3-Bedroom-Detached-Bungalow-ESPC",
+        "address": "23 Carfrae Gardens, EDINBURGH EH4 3SF",
+        "priceDescription": "Offers over £515,000",
+        "summary": "Detached Bungalow",
+        "bedrooms": 3,
+        "id": "ab1ae926a5dcd4beb4615baa0353763c"
     },
     {
         "url": "https://www.sspc.co.uk/12-St-Bryde's-Way-Cardrona-Peebles-EH45-9LL-3-Bedroom-Detached-Bungalow-ESPC",
@@ -94,6 +94,14 @@
         "summary": "Detached Bungalow",
         "bedrooms": 4,
         "id": "9c143441df5353184cbc44ef6c192500"
+    },
+    {
+        "url": "https://www.sspc.co.uk/53-Traquair-Park-West-Corstorphine-EDINBURGH-EH12-7AN-4-Bedroom-Detached-Bungalow-ESPC",
+        "address": "53 Traquair Park West, Corstorphine, EDINBURGH EH12 7AN",
+        "priceDescription": "Offers over £490,000",
+        "summary": "Detached Bungalow",
+        "bedrooms": 4,
+        "id": "8569a170272266b64e05960784f862a4"
     },
     {
         "url": "https://www.sspc.co.uk/6-Craigmount-Terrace-Corstorphine-EH12-8BW-4-Bedroom-Detached-Bungalow-ESPC",
@@ -272,12 +280,28 @@
         "id": "7e899f39a6b964d87ad5109776c528c4"
     },
     {
+        "url": "https://www.sspc.co.uk/31-High-Street-KINROSS-KY13-8AA-4-Bedroom-Detached-Bungalow-ESPC",
+        "address": "31 High Street, KINROSS KY13 8AA",
+        "priceDescription": "Offers over £399,995",
+        "summary": "Detached Bungalow",
+        "bedrooms": 4,
+        "id": "5cc9453d052dc5defde75776ee3ec0c1"
+    },
+    {
         "url": "https://www.sspc.co.uk/6-Blairadam-Grove-Keltybridge-KELTY-KY4-0JU-3-Bedroom-Detached-Bungalow-ESPC",
         "address": "6 Blairadam Grove, Keltybridge, KELTY KY4 0JU",
         "priceDescription": "Offers In The Region Of £399,000",
         "summary": "Detached Bungalow",
         "bedrooms": 3,
         "id": "b8cabe4336f9515ccb82999a0d1507cd"
+    },
+    {
+        "url": "https://www.sspc.co.uk/The-Dhorlin-6-Montgomerie-Road-PRESTWICK-KA9-1QT-4-Bedroom-Detached-Bungalow-ESPC",
+        "address": "The Dhorlin, 6 Montgomerie Road, PRESTWICK KA9 1QT",
+        "priceDescription": "Offers over £395,000",
+        "summary": "Detached Bungalow",
+        "bedrooms": 4,
+        "id": "57ea65c73d0210bfac480bc1d5cad13c"
     },
     {
         "url": "https://www.sspc.co.uk/195-Main-Street-EH37-5SQ-4-Bedroom-Detached-Bungalow-ESPC",
@@ -294,6 +318,22 @@
         "summary": "Detached Bungalow",
         "bedrooms": 4,
         "id": "61b55fdb4421a544946560925d3545ae"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Cairnlea-TD9-8PW-3-Bedroom-Detached-Bungalow-BSPC",
+        "address": "Cairnlea TD9 8PW",
+        "priceDescription": "In the Region Of £385,000",
+        "summary": "Detached Bungalow",
+        "bedrooms": 3,
+        "id": "f114515077e2a58022f6a33d67ab9eed"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Cairnlea-Appletreehall-Hawick-TD9-8PW-3-Bedroom-Detached-Bungalow-ESPC",
+        "address": "Cairnlea, Appletreehall, Hawick TD9 8PW",
+        "priceDescription": "Offers In The Region Of £385,000",
+        "summary": "Detached Bungalow",
+        "bedrooms": 3,
+        "id": "fe30f0ad190438c0848d41a51a384dc9"
     },
     {
         "url": "https://www.sspc.co.uk/35-Kingfisher-Road-Strathmore-Fields-Forfar-DD8-3FR-3-Bedroom-Detached-Bungalow-TSPC",
@@ -344,14 +384,6 @@
         "id": "71dbd23f873636764138959f9f0e56f3"
     },
     {
-        "url": "https://www.sspc.co.uk/16-Westpark-Gate-Saline-DUNFERMLINE-KY12-9US-3-Bedroom-Detached-Bungalow-ESPC",
-        "address": "16 Westpark Gate, Saline, DUNFERMLINE KY12 9US",
-        "priceDescription": "Offers over £360,000",
-        "summary": "Detached Bungalow",
-        "bedrooms": 3,
-        "id": "22716bd1493f3eb55930b5e2fce46476"
-    },
-    {
         "url": "https://www.sspc.co.uk/52-Britwell-Crescent-Craigentinny-Edinburgh-EH7-6PT-3-Bedroom-Terraced-Bungalow-ESPC",
         "address": "52 Britwell Crescent, Craigentinny, Edinburgh EH7 6PT",
         "priceDescription": "Fixed Price £360,000",
@@ -360,12 +392,12 @@
         "id": "2e985c8d535570c70bf0fa3d027d19dd"
     },
     {
-        "url": "https://www.sspc.co.uk/38-St.-Magdalenes-Road-Perth-PH2-0BT-4-Bedroom-Detached-Bungalow-PSPC",
-        "address": "38 St. Magdalenes Road, Perth PH2 0BT",
-        "priceDescription": "Offers Over £357,500",
+        "url": "https://www.sspc.co.uk/16-Westpark-Gate-Saline-DUNFERMLINE-KY12-9US-3-Bedroom-Detached-Bungalow-ESPC",
+        "address": "16 Westpark Gate, Saline, DUNFERMLINE KY12 9US",
+        "priceDescription": "Offers over £360,000",
         "summary": "Detached Bungalow",
-        "bedrooms": 4,
-        "id": "1cba054cefca3b9fb9b94f62dd9c694b"
+        "bedrooms": 3,
+        "id": "22716bd1493f3eb55930b5e2fce46476"
     },
     {
         "url": "https://www.sspc.co.uk/146-Gyle-Park-Gardens-Edinburgh-EH12-8NU-3-Bedroom-Detached-Bungalow-ESPC",
@@ -408,6 +440,14 @@
         "id": "bb7748a89907f6321e5bafc1f8daab77"
     },
     {
+        "url": "https://www.sspc.co.uk/Dunsloggin-Whiting-Bay-ISLE-OF-ARRAN-KA27-8QR-3-Bedroom-Detached-Bungalow-ESPC",
+        "address": "Dunsloggin, Whiting Bay, ISLE OF ARRAN KA27 8QR",
+        "priceDescription": "Offers In The Region Of £345,000",
+        "summary": "Detached Bungalow",
+        "bedrooms": 3,
+        "id": "e633f0d0bb8bed107a455547c0b797f2"
+    },
+    {
         "url": "https://www.sspc.co.uk/Caberfeidh-(Incorporating-Annexe)-Shore-Road-Sannox-Isle-of-Arran-KA27-8JD-4-Bedroom-Detached-Bungalow-ESPC",
         "address": "Caberfeidh (Incorporating Annexe), Shore Road, Sannox, Isle of Arran KA27 8JD",
         "priceDescription": "Offers over £345,000",
@@ -424,14 +464,6 @@
         "id": "6052e729455f7f1c9571daf9a9cf08ab"
     },
     {
-        "url": "https://www.sspc.co.uk/Dunsloggin-Whiting-Bay-ISLE-OF-ARRAN-KA27-8QR-3-Bedroom-Detached-Bungalow-ESPC",
-        "address": "Dunsloggin, Whiting Bay, ISLE OF ARRAN KA27 8QR",
-        "priceDescription": "Offers In The Region Of £345,000",
-        "summary": "Detached Bungalow",
-        "bedrooms": 3,
-        "id": "e633f0d0bb8bed107a455547c0b797f2"
-    },
-    {
         "url": "https://www.sspc.co.uk/18-Dechmont-Road-Edinburgh-EH12-8JP-2-Bedroom-Semi-Detached-Bungalow-ESPC",
         "address": "18 Dechmont Road, Edinburgh EH12 8JP",
         "priceDescription": "Offers over £340,000",
@@ -446,14 +478,6 @@
         "summary": "Detached Bungalow",
         "bedrooms": 4,
         "id": "3e6cdf8bfea30cf3ea7f379b20bade87"
-    },
-    {
-        "url": "https://www.sspc.co.uk/7-Bonfield-Road-Strathkinness-ST.-ANDREWS-KY16-9RR-2-Bedroom-Detached-Bungalow-ESPC",
-        "address": "7 Bonfield Road, Strathkinness, ST. ANDREWS KY16 9RR",
-        "priceDescription": "Offers over £340,000",
-        "summary": "Detached Bungalow",
-        "bedrooms": 2,
-        "id": "e18a24998865c9235518c0b3bb0c3db3"
     },
     {
         "url": "https://www.sspc.co.uk/29-Kingfisher-Avenue-Strathmore-Fields-Forfar-DD8-3FS-3-Bedroom-Detached-Bungalow-TSPC",
@@ -568,12 +592,12 @@
         "id": "aa9237249c72fe95c0735d6c44aafcfa"
     },
     {
-        "url": "https://www.sspc.co.uk/31-Mountcastle-Crescent-EDINBURGH-EH8-7SB-2-Bedroom-Semi-Detached-Bungalow-ESPC",
-        "address": "31 Mountcastle Crescent, EDINBURGH EH8 7SB",
-        "priceDescription": "Offers over £299,000",
+        "url": "https://www.sspc.co.uk/67-Howden-Hall-Road-Liberton-Edinburgh-EH16-6PP-3-Bedroom-Semi-Detached-Bungalow-ESPC",
+        "address": "67 Howden Hall Road, Liberton, Edinburgh EH16 6PP",
+        "priceDescription": "Fixed Price £299,000",
         "summary": "Semi-Detached Bungalow",
-        "bedrooms": 2,
-        "id": "c057651851a71e4088d6fbfe3a5b8b99"
+        "bedrooms": 3,
+        "id": "495074f9332032e41d7f9089baa1d77e"
     },
     {
         "url": "https://www.sspc.co.uk/37-Bearehill-Brae-Brechin-DD9-6XD-4-Bedroom-Detached-Bungalow-TSPC",
@@ -616,14 +640,6 @@
         "id": "912479c40dad47a41fd855dee226e728"
     },
     {
-        "url": "https://www.sspc.co.uk/67-Howden-Hall-Road-Liberton-Edinburgh-EH16-6PP-3-Bedroom-Semi-Detached-Bungalow-ESPC",
-        "address": "67 Howden Hall Road, Liberton, Edinburgh EH16 6PP",
-        "priceDescription": "Offers over £290,000",
-        "summary": "Semi-Detached Bungalow",
-        "bedrooms": 3,
-        "id": "495074f9332032e41d7f9089baa1d77e"
-    },
-    {
         "url": "https://www.sspc.co.uk/8-Cobden-Court-Crossgates-COWDENBEATH-KY4-8AU-3-Bedroom-Detached-Bungalow-ESPC",
         "address": "8 Cobden Court, Crossgates, COWDENBEATH KY4 8AU",
         "priceDescription": "Offers over £290,000",
@@ -664,12 +680,20 @@
         "id": "036e7f9cb7b4dfb995a22c8f21cf4001"
     },
     {
-        "url": "https://www.sspc.co.uk/18-Braehead-Drive-Carnoustie-DD7-7SX-3-Bedroom-Detached-Bungalow-TSPC",
-        "address": "18 Braehead Drive, Carnoustie DD7 7SX",
-        "priceDescription": "Offers Over £280,000",
+        "url": "https://www.sspc.co.uk/6-Lochbank-Road-Forfar-DD8-3HL-3-Bedroom-Detached-Bungalow-TSPC",
+        "address": "6 Lochbank Road, Forfar DD8 3HL",
+        "priceDescription": "Offers Over £285,000",
         "summary": "Detached Bungalow",
         "bedrooms": 3,
-        "id": "49380e6372672ad51a46043b22315f21"
+        "id": "20aa954f5a0ed7de6484cced0be3514e"
+    },
+    {
+        "url": "https://www.sspc.co.uk/3-The-Moon-Kirriemuir-DD8-5BF-4-Bedroom-Detached-Bungalow-TSPC",
+        "address": "3 The Moon, Kirriemuir DD8 5BF",
+        "priceDescription": "Offers Over £280,000",
+        "summary": "Detached Bungalow",
+        "bedrooms": 4,
+        "id": "00079da01eb325234925dc7f37ee15e0"
     },
     {
         "url": "https://www.sspc.co.uk/14-Dunmore-Gardens-Dundee-DD2-1PP-2-Bedroom-Detached-Bungalow-TSPC",
@@ -680,12 +704,12 @@
         "id": "7cf02b2478fc0faf09fd77a4f14ab849"
     },
     {
-        "url": "https://www.sspc.co.uk/3-The-Moon-Kirriemuir-DD8-5BF-4-Bedroom-Detached-Bungalow-TSPC",
-        "address": "3 The Moon, Kirriemuir DD8 5BF",
+        "url": "https://www.sspc.co.uk/18-Braehead-Drive-Carnoustie-DD7-7SX-3-Bedroom-Detached-Bungalow-TSPC",
+        "address": "18 Braehead Drive, Carnoustie DD7 7SX",
         "priceDescription": "Offers Over £280,000",
         "summary": "Detached Bungalow",
-        "bedrooms": 4,
-        "id": "00079da01eb325234925dc7f37ee15e0"
+        "bedrooms": 3,
+        "id": "49380e6372672ad51a46043b22315f21"
     },
     {
         "url": "https://www.sspc.co.uk/Craigellachie-Blackwaterfoot-ISLE-OF-ARRAN-KA27-8HB-4-Bedroom-Detached-Bungalow-ESPC",
@@ -728,12 +752,12 @@
         "id": "d710965a5693d20bacc00fac6c6849e4"
     },
     {
-        "url": "https://www.sspc.co.uk/44-Trinity-Park-DUNS-TD11-3HN-3-Bedroom-Detached-Bungalow-ESPC",
-        "address": "44 Trinity Park, DUNS TD11 3HN",
+        "url": "https://www.sspc.co.uk/1-Thomastoun-Drive-CUPAR-KY15-4UB-3-Bedroom-Detached-Bungalow-ESPC",
+        "address": "1 Thomastoun Drive, CUPAR KY15 4UB",
         "priceDescription": "Offers over £270,000",
         "summary": "Detached Bungalow",
         "bedrooms": 3,
-        "id": "a5591f6b72244adaf717ed1080dd7a76"
+        "id": "dd4f6cb48065cb5c2794a7aa579351a0"
     },
     {
         "url": "https://www.sspc.co.uk/19-Victoria-Gardens-Newtongrange-Midlothian-EH22-4NL-3-Bedroom-Detached-Bungalow-ESPC",
@@ -744,12 +768,12 @@
         "id": "1e005816d98c612bdfd7d3eec4dbd0e5"
     },
     {
-        "url": "https://www.sspc.co.uk/1-Thomastoun-Drive-CUPAR-KY15-4UB-3-Bedroom-Detached-Bungalow-ESPC",
-        "address": "1 Thomastoun Drive, CUPAR KY15 4UB",
+        "url": "https://www.sspc.co.uk/44-Trinity-Park-DUNS-TD11-3HN-3-Bedroom-Detached-Bungalow-ESPC",
+        "address": "44 Trinity Park, DUNS TD11 3HN",
         "priceDescription": "Offers over £270,000",
         "summary": "Detached Bungalow",
         "bedrooms": 3,
-        "id": "dd4f6cb48065cb5c2794a7aa579351a0"
+        "id": "a5591f6b72244adaf717ed1080dd7a76"
     },
     {
         "url": "https://www.sspc.co.uk/1-Moubray-Crook-of-Devon-KY13-0UU-4-Bedroom-Detached-Bungalow-PSPC",
@@ -766,6 +790,14 @@
         "summary": "Detached Bungalow",
         "bedrooms": 3,
         "id": "36fc2ff2d1caa26a7421a0d9862330bf"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Dunain-Anderson-Street-Newburgh-KY14-6AE-3-Bedroom-Detached-Bungalow-PSPC",
+        "address": "Dunain, Anderson Street, Newburgh KY14 6AE",
+        "priceDescription": "Offers Over £265,000",
+        "summary": "Detached Bungalow",
+        "bedrooms": 3,
+        "id": "7905e238929549090b64409060a75999"
     },
     {
         "url": "https://www.sspc.co.uk/5-Forest-Road-Bonchester-Bridge-TD9-8JS-3-Bedroom-Detached-Bungalow-BSPC",
@@ -824,14 +856,6 @@
         "id": "092a3368e0da7926ae6b2cecb10ce400"
     },
     {
-        "url": "https://www.sspc.co.uk/10-Yetholm-Park-DUNFERMLINE-KY12-7XR-3-Bedroom-Detached-Bungalow-ESPC",
-        "address": "10 Yetholm Park, DUNFERMLINE KY12 7XR",
-        "priceDescription": "Offers over £250,000",
-        "summary": "Detached Bungalow",
-        "bedrooms": 3,
-        "id": "63378cc8144d2dc07a4a0c5475777147"
-    },
-    {
         "url": "https://www.sspc.co.uk/Eildon-View-Orchard-Park-Darnick-TD6-9AR-2-Bedroom-Detached-Bungalow-ESPC",
         "address": "Eildon View, Orchard Park, Darnick TD6 9AR",
         "priceDescription": "Offers over £250,000",
@@ -840,12 +864,12 @@
         "id": "0ff450a2c7248a71a7c162463bf583f7"
     },
     {
-        "url": "https://www.sspc.co.uk/1-Beechgrove-LOCKERBIE-DG11-2QS-2-Bedroom-Detached-Bungalow-ESPC",
-        "address": "1 Beechgrove, LOCKERBIE DG11 2QS",
-        "priceDescription": "Guide Price £250,000",
+        "url": "https://www.sspc.co.uk/10-Yetholm-Park-DUNFERMLINE-KY12-7XR-3-Bedroom-Detached-Bungalow-ESPC",
+        "address": "10 Yetholm Park, DUNFERMLINE KY12 7XR",
+        "priceDescription": "Offers over £250,000",
         "summary": "Detached Bungalow",
-        "bedrooms": 2,
-        "id": "dd40bc6588ff9bed2338eadf78a8b1fc"
+        "bedrooms": 3,
+        "id": "63378cc8144d2dc07a4a0c5475777147"
     },
     {
         "url": "https://www.sspc.co.uk/13-Boreland-Road-KIRKCUDBRIGHT-DG6-4HL-3-Bedroom-Detached-Bungalow-ESPC",
@@ -856,12 +880,12 @@
         "id": "cc4df71649b4f197e40ef9ecaf951538"
     },
     {
-        "url": "https://www.sspc.co.uk/The-Firs-Kirkmichael-PH10-7LY-2-Bedroom-Detached-Bungalow-PSPC",
-        "address": "The Firs, Kirkmichael PH10 7LY",
-        "priceDescription": "Offers Over £250,000",
+        "url": "https://www.sspc.co.uk/1-Beechgrove-LOCKERBIE-DG11-2QS-2-Bedroom-Detached-Bungalow-ESPC",
+        "address": "1 Beechgrove, LOCKERBIE DG11 2QS",
+        "priceDescription": "Guide Price £250,000",
         "summary": "Detached Bungalow",
         "bedrooms": 2,
-        "id": "ecd43d97358f245370f70b05e7351134"
+        "id": "dd40bc6588ff9bed2338eadf78a8b1fc"
     },
     {
         "url": "https://www.sspc.co.uk/71-Elm-Street-Errol-PH2-7SQ-3-Bedroom-Detached-Bungalow-PSPC",
@@ -870,6 +894,14 @@
         "summary": "Detached Bungalow",
         "bedrooms": 3,
         "id": "50f66044dfa675520bcf6ef08fdf9ef0"
+    },
+    {
+        "url": "https://www.sspc.co.uk/The-Firs-Kirkmichael-PH10-7LY-2-Bedroom-Detached-Bungalow-PSPC",
+        "address": "The Firs, Kirkmichael PH10 7LY",
+        "priceDescription": "Offers Over £250,000",
+        "summary": "Detached Bungalow",
+        "bedrooms": 2,
+        "id": "ecd43d97358f245370f70b05e7351134"
     },
     {
         "url": "https://www.sspc.co.uk/3-Kirk-Road-Newport-on-Tay-DD6-8JD-2-Bedroom-Detached-Bungalow-TSPC",
@@ -920,6 +952,14 @@
         "id": "ae5fe3f89d0784f6ad50d2647ef8c498"
     },
     {
+        "url": "https://www.sspc.co.uk/84-Oak-Wynd-Glasgow-G72-7GT-3-Bedroom-Detached-Bungalow-ESPC",
+        "address": "84 Oak Wynd, Glasgow G72 7GT",
+        "priceDescription": "Offers over £245,000",
+        "summary": "Detached Bungalow",
+        "bedrooms": 3,
+        "id": "e2ca537f8fc98e9484f38eb508809956"
+    },
+    {
         "url": "https://www.sspc.co.uk/3-Cairnbank-Gardens-Penicuik-EH26-9EA-2-Bedroom-Detached-Bungalow-ESPC",
         "address": "3 Cairnbank Gardens, Penicuik EH26 9EA",
         "priceDescription": "Offers over £245,000",
@@ -928,12 +968,12 @@
         "id": "67cb9b3d2bc28c24ef4348f40e554857"
     },
     {
-        "url": "https://www.sspc.co.uk/84-Oak-Wynd-Glasgow-G72-7GT-3-Bedroom-Detached-Bungalow-ESPC",
-        "address": "84 Oak Wynd, Glasgow G72 7GT",
-        "priceDescription": "Offers over £245,000",
+        "url": "https://www.sspc.co.uk/4-Whitefield-Neuk-DUNFERMLINE-KY12-0RJ-2-Bedroom-Detached-Bungalow-ESPC",
+        "address": "4 Whitefield Neuk, DUNFERMLINE KY12 0RJ",
+        "priceDescription": "Offers over £240,000",
         "summary": "Detached Bungalow",
-        "bedrooms": 3,
-        "id": "e2ca537f8fc98e9484f38eb508809956"
+        "bedrooms": 2,
+        "id": "3e24dc691c391188c66d299939b5e9f5"
     },
     {
         "url": "https://www.sspc.co.uk/3-Mid-Nunnery-Irongray-Road-DUMFRIES-DG2-0HS-4-Bedroom-Detached-Bungalow-ESPC",
@@ -1000,12 +1040,12 @@
         "id": "691e733b7a3d272d5e6568224107236b"
     },
     {
-        "url": "https://www.sspc.co.uk/Ingleby-Carbostmore-Carbost-ISLE-OF-SKYE-IV47-8ST-3-Bedroom-Detached-Bungalow-ESPC",
-        "address": "Ingleby, Carbostmore, Carbost, ISLE OF SKYE IV47 8ST",
-        "priceDescription": "Offers In The Region Of £230,000",
+        "url": "https://www.sspc.co.uk/13-Barnes-Green-Livingston-EH54-8PP-2-Bedroom-Detached-Bungalow-ESPC",
+        "address": "13 Barnes Green, Livingston EH54 8PP",
+        "priceDescription": "Offers over £230,000",
         "summary": "Detached Bungalow",
-        "bedrooms": 3,
-        "id": "1c032f59bdab481a3d84144b4a830340"
+        "bedrooms": 2,
+        "id": "1f98b5d8ee8f620b2516d39c7e55e7a6"
     },
     {
         "url": "https://www.sspc.co.uk/34-Barntongate-Terrace-Edinburgh-EH4-8BU-2-Bedroom-Terraced-Bungalow-ESPC",
@@ -1016,6 +1056,22 @@
         "id": "247034ab1649b594c0e0b68194b43e7d"
     },
     {
+        "url": "https://www.sspc.co.uk/Ingleby-Carbostmore-Carbost-ISLE-OF-SKYE-IV47-8ST-3-Bedroom-Detached-Bungalow-ESPC",
+        "address": "Ingleby, Carbostmore, Carbost, ISLE OF SKYE IV47 8ST",
+        "priceDescription": "Offers In The Region Of £230,000",
+        "summary": "Detached Bungalow",
+        "bedrooms": 3,
+        "id": "1c032f59bdab481a3d84144b4a830340"
+    },
+    {
+        "url": "https://www.sspc.co.uk/12-Gillies-Place-Broughty-Ferry-DD5-3LE-2-Bedroom-Semi-Detached-Bungalow-TSPC",
+        "address": "12 Gillies Place, Broughty Ferry DD5 3LE",
+        "priceDescription": "Offers Over £230,000",
+        "summary": "Semi-Detached Bungalow",
+        "bedrooms": 2,
+        "id": "bb84bb7ead342f263b9c1d9cd6e5e4cf"
+    },
+    {
         "url": "https://www.sspc.co.uk/1-Glamis-Road-Arbroath-DD11-2LY-3-Bedroom-Detached-Bungalow-TSPC",
         "address": "1 Glamis Road, Arbroath DD11 2LY",
         "priceDescription": "Fixed £230,000",
@@ -1024,20 +1080,20 @@
         "id": "f23d54eadfca489e0235d74e3fd240a9"
     },
     {
-        "url": "https://www.sspc.co.uk/The-Skyline-Barry-Downs-Barry-Carnoustie-DD7-7SA-3-Bedroom-Detached-Bungalow-TSPC",
-        "address": "The Skyline, Barry Downs, Barry, Carnoustie DD7 7SA",
-        "priceDescription": "Fixed £230,000",
-        "summary": "Detached Bungalow",
-        "bedrooms": 3,
-        "id": "afdaaa24a2612b8ba4375f937971ac43"
-    },
-    {
         "url": "https://www.sspc.co.uk/12-Quarry-Park-Kirriemuir-DD8-4DR-3-Bedroom-Detached-Bungalow-TSPC",
         "address": "12 Quarry Park, Kirriemuir DD8 4DR",
         "priceDescription": "Offers Over £230,000",
         "summary": "Detached Bungalow",
         "bedrooms": 3,
         "id": "6230a2406020dcf8fdf78bd1cce66ac0"
+    },
+    {
+        "url": "https://www.sspc.co.uk/The-Skyline-Barry-Downs-Barry-Carnoustie-DD7-7SA-3-Bedroom-Detached-Bungalow-TSPC",
+        "address": "The Skyline, Barry Downs, Barry, Carnoustie DD7 7SA",
+        "priceDescription": "Fixed £230,000",
+        "summary": "Detached Bungalow",
+        "bedrooms": 3,
+        "id": "afdaaa24a2612b8ba4375f937971ac43"
     },
     {
         "url": "https://www.sspc.co.uk/6-Provost-Park-Auchtermuchty-CUPAR-KY14-7DT-3-Bedroom-Semi-Detached-Bungalow-ESPC",
@@ -1064,6 +1120,14 @@
         "id": "645311e05a2ec8885beec97dab2a7770"
     },
     {
+        "url": "https://www.sspc.co.uk/Speybank-10-Letham-Road-Perth-PH1-2AP-2-Bedroom-Detached-Bungalow-PSPC",
+        "address": "Speybank, 10 Letham Road, Perth PH1 2AP",
+        "priceDescription": "Offers Over £220,000",
+        "summary": "Detached Bungalow",
+        "bedrooms": 2,
+        "id": "549bc42996e4b5e59006e105e4560d89"
+    },
+    {
         "url": "https://www.sspc.co.uk/59-Hutchison-Drive-Scone-PH2-6GB-2-Bedroom-Semi-Detached-Bungalow-PSPC",
         "address": "59 Hutchison Drive, Scone PH2 6GB",
         "priceDescription": "Offers Over £220,000",
@@ -1072,12 +1136,12 @@
         "id": "986c45d173b4661b3f473312dccaca60"
     },
     {
-        "url": "https://www.sspc.co.uk/Speybank-10-Letham-Road-Perth-PH1-2AP-2-Bedroom-Detached-Bungalow-PSPC",
-        "address": "Speybank, 10 Letham Road, Perth PH1 2AP",
+        "url": "https://www.sspc.co.uk/3-Glentruim-Terrace-Dundee-DD3-8HB-2-Bedroom-Detached-Bungalow-TSPC",
+        "address": "3 Glentruim Terrace, Dundee DD3 8HB",
         "priceDescription": "Offers Over £220,000",
         "summary": "Detached Bungalow",
         "bedrooms": 2,
-        "id": "549bc42996e4b5e59006e105e4560d89"
+        "id": "39c7cfa57ff57bbdae03724977fba555"
     },
     {
         "url": "https://www.sspc.co.uk/14-Parkhill-Place-Northmuir-Kirriemuir-DD8-4TA-3-Bedroom-Detached-Bungalow-TSPC",
@@ -1168,20 +1232,20 @@
         "id": "49a86dbd935ac6c9600364d815ae74ad"
     },
     {
-        "url": "https://www.sspc.co.uk/Kingarth-Cottage-Little-Brechin-Brechin-DD9-6RQ-3-Bedroom-Detached-Bungalow-TSPC",
-        "address": "Kingarth Cottage, Little Brechin, Brechin DD9 6RQ",
-        "priceDescription": "Offers Over £210,000",
-        "summary": "Detached Bungalow",
-        "bedrooms": 3,
-        "id": "10aad689c6e8776f44c0e862136676e9"
-    },
-    {
         "url": "https://www.sspc.co.uk/74-Menzieshill-Road-Dundee-DD2-1PU-2-Bedroom-Detached-Bungalow-TSPC",
         "address": "74 Menzieshill Road, Dundee DD2 1PU",
         "priceDescription": "Offers Over £210,000",
         "summary": "Detached Bungalow",
         "bedrooms": 2,
         "id": "09354a34cb1e1c3d8395e387b3eda60d"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Kingarth-Cottage-Little-Brechin-Brechin-DD9-6RQ-3-Bedroom-Detached-Bungalow-TSPC",
+        "address": "Kingarth Cottage, Little Brechin, Brechin DD9 6RQ",
+        "priceDescription": "Offers Over £210,000",
+        "summary": "Detached Bungalow",
+        "bedrooms": 3,
+        "id": "10aad689c6e8776f44c0e862136676e9"
     },
     {
         "url": "https://www.sspc.co.uk/35-Union-Street-Newport-on-Tay-DD6-8BG-3-Bedroom-Linked-Bungalow-TSPC",
@@ -1280,20 +1344,20 @@
         "id": "b290f31abfedf3c1d86bc13a8c4e7141"
     },
     {
-        "url": "https://www.sspc.co.uk/6-Bruce-Grove-Pencaitland-EH34-5BN-3-Bedroom-Detached-Bungalow-ESPC",
-        "address": "6 Bruce Grove, Pencaitland EH34 5BN",
-        "priceDescription": "Offers over £189,000",
-        "summary": "Detached Bungalow",
-        "bedrooms": 3,
-        "id": "5f5728a440c40048d972c86f14c62cb2"
-    },
-    {
         "url": "https://www.sspc.co.uk/12-Armadale-Road-Bathgate-EH47-0EX-3-Bedroom-Detached-Bungalow-ESPC",
         "address": "12 Armadale Road, Bathgate EH47 0EX",
         "priceDescription": "Offers over £189,000",
         "summary": "Detached Bungalow",
         "bedrooms": 3,
         "id": "523dad17e0ae8a8f3760143fe25a62a0"
+    },
+    {
+        "url": "https://www.sspc.co.uk/6-Bruce-Grove-Pencaitland-EH34-5BN-3-Bedroom-Detached-Bungalow-ESPC",
+        "address": "6 Bruce Grove, Pencaitland EH34 5BN",
+        "priceDescription": "Offers over £189,000",
+        "summary": "Detached Bungalow",
+        "bedrooms": 3,
+        "id": "5f5728a440c40048d972c86f14c62cb2"
     },
     {
         "url": "https://www.sspc.co.uk/69-South-Street-Forfar-DD8-2BS-3-Bedroom-Detached-Bungalow-TSPC",
@@ -1312,20 +1376,20 @@
         "id": "35129594c6f2495be4c652b8f9b4eb1b"
     },
     {
-        "url": "https://www.sspc.co.uk/17-Hamilton-Avenue-ST.-ANDREWS-KY16-8EH-1-Bedroom-Terraced-Bungalow-ESPC",
-        "address": "17 Hamilton Avenue, ST. ANDREWS KY16 8EH",
-        "priceDescription": "Offers over £185,000",
-        "summary": "Terraced Bungalow",
-        "bedrooms": 1,
-        "id": "12a4111e97309ca7286342987c683856"
-    },
-    {
         "url": "https://www.sspc.co.uk/Greencroft-The-Green-St-Boswells-TD6-0ET-3-Bedroom-Detached-Bungalow-ESPC",
         "address": "Greencroft, The Green, St Boswells TD6 0ET",
         "priceDescription": "Guide Price £185,000",
         "summary": "Detached Bungalow",
         "bedrooms": 3,
         "id": "5de5320588d05cec3ba0e6a4cfdf2751"
+    },
+    {
+        "url": "https://www.sspc.co.uk/17-Hamilton-Avenue-ST.-ANDREWS-KY16-8EH-1-Bedroom-Terraced-Bungalow-ESPC",
+        "address": "17 Hamilton Avenue, ST. ANDREWS KY16 8EH",
+        "priceDescription": "Offers over £185,000",
+        "summary": "Terraced Bungalow",
+        "bedrooms": 1,
+        "id": "12a4111e97309ca7286342987c683856"
     },
     {
         "url": "https://www.sspc.co.uk/40-Malcolm-Crescent-Monifieth-DD5-4RU-2-Bedroom-Semi-Detached-Bungalow-TSPC",
@@ -1336,20 +1400,20 @@
         "id": "d28e9c88353c3a9d42771d3eb17d9c53"
     },
     {
-        "url": "https://www.sspc.co.uk/Shandon-Tongland-KIRKCUDBRIGHT-DG6-4NA-3-Bedroom-Semi-Detached-Bungalow-ESPC",
-        "address": "Shandon, Tongland, KIRKCUDBRIGHT DG6 4NA",
-        "priceDescription": "Offers over £180,000",
-        "summary": "Semi-Detached Bungalow",
-        "bedrooms": 3,
-        "id": "07808452be10ab9b0c4491037f8ad0a7"
-    },
-    {
         "url": "https://www.sspc.co.uk/4-Raven-Hill-Lochmaben-Lockerbie-DG11-1QZ-3-Bedroom-Detached-Bungalow-ESPC",
         "address": "4 Raven Hill, Lochmaben, Lockerbie DG11 1QZ",
         "priceDescription": "Offers over £180,000",
         "summary": "Detached Bungalow",
         "bedrooms": 3,
         "id": "819fde2502299b03669ac3fa485542cf"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Shandon-Tongland-KIRKCUDBRIGHT-DG6-4NA-3-Bedroom-Semi-Detached-Bungalow-ESPC",
+        "address": "Shandon, Tongland, KIRKCUDBRIGHT DG6 4NA",
+        "priceDescription": "Offers over £180,000",
+        "summary": "Semi-Detached Bungalow",
+        "bedrooms": 3,
+        "id": "07808452be10ab9b0c4491037f8ad0a7"
     },
     {
         "url": "https://www.sspc.co.uk/3-Dalginross-Gardens-Comrie-PH6-2HQ-2-Bedroom-Semi-Detached-Bungalow-PSPC",
@@ -1376,6 +1440,14 @@
         "id": "77d6227cf27f6217a543db3670853711"
     },
     {
+        "url": "https://www.sspc.co.uk/8-Wood-Road-Birkhill-DD2-5PS-2-Bedroom-Semi-Detached-Bungalow-TSPC",
+        "address": "8 Wood Road, Birkhill DD2 5PS",
+        "priceDescription": "Offers Over £180,000",
+        "summary": "Semi-Detached Bungalow",
+        "bedrooms": 2,
+        "id": "097739e2812cf431139e1c47bc575da1"
+    },
+    {
         "url": "https://www.sspc.co.uk/2-Heron-Rise-Dundee-DD4-9DH-3-Bedroom-Linked-Bungalow-TSPC",
         "address": "2 Heron Rise, Dundee DD4 9DH",
         "priceDescription": "Offers Over £179,999",
@@ -1384,20 +1456,20 @@
         "id": "5ebfb83cc98efeda9e9b07b560a8ba6d"
     },
     {
-        "url": "https://www.sspc.co.uk/1-Lennel-Mount-COLDSTREAM-TD12-4NS-2-Bedroom-Semi-Detached-Bungalow-ESPC",
-        "address": "1 Lennel Mount, COLDSTREAM TD12 4NS",
-        "priceDescription": "Offers over £175,000",
-        "summary": "Semi-Detached Bungalow",
-        "bedrooms": 2,
-        "id": "39648f92d947d56140344941f0f6d0f3"
-    },
-    {
         "url": "https://www.sspc.co.uk/5-Chalybeate-HADDINGTON-EH41-4NX-2-Bedroom-Semi-Detached-Bungalow-ESPC",
         "address": "5 Chalybeate, HADDINGTON EH41 4NX",
         "priceDescription": "Offers over £175,000",
         "summary": "Semi-Detached Bungalow",
         "bedrooms": 2,
         "id": "def79d943e706a87be7a69587898a0f3"
+    },
+    {
+        "url": "https://www.sspc.co.uk/1-Lennel-Mount-COLDSTREAM-TD12-4NS-2-Bedroom-Semi-Detached-Bungalow-ESPC",
+        "address": "1 Lennel Mount, COLDSTREAM TD12 4NS",
+        "priceDescription": "Offers over £175,000",
+        "summary": "Semi-Detached Bungalow",
+        "bedrooms": 2,
+        "id": "39648f92d947d56140344941f0f6d0f3"
     },
     {
         "url": "https://www.sspc.co.uk/Lettoch-Lodge-River-Tilt-Caravan-Park-Bridge-of-Tilt-PH18-5TE-2-Bedroom-Detached-Bungalow-PSPC",
@@ -1432,14 +1504,6 @@
         "id": "1016b517a3cd5858ddf408b22503b8f3"
     },
     {
-        "url": "https://www.sspc.co.uk/7-High-Road-SALTCOATS-KA21-5RX-3-Bedroom-Semi-Detached-Bungalow-ESPC",
-        "address": "7 High Road, SALTCOATS KA21 5RX",
-        "priceDescription": "Offers over £170,000",
-        "summary": "Semi-Detached Bungalow",
-        "bedrooms": 3,
-        "id": "9b8317d828e286f8ba714e3f47719138"
-    },
-    {
         "url": "https://www.sspc.co.uk/Wellbank-14-Academy-Street-Forfar-DD8-2HA-3-Bedroom-Detached-Bungalow-TSPC",
         "address": "Wellbank, 14 Academy Street, Forfar DD8 2HA",
         "priceDescription": "Offers Over £169,000",
@@ -1448,12 +1512,12 @@
         "id": "e31182373471d70f422ba762e99d28b1"
     },
     {
-        "url": "https://www.sspc.co.uk/30-Willow-Grove-Heathhall-DUMFRIES-DG1-3TE-2-Bedroom-Semi-Detached-Bungalow-ESPC",
-        "address": "30 Willow Grove, Heathhall, DUMFRIES DG1 3TE",
-        "priceDescription": "Offers over £155,000",
+        "url": "https://www.sspc.co.uk/7-High-Road-SALTCOATS-KA21-5RX-3-Bedroom-Semi-Detached-Bungalow-ESPC",
+        "address": "7 High Road, SALTCOATS KA21 5RX",
+        "priceDescription": "Offers In The Region Of £160,000",
         "summary": "Semi-Detached Bungalow",
-        "bedrooms": 2,
-        "id": "88d329bf2c8adedd3bacef9051677e3b"
+        "bedrooms": 3,
+        "id": "9b8317d828e286f8ba714e3f47719138"
     },
     {
         "url": "https://www.sspc.co.uk/31-Holmhead-Road-CUMNOCK-KA18-1AF-2-Bedroom-Detached-Bungalow-ESPC",
@@ -1462,6 +1526,14 @@
         "summary": "Detached Bungalow",
         "bedrooms": 2,
         "id": "64c9758f69d695c513e52c451ac5ca38"
+    },
+    {
+        "url": "https://www.sspc.co.uk/30-Willow-Grove-Heathhall-DUMFRIES-DG1-3TE-2-Bedroom-Semi-Detached-Bungalow-ESPC",
+        "address": "30 Willow Grove, Heathhall, DUMFRIES DG1 3TE",
+        "priceDescription": "Offers over £155,000",
+        "summary": "Semi-Detached Bungalow",
+        "bedrooms": 2,
+        "id": "88d329bf2c8adedd3bacef9051677e3b"
     },
     {
         "url": "https://www.sspc.co.uk/17-Pearse-Street-Brechin-DD9-6JR-3-Bedroom-Detached-Bungalow-TSPC",
@@ -1480,12 +1552,12 @@
         "id": "2c1038b93ffb4414ba71c692a8edbde0"
     },
     {
-        "url": "https://www.sspc.co.uk/10-Kingston-Avenue-Liberton-EH16-5SP-1-Bedroom-Terraced-Bungalow-ESPC",
-        "address": "10 Kingston Avenue, Liberton EH16 5SP",
-        "priceDescription": "Offers over £150,000",
-        "summary": "Terraced Bungalow",
-        "bedrooms": 1,
-        "id": "f919ac563f827562984a71e25b5528a7"
+        "url": "https://www.sspc.co.uk/1-Smithfield-Crescent-Blairgowrie-PH10-6UD-2-Bedroom-Semi-Detached-Bungalow-PSPC",
+        "address": "1 Smithfield Crescent, Blairgowrie PH10 6UD",
+        "priceDescription": "Offers Over £150,000",
+        "summary": "Semi-Detached Bungalow",
+        "bedrooms": 2,
+        "id": "15aa8e010c5cfb80aa257393e2694d82"
     },
     {
         "url": "https://www.sspc.co.uk/12-Dalginross-Gardens-Comrie-PH6-2HQ-2-Bedroom-Semi-Detached-Bungalow-PSPC",
@@ -1494,14 +1566,6 @@
         "summary": "Semi-Detached Bungalow",
         "bedrooms": 2,
         "id": "bb1809d3420e2047bc25f6bc56c3ed71"
-    },
-    {
-        "url": "https://www.sspc.co.uk/1-Smithfield-Crescent-Blairgowrie-PH10-6UD-2-Bedroom-Semi-Detached-Bungalow-PSPC",
-        "address": "1 Smithfield Crescent, Blairgowrie PH10 6UD",
-        "priceDescription": "Offers Over £150,000",
-        "summary": "Semi-Detached Bungalow",
-        "bedrooms": 2,
-        "id": "15aa8e010c5cfb80aa257393e2694d82"
     },
     {
         "url": "https://www.sspc.co.uk/13-Balgove-Avenue-Gauldry-DD6-8SQ-2-Bedroom-Semi-Detached-Bungalow-TSPC",
@@ -1518,6 +1582,14 @@
         "summary": "Detached Bungalow",
         "bedrooms": 2,
         "id": "64e08829609c434ee36da222a1522f78"
+    },
+    {
+        "url": "https://www.sspc.co.uk/3-North-Powrie-Farm-Cottages-Dundee-DD4-0QQ-2-Bedroom-Semi-Detached-Bungalow-TSPC",
+        "address": "3 North Powrie Farm Cottages, Dundee DD4 0QQ",
+        "priceDescription": "Offers Over £145,000",
+        "summary": "Semi-Detached Bungalow",
+        "bedrooms": 2,
+        "id": "93ca2b1f5072e0bfa4a28635e2e0fcc2"
     },
     {
         "url": "https://www.sspc.co.uk/8-Grampian-Drive-Northmuir-DD8-4TN-2-Bedroom-Semi-Detached-Bungalow-TSPC",
@@ -1552,14 +1624,6 @@
         "id": "45c9e3d150390b644e10dcc28f02a4c3"
     },
     {
-        "url": "https://www.sspc.co.uk/2-The-Terrace-Gelston-Castle-Douglas-DG7-1SN-2-Bedroom-Semi-Detached-Bungalow-ESPC",
-        "address": "2 The Terrace Gelston, Castle Douglas DG7 1SN",
-        "priceDescription": "Offers over £135,000",
-        "summary": "Semi-Detached Bungalow",
-        "bedrooms": 2,
-        "id": "d8e131e9e5e3d20b5fe686e06e194971"
-    },
-    {
         "url": "https://www.sspc.co.uk/7-East-Road-Lowthertown-ANNAN-DG12-6TD-2-Bedroom-Terraced-Bungalow-ESPC",
         "address": "7 East Road, Lowthertown, ANNAN DG12 6TD",
         "priceDescription": "Offers over £135,000",
@@ -1568,20 +1632,20 @@
         "id": "edb3ecea02fdf8af6ede4cdeb3e8eef3"
     },
     {
+        "url": "https://www.sspc.co.uk/Westlands-Dominion-Road-GRETNA-DG16-5JP-3-Bedroom-Detached-Bungalow-ESPC",
+        "address": "Westlands, Dominion Road, GRETNA DG16 5JP",
+        "priceDescription": "Guide Price £130,000",
+        "summary": "Detached Bungalow",
+        "bedrooms": 3,
+        "id": "ae1ac3b7f8ba8fd985e94fccb9fbbf5d"
+    },
+    {
         "url": "https://www.sspc.co.uk/Briar-Lodge-River-Tilt-Leisure-Park-Blair-Atholl-PH18-5TE-3-Bedroom-Detached-Bungalow-PSPC",
         "address": "Briar Lodge, River Tilt Leisure Park, Blair Atholl PH18 5TE",
         "priceDescription": "Fixed £130,000",
         "summary": "Detached Bungalow",
         "bedrooms": 3,
         "id": "d918f102ef9995e626a633eed008f44d"
-    },
-    {
-        "url": "https://www.sspc.co.uk/9-Station-Court-Kingskettle-CUPAR-KY15-7PE-2-Bedroom-Linked-Bungalow-ESPC",
-        "address": "9 Station Court, Kingskettle, CUPAR KY15 7PE",
-        "priceDescription": "Offers over £125,000",
-        "summary": "Linked Bungalow",
-        "bedrooms": 2,
-        "id": "d2a3a8695e3e5fda54ba5841c7eca113"
     },
     {
         "url": "https://www.sspc.co.uk/73-New-Abbey-Road-DUMFRIES-DG2-7LA-2-Bedroom-Semi-Detached-Bungalow-ESPC",
