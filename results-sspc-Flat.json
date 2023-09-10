@@ -152,14 +152,6 @@
         "id": "73ceefd5c0ca4aef6124e73205a86672"
     },
     {
-        "url": "https://www.sspc.co.uk/1-6-East-Suffolk-Park-EDINBURGH-EH16-5PL-3-Bedroom-Second-Floor-Flat-ESPC",
-        "address": "1/6 East Suffolk Park, EDINBURGH EH16 5PL",
-        "priceDescription": "Offers over £500,000",
-        "summary": "Second Floor Flat",
-        "bedrooms": 3,
-        "id": "23eb0f6c9526cbf5e2420920660b02eb"
-    },
-    {
         "url": "https://www.sspc.co.uk/Flat-12-22-Craighall-Gardens-Trinity-EH6-4RJ-3-Bedroom-Flat-ESPC",
         "address": "Flat 12, 22 Craighall Gardens, Trinity EH6 4RJ",
         "priceDescription": "Offers over £497,500",
@@ -192,6 +184,14 @@
         "id": "6d3875e1d737337f32612630194ce3da"
     },
     {
+        "url": "https://www.sspc.co.uk/6-Kinness-Place-Bridge-Street-ST.-ANDREWS-KY16-9EZ-2-Bedroom-Upper-Flat-ESPC",
+        "address": "6 Kinness Place, Bridge Street, ST. ANDREWS KY16 9EZ",
+        "priceDescription": "Offers over £475,000",
+        "summary": "Upper Flat",
+        "bedrooms": 2,
+        "id": "2e1b4f052d34382aab99c9c6e928609b"
+    },
+    {
         "url": "https://www.sspc.co.uk/49-5-Spottiswoode-Road-EDINBURGH-EH9-1DA-2-Bedroom-Third-Floor-Flat-ESPC",
         "address": "49/5 Spottiswoode Road, EDINBURGH EH9 1DA",
         "priceDescription": "Offers over £475,000",
@@ -200,12 +200,12 @@
         "id": "f34cfcf70734adbce15bb2b19ff91005"
     },
     {
-        "url": "https://www.sspc.co.uk/6-Kinness-Place-Bridge-Street-ST.-ANDREWS-KY16-9EZ-2-Bedroom-Upper-Flat-ESPC",
-        "address": "6 Kinness Place, Bridge Street, ST. ANDREWS KY16 9EZ",
+        "url": "https://www.sspc.co.uk/1-6-East-Suffolk-Park-EDINBURGH-EH16-5PL-3-Bedroom-Second-Floor-Flat-ESPC",
+        "address": "1/6 East Suffolk Park, EDINBURGH EH16 5PL",
         "priceDescription": "Offers over £475,000",
-        "summary": "Upper Flat",
-        "bedrooms": 2,
-        "id": "2e1b4f052d34382aab99c9c6e928609b"
+        "summary": "Second Floor Flat",
+        "bedrooms": 3,
+        "id": "23eb0f6c9526cbf5e2420920660b02eb"
     },
     {
         "url": "https://www.sspc.co.uk/Flat-7-Hyndford-House-18-Fidra-Road-North-Berwick-EH39-4NG-3-Bedroom-Top-Floor-Flat-ESPC",
@@ -256,14 +256,6 @@
         "id": "fc0adfc87e69a74d087945ffb835dbd0"
     },
     {
-        "url": "https://www.sspc.co.uk/13-4-Bruntsfield-Avenue-EDINBURGH-EH10-4EL-3-Bedroom-Second-Floor-Flat-ESPC",
-        "address": "13/4 Bruntsfield Avenue, EDINBURGH EH10 4EL",
-        "priceDescription": "Fixed Price £440,000",
-        "summary": "Second Floor Flat",
-        "bedrooms": 3,
-        "id": "6d824d4626a9b944b4e8a84fa417f489"
-    },
-    {
         "url": "https://www.sspc.co.uk/3-Bangholm-Terrace-Inverleith-Edinburgh-EH3-5QN-2-Bedroom-Maindoor-Flat-ESPC",
         "address": "3 Bangholm Terrace, Inverleith, Edinburgh EH3 5QN",
         "priceDescription": "Offers over £440,000",
@@ -304,6 +296,14 @@
         "id": "ba4e764f4b2a02c32b299ba27e53dba3"
     },
     {
+        "url": "https://www.sspc.co.uk/13-4-Bruntsfield-Avenue-EDINBURGH-EH10-4EL-3-Bedroom-Second-Floor-Flat-ESPC",
+        "address": "13/4 Bruntsfield Avenue, EDINBURGH EH10 4EL",
+        "priceDescription": "Fixed Price £430,000",
+        "summary": "Second Floor Flat",
+        "bedrooms": 3,
+        "id": "6d824d4626a9b944b4e8a84fa417f489"
+    },
+    {
         "url": "https://www.sspc.co.uk/Flat-2-11E-Ravelston-Park-Edinburgh-EH4-3DX-2-Bedroom-Flat-ESPC",
         "address": "Flat 2, 11E Ravelston Park, Edinburgh EH4 3DX",
         "priceDescription": "Fixed Price £425,000",
@@ -328,20 +328,20 @@
         "id": "2b3279f63bec5c0c1a585e5836e3f2f9"
     },
     {
-        "url": "https://www.sspc.co.uk/29-Beresford-Avenue-Trinity-Edinburgh-EH5-3EU-2-Bedroom-Upper-Flat-ESPC",
-        "address": "29 Beresford Avenue, Trinity, Edinburgh EH5 3EU",
-        "priceDescription": "Offers over £415,000",
-        "summary": "Upper Flat",
-        "bedrooms": 2,
-        "id": "610e8fc1ee255bfcb3cf1b84d04a24e7"
-    },
-    {
         "url": "https://www.sspc.co.uk/27-1-Maxwell-Street-Morningside-Edinburgh-EH10-5FT-3-Bedroom-Ground-Floor-Flat-ESPC",
         "address": "27/1 Maxwell Street, Morningside, Edinburgh EH10 5FT",
         "priceDescription": "Offers over £415,000",
         "summary": "Ground Floor Flat",
         "bedrooms": 3,
         "id": "8e9c796a5882325a28984e3dfc659306"
+    },
+    {
+        "url": "https://www.sspc.co.uk/29-Beresford-Avenue-Trinity-Edinburgh-EH5-3EU-2-Bedroom-Upper-Flat-ESPC",
+        "address": "29 Beresford Avenue, Trinity, Edinburgh EH5 3EU",
+        "priceDescription": "Offers over £415,000",
+        "summary": "Upper Flat",
+        "bedrooms": 2,
+        "id": "610e8fc1ee255bfcb3cf1b84d04a24e7"
     },
     {
         "url": "https://www.sspc.co.uk/Flat-4-27-Umbrella-Pine-Terrace-Edinburgh-EH4-8FU-3-Bedroom-First-Floor-Flat-ESPC",
@@ -360,6 +360,14 @@
         "id": "7e8a24d88689d561c64a343d8cc5fddc"
     },
     {
+        "url": "https://www.sspc.co.uk/57-5-Marchmont-Road-Marchmont-Edinburgh-EH9-1HT-2-Bedroom-Second-Floor-Flat-ESPC",
+        "address": "57/5 Marchmont Road, Marchmont, Edinburgh EH9 1HT",
+        "priceDescription": "Fixed Price £410,000",
+        "summary": "Second Floor Flat",
+        "bedrooms": 2,
+        "id": "da85927b879a7844ba6a6f0d7685a6d0"
+    },
+    {
         "url": "https://www.sspc.co.uk/112b-South-Street-St-Andrews-KY16-9QD-2-Bedroom-First-Floor-Flat-ESPC",
         "address": "112b South Street, St Andrews KY16 9QD",
         "priceDescription": "Offers over £400,000",
@@ -376,14 +384,6 @@
         "id": "05f2ac58ea140716729c484e4cad7f14"
     },
     {
-        "url": "https://www.sspc.co.uk/35-2-George-IV-Bridge-Old-Town-EH1-1EL-3-Bedroom-Flat-ESPC",
-        "address": "35/2 George IV Bridge, Old Town EH1 1EL",
-        "priceDescription": "Offers over £400,000",
-        "summary": "Flat",
-        "bedrooms": 3,
-        "id": "0db14f3b587732c804cd9f60d6f64a93"
-    },
-    {
         "url": "https://www.sspc.co.uk/10a-Annandale-Street-Edinburgh-EH7-4AN-2-Bedroom-Basement-Flat-ESPC",
         "address": "10a Annandale Street, Edinburgh EH7 4AN",
         "priceDescription": "Offers over £400,000",
@@ -392,12 +392,12 @@
         "id": "af9a9f302a76974a65619a599869cf90"
     },
     {
-        "url": "https://www.sspc.co.uk/57-5-Marchmont-Road-Marchmont-Edinburgh-EH9-1HT-2-Bedroom-Second-Floor-Flat-ESPC",
-        "address": "57/5 Marchmont Road, Marchmont, Edinburgh EH9 1HT",
+        "url": "https://www.sspc.co.uk/35-2-George-IV-Bridge-Old-Town-EH1-1EL-3-Bedroom-Flat-ESPC",
+        "address": "35/2 George IV Bridge, Old Town EH1 1EL",
         "priceDescription": "Offers over £400,000",
-        "summary": "Second Floor Flat",
-        "bedrooms": 2,
-        "id": "da85927b879a7844ba6a6f0d7685a6d0"
+        "summary": "Flat",
+        "bedrooms": 3,
+        "id": "0db14f3b587732c804cd9f60d6f64a93"
     },
     {
         "url": "https://www.sspc.co.uk/1-12-Saint-Margaret's-Place-Edinburgh-EH9-1AY-2-Bedroom-Second-Floor-Flat-ESPC",
@@ -472,6 +472,14 @@
         "id": "cb03164817ec8df1e5e1c601c70ae355"
     },
     {
+        "url": "https://www.sspc.co.uk/79-10-Ocean-Drive-The-Shore-Edinburgh-EH6-6BP-3-Bedroom-Flat-ESPC",
+        "address": "79/10 Ocean Drive, The Shore, Edinburgh EH6 6BP",
+        "priceDescription": "Offers over £390,000",
+        "summary": "Flat",
+        "bedrooms": 3,
+        "id": "08f40dac2852cd5e96446390f26f612d"
+    },
+    {
         "url": "https://www.sspc.co.uk/27a-Bruce-Street-Bruce-Heights-DUNFERMLINE-KY12-7AG-3-Bedroom-Penthouse-Flat-ESPC",
         "address": "27a Bruce Street, Bruce Heights, DUNFERMLINE KY12 7AG",
         "priceDescription": "Offers over £390,000",
@@ -486,14 +494,6 @@
         "summary": "First Floor Flat",
         "bedrooms": 3,
         "id": "0a5b8c74c2985452c3b730af08093f8a"
-    },
-    {
-        "url": "https://www.sspc.co.uk/79-10-Ocean-Drive-The-Shore-Edinburgh-EH6-6BP-3-Bedroom-Flat-ESPC",
-        "address": "79/10 Ocean Drive, The Shore, Edinburgh EH6 6BP",
-        "priceDescription": "Offers over £390,000",
-        "summary": "Flat",
-        "bedrooms": 3,
-        "id": "08f40dac2852cd5e96446390f26f612d"
     },
     {
         "url": "https://www.sspc.co.uk/Fountainbridge-3-3-Lower-Gilmore-Bank-Edinburgh-EH3-9QP-2-Bedroom-Ground-Floor-Flat-ESPC",
@@ -528,6 +528,14 @@
         "id": "4a6340b3a65943d8ed67694eaccff49e"
     },
     {
+        "url": "https://www.sspc.co.uk/12-4-Atholl-Place-Coates-Crescent-Edinburgh-EH3-8HP-2-Bedroom-Flat-ESPC",
+        "address": "12/4 Atholl Place, Coates Crescent, Edinburgh EH3 8HP",
+        "priceDescription": "Offers over £380,000",
+        "summary": "Flat",
+        "bedrooms": 2,
+        "id": "181c44da09b97724322344d7fd1e8caa"
+    },
+    {
         "url": "https://www.sspc.co.uk/Flat-3-5-Shoemakers-Square-Old-Town-Edinburgh-EH8-8FW-1-Bedroom-First-Floor-Flat-ESPC",
         "address": "Flat 3, 5, Shoemakers Square, Old Town, Edinburgh EH8 8FW",
         "priceDescription": "Fixed Price £380,000",
@@ -542,14 +550,6 @@
         "summary": "Maindoor Flat",
         "bedrooms": 2,
         "id": "9bf2751b328d6f63c074ffa5e4d82036"
-    },
-    {
-        "url": "https://www.sspc.co.uk/12-4-Atholl-Place-Coates-Crescent-Edinburgh-EH3-8HP-2-Bedroom-Flat-ESPC",
-        "address": "12/4 Atholl Place, Coates Crescent, Edinburgh EH3 8HP",
-        "priceDescription": "Offers over £380,000",
-        "summary": "Flat",
-        "bedrooms": 2,
-        "id": "181c44da09b97724322344d7fd1e8caa"
     },
     {
         "url": "https://www.sspc.co.uk/Wood-Court-224-5-Willowbrae-Road-Edinburgh-EH8-7NG-3-Bedroom-First-Floor-Flat-ESPC",
@@ -576,6 +576,14 @@
         "id": "946a034a50458204b981047c36c86429"
     },
     {
+        "url": "https://www.sspc.co.uk/5-(1F1)-Perth-Street-Stockbridge-Edinburgh-EH3-5DW-2-Bedroom-First-Floor-Flat-ESPC",
+        "address": "5 (1F1), Perth Street, Stockbridge, Edinburgh EH3 5DW",
+        "priceDescription": "Offers over £375,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 2,
+        "id": "43e44edfe0c07f231755986923c5b79d"
+    },
+    {
         "url": "https://www.sspc.co.uk/33-2-Jessfield-Terrace-Newhaven-EH6-4JR-3-Bedroom-First-Floor-Flat-ESPC",
         "address": "33/2 Jessfield Terrace, Newhaven EH6 4JR",
         "priceDescription": "Offers over £375,000",
@@ -600,14 +608,6 @@
         "id": "7113176cc012bbe94fb373f51a3fd474"
     },
     {
-        "url": "https://www.sspc.co.uk/86-6-Barnton-Park-View-EDINBURGH-EH4-6HJ-3-Bedroom-Flat-ESPC",
-        "address": "86/6 Barnton Park View, EDINBURGH EH4 6HJ",
-        "priceDescription": "Offers over £375,000",
-        "summary": "Flat",
-        "bedrooms": 3,
-        "id": "dcef5857136c0a375b13df8247c9a58b"
-    },
-    {
         "url": "https://www.sspc.co.uk/12a-Dundonald-Street-Edinburgh-EH3-6RY-2-Bedroom-Basement-Flat-ESPC",
         "address": "12a Dundonald Street, Edinburgh EH3 6RY",
         "priceDescription": "Offers over £375,000",
@@ -616,20 +616,20 @@
         "id": "854a5daeee95bbbb406965bbf3687a6b"
     },
     {
+        "url": "https://www.sspc.co.uk/86-6-Barnton-Park-View-EDINBURGH-EH4-6HJ-3-Bedroom-Flat-ESPC",
+        "address": "86/6 Barnton Park View, EDINBURGH EH4 6HJ",
+        "priceDescription": "Offers over £375,000",
+        "summary": "Flat",
+        "bedrooms": 3,
+        "id": "dcef5857136c0a375b13df8247c9a58b"
+    },
+    {
         "url": "https://www.sspc.co.uk/Flat-3-4-Baxter's-Place-New-Town-EH1-3AF-2-Bedroom-Second-Floor-Flat-ESPC",
         "address": "Flat 3, 4, Baxter's Place, New Town EH1 3AF",
         "priceDescription": "Fixed Price £375,000",
         "summary": "Second Floor Flat",
         "bedrooms": 2,
         "id": "8427ebfe2d928315403afd313b2487ff"
-    },
-    {
-        "url": "https://www.sspc.co.uk/5-(1F1)-Perth-Street-Stockbridge-Edinburgh-EH3-5DW-2-Bedroom-First-Floor-Flat-ESPC",
-        "address": "5 (1F1), Perth Street, Stockbridge, Edinburgh EH3 5DW",
-        "priceDescription": "Offers over £375,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 2,
-        "id": "43e44edfe0c07f231755986923c5b79d"
     },
     {
         "url": "https://www.sspc.co.uk/13-13-Hughes-Close-Canonmills-Edinburgh-EH7-4FW-2-Bedroom-Third-Floor-Flat-ESPC",
@@ -648,14 +648,6 @@
         "id": "d38e4f918199a17a379e06e0c45d429e"
     },
     {
-        "url": "https://www.sspc.co.uk/9-1-Albany-Street-New-Town-Edinburgh-EH1-3PY-1-Bedroom-Ground-Floor-Flat-ESPC",
-        "address": "9/1 Albany Street, New Town, Edinburgh EH1 3PY",
-        "priceDescription": "Offers over £370,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 1,
-        "id": "0318a640c2b8a4f2050536d2075e8545"
-    },
-    {
         "url": "https://www.sspc.co.uk/38-Harrison-Road-Edinburgh-EH11-1EQ-3-Bedroom-Maindoor-Flat-ESPC",
         "address": "38 Harrison Road, Edinburgh EH11 1EQ",
         "priceDescription": "Offers over £370,000",
@@ -664,12 +656,12 @@
         "id": "123afed7cae943dce7d0cd19362aeebb"
     },
     {
-        "url": "https://www.sspc.co.uk/49-Corstorphine-Hill-Avenue-Edinburgh-EH12-6LF-3-Bedroom-Lower-Flat-ESPC",
-        "address": "49 Corstorphine Hill Avenue, Edinburgh EH12 6LF",
+        "url": "https://www.sspc.co.uk/9-1-Albany-Street-New-Town-Edinburgh-EH1-3PY-1-Bedroom-Ground-Floor-Flat-ESPC",
+        "address": "9/1 Albany Street, New Town, Edinburgh EH1 3PY",
         "priceDescription": "Offers over £370,000",
-        "summary": "Lower Flat",
-        "bedrooms": 3,
-        "id": "ea2c43966cc9abd639515e7115da8c61"
+        "summary": "Ground Floor Flat",
+        "bedrooms": 1,
+        "id": "0318a640c2b8a4f2050536d2075e8545"
     },
     {
         "url": "https://www.sspc.co.uk/8-Merchiston-Grove-EDINBURGH-EH11-1PP-2-Bedroom-Maindoor-Flat-ESPC",
@@ -678,6 +670,14 @@
         "summary": "Maindoor Flat",
         "bedrooms": 2,
         "id": "44e8d43d122d581888af8ee55a346e6d"
+    },
+    {
+        "url": "https://www.sspc.co.uk/49-Corstorphine-Hill-Avenue-Edinburgh-EH12-6LF-3-Bedroom-Lower-Flat-ESPC",
+        "address": "49 Corstorphine Hill Avenue, Edinburgh EH12 6LF",
+        "priceDescription": "Offers over £370,000",
+        "summary": "Lower Flat",
+        "bedrooms": 3,
+        "id": "ea2c43966cc9abd639515e7115da8c61"
     },
     {
         "url": "https://www.sspc.co.uk/10-Harrison-Gardens-EDINBURGH-EH11-1SQ-2-Bedroom-Maindoor-Flat-ESPC",
@@ -728,14 +728,6 @@
         "id": "7cc036452488a079ecbd4472728eae60"
     },
     {
-        "url": "https://www.sspc.co.uk/3-7-Wellington-Street-Edinburgh-EH7-5EE-2-Bedroom-Ground-Floor-Flat-ESPC",
-        "address": "3/7 Wellington Street, Edinburgh EH7 5EE",
-        "priceDescription": "Offers over £360,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 2,
-        "id": "d1278386ce0577f03d9fe8d4bbaa212d"
-    },
-    {
         "url": "https://www.sspc.co.uk/30-6-Pilrig-House-Close-Edinburgh-EH6-5RF-2-Bedroom-Top-Floor-Flat-ESPC",
         "address": "30/6 Pilrig House Close, Edinburgh EH6 5RF",
         "priceDescription": "Fixed Price £360,000",
@@ -744,12 +736,12 @@
         "id": "1055c420db7846199f6d4f638daa8ef4"
     },
     {
-        "url": "https://www.sspc.co.uk/3-4-Lower-Gilmore-Bank-Fountainbridge-EH3-9QP-2-Bedroom-First-Floor-Flat-ESPC",
-        "address": "3/4 Lower Gilmore Bank, Fountainbridge EH3 9QP",
-        "priceDescription": "Fixed Price £360,000",
-        "summary": "First Floor Flat",
+        "url": "https://www.sspc.co.uk/3-7-Wellington-Street-Edinburgh-EH7-5EE-2-Bedroom-Ground-Floor-Flat-ESPC",
+        "address": "3/7 Wellington Street, Edinburgh EH7 5EE",
+        "priceDescription": "Offers over £360,000",
+        "summary": "Ground Floor Flat",
         "bedrooms": 2,
-        "id": "c85bda67a89332608f8158b4cb37668d"
+        "id": "d1278386ce0577f03d9fe8d4bbaa212d"
     },
     {
         "url": "https://www.sspc.co.uk/18-2-Learmonth-Avenue-Comely-Bank-Edinburgh-EH4-1DF-3-Bedroom-First-Floor-Flat-ESPC",
@@ -758,6 +750,14 @@
         "summary": "First Floor Flat",
         "bedrooms": 3,
         "id": "710468fd411dc33369bf9434aea37368"
+    },
+    {
+        "url": "https://www.sspc.co.uk/3-4-Lower-Gilmore-Bank-Fountainbridge-EH3-9QP-2-Bedroom-First-Floor-Flat-ESPC",
+        "address": "3/4 Lower Gilmore Bank, Fountainbridge EH3 9QP",
+        "priceDescription": "Fixed Price £360,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 2,
+        "id": "c85bda67a89332608f8158b4cb37668d"
     },
     {
         "url": "https://www.sspc.co.uk/Upper-Broomlands-Stirches-Road-HAWICK-TD9-7HF-5-Bedroom-Upper-Flat-ESPC",
@@ -824,14 +824,6 @@
         "id": "41bf1f2a0ac84f1b7f287b2aa1b11a2d"
     },
     {
-        "url": "https://www.sspc.co.uk/62-3F3-Eyre-Place-Edinburgh-EH3-5EJ-3-Bedroom-Third-Floor-Flat-ESPC",
-        "address": "62 3F3, Eyre Place, Edinburgh EH3 5EJ",
-        "priceDescription": "Fixed Price £350,000",
-        "summary": "Third Floor Flat",
-        "bedrooms": 3,
-        "id": "cb69ccce925e126b62e01078053345c7"
-    },
-    {
         "url": "https://www.sspc.co.uk/12-Orchard-Road-EDINBURGH-EH4-2ES-2-Bedroom-Upper-Flat-ESPC",
         "address": "12 Orchard Road, EDINBURGH EH4 2ES",
         "priceDescription": "Fixed Price £350,000",
@@ -840,20 +832,20 @@
         "id": "78460c6fa30d04e1d04c8d2bb351c6d4"
     },
     {
+        "url": "https://www.sspc.co.uk/62-3F3-Eyre-Place-Edinburgh-EH3-5EJ-3-Bedroom-Third-Floor-Flat-ESPC",
+        "address": "62 3F3, Eyre Place, Edinburgh EH3 5EJ",
+        "priceDescription": "Fixed Price £350,000",
+        "summary": "Third Floor Flat",
+        "bedrooms": 3,
+        "id": "cb69ccce925e126b62e01078053345c7"
+    },
+    {
         "url": "https://www.sspc.co.uk/47-1F3-Viewforth-Edinburgh-EH10-4LA-2-Bedroom-First-Floor-Flat-ESPC",
         "address": "47 1F3 Viewforth, Edinburgh EH10 4LA",
         "priceDescription": "Fixed Price £350,000",
         "summary": "First Floor Flat",
         "bedrooms": 2,
         "id": "86e2ff9f3c7338a7d16c204de75c7eb2"
-    },
-    {
-        "url": "https://www.sspc.co.uk/3-5-Goldenacre-Terrace-Edinburgh-EH3-5QP-2-Bedroom-Second-Floor-Flat-ESPC",
-        "address": "3/5 Goldenacre Terrace, Edinburgh EH3 5QP",
-        "priceDescription": "Offers over £350,000",
-        "summary": "Second Floor Flat",
-        "bedrooms": 2,
-        "id": "49b93e956a8aefae2013d054a51bbac6"
     },
     {
         "url": "https://www.sspc.co.uk/102A-Lower-Granton-Road-Trinity-Edinburgh-EH5-1ER-2-Bedroom-Maindoor-Flat-ESPC",
@@ -888,6 +880,14 @@
         "id": "2ad673476fdf6d5b93ea73b7446d55a1"
     },
     {
+        "url": "https://www.sspc.co.uk/3-5-Goldenacre-Terrace-Edinburgh-EH3-5QP-2-Bedroom-Second-Floor-Flat-ESPC",
+        "address": "3/5 Goldenacre Terrace, Edinburgh EH3 5QP",
+        "priceDescription": "Offers over £350,000",
+        "summary": "Second Floor Flat",
+        "bedrooms": 2,
+        "id": "49b93e956a8aefae2013d054a51bbac6"
+    },
+    {
         "url": "https://www.sspc.co.uk/388-Riverside-Drive-Dundee-DD1-4XD-3-Bedroom-Fourth-Floor-Flat-TSPC",
         "address": "388 Riverside Drive, Dundee DD1 4XD",
         "priceDescription": "Offers Over £350,000",
@@ -912,20 +912,20 @@
         "id": "ad1aa5d2005eab211d7a2d63338a904f"
     },
     {
-        "url": "https://www.sspc.co.uk/Flat-3-23-East-Comiston-Edinburgh-EH10-6RZ-3-Bedroom-First-Floor-Flat-ESPC",
-        "address": "Flat 3 23, East Comiston, Edinburgh EH10 6RZ",
-        "priceDescription": "Offers over £345,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 3,
-        "id": "538dbbb58a6e193749b3ca27feb64918"
-    },
-    {
         "url": "https://www.sspc.co.uk/26-Dublin-Street-Lane-North-EDINBURGH-EH3-6NT-2-Bedroom-Maindoor-Flat-ESPC",
         "address": "26 Dublin Street Lane North, EDINBURGH EH3 6NT",
         "priceDescription": "Fixed Price £345,000",
         "summary": "Maindoor Flat",
         "bedrooms": 2,
         "id": "7dd0322077214871f21d88b2061bf3c3"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Flat-3-23-East-Comiston-Edinburgh-EH10-6RZ-3-Bedroom-First-Floor-Flat-ESPC",
+        "address": "Flat 3 23, East Comiston, Edinburgh EH10 6RZ",
+        "priceDescription": "Offers over £345,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 3,
+        "id": "538dbbb58a6e193749b3ca27feb64918"
     },
     {
         "url": "https://www.sspc.co.uk/Flat-19-16-Pinkhill-Park-Corstorphine-Edinburgh-EH12-7FA-2-Bedroom-Third-Floor-Flat-ESPC",
@@ -952,12 +952,12 @@
         "id": "661705f47eb49d0f0559bd0b419237a1"
     },
     {
-        "url": "https://www.sspc.co.uk/24-PF1-Dundonald-Street-Edinburgh-EH3-6RY-1-Bedroom-Ground-Floor-Flat-ESPC",
+        "url": "https://www.sspc.co.uk/24-PF1-Dundonald-Street-Edinburgh-EH3-6RY-2-Bedroom-Ground-Floor-Flat-ESPC",
         "address": "24, PF1 Dundonald Street, Edinburgh EH3 6RY",
         "priceDescription": "Fixed Price £340,000",
         "summary": "Ground Floor Flat",
-        "bedrooms": 1,
-        "id": "c420adec91b3eff02b718a5978a0e51e"
+        "bedrooms": 2,
+        "id": "0e135757f1e89fc153ce45c7c018aa58"
     },
     {
         "url": "https://www.sspc.co.uk/41-Mortimer-Drive-Monifieth-DD5-4LJ-DD5-4JF-3-Bedroom-First-Floor-Flat-ESPC",
@@ -1008,20 +1008,20 @@
         "id": "42dcba34916727bcc909306a2ac9bb04"
     },
     {
-        "url": "https://www.sspc.co.uk/Flat-9-12-Hopetoun-Street-EDINBURGH-EH7-4GH-2-Bedroom-Third-Floor-Flat-ESPC",
-        "address": "Flat 9, 12 Hopetoun Street, EDINBURGH EH7 4GH",
-        "priceDescription": "Offers over £335,000",
-        "summary": "Third Floor Flat",
-        "bedrooms": 2,
-        "id": "91f4c546c1b4cf87c27bcb77a60d9bd6"
-    },
-    {
         "url": "https://www.sspc.co.uk/Plot-116-Forthview-South-Queensferry-EH30-9NE-2-Bedroom-First-Floor-Flat-ESPC",
         "address": "Plot 116, Forthview, South Queensferry EH30 9NE",
         "priceDescription": "Fixed Price £335,000",
         "summary": "First Floor Flat",
         "bedrooms": 2,
         "id": "41c8abd1175a5706bf1737899daf42c5"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Flat-9-12-Hopetoun-Street-EDINBURGH-EH7-4GH-2-Bedroom-Third-Floor-Flat-ESPC",
+        "address": "Flat 9, 12 Hopetoun Street, EDINBURGH EH7 4GH",
+        "priceDescription": "Offers over £335,000",
+        "summary": "Third Floor Flat",
+        "bedrooms": 2,
+        "id": "91f4c546c1b4cf87c27bcb77a60d9bd6"
     },
     {
         "url": "https://www.sspc.co.uk/28-Mitchell-Street-Dalkeith-EH22-1JQ-2-Bedroom-Lower-Flat-ESPC",
@@ -1042,7 +1042,7 @@
     {
         "url": "https://www.sspc.co.uk/12-10-Bath-Street-Portobello-EH15-1EY-3-Bedroom-Top-Floor-Flat-ESPC",
         "address": "12/10 Bath Street, Portobello EH15 1EY",
-        "priceDescription": "Offers over £330,000",
+        "priceDescription": "Fixed Price £330,000",
         "summary": "Top Floor Flat",
         "bedrooms": 3,
         "id": "01d683087ad45d1cff7af98c22bae8c9"
@@ -1134,14 +1134,6 @@
         "summary": "Flat",
         "bedrooms": 2,
         "id": "6b8f1f7aada756232dbeb18bcdacc5b1"
-    },
-    {
-        "url": "https://www.sspc.co.uk/4-2-Craigleith-Avenue-South-Ravelston-Edinburgh-EH4-3LQ-2-Bedroom-Ground-Floor-Flat-ESPC",
-        "address": "4/2 Craigleith Avenue South, Ravelston, Edinburgh EH4 3LQ",
-        "priceDescription": "Fixed Price £315,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 2,
-        "id": "1f8af097012a6a888768ec97885d3f59"
     },
     {
         "url": "https://www.sspc.co.uk/4A-Meadowbank-Terrace-Meadowbank-Edinburgh-EH8-7AR-2-Bedroom-Maindoor-Flat-ESPC",
@@ -1248,14 +1240,6 @@
         "id": "10d90faad1c5b3fd031d75fe5baf1a93"
     },
     {
-        "url": "https://www.sspc.co.uk/57A-Cumberland-Street-New-Town-Edinburgh-EH3-6RA-1-Bedroom-Basement-Flat-ESPC",
-        "address": "57A Cumberland Street, New Town, Edinburgh EH3 6RA",
-        "priceDescription": "Fixed Price £308,000",
-        "summary": "Basement Flat",
-        "bedrooms": 1,
-        "id": "233f92e5acb70015e85d2bea2127d678"
-    },
-    {
         "url": "https://www.sspc.co.uk/24-(1F2)-Clerk-Street-Newington-Edinburgh-EH8-9HX-2-Bedroom-First-Floor-Flat-ESPC",
         "address": "24 (1F2) Clerk Street, Newington, Edinburgh EH8 9HX",
         "priceDescription": "Offers over £305,000",
@@ -1288,12 +1272,12 @@
         "id": "5f9c45b10c681e8ec8d26d0a51856319"
     },
     {
-        "url": "https://www.sspc.co.uk/10-1-Kimmerghame-Path-Fettes-Edinburgh-EH4-2GN-2-Bedroom-First-Floor-Flat-ESPC",
-        "address": "10/1 Kimmerghame Path, Fettes, Edinburgh EH4 2GN",
-        "priceDescription": "Offers over £300,000",
+        "url": "https://www.sspc.co.uk/110-Brucefield-Avenue-DUNFERMLINE-KY11-4SY-3-Bedroom-First-Floor-Flat-ESPC",
+        "address": "110 Brucefield Avenue, DUNFERMLINE KY11 4SY",
+        "priceDescription": "Offers In The Region Of £300,000",
         "summary": "First Floor Flat",
-        "bedrooms": 2,
-        "id": "ee2900e94dc88e1f6023629d5efcd497"
+        "bedrooms": 3,
+        "id": "1b083d027a47dd81378ca3419ee5c891"
     },
     {
         "url": "https://www.sspc.co.uk/52-Cowan-Road-Edinburgh-EH11-1RJ-2-Bedroom-Maindoor-Flat-ESPC",
@@ -1304,12 +1288,12 @@
         "id": "a5611732817374bc7056cab6a3bb210b"
     },
     {
-        "url": "https://www.sspc.co.uk/110-Brucefield-Avenue-DUNFERMLINE-KY11-4SY-3-Bedroom-First-Floor-Flat-ESPC",
-        "address": "110 Brucefield Avenue, DUNFERMLINE KY11 4SY",
-        "priceDescription": "Offers In The Region Of £300,000",
+        "url": "https://www.sspc.co.uk/10-1-Kimmerghame-Path-Fettes-Edinburgh-EH4-2GN-2-Bedroom-First-Floor-Flat-ESPC",
+        "address": "10/1 Kimmerghame Path, Fettes, Edinburgh EH4 2GN",
+        "priceDescription": "Offers over £300,000",
         "summary": "First Floor Flat",
-        "bedrooms": 3,
-        "id": "1b083d027a47dd81378ca3419ee5c891"
+        "bedrooms": 2,
+        "id": "ee2900e94dc88e1f6023629d5efcd497"
     },
     {
         "url": "https://www.sspc.co.uk/59-4-Bellevue-Road-Edinburgh-EH7-4DJ-1-Bedroom-Flat-ESPC",
@@ -1328,12 +1312,12 @@
         "id": "01d1fc2d20c5cbb8fd897eac20e56bcc"
     },
     {
-        "url": "https://www.sspc.co.uk/68-1-Ferry-Road-Edinburgh-EH6-4AH-1-Bedroom-Ground-Floor-Flat-ESPC",
-        "address": "68/1 Ferry Road, Edinburgh EH6 4AH",
-        "priceDescription": "Fixed Price £299,995",
-        "summary": "Ground Floor Flat",
+        "url": "https://www.sspc.co.uk/73-6-Logie-Green-Road-Canonmills-Edinburgh-EH7-4HF-1-Bedroom-Flat-ESPC",
+        "address": "73/6 Logie Green Road, Canonmills, Edinburgh EH7 4HF",
+        "priceDescription": "Offers over £299,995",
+        "summary": "Flat",
         "bedrooms": 1,
-        "id": "32f001af70a33262979df1606d7bd5ca"
+        "id": "326f6c7d1f201c36a24f21bff8f7f6ab"
     },
     {
         "url": "https://www.sspc.co.uk/32-5-Kimmerghame-Drive-Fettes-Edinburgh-EH4-2GJ-2-Bedroom-Second-Floor-Flat-ESPC",
@@ -1342,6 +1326,14 @@
         "summary": "Second Floor Flat",
         "bedrooms": 2,
         "id": "4f1f423b27be7da7c8bdfa0ba621af78"
+    },
+    {
+        "url": "https://www.sspc.co.uk/68-1-Ferry-Road-Edinburgh-EH6-4AH-1-Bedroom-Ground-Floor-Flat-ESPC",
+        "address": "68/1 Ferry Road, Edinburgh EH6 4AH",
+        "priceDescription": "Fixed Price £299,995",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 1,
+        "id": "32f001af70a33262979df1606d7bd5ca"
     },
     {
         "url": "https://www.sspc.co.uk/388-6-Morningside-Road-Edinburgh-EH10-5HX-2-Bedroom-Second-Floor-Flat-ESPC",
@@ -1368,20 +1360,20 @@
         "id": "0688f0d764bdf1d3a2586b77ed237c6d"
     },
     {
-        "url": "https://www.sspc.co.uk/42-4-Barnton-Park-Avenue-Barnton-EDINBURGH-EH4-6EY-3-Bedroom-First-Floor-Flat-ESPC",
-        "address": "42/4 Barnton Park Avenue, Barnton, EDINBURGH EH4 6EY",
-        "priceDescription": "Offers over £299,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 3,
-        "id": "61592e1e2646f3f50e4be13b987c7f69"
-    },
-    {
         "url": "https://www.sspc.co.uk/150-McDonald-Road-EDINBURGH-EH7-4NL-2-Bedroom-Maindoor-Flat-ESPC",
         "address": "150 McDonald Road, EDINBURGH EH7 4NL",
         "priceDescription": "Offers over £299,000",
         "summary": "Maindoor Flat",
         "bedrooms": 2,
         "id": "fa9ae3a950e89f2b570c9e2b1df99d9f"
+    },
+    {
+        "url": "https://www.sspc.co.uk/42-4-Barnton-Park-Avenue-Barnton-EDINBURGH-EH4-6EY-3-Bedroom-First-Floor-Flat-ESPC",
+        "address": "42/4 Barnton Park Avenue, Barnton, EDINBURGH EH4 6EY",
+        "priceDescription": "Offers over £299,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 3,
+        "id": "61592e1e2646f3f50e4be13b987c7f69"
     },
     {
         "url": "https://www.sspc.co.uk/15-Glenorchy-Terrace-EDINBURGH-EH9-2DQ-2-Bedroom-Second-Floor-Flat-ESPC",
@@ -1408,12 +1400,12 @@
         "id": "1333188dc8c69d0292e2aa3dde41805c"
     },
     {
-        "url": "https://www.sspc.co.uk/4-Drum-Terrace-Edinburgh-EH7-5NB-3-Bedroom-Maindoor-Flat-ESPC",
-        "address": "4 Drum Terrace, Edinburgh EH7 5NB",
-        "priceDescription": "Offers over £295,000",
-        "summary": "Maindoor Flat",
-        "bedrooms": 3,
-        "id": "c680f0bac6b54bd13e982f01ca01df94"
+        "url": "https://www.sspc.co.uk/57A-Cumberland-Street-New-Town-Edinburgh-EH3-6RA-1-Bedroom-Basement-Flat-ESPC",
+        "address": "57A Cumberland Street, New Town, Edinburgh EH3 6RA",
+        "priceDescription": "Fixed Price £295,000",
+        "summary": "Basement Flat",
+        "bedrooms": 1,
+        "id": "233f92e5acb70015e85d2bea2127d678"
     },
     {
         "url": "https://www.sspc.co.uk/8-13-Orchard-Brae-Avenue-Edinburgh-EH4-2HP-3-Bedroom-Third-Floor-Flat-ESPC",
@@ -1422,6 +1414,22 @@
         "summary": "Third Floor Flat",
         "bedrooms": 3,
         "id": "663f61af3ca53f969fab3840d20deb90"
+    },
+    {
+        "url": "https://www.sspc.co.uk/20-1-Bright�s-Crescent-Newington-EH9-2DB-2-Bedroom-Ground-Floor-Flat-ESPC",
+        "address": "20/1 Bright�s Crescent, Newington EH9 2DB",
+        "priceDescription": "Offers over £295,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 2,
+        "id": "321ebb8678a9a78cfedf047e23ca2420"
+    },
+    {
+        "url": "https://www.sspc.co.uk/4-Drum-Terrace-Edinburgh-EH7-5NB-3-Bedroom-Maindoor-Flat-ESPC",
+        "address": "4 Drum Terrace, Edinburgh EH7 5NB",
+        "priceDescription": "Offers over £295,000",
+        "summary": "Maindoor Flat",
+        "bedrooms": 3,
+        "id": "c680f0bac6b54bd13e982f01ca01df94"
     },
     {
         "url": "https://www.sspc.co.uk/Flat-1-5-Gold-Crest-Place-Cammo-Edinburgh-EH4-8GQ-2-Bedroom-Ground-Floor-Flat-ESPC",
@@ -1440,14 +1448,6 @@
         "id": "f3d83f00cc8480fd82f1cc7a80004ec5"
     },
     {
-        "url": "https://www.sspc.co.uk/20-1-Bright�s-Crescent-Newington-EH9-2DB-2-Bedroom-Ground-Floor-Flat-ESPC",
-        "address": "20/1 Bright�s Crescent, Newington EH9 2DB",
-        "priceDescription": "Offers over £295,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 2,
-        "id": "321ebb8678a9a78cfedf047e23ca2420"
-    },
-    {
         "url": "https://www.sspc.co.uk/49-Market-Square-TD11-3BX-6-Bedroom-Terraced-Flat-BSPC",
         "address": "49, Market Square TD11 3BX",
         "priceDescription": "Guide Price £290,000",
@@ -1464,12 +1464,12 @@
         "id": "6cd3229c177d796bd8f7a480799b48ee"
     },
     {
-        "url": "https://www.sspc.co.uk/73-6-Logie-Green-Road-Canonmills-Edinburgh-EH7-4HF-1-Bedroom-Flat-ESPC",
-        "address": "73/6 Logie Green Road, Canonmills, Edinburgh EH7 4HF",
-        "priceDescription": "Offers over £290,000",
-        "summary": "Flat",
-        "bedrooms": 1,
-        "id": "326f6c7d1f201c36a24f21bff8f7f6ab"
+        "url": "https://www.sspc.co.uk/10-9-Comiston-Terrace-Morningside-EH10-6AH-2-Bedroom-Top-Floor-Flat-ESPC",
+        "address": "10/9 Comiston Terrace, Morningside EH10 6AH",
+        "priceDescription": "Fixed Price £290,000",
+        "summary": "Top Floor Flat",
+        "bedrooms": 2,
+        "id": "8859759708641e0174c5d60fdfefb4f7"
     },
     {
         "url": "https://www.sspc.co.uk/94-19-Inchview-Terrace-Craigentinny-Edinburgh-EH7-6TF-2-Bedroom-Second-Floor-Flat-ESPC",
@@ -1480,14 +1480,6 @@
         "id": "768b99cb5e642d898d8d498bfe323cd5"
     },
     {
-        "url": "https://www.sspc.co.uk/10-9-Comiston-Terrace-Morningside-EH10-6AH-2-Bedroom-Top-Floor-Flat-ESPC",
-        "address": "10/9 Comiston Terrace, Morningside EH10 6AH",
-        "priceDescription": "Fixed Price £290,000",
-        "summary": "Top Floor Flat",
-        "bedrooms": 2,
-        "id": "8859759708641e0174c5d60fdfefb4f7"
-    },
-    {
         "url": "https://www.sspc.co.uk/3F-1-Seaport-Street-Edinburgh-EH6-6SJ-2-Bedroom-Top-Floor-Flat-ESPC",
         "address": "3F, 1 Seaport Street, Edinburgh EH6 6SJ",
         "priceDescription": "Fixed Price £290,000",
@@ -1496,20 +1488,20 @@
         "id": "25f49503d6714af208c7272a9ca174c2"
     },
     {
-        "url": "https://www.sspc.co.uk/Canal-Basin-Fountainbridge:-3-2-Lower-Gilmore-Bank-Edinburgh-EH3-9QP-1-Bedroom-Ground-Floor-Flat-ESPC",
-        "address": "Canal Basin, Fountainbridge: 3/2 Lower Gilmore Bank, Edinburgh EH3 9QP",
-        "priceDescription": "Fixed Price £289,950",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 1,
-        "id": "5f613b67e74214b1d9e6506bdacade2a"
-    },
-    {
         "url": "https://www.sspc.co.uk/Stockbridge-2f2-5-Leslie-Place-Edinburgh-EH4-1NG-2-Bedroom-Second-Floor-Flat-ESPC",
         "address": "Stockbridge, 2f2, 5, Leslie Place, Edinburgh EH4 1NG",
         "priceDescription": "Fixed Price £289,950",
         "summary": "Second Floor Flat",
         "bedrooms": 2,
         "id": "7cd8a88ce8a2b50eb879aed8aec859cd"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Canal-Basin-Fountainbridge:-3-2-Lower-Gilmore-Bank-Edinburgh-EH3-9QP-1-Bedroom-Ground-Floor-Flat-ESPC",
+        "address": "Canal Basin, Fountainbridge: 3/2 Lower Gilmore Bank, Edinburgh EH3 9QP",
+        "priceDescription": "Fixed Price £289,950",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 1,
+        "id": "5f613b67e74214b1d9e6506bdacade2a"
     },
     {
         "url": "https://www.sspc.co.uk/132c-High-Street-Dunbar-EH42-1JJ-3-Bedroom-Top-Floor-Flat-ESPC",
@@ -1526,6 +1518,14 @@
         "summary": "First Floor Flat",
         "bedrooms": 5,
         "id": "35cad5744d413985e16136e3d5f99c63"
+    },
+    {
+        "url": "https://www.sspc.co.uk/2-2-Bath-Street-Edinburgh-EH15-1EY-2-Bedroom-First-Floor-Flat-ESPC",
+        "address": "2/2 Bath Street, Edinburgh EH15 1EY",
+        "priceDescription": "Fixed Price £285,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 2,
+        "id": "d66a2e8b6d8d328e50ac5a26a0711c68"
     },
     {
         "url": "https://www.sspc.co.uk/6-13-Powderhall-Rigg-Canonmills-Edinburgh-EH7-4GA-2-Bedroom-Third-Floor-Flat-ESPC",
@@ -1600,20 +1600,20 @@
         "id": "a24b1ae1f8181cab0ced9eff14719253"
     },
     {
-        "url": "https://www.sspc.co.uk/Fountainbridge:-2-3-Lower-Gilmore-Bank-Edinburgh-EH3-9QP-1-Bedroom-Ground-Floor-Flat-ESPC",
-        "address": "Fountainbridge: 2/3 Lower Gilmore Bank, Edinburgh EH3 9QP",
-        "priceDescription": "Fixed Price £275,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 1,
-        "id": "91e361e3a97096c2d48686505e0d7ee5"
-    },
-    {
         "url": "https://www.sspc.co.uk/47-2-Blackfriars-Street-Edinburgh-EH1-1NB-2-Bedroom-Flat-ESPC",
         "address": "47/2 Blackfriars Street, Edinburgh EH1 1NB",
         "priceDescription": "Fixed Price £275,000",
         "summary": "Flat",
         "bedrooms": 2,
         "id": "ddd3dc9929899b4a4c303ee4409fc0b8"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Fountainbridge:-2-3-Lower-Gilmore-Bank-Edinburgh-EH3-9QP-1-Bedroom-Ground-Floor-Flat-ESPC",
+        "address": "Fountainbridge: 2/3 Lower Gilmore Bank, Edinburgh EH3 9QP",
+        "priceDescription": "Fixed Price £275,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 1,
+        "id": "91e361e3a97096c2d48686505e0d7ee5"
     },
     {
         "url": "https://www.sspc.co.uk/60-Rodney-Street-Canonmills-Edinburgh-EH7-4DX-2-Bedroom-Maindoor-Flat-ESPC",
@@ -1630,22 +1630,6 @@
         "summary": "Third Floor Flat",
         "bedrooms": 2,
         "id": "f69dc1d0641c522cf906215cc4879de4"
-    },
-    {
-        "url": "https://www.sspc.co.uk/17-34-Johns-Place-Leith-Edinburgh-EH6-7EN-2-Bedroom-Flat-ESPC",
-        "address": "17/34 Johns Place, Leith, Edinburgh EH6 7EN",
-        "priceDescription": "Offers over £275,000",
-        "summary": "Flat",
-        "bedrooms": 2,
-        "id": "bf5cefa0ebb77eb4aba7a85dae64d864"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Flat-1-16-Roseneath-Place-Edinburgh-EH9-1JB-1-Bedroom-Ground-Floor-Flat-ESPC",
-        "address": "Flat 1, 16 Roseneath Place, Edinburgh EH9 1JB",
-        "priceDescription": "Fixed Price £275,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 1,
-        "id": "6d858d46519bb8edd843f56641b8d393"
     },
     {
         "url": "https://www.sspc.co.uk/12-(3F2)-Montague-Street-Newington-EH8-9QX-2-Bedroom-Flat-ESPC",
@@ -1672,20 +1656,12 @@
         "id": "4861eceebe374869fbbbbc95747df19c"
     },
     {
-        "url": "https://www.sspc.co.uk/2-2-Bath-Street-Edinburgh-EH15-1EY-2-Bedroom-First-Floor-Flat-ESPC",
-        "address": "2/2 Bath Street, Edinburgh EH15 1EY",
+        "url": "https://www.sspc.co.uk/17-34-Johns-Place-Leith-Edinburgh-EH6-7EN-2-Bedroom-Flat-ESPC",
+        "address": "17/34 Johns Place, Leith, Edinburgh EH6 7EN",
         "priceDescription": "Offers over £275,000",
-        "summary": "First Floor Flat",
+        "summary": "Flat",
         "bedrooms": 2,
-        "id": "d66a2e8b6d8d328e50ac5a26a0711c68"
-    },
-    {
-        "url": "https://www.sspc.co.uk/7E-Ellieslea-Road-Broughty-Ferry-DD5-1JG-2-Bedroom-First-Floor-Flat-TSPC",
-        "address": "7E Ellieslea Road, Broughty Ferry DD5 1JG",
-        "priceDescription": "Offers Over £275,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 2,
-        "id": "67fa84793380d4da9ad866ed1fad23e6"
+        "id": "bf5cefa0ebb77eb4aba7a85dae64d864"
     },
     {
         "url": "https://www.sspc.co.uk/76J-Strathern-Road-Broughty-Ferry-DD5-1PH-2-Bedroom-First-Floor-Flat-TSPC",
@@ -1702,6 +1678,14 @@
         "summary": "Ground Floor Flat",
         "bedrooms": 2,
         "id": "24bc5367f6aae809302a7ee361508b3f"
+    },
+    {
+        "url": "https://www.sspc.co.uk/7E-Ellieslea-Road-Broughty-Ferry-DD5-1JG-2-Bedroom-First-Floor-Flat-TSPC",
+        "address": "7E Ellieslea Road, Broughty Ferry DD5 1JG",
+        "priceDescription": "Offers Over £275,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 2,
+        "id": "67fa84793380d4da9ad866ed1fad23e6"
     },
     {
         "url": "https://www.sspc.co.uk/1-5-Western-Harbour-Drive-Leith-Edinburgh-EH6-6LR-2-Bedroom-First-Floor-Flat-ESPC",
@@ -1744,12 +1728,12 @@
         "id": "86f3f85da070c771a9e127bd8c06ae43"
     },
     {
-        "url": "https://www.sspc.co.uk/5-Ryehill-Terrace-Leith-Links-Edinburgh-EH6-8EW-1-Bedroom-Maindoor-Flat-ESPC",
-        "address": "5 Ryehill Terrace, Leith Links, Edinburgh EH6 8EW",
-        "priceDescription": "Offers over £270,000",
-        "summary": "Maindoor Flat",
-        "bedrooms": 1,
-        "id": "2a998819f623546de193dd3e6e2cf324"
+        "url": "https://www.sspc.co.uk/10-10-Falcon-Road-West-Morningside-EH10-4AQ-2-Bedroom-Flat-ESPC",
+        "address": "10/10 Falcon Road West, Morningside EH10 4AQ",
+        "priceDescription": "Fixed Price £270,000",
+        "summary": "Flat",
+        "bedrooms": 2,
+        "id": "0e63cd83ff3bbdc961f53c52e62e36ac"
     },
     {
         "url": "https://www.sspc.co.uk/81-4-Grove-Street-Edinburgh-EH3-8AB-2-Bedroom-Flat-ESPC",
@@ -1758,14 +1742,6 @@
         "summary": "Flat",
         "bedrooms": 2,
         "id": "99c94449e668b1576ea5c58bdf348d1c"
-    },
-    {
-        "url": "https://www.sspc.co.uk/10-10-Falcon-Road-West-Morningside-EH10-4AQ-2-Bedroom-Flat-ESPC",
-        "address": "10/10 Falcon Road West, Morningside EH10 4AQ",
-        "priceDescription": "Fixed Price £270,000",
-        "summary": "Flat",
-        "bedrooms": 2,
-        "id": "0e63cd83ff3bbdc961f53c52e62e36ac"
     },
     {
         "url": "https://www.sspc.co.uk/14-7-Clerk-Street-Newington-EH8-9HX-2-Bedroom-Fourth-Floor-Flat-ESPC",
@@ -1864,14 +1840,6 @@
         "id": "ef378c0733b086f85b7e123d346f9722"
     },
     {
-        "url": "https://www.sspc.co.uk/Flat-1-8-Goldcrest-Place-Edinburgh-EH4-8GS-2-Bedroom-Ground-Floor-Flat-ESPC",
-        "address": "Flat 1, 8, Goldcrest Place, Edinburgh EH4 8GS",
-        "priceDescription": "Offers over £260,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 2,
-        "id": "9b6ee4ecb879a5866f2ffc445afd28a9"
-    },
-    {
         "url": "https://www.sspc.co.uk/39-Cornhill-Terrace-EDINBURGH-EH6-8EJ-1-Bedroom-Ground-Floor-Flat-ESPC",
         "address": "39 Cornhill Terrace, EDINBURGH EH6 8EJ",
         "priceDescription": "Offers over £260,000",
@@ -1894,6 +1862,14 @@
         "summary": "Ground Floor Flat",
         "bedrooms": 2,
         "id": "3e23d1241f40093d5ad7daa16c1b5b45"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Flat-1-8-Goldcrest-Place-Edinburgh-EH4-8GS-2-Bedroom-Ground-Floor-Flat-ESPC",
+        "address": "Flat 1, 8, Goldcrest Place, Edinburgh EH4 8GS",
+        "priceDescription": "Offers over £260,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 2,
+        "id": "9b6ee4ecb879a5866f2ffc445afd28a9"
     },
     {
         "url": "https://www.sspc.co.uk/Vista-Apartment-Apartment-3--Brisbane-Street-KA30-8QW-2-Bedroom-Ground-Floor-Flat-ESPC",
@@ -1952,6 +1928,14 @@
         "id": "efc9b19946ed68b93a35c5f18fbb4fb5"
     },
     {
+        "url": "https://www.sspc.co.uk/6-8-Oxford-Terrace-West-End-Edinburgh-EH4-1PX-1-Bedroom-Second-Floor-Flat-ESPC",
+        "address": "6/8 Oxford Terrace, West End, Edinburgh EH4 1PX",
+        "priceDescription": "Offers over £250,000",
+        "summary": "Second Floor Flat",
+        "bedrooms": 1,
+        "id": "bd593bb778a9acf9633c2a94f53fda43"
+    },
+    {
         "url": "https://www.sspc.co.uk/Flat-6-2-Haig-Lane-Edinburgh-EH6-5GA-2-Bedroom-Flat-ESPC",
         "address": "Flat 6, 2 Haig Lane, Edinburgh EH6 5GA",
         "priceDescription": "Offers over £250,000",
@@ -1974,14 +1958,6 @@
         "summary": "Ground Floor Flat",
         "bedrooms": 2,
         "id": "7f1c91a7ebad85573278673531eb1d1e"
-    },
-    {
-        "url": "https://www.sspc.co.uk/6-8-Oxford-Terrace-West-End-Edinburgh-EH4-1PX-1-Bedroom-Second-Floor-Flat-ESPC",
-        "address": "6/8 Oxford Terrace, West End, Edinburgh EH4 1PX",
-        "priceDescription": "Offers over £250,000",
-        "summary": "Second Floor Flat",
-        "bedrooms": 1,
-        "id": "bd593bb778a9acf9633c2a94f53fda43"
     },
     {
         "url": "https://www.sspc.co.uk/9-Villa-Road-SOUTH-QUEENSFERRY-EH30-9RF-2-Bedroom-Maindoor-Flat-ESPC",
@@ -2032,20 +2008,20 @@
         "id": "1b834d5186f839fd504d9f6282e7d226"
     },
     {
-        "url": "https://www.sspc.co.uk/1b-1-Baronscourt-Road-EDINBURGH-EH8-7ET-3-Bedroom-Ground-Floor-Flat-ESPC",
-        "address": "1b/1 Baronscourt Road, EDINBURGH EH8 7ET",
-        "priceDescription": "Offers over £245,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 3,
-        "id": "beeba98948f3739a52a1299e39abc542"
-    },
-    {
         "url": "https://www.sspc.co.uk/39-8-Caledonian-Crescent-EDINBURGH-EH11-2AQ-2-Bedroom-Second-Floor-Flat-ESPC",
         "address": "39/8 Caledonian Crescent, EDINBURGH EH11 2AQ",
         "priceDescription": "Offers over £245,000",
         "summary": "Second Floor Flat",
         "bedrooms": 2,
         "id": "bc1d971941fd8b96e315c8744cc104bb"
+    },
+    {
+        "url": "https://www.sspc.co.uk/1b-1-Baronscourt-Road-EDINBURGH-EH8-7ET-3-Bedroom-Ground-Floor-Flat-ESPC",
+        "address": "1b/1 Baronscourt Road, EDINBURGH EH8 7ET",
+        "priceDescription": "Offers over £245,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 3,
+        "id": "beeba98948f3739a52a1299e39abc542"
     },
     {
         "url": "https://www.sspc.co.uk/36-8-Millar-Crescent-Edinburgh-EH10-5HH-2-Bedroom-Third-Floor-Flat-ESPC",
@@ -2080,6 +2056,14 @@
         "id": "8079c52bb405745d7cd56bede23fdb2d"
     },
     {
+        "url": "https://www.sspc.co.uk/0-1-110-Novar-Drive-Hyndland-Glasgow-G12-9SU-2-Bedroom-Flat-ESPC",
+        "address": "0/1 110 Novar Drive, Hyndland, Glasgow G12 9SU",
+        "priceDescription": "Offers over £240,000",
+        "summary": "Flat",
+        "bedrooms": 2,
+        "id": "95be4ee730c59c4aaebc581d5a3f1f60"
+    },
+    {
         "url": "https://www.sspc.co.uk/5-1-Dublin-Street-New-Town-Edinburgh-EH1-3PG-1-Bedroom-Ground-Floor-Flat-ESPC",
         "address": "5/1 Dublin Street, New Town, Edinburgh EH1 3PG",
         "priceDescription": "Offers over £240,000",
@@ -2096,22 +2080,6 @@
         "id": "f331da93ecc1458b034088281dfe2088"
     },
     {
-        "url": "https://www.sspc.co.uk/2-9-Albion-Gardens-Edinburgh-EH7-5QF-2-Bedroom-Flat-ESPC",
-        "address": "2/9 Albion Gardens, Edinburgh EH7 5QF",
-        "priceDescription": "Offers over £240,000",
-        "summary": "Flat",
-        "bedrooms": 2,
-        "id": "83e4aef9540982730f412deb2ab8f066"
-    },
-    {
-        "url": "https://www.sspc.co.uk/0-1-110-Novar-Drive-Hyndland-Glasgow-G12-9SU-2-Bedroom-Flat-ESPC",
-        "address": "0/1 110 Novar Drive, Hyndland, Glasgow G12 9SU",
-        "priceDescription": "Offers over £240,000",
-        "summary": "Flat",
-        "bedrooms": 2,
-        "id": "95be4ee730c59c4aaebc581d5a3f1f60"
-    },
-    {
         "url": "https://www.sspc.co.uk/8-7-East-Pilton-Farm-Crescent-EH5-2GH-2-Bedroom-Flat-ESPC",
         "address": "8/7 East Pilton Farm Crescent EH5 2GH",
         "priceDescription": "Offers over £240,000",
@@ -2120,12 +2088,12 @@
         "id": "308e8150a3d1399dfd357c93b127549a"
     },
     {
-        "url": "https://www.sspc.co.uk/2-Southbank-Court-Easter-Park-Drive-Edinburgh-EH4-6SH-2-Bedroom-First-Floor-Flat-ESPC",
-        "address": "2 Southbank Court, Easter Park Drive, Edinburgh EH4 6SH",
+        "url": "https://www.sspc.co.uk/2-9-Albion-Gardens-Edinburgh-EH7-5QF-2-Bedroom-Flat-ESPC",
+        "address": "2/9 Albion Gardens, Edinburgh EH7 5QF",
         "priceDescription": "Offers over £240,000",
-        "summary": "First Floor Flat",
+        "summary": "Flat",
         "bedrooms": 2,
-        "id": "b4835d10413fb48b765e6be4a89ff107"
+        "id": "83e4aef9540982730f412deb2ab8f066"
     },
     {
         "url": "https://www.sspc.co.uk/13-2-Dean-Park-Street-Edinburgh-EH4-1JR-1-Bedroom-Ground-Floor-Flat-ESPC",
@@ -2134,6 +2102,14 @@
         "summary": "Ground Floor Flat",
         "bedrooms": 1,
         "id": "d6883f215ee46e58ad4520919a61980c"
+    },
+    {
+        "url": "https://www.sspc.co.uk/2-Southbank-Court-Easter-Park-Drive-Edinburgh-EH4-6SH-2-Bedroom-First-Floor-Flat-ESPC",
+        "address": "2 Southbank Court, Easter Park Drive, Edinburgh EH4 6SH",
+        "priceDescription": "Offers over £240,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 2,
+        "id": "b4835d10413fb48b765e6be4a89ff107"
     },
     {
         "url": "https://www.sspc.co.uk/New-Build-Apartments-15-Panmure-Street-Monifieth-DD5-4EA-2-Bedroom-Flat-TSPC",
@@ -2240,22 +2216,6 @@
         "id": "39d369fa4dd30a49a2d70a1bdd90b346"
     },
     {
-        "url": "https://www.sspc.co.uk/3-10-Rodney-Place-EDINBURGH-EH7-4FR-2-Bedroom-Third-Floor-Flat-ESPC",
-        "address": "3/10 Rodney Place, EDINBURGH EH7 4FR",
-        "priceDescription": "Offers over £230,000",
-        "summary": "Third Floor Flat",
-        "bedrooms": 2,
-        "id": "5472a5745165f35077c92c75aca5c1e5"
-    },
-    {
-        "url": "https://www.sspc.co.uk/55-(6F2)-Niddry-Street-EDINBURGH-EH1-1LG-1-Bedroom-Sixth-Floor-Flat-ESPC",
-        "address": "55 (6F2) Niddry Street, EDINBURGH EH1 1LG",
-        "priceDescription": "Offers over £230,000",
-        "summary": "Sixth Floor Flat",
-        "bedrooms": 1,
-        "id": "141442f527a3c9c8724a2eeb021cd9af"
-    },
-    {
         "url": "https://www.sspc.co.uk/6-Argyll-Terrace-EDINBURGH-EH11-2BR-1-Bedroom-Maindoor-Flat-ESPC",
         "address": "6 Argyll Terrace, EDINBURGH EH11 2BR",
         "priceDescription": "Offers over £230,000",
@@ -2270,6 +2230,14 @@
         "summary": "Fifth Floor Flat",
         "bedrooms": 2,
         "id": "919fca728f7617309121726ad75eca3f"
+    },
+    {
+        "url": "https://www.sspc.co.uk/3-10-Rodney-Place-EDINBURGH-EH7-4FR-2-Bedroom-Third-Floor-Flat-ESPC",
+        "address": "3/10 Rodney Place, EDINBURGH EH7 4FR",
+        "priceDescription": "Offers over £230,000",
+        "summary": "Third Floor Flat",
+        "bedrooms": 2,
+        "id": "5472a5745165f35077c92c75aca5c1e5"
     },
     {
         "url": "https://www.sspc.co.uk/60-Claremont-Court-EDINBURGH-EH7-4LA-4-Bedroom-Ground-Floor-Flat-ESPC",
@@ -2320,20 +2288,20 @@
         "id": "52ef6b52b30117aa4da7b40632ca2eb2"
     },
     {
-        "url": "https://www.sspc.co.uk/5-5-Drum-Terrace-Leith-Edinburgh-EH7-5NB-1-Bedroom-First-Floor-Flat-ESPC",
-        "address": "5/5 Drum Terrace, Leith, Edinburgh EH7 5NB",
-        "priceDescription": "Offers over £225,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 1,
-        "id": "8270c2a3f8598672b8d93789ec4a8189"
-    },
-    {
         "url": "https://www.sspc.co.uk/32-4-Shore-Road-SOUTH-QUEENSFERRY-EH30-9SG-2-Bedroom-First-Floor-Flat-ESPC",
         "address": "32/4 Shore Road, SOUTH QUEENSFERRY EH30 9SG",
         "priceDescription": "Offers over £225,000",
         "summary": "First Floor Flat",
         "bedrooms": 2,
         "id": "4919e559b8364c59c6774824e104c818"
+    },
+    {
+        "url": "https://www.sspc.co.uk/5-5-Drum-Terrace-Leith-Edinburgh-EH7-5NB-1-Bedroom-First-Floor-Flat-ESPC",
+        "address": "5/5 Drum Terrace, Leith, Edinburgh EH7 5NB",
+        "priceDescription": "Offers over £225,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 1,
+        "id": "8270c2a3f8598672b8d93789ec4a8189"
     },
     {
         "url": "https://www.sspc.co.uk/Flat-7-11-Kimmerghame-Terrace-EDINBURGH-EH4-2GG-1-Bedroom-Second-Floor-Flat-ESPC",
@@ -2432,20 +2400,20 @@
         "id": "54cd284a75b28a75980362c7ba6c5386"
     },
     {
-        "url": "https://www.sspc.co.uk/167-7-Slateford-Road-EDINBURGH-EH14-1PB-2-Bedroom-First-Floor-Flat-ESPC",
-        "address": "167/7 Slateford Road, EDINBURGH EH14 1PB",
-        "priceDescription": "Fixed Price £220,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 2,
-        "id": "efa8f269984707660e1df725b42f8798"
-    },
-    {
         "url": "https://www.sspc.co.uk/14-3-East-Pilton-Farm-Crescent-Edinburgh-EH5-2GH-2-Bedroom-Ground-Floor-Flat-ESPC",
         "address": "14/3 East Pilton Farm Crescent, Edinburgh EH5 2GH",
         "priceDescription": "Fixed Price £220,000",
         "summary": "Ground Floor Flat",
         "bedrooms": 2,
         "id": "4880da1b29caed0fd6be616ea5ca07d1"
+    },
+    {
+        "url": "https://www.sspc.co.uk/167-7-Slateford-Road-EDINBURGH-EH14-1PB-2-Bedroom-First-Floor-Flat-ESPC",
+        "address": "167/7 Slateford Road, EDINBURGH EH14 1PB",
+        "priceDescription": "Fixed Price £220,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 2,
+        "id": "efa8f269984707660e1df725b42f8798"
     },
     {
         "url": "https://www.sspc.co.uk/Flat-4-1-North-Pilrig-Heights-EH6-5BS-2-Bedroom-Ground-Floor-Flat-ESPC",
@@ -2464,20 +2432,20 @@
         "id": "231fb3d69802f69505381885446341b9"
     },
     {
+        "url": "https://www.sspc.co.uk/55-(6F2)-Niddry-Street-EDINBURGH-EH1-1LG-1-Bedroom-Sixth-Floor-Flat-ESPC",
+        "address": "55 (6F2) Niddry Street, EDINBURGH EH1 1LG",
+        "priceDescription": "Offers over £220,000",
+        "summary": "Sixth Floor Flat",
+        "bedrooms": 1,
+        "id": "141442f527a3c9c8724a2eeb021cd9af"
+    },
+    {
         "url": "https://www.sspc.co.uk/36-8-Lochrin-Buildings-EDINBURGH-EH3-9ND-2-Bedroom-Third-Floor-Flat-ESPC",
         "address": "36/8 Lochrin Buildings, EDINBURGH EH3 9ND",
         "priceDescription": "Offers over £220,000",
         "summary": "Third Floor Flat",
         "bedrooms": 2,
         "id": "46dc6b00a311c1584ff76350d0c9f8e0"
-    },
-    {
-        "url": "https://www.sspc.co.uk/1D-Hillwood-Place-South-Queensferry-EH30-9PR-2-Bedroom-Top-Floor-Flat-ESPC",
-        "address": "1D Hillwood Place, South Queensferry EH30 9PR",
-        "priceDescription": "Fixed Price £220,000",
-        "summary": "Top Floor Flat",
-        "bedrooms": 2,
-        "id": "368f6ac93377d3a13afb52e6bd9f330b"
     },
     {
         "url": "https://www.sspc.co.uk/16-Restalrig-Gardens-Edinburgh-EH7-6HZ-2-Bedroom-Lower-Flat-ESPC",
@@ -2528,12 +2496,12 @@
         "id": "04471a868f6578e945404bbefd813366"
     },
     {
-        "url": "https://www.sspc.co.uk/17-13-Johns-Place-Leith-Links-Edinburgh-EH6-7EN-2-Bedroom-First-Floor-Flat-ESPC",
-        "address": "17/13 Johns Place, Leith Links, Edinburgh EH6 7EN",
+        "url": "https://www.sspc.co.uk/1D-Hillwood-Place-South-Queensferry-EH30-9PR-2-Bedroom-Top-Floor-Flat-ESPC",
+        "address": "1D Hillwood Place, South Queensferry EH30 9PR",
         "priceDescription": "Fixed Price £215,000",
-        "summary": "First Floor Flat",
+        "summary": "Top Floor Flat",
         "bedrooms": 2,
-        "id": "07badaa160224bc9a090ba30ecd9195c"
+        "id": "368f6ac93377d3a13afb52e6bd9f330b"
     },
     {
         "url": "https://www.sspc.co.uk/56-10-Belford-Road-Edinburgh-EH4-3BR-1-Bedroom-Third-Floor-Flat-ESPC",
@@ -2552,20 +2520,20 @@
         "id": "21bbe76a0037c324f4139f91292725c9"
     },
     {
-        "url": "https://www.sspc.co.uk/67-30-Giles-Street-Leith-Edinburgh-EH6-6DD-2-Bedroom-Second-Floor-Flat-ESPC",
-        "address": "67/30 Giles Street, Leith, Edinburgh EH6 6DD",
-        "priceDescription": "Offers over £210,000",
-        "summary": "Second Floor Flat",
-        "bedrooms": 2,
-        "id": "3feb8ef168e45de0da303771113a8553"
-    },
-    {
         "url": "https://www.sspc.co.uk/5-2-Liddesdale-Place-Stockbridge-Edinburgh-EH3-5JW-1-Bedroom-Ground-Floor-Flat-ESPC",
         "address": "5/2 Liddesdale Place, Stockbridge, Edinburgh EH3 5JW",
         "priceDescription": "Offers over £210,000",
         "summary": "Ground Floor Flat",
         "bedrooms": 1,
         "id": "ddcd7018f3fbbe05ac9f12710a6c98ae"
+    },
+    {
+        "url": "https://www.sspc.co.uk/67-30-Giles-Street-Leith-Edinburgh-EH6-6DD-2-Bedroom-Second-Floor-Flat-ESPC",
+        "address": "67/30 Giles Street, Leith, Edinburgh EH6 6DD",
+        "priceDescription": "Offers over £210,000",
+        "summary": "Second Floor Flat",
+        "bedrooms": 2,
+        "id": "3feb8ef168e45de0da303771113a8553"
     },
     {
         "url": "https://www.sspc.co.uk/13-Dalgety-Street-EDINBURGH-EH7-5UN-2-Bedroom-Maindoor-Flat-ESPC",
@@ -2582,6 +2550,22 @@
         "summary": "Ground Floor Flat",
         "bedrooms": 2,
         "id": "c39f0aa45551b7559eb9c15541f9c5c6"
+    },
+    {
+        "url": "https://www.sspc.co.uk/154-1-Brunton-Gardens-Hillside-EH7-5ER-1-Bedroom-Ground-Floor-Flat-ESPC",
+        "address": "154/1 Brunton Gardens, Hillside EH7 5ER",
+        "priceDescription": "Fixed Price £210,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 1,
+        "id": "43a48d5026f1f0c80346132f56814bbf"
+    },
+    {
+        "url": "https://www.sspc.co.uk/17-13-Johns-Place-Leith-Links-Edinburgh-EH6-7EN-2-Bedroom-First-Floor-Flat-ESPC",
+        "address": "17/13 Johns Place, Leith Links, Edinburgh EH6 7EN",
+        "priceDescription": "Offers over £210,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 2,
+        "id": "07badaa160224bc9a090ba30ecd9195c"
     },
     {
         "url": "https://www.sspc.co.uk/Lothian-House-124-37-Lothian-Road-Fountainbridge-Edinburgh-EH3-9DD-1-Bedroom-Third-Floor-Flat-ESPC",
@@ -2606,14 +2590,6 @@
         "summary": "Ground Floor Flat",
         "bedrooms": 1,
         "id": "1506239703634d40c36e2eaf7a37d3e3"
-    },
-    {
-        "url": "https://www.sspc.co.uk/154-1-Brunton-Gardens-Hillside-EH7-5ER-1-Bedroom-Ground-Floor-Flat-ESPC",
-        "address": "154/1 Brunton Gardens, Hillside EH7 5ER",
-        "priceDescription": "Fixed Price £210,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 1,
-        "id": "43a48d5026f1f0c80346132f56814bbf"
     },
     {
         "url": "https://www.sspc.co.uk/378-Perth-Road-Dundee-DD2-1EN-3-Bedroom-First-Floor-Flat-TSPC",
@@ -2720,14 +2696,6 @@
         "id": "f2a27f6d6ced9942b0feba04c842fbf7"
     },
     {
-        "url": "https://www.sspc.co.uk/10-10-Bernard-Street-Leith-Edinburgh-EH6-6PP-1-Bedroom-Flat-ESPC",
-        "address": "10/10 Bernard Street, Leith, Edinburgh EH6 6PP",
-        "priceDescription": "Offers over £200,000",
-        "summary": "Flat",
-        "bedrooms": 1,
-        "id": "e40971ff942784147a3cb39fbe876deb"
-    },
-    {
         "url": "https://www.sspc.co.uk/Flat-9-4-Hesperus-Crossway-Edinburgh-EH5-1GH-2-Bedroom-Flat-ESPC",
         "address": "Flat 9 4 Hesperus Crossway, Edinburgh EH5 1GH",
         "priceDescription": "Offers over £200,000",
@@ -2736,12 +2704,12 @@
         "id": "9a3993094ae904e24f851703c90a3696"
     },
     {
-        "url": "https://www.sspc.co.uk/14-Broomhouse-Street-South-EDINBURGH-EH11-3TJ-3-Bedroom-Lower-Flat-ESPC",
-        "address": "14 Broomhouse Street South, EDINBURGH EH11 3TJ",
+        "url": "https://www.sspc.co.uk/10-10-Bernard-Street-Leith-Edinburgh-EH6-6PP-1-Bedroom-Flat-ESPC",
+        "address": "10/10 Bernard Street, Leith, Edinburgh EH6 6PP",
         "priceDescription": "Offers over £200,000",
-        "summary": "Lower Flat",
-        "bedrooms": 3,
-        "id": "4945082f33066c6bc33264767ed54700"
+        "summary": "Flat",
+        "bedrooms": 1,
+        "id": "e40971ff942784147a3cb39fbe876deb"
     },
     {
         "url": "https://www.sspc.co.uk/21-(4F3)-Rossie-Place-Edinburgh-EH7-5SD-1-Bedroom-Top-Floor-Flat-ESPC",
@@ -2752,6 +2720,14 @@
         "id": "c00b6d56882f17153df550e80f219ac2"
     },
     {
+        "url": "https://www.sspc.co.uk/14-Broomhouse-Street-South-EDINBURGH-EH11-3TJ-3-Bedroom-Lower-Flat-ESPC",
+        "address": "14 Broomhouse Street South, EDINBURGH EH11 3TJ",
+        "priceDescription": "Offers over £200,000",
+        "summary": "Lower Flat",
+        "bedrooms": 3,
+        "id": "4945082f33066c6bc33264767ed54700"
+    },
+    {
         "url": "https://www.sspc.co.uk/Lower-Newstead-Ancaster-Road-Crieff-PH7-4AL-3-Bedroom-First-Floor-Flat-PSPC",
         "address": "Lower Newstead, Ancaster Road, Crieff PH7 4AL",
         "priceDescription": "Offers Over £200,000",
@@ -2760,20 +2736,20 @@
         "id": "e61ae0133eb002c9d74e08c54e396741"
     },
     {
-        "url": "https://www.sspc.co.uk/32a-Albany-Terrace-Dundee-DD3-6HS-4-Bedroom-First-and-Second-Floor-Flat-TSPC",
-        "address": "32a Albany Terrace, Dundee DD3 6HS",
-        "priceDescription": "Offers Over £200,000",
-        "summary": "First & Second Floor Flat",
-        "bedrooms": 4,
-        "id": "25e56a36181a5e395d1f1391825634ee"
-    },
-    {
         "url": "https://www.sspc.co.uk/73C-Blackness-Road-Dundee-DD1-5PD-3-Bedroom-Second-Floor-Flat-TSPC",
         "address": "73C Blackness Road, Dundee DD1 5PD",
         "priceDescription": "Fixed £200,000",
         "summary": "Second Floor Flat",
         "bedrooms": 3,
         "id": "0dfb50e66c6fad940db70aeac8019e01"
+    },
+    {
+        "url": "https://www.sspc.co.uk/32a-Albany-Terrace-Dundee-DD3-6HS-4-Bedroom-First-and-Second-Floor-Flat-TSPC",
+        "address": "32a Albany Terrace, Dundee DD3 6HS",
+        "priceDescription": "Offers Over £200,000",
+        "summary": "First & Second Floor Flat",
+        "bedrooms": 4,
+        "id": "25e56a36181a5e395d1f1391825634ee"
     },
     {
         "url": "https://www.sspc.co.uk/25-1-South-Elixa-Place-Willowbrae-Edinburgh-EH8-7PG-2-Bedroom-Ground-Floor-Flat-ESPC",
@@ -2824,20 +2800,20 @@
         "id": "bbeba704b318d00894822f8c040ffb42"
     },
     {
-        "url": "https://www.sspc.co.uk/Investment-Portfolio-High-Street-Jedburgh-TD8-6AQ-2-Bedroom-Flat-ESPC",
-        "address": "Investment Portfolio High Street Jedburgh TD8 6AQ",
-        "priceDescription": "Offers over £195,000",
-        "summary": "Flat",
-        "bedrooms": 2,
-        "id": "2a4049a65772b249e8d830007433e39b"
-    },
-    {
         "url": "https://www.sspc.co.uk/8-The-Depot-Winterthur-Lane-DUNFERMLINE-KY12-9FY-2-Bedroom-Second-Floor-Flat-ESPC",
         "address": "8 The Depot, Winterthur Lane, DUNFERMLINE KY12 9FY",
         "priceDescription": "Fixed Price £195,000",
         "summary": "Second Floor Flat",
         "bedrooms": 2,
         "id": "a3f2e46951d65f3e3eaf6f3988cb4405"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Investment-Portfolio-High-Street-Jedburgh-TD8-6AQ-2-Bedroom-Flat-ESPC",
+        "address": "Investment Portfolio High Street Jedburgh TD8 6AQ",
+        "priceDescription": "Offers over £195,000",
+        "summary": "Flat",
+        "bedrooms": 2,
+        "id": "2a4049a65772b249e8d830007433e39b"
     },
     {
         "url": "https://www.sspc.co.uk/Flat-B14-17-The-Hub-Hawkhill-Dundee-DD1-5DX-5-Bedroom-Second-Floor-Flat-TSPC",
@@ -2878,14 +2854,6 @@
         "summary": "Ground Floor Flat",
         "bedrooms": 2,
         "id": "20861fdeda71112cfaed9c5ab8de87bc"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Flat-6-30-Brown-Street-Broughty-Ferry-DD5-1EJ-2-Bedroom-Second-Floor-Flat-TSPC",
-        "address": "Flat 6, 30 Brown Street, Broughty Ferry  DD5 1EJ",
-        "priceDescription": "Offers Over £190,000",
-        "summary": "Second Floor Flat",
-        "bedrooms": 2,
-        "id": "127e5eb106004364c88cbcb4a26fe253"
     },
     {
         "url": "https://www.sspc.co.uk/82-Braes-Of-Gray-Road-Dundee-DD2-5FQ-3-Bedroom-Top-Floor-Flat-TSPC",
@@ -2992,6 +2960,22 @@
         "id": "f9987db93ab9f0d6552ce03822d13bfd"
     },
     {
+        "url": "https://www.sspc.co.uk/Flat-B5-The-Hub-17-Hawkhill-Dundee-DD1-5DL-4-Bedroom-Ground-Floor-Flat-TSPC",
+        "address": "Flat B5 The Hub, 17 Hawkhill, Dundee DD1 5DL",
+        "priceDescription": "Offers Over £185,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 4,
+        "id": "d76b99ec7ce3901b811c47000de271ff"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Flat-6-30-Brown-Street-Broughty-Ferry-DD5-1EJ-2-Bedroom-Second-Floor-Flat-TSPC",
+        "address": "Flat 6, 30 Brown Street, Broughty Ferry  DD5 1EJ",
+        "priceDescription": "Offers Over £185,000",
+        "summary": "Second Floor Flat",
+        "bedrooms": 2,
+        "id": "127e5eb106004364c88cbcb4a26fe253"
+    },
+    {
         "url": "https://www.sspc.co.uk/33-Queen-Street-Newport-on-Tay-DD6-8BD-2-Bedroom-Top-Floor-Flat-TSPC",
         "address": "33 Queen Street, Newport-on-Tay DD6 8BD",
         "priceDescription": "Offers Over £185,000",
@@ -3014,14 +2998,6 @@
         "summary": "Top Floor Flat",
         "bedrooms": 3,
         "id": "4f3b55a6082de6afeb80660b56b78b8a"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Flat-B5-The-Hub-17-Hawkhill-Dundee-DD1-5DL-4-Bedroom-Ground-Floor-Flat-TSPC",
-        "address": "Flat B5 The Hub, 17 Hawkhill, Dundee DD1 5DL",
-        "priceDescription": "Offers Over £185,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 4,
-        "id": "d76b99ec7ce3901b811c47000de271ff"
     },
     {
         "url": "https://www.sspc.co.uk/273B-North-High-Street-MUSSELBURGH-EH21-6BQ-2-Bedroom-Ground-Floor-Flat-ESPC",
@@ -3096,22 +3072,6 @@
         "id": "81ce13018747439edfaafda16051f00c"
     },
     {
-        "url": "https://www.sspc.co.uk/45-Regents-House-Smillie-Court-Dundee-DD3-6TP-2-Bedroom-Second-and-Third-Floor-Flat-TSPC",
-        "address": "45 Regents House, Smillie Court, Dundee DD3 6TP",
-        "priceDescription": "Offers Over £180,000",
-        "summary": "Second & Third Floor Flat",
-        "bedrooms": 2,
-        "id": "735f86040b28ec831a7dd3dbb090b681"
-    },
-    {
-        "url": "https://www.sspc.co.uk/3-L-51-Blackness-Avenue-Dundee-DD2-1EY-2-Bedroom-Top-Floor-Flat-TSPC",
-        "address": "3/L, 51 Blackness Avenue, Dundee DD2 1EY",
-        "priceDescription": "Offers Over £180,000",
-        "summary": "Top Floor Flat",
-        "bedrooms": 2,
-        "id": "518d83b53607682cdbccb641b4444fd6"
-    },
-    {
         "url": "https://www.sspc.co.uk/Flat-J-Windsor-Court-53-Church-Street-Broughty-Ferry-DD5-1EU-2-Bedroom-Top-Floor-Flat-TSPC",
         "address": "Flat J, Windsor Court, 53 Church Street, Broughty Ferry DD5 1EU",
         "priceDescription": "Offers Over £180,000",
@@ -3126,6 +3086,22 @@
         "summary": "Top Floor Flat",
         "bedrooms": 2,
         "id": "0bf110b8b0f77a336cb8b782978962ff"
+    },
+    {
+        "url": "https://www.sspc.co.uk/3-L-51-Blackness-Avenue-Dundee-DD2-1EY-2-Bedroom-Top-Floor-Flat-TSPC",
+        "address": "3/L, 51 Blackness Avenue, Dundee DD2 1EY",
+        "priceDescription": "Offers Over £180,000",
+        "summary": "Top Floor Flat",
+        "bedrooms": 2,
+        "id": "518d83b53607682cdbccb641b4444fd6"
+    },
+    {
+        "url": "https://www.sspc.co.uk/45-Regents-House-Smillie-Court-Dundee-DD3-6TP-2-Bedroom-Second-and-Third-Floor-Flat-TSPC",
+        "address": "45 Regents House, Smillie Court, Dundee DD3 6TP",
+        "priceDescription": "Offers Over £180,000",
+        "summary": "Second & Third Floor Flat",
+        "bedrooms": 2,
+        "id": "735f86040b28ec831a7dd3dbb090b681"
     },
     {
         "url": "https://www.sspc.co.uk/Flat-17-The-Albion-Building-60-Ingram-Street-G1-1EX-1-Bedroom-Flat-ESPC",
@@ -3152,14 +3128,6 @@
         "id": "84b43b006196713874bc501412efa703"
     },
     {
-        "url": "https://www.sspc.co.uk/21b-Melbourne-Place-North-Berwick-EH39-4JR-1-Bedroom-Flat-ESPC",
-        "address": "21b, Melbourne Place, North Berwick EH39 4JR",
-        "priceDescription": "Fixed Price £175,000",
-        "summary": "Flat",
-        "bedrooms": 1,
-        "id": "dc97b6180c17ba95921f66220386cd87"
-    },
-    {
         "url": "https://www.sspc.co.uk/Fernycrag-21-Stewart-Street-Kirn-DUNOON-PA23-8DS-3-Bedroom-Lower-Flat-ESPC",
         "address": "Fernycrag, 21 Stewart Street, Kirn, DUNOON PA23 8DS",
         "priceDescription": "Offers over £175,000",
@@ -3174,6 +3142,14 @@
         "summary": "Upper Flat",
         "bedrooms": 3,
         "id": "262a088e6fb6c3a86c34d03e2872640e"
+    },
+    {
+        "url": "https://www.sspc.co.uk/21b-Melbourne-Place-North-Berwick-EH39-4JR-1-Bedroom-Flat-ESPC",
+        "address": "21b, Melbourne Place, North Berwick EH39 4JR",
+        "priceDescription": "Fixed Price £175,000",
+        "summary": "Flat",
+        "bedrooms": 1,
+        "id": "dc97b6180c17ba95921f66220386cd87"
     },
     {
         "url": "https://www.sspc.co.uk/25A-Shepherds-Loan-Dundee-DD2-1AW-2-Bedroom-Flat-ESPC",
@@ -3200,12 +3176,12 @@
         "id": "d52cf67a96388e7c1f3ee1151c21f8c9"
     },
     {
-        "url": "https://www.sspc.co.uk/1-L-28-South-Tay-Street-Dundee-DD1-1PD-2-Bedroom-First-and-Second-Floor-Flat-TSPC",
-        "address": "1/L, 28 South Tay Street, Dundee DD1 1PD",
-        "priceDescription": "Offers Over £175,000",
-        "summary": "First & Second Floor Flat",
+        "url": "https://www.sspc.co.uk/Regents-House-Flat-6-1-Smillie-Court-Dundee-DD3-6TP-2-Bedroom-Ground-Floor-Flat-TSPC",
+        "address": "Regents House, Flat 6, 1 Smillie Court, Dundee DD3 6TP",
+        "priceDescription": "Fixed £175,000",
+        "summary": "Ground Floor Flat",
         "bedrooms": 2,
-        "id": "2630beb6d0cd84f9b6eba9db6689b408"
+        "id": "c51673ea0666730401fd96435177be40"
     },
     {
         "url": "https://www.sspc.co.uk/19-Cedar-Grove-Broughty-Ferry-DD5-3BW-2-Bedroom-First-Floor-Flat-TSPC",
@@ -3216,12 +3192,12 @@
         "id": "9fc97171625de89385895e354334f674"
     },
     {
-        "url": "https://www.sspc.co.uk/Regents-House-Flat-6-1-Smillie-Court-Dundee-DD3-6TP-2-Bedroom-Ground-Floor-Flat-TSPC",
-        "address": "Regents House, Flat 6, 1 Smillie Court, Dundee DD3 6TP",
-        "priceDescription": "Fixed £175,000",
-        "summary": "Ground Floor Flat",
+        "url": "https://www.sspc.co.uk/1-L-28-South-Tay-Street-Dundee-DD1-1PD-2-Bedroom-First-and-Second-Floor-Flat-TSPC",
+        "address": "1/L, 28 South Tay Street, Dundee DD1 1PD",
+        "priceDescription": "Offers Over £175,000",
+        "summary": "First & Second Floor Flat",
         "bedrooms": 2,
-        "id": "c51673ea0666730401fd96435177be40"
+        "id": "2630beb6d0cd84f9b6eba9db6689b408"
     },
     {
         "url": "https://www.sspc.co.uk/Flat-2-2-Hyndford-Street-Dundee-DD2-1HP-3-Bedroom-First-Floor-Flat-TSPC",
@@ -3256,14 +3232,6 @@
         "id": "0bae269250b70e9f4043d6801ddfcaff"
     },
     {
-        "url": "https://www.sspc.co.uk/9-1-Cowgill-Gardens-Edinburgh-EH16-6FP-1-Bedroom-Ground-Floor-Flat-ESPC",
-        "address": "9/1 Cowgill Gardens, Edinburgh EH16 6FP",
-        "priceDescription": "Fixed Price £172,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 1,
-        "id": "8abe8f0664ad42e75773e80c72199a9f"
-    },
-    {
         "url": "https://www.sspc.co.uk/2-Dingleton-Apartments-TD6-9HJ-2-Bedroom-Ground-Floor-Flat-BSPC",
         "address": "2 Dingleton Apartments TD6 9HJ",
         "priceDescription": "Offers Over £170,000",
@@ -3296,20 +3264,20 @@
         "id": "491abbd1e0704a450ea4fce96da79a54"
     },
     {
-        "url": "https://www.sspc.co.uk/36-Thorter-Row-Dundee-DD1-3BW-2-Bedroom-First-Floor-Flat-TSPC",
-        "address": "36 Thorter Row, Dundee DD1 3BW",
-        "priceDescription": "Offers Over £170,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 2,
-        "id": "c9fb52f4573c74e34bc29a3f548fd7bf"
-    },
-    {
         "url": "https://www.sspc.co.uk/Flat-6-Woodville-House-Arbroath-DD11-3RH-3-Bedroom-First-Floor-Flat-TSPC",
         "address": "Flat 6 Woodville House, Arbroath DD11 3RH",
         "priceDescription": "Offers Over £170,000",
         "summary": "First Floor Flat",
         "bedrooms": 3,
         "id": "04839a6f3b632b60214270275b7a5825"
+    },
+    {
+        "url": "https://www.sspc.co.uk/36-Thorter-Row-Dundee-DD1-3BW-2-Bedroom-First-Floor-Flat-TSPC",
+        "address": "36 Thorter Row, Dundee DD1 3BW",
+        "priceDescription": "Fixed £170,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 2,
+        "id": "c9fb52f4573c74e34bc29a3f548fd7bf"
     },
     {
         "url": "https://www.sspc.co.uk/1-1-7-Friarshall-Gate-Paisley-PA2-6LD-2-Bedroom-First-Floor-Flat-ESPC",
@@ -3336,14 +3304,6 @@
         "id": "93a5ad4c18dbc2bc2f32adfa4829c785"
     },
     {
-        "url": "https://www.sspc.co.uk/1-1-St-Aidens-Road-Greendykes-Edinburgh-EH16-4UR-1-Bedroom-Ground-Floor-Flat-ESPC",
-        "address": "1/1 St Aidens Road, Greendykes, Edinburgh EH16 4UR",
-        "priceDescription": "Fixed Price £165,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 1,
-        "id": "93e0bcf6720bf61cc229076bd0efbfd8"
-    },
-    {
         "url": "https://www.sspc.co.uk/23-1-Burnbrae-Place-Edinburgh-EH12-8AR-1-Bedroom-Ground-Floor-Flat-ESPC",
         "address": "23/1 Burnbrae Place, Edinburgh EH12 8AR",
         "priceDescription": "Offers over £165,000",
@@ -3352,20 +3312,12 @@
         "id": "809e536fcc431d3246e915aeffd6e7a3"
     },
     {
-        "url": "https://www.sspc.co.uk/4-4-Salmond-Place-Abbeyhill-EH7-5ST-1-Bedroom-Ground-Floor-Flat-ESPC",
-        "address": "4/4 Salmond Place, Abbeyhill EH7 5ST",
+        "url": "https://www.sspc.co.uk/1-1-St-Aidens-Road-Greendykes-Edinburgh-EH16-4UR-1-Bedroom-Ground-Floor-Flat-ESPC",
+        "address": "1/1 St Aidens Road, Greendykes, Edinburgh EH16 4UR",
         "priceDescription": "Fixed Price £165,000",
         "summary": "Ground Floor Flat",
         "bedrooms": 1,
-        "id": "a92f629ce23b2245c12d7ae876815e8e"
-    },
-    {
-        "url": "https://www.sspc.co.uk/116-Dewar-Street-DUNFERMLINE-KY12-8AA-2-Bedroom-Ground-Floor-Flat-ESPC",
-        "address": "116 Dewar Street, DUNFERMLINE KY12 8AA",
-        "priceDescription": "Offers over £165,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 2,
-        "id": "7ace46bc38c8f246fb4a596773efbe68"
+        "id": "93e0bcf6720bf61cc229076bd0efbfd8"
     },
     {
         "url": "https://www.sspc.co.uk/Flat-2-13-Clockmill-Lane-EDINBURGH-EH8-8HY-1-Bedroom-Ground-Floor-Flat-ESPC",
@@ -3374,6 +3326,14 @@
         "summary": "Ground Floor Flat",
         "bedrooms": 1,
         "id": "d08dfbd2a55cb71d9833eff91e9ca80b"
+    },
+    {
+        "url": "https://www.sspc.co.uk/116-Dewar-Street-DUNFERMLINE-KY12-8AA-2-Bedroom-Ground-Floor-Flat-ESPC",
+        "address": "116 Dewar Street, DUNFERMLINE KY12 8AA",
+        "priceDescription": "Offers over £165,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 2,
+        "id": "7ace46bc38c8f246fb4a596773efbe68"
     },
     {
         "url": "https://www.sspc.co.uk/1F3-20-Glen-Street-Edinburgh-EH3-9JE-1-Bedroom-First-Floor-Flat-ESPC",
@@ -3392,20 +3352,28 @@
         "id": "3a076c598d20d4d39c2d281e4ae7648c"
     },
     {
-        "url": "https://www.sspc.co.uk/46-Dalhousie-Court-Links-Parade-Carnoustie-DD7-7JD-3-Bedroom-First-Floor-Flat-TSPC",
-        "address": "46 Dalhousie Court Links Parade, Carnoustie DD7 7JD",
-        "priceDescription": "Fixed £165,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 3,
-        "id": "efa52a9997dc90741c7e63f2163365c2"
-    },
-    {
         "url": "https://www.sspc.co.uk/68C-Dalkeith-Road-Dundee-DD4-7HE-2-Bedroom-Ground-Floor-Flat-TSPC",
         "address": "68C Dalkeith Road, Dundee DD4 7HE",
         "priceDescription": "Fixed £165,000",
         "summary": "Ground Floor Flat",
         "bedrooms": 2,
         "id": "ead7ae8633c9fda560a7cdc83a29ff54"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Flat-C-54-Seafield-Road-Dundee-DD1-4NW-2-Bedroom-First-Floor-Flat-TSPC",
+        "address": "Flat C, 54 Seafield Road, Dundee DD1 4NW",
+        "priceDescription": "Offers Over £165,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 2,
+        "id": "c53478ef547776c9828f70ab87c56686"
+    },
+    {
+        "url": "https://www.sspc.co.uk/46-Dalhousie-Court-Links-Parade-Carnoustie-DD7-7JD-3-Bedroom-First-Floor-Flat-TSPC",
+        "address": "46 Dalhousie Court Links Parade, Carnoustie DD7 7JD",
+        "priceDescription": "Fixed £165,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 3,
+        "id": "efa52a9997dc90741c7e63f2163365c2"
     },
     {
         "url": "https://www.sspc.co.uk/2-2-1-South-Park-Drive-Paisley-PA2-6JQ-2-Bedroom-Flat-ESPC",
@@ -3478,6 +3446,14 @@
         "summary": "Second Floor Flat",
         "bedrooms": 3,
         "id": "8befa03a57ecd0b1863fbeec9b484643"
+    },
+    {
+        "url": "https://www.sspc.co.uk/50-Castle-Street-Broughty-Ferry-DD5-2EJ-2-Bedroom-First-Floor-Flat-TSPC",
+        "address": "50 Castle Street, Broughty Ferry DD5 2EJ",
+        "priceDescription": "Offers Over £160,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 2,
+        "id": "1bfba3b76985c7e13491d80a0e838de9"
     },
     {
         "url": "https://www.sspc.co.uk/Flat-5-Inverpark-42-Millgate-Loan-Arbroath-DD11-1PH-2-Bedroom-Second-Floor-Flat-TSPC",
@@ -3656,14 +3632,6 @@
         "id": "41d38d3f61a6a3c18d4c1987f6e88ade"
     },
     {
-        "url": "https://www.sspc.co.uk/87-1-Restalrig-Road-South-Edinburgh-EH7-6JD-1-Bedroom-First-Floor-Flat-ESPC",
-        "address": "87/1 Restalrig Road South, Edinburgh EH7 6JD",
-        "priceDescription": "Fixed Price £145,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 1,
-        "id": "85124695b019fcbbc0eb7e412b6a03d3"
-    },
-    {
         "url": "https://www.sspc.co.uk/Flat-1-43-Castle-Street-KIRKCUDBRIGHT-DG6-4JD-3-Bedroom-First-Floor-Flat-ESPC",
         "address": "Flat 1, 43 Castle Street, KIRKCUDBRIGHT DG6 4JD",
         "priceDescription": "Offers over £145,000",
@@ -3672,12 +3640,12 @@
         "id": "c70946e787ab503928dc2a5f2f954aca"
     },
     {
-        "url": "https://www.sspc.co.uk/188-6-Restalrig-Road-South-Restalrig-EH7-6EA-1-Bedroom-Top-Floor-Flat-ESPC",
-        "address": "188/6 Restalrig Road South, Restalrig EH7 6EA",
+        "url": "https://www.sspc.co.uk/87-1-Restalrig-Road-South-Edinburgh-EH7-6JD-1-Bedroom-First-Floor-Flat-ESPC",
+        "address": "87/1 Restalrig Road South, Edinburgh EH7 6JD",
         "priceDescription": "Fixed Price £145,000",
-        "summary": "Top Floor Flat",
+        "summary": "First Floor Flat",
         "bedrooms": 1,
-        "id": "784d4e07760b328b494bd3f179796998"
+        "id": "85124695b019fcbbc0eb7e412b6a03d3"
     },
     {
         "url": "https://www.sspc.co.uk/9-4-(or-1F2)-Firrhill-Loan-EDINBURGH-EH13-9EJ-2-Bedroom-First-Floor-Flat-ESPC",
@@ -3688,6 +3656,14 @@
         "id": "7c97372f4acb41e1e9a426a3844a76e5"
     },
     {
+        "url": "https://www.sspc.co.uk/188-6-Restalrig-Road-South-Restalrig-EH7-6EA-1-Bedroom-Top-Floor-Flat-ESPC",
+        "address": "188/6 Restalrig Road South, Restalrig EH7 6EA",
+        "priceDescription": "Fixed Price £145,000",
+        "summary": "Top Floor Flat",
+        "bedrooms": 1,
+        "id": "784d4e07760b328b494bd3f179796998"
+    },
+    {
         "url": "https://www.sspc.co.uk/11-Kerfield-Court-Dryinghouse-Lane-Kelso-TD5-7BP-1-Bedroom-Ground-Floor-Flat-ESPC",
         "address": "11 Kerfield Court, Dryinghouse Lane, Kelso TD5 7BP",
         "priceDescription": "Offers over £145,000",
@@ -3696,28 +3672,20 @@
         "id": "944ff99d82fc12a8549ebb14103e55cc"
     },
     {
-        "url": "https://www.sspc.co.uk/30-Clerk-Street-Brechin-DD9-6AY-4-Bedroom-Top-Floor-Flat-TSPC",
-        "address": "30 Clerk Street, Brechin DD9 6AY",
-        "priceDescription": "Offers Over £145,000",
-        "summary": "Top Floor Flat",
-        "bedrooms": 4,
-        "id": "2ae138258810f7d76d23b4de5e5d24db"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Flat-11-Whittet-Court-5-Gowrie-Street-Dundee-DD2-1ES-2-Bedroom-First-Floor-Flat-TSPC",
-        "address": "Flat 11 Whittet Court, 5 Gowrie Street, Dundee DD2 1ES",
-        "priceDescription": "Offers Over £145,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 2,
-        "id": "155e7bb9cb11e4daa5eea26d428d160d"
-    },
-    {
         "url": "https://www.sspc.co.uk/30-Anderson-Court-Carnoustie-DD7-7GX-2-Bedroom-Top-Floor-Flat-TSPC",
         "address": "30 Anderson Court, Carnoustie DD7 7GX",
         "priceDescription": "Offers Over £145,000",
         "summary": "Top Floor Flat",
         "bedrooms": 2,
         "id": "3df1e3495a3dc73b544b88294e563163"
+    },
+    {
+        "url": "https://www.sspc.co.uk/30-Clerk-Street-Brechin-DD9-6AY-4-Bedroom-Top-Floor-Flat-TSPC",
+        "address": "30 Clerk Street, Brechin DD9 6AY",
+        "priceDescription": "Offers Over £145,000",
+        "summary": "Top Floor Flat",
+        "bedrooms": 4,
+        "id": "2ae138258810f7d76d23b4de5e5d24db"
     },
     {
         "url": "https://www.sspc.co.uk/1-6-53-Morrison-Street-Tradeston-G5-8LB-1-Bedroom-Flat-ESPC",
@@ -3784,14 +3752,6 @@
         "id": "8d4503995b9aeefc92174b9d01833812"
     },
     {
-        "url": "https://www.sspc.co.uk/4-Rosemount-Crieff-Road-Aberfeldy-PH15-2BJ-3-Bedroom-Top-Floor-Flat-PSPC",
-        "address": "4 Rosemount, Crieff Road, Aberfeldy PH15 2BJ",
-        "priceDescription": "Offers Over £140,000",
-        "summary": "Top Floor Flat",
-        "bedrooms": 3,
-        "id": "21e6cb3e2fbfa990eec95631c79557b6"
-    },
-    {
         "url": "https://www.sspc.co.uk/The-Store-House-The-Square-Blair-Atholl-PH18-5TQ-3-Bedroom-First-Floor-Flat-PSPC",
         "address": "The Store House, The Square, Blair Atholl PH18 5TQ",
         "priceDescription": "Offers Over £140,000",
@@ -3800,12 +3760,12 @@
         "id": "822b98959a5e1275925a8a769a4dff34"
     },
     {
-        "url": "https://www.sspc.co.uk/2-1-297-Hawkhill-Dundee-DD2-1DN-2-Bedroom-Second-Floor-Flat-TSPC",
-        "address": "2/1, 297 Hawkhill, Dundee DD2 1DN",
+        "url": "https://www.sspc.co.uk/4-Rosemount-Crieff-Road-Aberfeldy-PH15-2BJ-3-Bedroom-Top-Floor-Flat-PSPC",
+        "address": "4 Rosemount, Crieff Road, Aberfeldy PH15 2BJ",
         "priceDescription": "Offers Over £140,000",
-        "summary": "Second Floor Flat",
-        "bedrooms": 2,
-        "id": "90e86751d44b4955038628fe766c4364"
+        "summary": "Top Floor Flat",
+        "bedrooms": 3,
+        "id": "21e6cb3e2fbfa990eec95631c79557b6"
     },
     {
         "url": "https://www.sspc.co.uk/2-R-15-Union-Place-Dundee-DD2-1AA-2-Bedroom-Second-Floor-Flat-TSPC",
@@ -3816,12 +3776,12 @@
         "id": "edd7ac08154cfa8a299ca7d79e71388e"
     },
     {
-        "url": "https://www.sspc.co.uk/Flat-A-35-Abercorn-Street-Dundee-DD4-7FA-2-Bedroom-Ground-Floor-Flat-TSPC",
-        "address": "Flat A, 35 Abercorn Street, Dundee DD4 7FA",
+        "url": "https://www.sspc.co.uk/2-1-297-Hawkhill-Dundee-DD2-1DN-2-Bedroom-Second-Floor-Flat-TSPC",
+        "address": "2/1, 297 Hawkhill, Dundee DD2 1DN",
         "priceDescription": "Offers Over £140,000",
-        "summary": "Ground Floor Flat",
+        "summary": "Second Floor Flat",
         "bedrooms": 2,
-        "id": "016af482ef6753aac485554bdde9734c"
+        "id": "90e86751d44b4955038628fe766c4364"
     },
     {
         "url": "https://www.sspc.co.uk/31-Pleasance-Court-Dundee-DD1-5BB-2-Bedroom-Top-Floor-Flat-TSPC",
@@ -3896,20 +3856,20 @@
         "id": "a4dd58c471266643301df1a85f92e656"
     },
     {
-        "url": "https://www.sspc.co.uk/1-4-Restalrig-Circus-EDINBURGH-EH7-6HJ-2-Bedroom-Lower-Flat-ESPC",
-        "address": "1/4 Restalrig Circus, EDINBURGH EH7 6HJ",
-        "priceDescription": "Offers over £135,000",
-        "summary": "Lower Flat",
-        "bedrooms": 2,
-        "id": "2f26060310f1c34a756bf18c47eaa608"
-    },
-    {
         "url": "https://www.sspc.co.uk/12-1-Gilmerton-Dykes-Street-EDINBURGH-EH17-8JX-2-Bedroom-Flat-ESPC",
         "address": "12/1 Gilmerton Dykes Street, EDINBURGH EH17 8JX",
         "priceDescription": "Offers over £135,000",
         "summary": "Flat",
         "bedrooms": 2,
         "id": "96f46f7280d551e8c83e2dae31ceeca4"
+    },
+    {
+        "url": "https://www.sspc.co.uk/1-4-Restalrig-Circus-EDINBURGH-EH7-6HJ-2-Bedroom-Lower-Flat-ESPC",
+        "address": "1/4 Restalrig Circus, EDINBURGH EH7 6HJ",
+        "priceDescription": "Offers over £135,000",
+        "summary": "Lower Flat",
+        "bedrooms": 2,
+        "id": "2f26060310f1c34a756bf18c47eaa608"
     },
     {
         "url": "https://www.sspc.co.uk/90-Eldindean-Road-Bonnyrigg-EH19-2HP-1-Bedroom-Lower-Flat-ESPC",
@@ -3928,20 +3888,20 @@
         "id": "7d502ca1c29710316babcf22a9839caa"
     },
     {
-        "url": "https://www.sspc.co.uk/Main-Door-Corner-Apt-242-Blackness-Road-Dundee-DD2-1RR-2-Bedroom-Ground--Basement-Flat-TSPC",
-        "address": "Main Door Corner Apt, 242 Blackness Road, Dundee DD2 1RR",
-        "priceDescription": "Offers Over £135,000",
-        "summary": "Ground / Basement Flat",
-        "bedrooms": 2,
-        "id": "3518c4d57f6419faf4e0d1c8e0be8622"
-    },
-    {
         "url": "https://www.sspc.co.uk/3-L-6-Baxter-Park-Terrace-Dundee-DD4-6NL-2-Bedroom-Top-Floor-Flat-TSPC",
         "address": "3/L, 6 Baxter Park Terrace, Dundee DD4 6NL",
         "priceDescription": "Offers Over £135,000",
         "summary": "Top Floor Flat",
         "bedrooms": 2,
         "id": "5b03e7e269930791b052ffb6cabed06d"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Main-Door-Corner-Apt-242-Blackness-Road-Dundee-DD2-1RR-2-Bedroom-Ground--Basement-Flat-TSPC",
+        "address": "Main Door Corner Apt, 242 Blackness Road, Dundee DD2 1RR",
+        "priceDescription": "Offers Over £135,000",
+        "summary": "Ground / Basement Flat",
+        "bedrooms": 2,
+        "id": "3518c4d57f6419faf4e0d1c8e0be8622"
     },
     {
         "url": "https://www.sspc.co.uk/19-Pleasance-Court-Dundee-DD1-5BB-2-Bedroom-Third-Floor-Flat-TSPC",
@@ -4016,20 +3976,20 @@
         "id": "129d56706138a8df62423be7ee1e06f4"
     },
     {
-        "url": "https://www.sspc.co.uk/46-Main-Street-Kirkliston-EH29-9AA-1-Bedroom-Upper-Flat-ESPC",
-        "address": "46 Main Street, Kirkliston EH29 9AA",
-        "priceDescription": "Offers over £130,000",
-        "summary": "Upper Flat",
-        "bedrooms": 1,
-        "id": "7332d187715de93eb1a27d5958170a2e"
-    },
-    {
         "url": "https://www.sspc.co.uk/45-Hazeldean-Terrace-Edinburgh-EH16-5RT-2-Bedroom-Upper-Flat-ESPC",
         "address": "45 Hazeldean Terrace, Edinburgh EH16 5RT",
         "priceDescription": "Offers over £130,000",
         "summary": "Upper Flat",
         "bedrooms": 2,
         "id": "361689c5b422b0c8b79b2daae5d6e1a2"
+    },
+    {
+        "url": "https://www.sspc.co.uk/46-Main-Street-Kirkliston-EH29-9AA-1-Bedroom-Upper-Flat-ESPC",
+        "address": "46 Main Street, Kirkliston EH29 9AA",
+        "priceDescription": "Offers over £130,000",
+        "summary": "Upper Flat",
+        "bedrooms": 1,
+        "id": "7332d187715de93eb1a27d5958170a2e"
     },
     {
         "url": "https://www.sspc.co.uk/Lilybank-40-2-Weensland-Road-Hawick-TD9-9NP-2-Bedroom-Flat-ESPC",
@@ -4104,20 +4064,20 @@
         "id": "740a64e85f9b357d11c948348f9f06c4"
     },
     {
-        "url": "https://www.sspc.co.uk/112-Meigle-Street-TD1-1LP-3-Bedroom-First-Floor-Flat-BSPC",
-        "address": "112 Meigle Street TD1 1LP",
-        "priceDescription": "Guide Price £125,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 3,
-        "id": "b726d69e8463c63c7496168356f4c8a2"
-    },
-    {
         "url": "https://www.sspc.co.uk/71-Earlston-Road-TD1-2QR-2-Bedroom-First-Floor-Flat-BSPC",
         "address": "71 Earlston Road TD1 2QR",
         "priceDescription": "Guide Price £125,000",
         "summary": "First Floor Flat",
         "bedrooms": 2,
         "id": "dfcd1a4e4f4641b6303a33c926ee193e"
+    },
+    {
+        "url": "https://www.sspc.co.uk/112-Meigle-Street-TD1-1LP-3-Bedroom-First-Floor-Flat-BSPC",
+        "address": "112 Meigle Street TD1 1LP",
+        "priceDescription": "Guide Price £125,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 3,
+        "id": "b726d69e8463c63c7496168356f4c8a2"
     },
     {
         "url": "https://www.sspc.co.uk/17-4-St.-Katharine's-Loan-EDINBURGH-EH16-6QH-2-Bedroom-First-Floor-Flat-ESPC",
@@ -4160,36 +4120,12 @@
         "id": "4fafca660fdfb5496412fd9163281dd0"
     },
     {
-        "url": "https://www.sspc.co.uk/8-Lime-Street-Dundee-DD2-2AW-2-Bedroom-Ground-Floor-Flat-TSPC",
-        "address": "8 Lime Street, Dundee DD2 2AW",
-        "priceDescription": "Offers Over £125,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 2,
-        "id": "c0b7a1969b5aa873cd4fe629b1e30921"
-    },
-    {
         "url": "https://www.sspc.co.uk/56a-High-Street-Montrose-DD10-8JF-3-Bedroom-First-Floor-Flat-TSPC",
         "address": "56a High Street, Montrose DD10 8JF",
         "priceDescription": "Offers Over £125,000",
         "summary": "First Floor Flat",
         "bedrooms": 3,
         "id": "93772feeea3503d4503df5d8441a5fb5"
-    },
-    {
-        "url": "https://www.sspc.co.uk/17-West-Park-Road-Newport-on-Tay-DD6-8NP-2-Bedroom-First-Floor-Flat-TSPC",
-        "address": "17 West Park Road, Newport-on-Tay DD6 8NP",
-        "priceDescription": "Offers Over £125,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 2,
-        "id": "7ca463e10b01933efb9575c44cec65be"
-    },
-    {
-        "url": "https://www.sspc.co.uk/45-West-Park-Road-Newport-on-Tay-DD6-8NP-2-Bedroom-First-Floor-Flat-TSPC",
-        "address": "45 West Park Road, Newport-on-Tay DD6 8NP",
-        "priceDescription": "Offers Over £125,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 2,
-        "id": "d6cd310b092da416becf76b41c200388"
     },
     {
         "url": "https://www.sspc.co.uk/3-Martins-Lane-Brechin-DD9-6AS-3-Bedroom-First-and-Second-Floor-Flat-TSPC",
@@ -4200,12 +4136,28 @@
         "id": "0f2c1d51cce9d1d3ab815db7ebfc1790"
     },
     {
+        "url": "https://www.sspc.co.uk/8-Lime-Street-Dundee-DD2-2AW-2-Bedroom-Ground-Floor-Flat-TSPC",
+        "address": "8 Lime Street, Dundee DD2 2AW",
+        "priceDescription": "Offers Over £125,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 2,
+        "id": "c0b7a1969b5aa873cd4fe629b1e30921"
+    },
+    {
         "url": "https://www.sspc.co.uk/7-Glenagnes-Gardens-Dundee-DD2-2AG-2-Bedroom-Flat-TSPC",
         "address": "7 Glenagnes Gardens, Dundee DD2 2AG",
         "priceDescription": "Offers Over £125,000",
         "summary": "Flat",
         "bedrooms": 2,
         "id": "5e1787f0c480de7f1ac7125d550ade79"
+    },
+    {
+        "url": "https://www.sspc.co.uk/45-West-Park-Road-Newport-on-Tay-DD6-8NP-2-Bedroom-First-Floor-Flat-TSPC",
+        "address": "45 West Park Road, Newport-on-Tay DD6 8NP",
+        "priceDescription": "Offers Over £125,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 2,
+        "id": "d6cd310b092da416becf76b41c200388"
     },
     {
         "url": "https://www.sspc.co.uk/65-High-Street-Carnoustie-DD7-6AD-3-Bedroom-First-Floor-Flat-TSPC",
@@ -4216,12 +4168,12 @@
         "id": "fc616cc29ee3bfd1275c902682feb9d9"
     },
     {
-        "url": "https://www.sspc.co.uk/84-Kinghorne-Road-Dundee-DD3-6PU-2-Bedroom-Top-Floor-Flat-TSPC",
-        "address": "84 Kinghorne Road, Dundee DD3 6PU",
+        "url": "https://www.sspc.co.uk/17-West-Park-Road-Newport-on-Tay-DD6-8NP-2-Bedroom-First-Floor-Flat-TSPC",
+        "address": "17 West Park Road, Newport-on-Tay DD6 8NP",
         "priceDescription": "Offers Over £125,000",
-        "summary": "Top Floor Flat",
+        "summary": "First Floor Flat",
         "bedrooms": 2,
-        "id": "de1a995dd12b1cbc360fa1538c0de672"
+        "id": "7ca463e10b01933efb9575c44cec65be"
     },
     {
         "url": "https://www.sspc.co.uk/19-Closeburn-Terrace-65-Feus-Road-Perth-PH1-2AX-2-Bedroom-First-Floor-Flat-PSPC",
@@ -4232,6 +4184,14 @@
         "id": "0555fda1d38d9d4c43c9ee7798ff0709"
     },
     {
+        "url": "https://www.sspc.co.uk/27-Church-Street-TD1-3JL-2-Bedroom-Ground-Floor-Flat-BSPC",
+        "address": "27 Church Street TD1 3JL",
+        "priceDescription": "Guide Price £120,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 2,
+        "id": "07f5bcedd92ad3e6f819f9a35aa9a392"
+    },
+    {
         "url": "https://www.sspc.co.uk/3-2-Park-Terrace-TD9-9JP-3-Bedroom-First-Floor-Flat-BSPC",
         "address": "3/2, Park Terrace TD9 9JP",
         "priceDescription": "In the Region Of £120,000",
@@ -4240,12 +4200,12 @@
         "id": "62ec43161918b29b8360ed0a51913e02"
     },
     {
-        "url": "https://www.sspc.co.uk/27-Church-Street-TD1-3JL-2-Bedroom-Ground-Floor-Flat-BSPC",
-        "address": "27 Church Street TD1 3JL",
-        "priceDescription": "Guide Price £120,000",
-        "summary": "Ground Floor Flat",
+        "url": "https://www.sspc.co.uk/6-Johnstone-Court-Church-Street-PH7-3BA-2-Bedroom-Flat-PSPC",
+        "address": "6 Johnstone Court, Church Street PH7 3BA",
+        "priceDescription": "Offers Over £120,000",
+        "summary": "Flat",
         "bedrooms": 2,
-        "id": "07f5bcedd92ad3e6f819f9a35aa9a392"
+        "id": "c58ec73af6c5aa5a49c34c42e7157e05"
     },
     {
         "url": "https://www.sspc.co.uk/2-R-89-Arbroath-Road-Dundee-DD4-6HJ-2-Bedroom-Second-Floor-Flat-TSPC",
@@ -4256,6 +4216,14 @@
         "id": "79605c7fd0d548fbf7c7317497f84aab"
     },
     {
+        "url": "https://www.sspc.co.uk/8-Greenbourne-Gardens-Monifieth-DD5-4EU-2-Bedroom-Top-Floor-Flat-TSPC",
+        "address": "8 Greenbourne Gardens, Monifieth DD5 4EU",
+        "priceDescription": "Fixed £120,000",
+        "summary": "Top Floor Flat",
+        "bedrooms": 2,
+        "id": "45eade68bb719d44901070fa9c30e9c8"
+    },
+    {
         "url": "https://www.sspc.co.uk/21-Regent-Place-West-Ferry-Broughty-Ferry-DD5-1AT-1-Bedroom-Ground-Floor-Flat-TSPC",
         "address": "21 Regent Place, West Ferry, Broughty Ferry DD5 1AT",
         "priceDescription": "Offers Over £120,000",
@@ -4264,12 +4232,12 @@
         "id": "2c8c79c405310b6a97fbb62b42e87d9c"
     },
     {
-        "url": "https://www.sspc.co.uk/8-Greenbourne-Gardens-Monifieth-DD5-4EU-2-Bedroom-Top-Floor-Flat-TSPC",
-        "address": "8 Greenbourne Gardens, Monifieth DD5 4EU",
-        "priceDescription": "Fixed £120,000",
+        "url": "https://www.sspc.co.uk/68-Ogilvy-Street-Tayport-DD6-9NL-2-Bedroom-Top-Floor-Flat-TSPC",
+        "address": "68 Ogilvy Street, Tayport DD6 9NL",
+        "priceDescription": "Offers Over £120,000",
         "summary": "Top Floor Flat",
         "bedrooms": 2,
-        "id": "45eade68bb719d44901070fa9c30e9c8"
+        "id": "5606716aec3cabe206497a3a1034b959"
     },
     {
         "url": "https://www.sspc.co.uk/Flat-2-73b-Main-Street-Davidson-Mains-EH4-5AD-1-Bedroom-First-Floor-Flat-ESPC",
@@ -4328,22 +4296,6 @@
         "id": "a81508fe9ee22d4911f2e068bba7e121"
     },
     {
-        "url": "https://www.sspc.co.uk/22-Alastair-Soutar-Crescent-Invergowrie-DD2-5BN-1-Bedroom-First-Floor-Flat-TSPC",
-        "address": "22 Alastair Soutar Crescent, Invergowrie DD2 5BN",
-        "priceDescription": "Offers Over £115,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 1,
-        "id": "d21a047385536450d6ac1296d98da4f0"
-    },
-    {
-        "url": "https://www.sspc.co.uk/11-Albert-Place-Brechin-DD9-7DJ-4-Bedroom-First-and-Second-Floor-Flat-TSPC",
-        "address": "11 Albert Place, Brechin DD9 7DJ",
-        "priceDescription": "Offers Over £115,000",
-        "summary": "First & Second Floor Flat",
-        "bedrooms": 4,
-        "id": "dcfc090689e3535c36fd5ae5cb4ce739"
-    },
-    {
         "url": "https://www.sspc.co.uk/4-Alva-Square-Dundee-DD3-6NR-2-Bedroom-First-and-Second-Floor-Flat-TSPC",
         "address": "4 Alva Square, Dundee DD3 6NR",
         "priceDescription": "Offers Over £115,000",
@@ -4358,6 +4310,22 @@
         "summary": "Ground Floor Flat",
         "bedrooms": 2,
         "id": "419886a3f3a5c62881d1a44ac4a34b85"
+    },
+    {
+        "url": "https://www.sspc.co.uk/11-Albert-Place-Brechin-DD9-7DJ-4-Bedroom-First-and-Second-Floor-Flat-TSPC",
+        "address": "11 Albert Place, Brechin DD9 7DJ",
+        "priceDescription": "Offers Over £115,000",
+        "summary": "First & Second Floor Flat",
+        "bedrooms": 4,
+        "id": "dcfc090689e3535c36fd5ae5cb4ce739"
+    },
+    {
+        "url": "https://www.sspc.co.uk/22-Alastair-Soutar-Crescent-Invergowrie-DD2-5BN-1-Bedroom-First-Floor-Flat-TSPC",
+        "address": "22 Alastair Soutar Crescent, Invergowrie DD2 5BN",
+        "priceDescription": "Offers Over £115,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 1,
+        "id": "d21a047385536450d6ac1296d98da4f0"
     },
     {
         "url": "https://www.sspc.co.uk/19-Laightoun-Drive-Cumbernauld-Glasgow-G67-4EX-2-Bedroom-Flat-ESPC",
@@ -4376,20 +4344,20 @@
         "id": "e1269078daab41678cf22162f0f50dea"
     },
     {
-        "url": "https://www.sspc.co.uk/-37-High-Street-TD9-9BU-4-Bedroom-Top-Floor-Flat-BSPC",
-        "address": ", 37 High Street TD9 9BU",
-        "priceDescription": "Guide Price £110,000",
-        "summary": "Top Floor Flat",
-        "bedrooms": 4,
-        "id": "6af20d70293766ce2c66fddeeacb314b"
-    },
-    {
         "url": "https://www.sspc.co.uk/14-2-Havelock-Street-TD9-7BB-4-Bedroom-First-Floor-Flat-BSPC",
         "address": "14/2, Havelock Street TD9 7BB",
         "priceDescription": "In the Region Of £110,000",
         "summary": "First Floor Flat",
         "bedrooms": 4,
         "id": "beb0ff2308a15dc40871dcff668a9239"
+    },
+    {
+        "url": "https://www.sspc.co.uk/-37-High-Street-TD9-9BU-4-Bedroom-Top-Floor-Flat-BSPC",
+        "address": ", 37 High Street TD9 9BU",
+        "priceDescription": "Guide Price £110,000",
+        "summary": "Top Floor Flat",
+        "bedrooms": 4,
+        "id": "6af20d70293766ce2c66fddeeacb314b"
     },
     {
         "url": "https://www.sspc.co.uk/26-St.-Mary-Street-KIRKCUDBRIGHT-DG6-4DN-3-Bedroom-First-Floor-Flat-ESPC",
@@ -4424,6 +4392,38 @@
         "id": "36b61281eb4616023da1069448932122"
     },
     {
+        "url": "https://www.sspc.co.uk/3L-259-Blackness-Road-Dundee-DD2-1RX-2-Bedroom-Third-Floor-Flat-TSPC",
+        "address": "3L, 259 Blackness Road, Dundee DD2 1RX",
+        "priceDescription": "Offers Over £110,000",
+        "summary": "Third Floor Flat",
+        "bedrooms": 2,
+        "id": "8e180bf65b7a5dde7f8d428a1e45f369"
+    },
+    {
+        "url": "https://www.sspc.co.uk/196-Strathmore-Street-Broughty-Ferry-DD5-2PB-2-Bedroom-First-Floor-Flat-TSPC",
+        "address": "196 Strathmore Street, Broughty Ferry DD5 2PB",
+        "priceDescription": "Offers Over £110,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 2,
+        "id": "fd9a63ae5e99ef012ec2e07358777ae2"
+    },
+    {
+        "url": "https://www.sspc.co.uk/33-Gardner-Street-Dundee-DD3-6DQ-2-Bedroom-Top-Floor-Flat-TSPC",
+        "address": "33 Gardner Street, Dundee DD3 6DQ",
+        "priceDescription": "Offers Over £110,000",
+        "summary": "Top Floor Flat",
+        "bedrooms": 2,
+        "id": "9d63d1fe13e35ef7c55bd420783c922e"
+    },
+    {
+        "url": "https://www.sspc.co.uk/28-Lochlands-Drive-Arbroath-DD11-3DT-2-Bedroom-Ground-Floor-Flat-TSPC",
+        "address": "28 Lochlands Drive, Arbroath DD11 3DT",
+        "priceDescription": "Offers Over £110,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 2,
+        "id": "20cbaf370785a55a57e95f758ed2ac2d"
+    },
+    {
         "url": "https://www.sspc.co.uk/47d-Kinghorne-Road-Dundee-DD3-6PR-3-Bedroom-Top-Floor-Flat-TSPC",
         "address": "47d Kinghorne Road, Dundee DD3 6PR",
         "priceDescription": "Offers Over £110,000",
@@ -4438,38 +4438,6 @@
         "summary": "First Floor Flat",
         "bedrooms": 3,
         "id": "b8f6dc638c03eaa7c6b103b53f5c284e"
-    },
-    {
-        "url": "https://www.sspc.co.uk/196-Strathmore-Street-Broughty-Ferry-DD5-2PB-2-Bedroom-First-Floor-Flat-TSPC",
-        "address": "196 Strathmore Street, Broughty Ferry DD5 2PB",
-        "priceDescription": "Offers Over £110,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 2,
-        "id": "fd9a63ae5e99ef012ec2e07358777ae2"
-    },
-    {
-        "url": "https://www.sspc.co.uk/28-Lochlands-Drive-Arbroath-DD11-3DT-2-Bedroom-Ground-Floor-Flat-TSPC",
-        "address": "28 Lochlands Drive, Arbroath DD11 3DT",
-        "priceDescription": "Offers Over £110,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 2,
-        "id": "20cbaf370785a55a57e95f758ed2ac2d"
-    },
-    {
-        "url": "https://www.sspc.co.uk/33-Gardner-Street-Dundee-DD3-6DQ-2-Bedroom-Top-Floor-Flat-TSPC",
-        "address": "33 Gardner Street, Dundee DD3 6DQ",
-        "priceDescription": "Offers Over £110,000",
-        "summary": "Top Floor Flat",
-        "bedrooms": 2,
-        "id": "9d63d1fe13e35ef7c55bd420783c922e"
-    },
-    {
-        "url": "https://www.sspc.co.uk/3L-259-Blackness-Road-Dundee-DD2-1RX-2-Bedroom-Third-Floor-Flat-TSPC",
-        "address": "3L, 259 Blackness Road, Dundee DD2 1RX",
-        "priceDescription": "Offers Over £110,000",
-        "summary": "Third Floor Flat",
-        "bedrooms": 2,
-        "id": "8e180bf65b7a5dde7f8d428a1e45f369"
     },
     {
         "url": "https://www.sspc.co.uk/2E-North-Church-Street-Callander-FK17-8EF-2-Bedroom-Flat-ESPC",
@@ -4520,20 +4488,28 @@
         "id": "dc35611a6d9249c59e062035dafb007c"
     },
     {
-        "url": "https://www.sspc.co.uk/15D-Kerrsview-Terrace-Dundee-DD4-9BQ-2-Bedroom-First-Floor-Flat-TSPC",
-        "address": "15D Kerrsview Terrace, Dundee DD4 9BQ",
-        "priceDescription": "Offers Over £105,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 2,
-        "id": "07dd4bbdb1b2748cc6665ed18812541c"
-    },
-    {
         "url": "https://www.sspc.co.uk/3A-Aberfoyle-Gardens-Broughty-Ferry-DD5-3EE-1-Bedroom-Ground-Floor-Flat-TSPC",
         "address": "3A Aberfoyle Gardens, Broughty Ferry DD5 3EE",
         "priceDescription": "Offers Over £105,000",
         "summary": "Ground Floor Flat",
         "bedrooms": 1,
         "id": "bee112a7fcea92a8217c78fd0f91100a"
+    },
+    {
+        "url": "https://www.sspc.co.uk/80E-High-Street-Monifieth-DD5-4AG-2-Bedroom-Second-Floor-Flat-TSPC",
+        "address": "80E High Street, Monifieth DD5 4AG",
+        "priceDescription": "Offers Over £105,000",
+        "summary": "Second Floor Flat",
+        "bedrooms": 2,
+        "id": "c325e5302cdb082acc526641b4a2690e"
+    },
+    {
+        "url": "https://www.sspc.co.uk/15D-Kerrsview-Terrace-Dundee-DD4-9BQ-2-Bedroom-First-Floor-Flat-TSPC",
+        "address": "15D Kerrsview Terrace, Dundee DD4 9BQ",
+        "priceDescription": "Offers Over £105,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 2,
+        "id": "07dd4bbdb1b2748cc6665ed18812541c"
     },
     {
         "url": "https://www.sspc.co.uk/6-Roxburgh-Place-TD1-1HE-2-Bedroom-First-Floor-Flat-BSPC",
@@ -4648,20 +4624,20 @@
         "id": "a9fbe212fe496a21ca3de83d261a9992"
     },
     {
-        "url": "https://www.sspc.co.uk/5b-Crailing-Court-TD9-7QD-3-Bedroom-First-Floor-Flat-BSPC",
-        "address": "5b Crailing Court TD9 7QD",
-        "priceDescription": "In the Region Of £95,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 3,
-        "id": "ed7b52615d0d7684f784bd351453d416"
-    },
-    {
         "url": "https://www.sspc.co.uk/1A-Gladstone-Street-TD9-0HX-3-Bedroom-First-Floor-Flat-BSPC",
         "address": "1A Gladstone Street TD9 0HX",
         "priceDescription": "In the Region Of £95,000",
         "summary": "First Floor Flat",
         "bedrooms": 3,
         "id": "ed902ded4692a4dbe95cd21c673ad05c"
+    },
+    {
+        "url": "https://www.sspc.co.uk/5b-Crailing-Court-TD9-7QD-3-Bedroom-First-Floor-Flat-BSPC",
+        "address": "5b Crailing Court TD9 7QD",
+        "priceDescription": "In the Region Of £95,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 3,
+        "id": "ed7b52615d0d7684f784bd351453d416"
     },
     {
         "url": "https://www.sspc.co.uk/55-Lochlea-Avenue-Troon-KA10-7BN-2-Bedroom-Upper-Flat-ESPC",
@@ -4672,12 +4648,12 @@
         "id": "c597fcc3652908f4486985debb1baf8b"
     },
     {
-        "url": "https://www.sspc.co.uk/1A-Gladstone-Street-Hawick-TD9-0HX-3-Bedroom-First-Floor-Flat-ESPC",
-        "address": "1A, Gladstone Street, Hawick TD9 0HX",
-        "priceDescription": "Offers In The Region Of £95,000",
+        "url": "https://www.sspc.co.uk/3b-St.-Mary-Street-KIRKCUDBRIGHT-DG6-4AA-1-Bedroom-First-Floor-Flat-ESPC",
+        "address": "3b St. Mary Street, KIRKCUDBRIGHT DG6 4AA",
+        "priceDescription": "Offers over £95,000",
         "summary": "First Floor Flat",
-        "bedrooms": 3,
-        "id": "963bc5bac10fd55b0c0003dd66c193c4"
+        "bedrooms": 1,
+        "id": "d94d228d58d01f8e5a76d0286871c69d"
     },
     {
         "url": "https://www.sspc.co.uk/25-High-Street-Langholm-DG13-0JH-2-Bedroom-Ground-Floor-Flat-ESPC",
@@ -4688,12 +4664,12 @@
         "id": "b59c61c8f739180e0b178cd5b5b459b2"
     },
     {
-        "url": "https://www.sspc.co.uk/3b-St.-Mary-Street-KIRKCUDBRIGHT-DG6-4AA-1-Bedroom-First-Floor-Flat-ESPC",
-        "address": "3b St. Mary Street, KIRKCUDBRIGHT DG6 4AA",
-        "priceDescription": "Offers over £95,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 1,
-        "id": "d94d228d58d01f8e5a76d0286871c69d"
+        "url": "https://www.sspc.co.uk/1b-Tullideph-Street-Dundee-DD2-2PQ-2-Bedroom-Ground-Floor-Flat-TSPC",
+        "address": "1b Tullideph Street, Dundee DD2 2PQ",
+        "priceDescription": "Offers Over £95,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 2,
+        "id": "8a7c682ce99fe83a02b3b986a720f180"
     },
     {
         "url": "https://www.sspc.co.uk/9-Back-Wynd-Forfar-DD8-3AQ-2-Bedroom-First-Floor-Flat-TSPC",
@@ -4704,12 +4680,12 @@
         "id": "68b1077482d665ef685d9b9b76ab1953"
     },
     {
-        "url": "https://www.sspc.co.uk/1b-Tullideph-Street-Dundee-DD2-2PQ-2-Bedroom-Ground-Floor-Flat-TSPC",
-        "address": "1b Tullideph Street, Dundee DD2 2PQ",
+        "url": "https://www.sspc.co.uk/20-Well-Street-Monifieth-DD5-4AH-1-Bedroom-Ground-Floor-Flat-TSPC",
+        "address": "20 Well Street, Monifieth DD5 4AH",
         "priceDescription": "Offers Over £95,000",
         "summary": "Ground Floor Flat",
-        "bedrooms": 2,
-        "id": "8a7c682ce99fe83a02b3b986a720f180"
+        "bedrooms": 1,
+        "id": "e14b6d101bbfff8bc99f2c87e686ef56"
     },
     {
         "url": "https://www.sspc.co.uk/23F-Hepburn-Street-Dundee-DD3-8BR-2-Bedroom-Second-Floor-Flat-TSPC",
@@ -4720,28 +4696,12 @@
         "id": "599b7e1f147178fb3441b80213ec4f30"
     },
     {
-        "url": "https://www.sspc.co.uk/20-Well-Street-Monifieth-DD5-4AH-1-Bedroom-Ground-Floor-Flat-TSPC",
-        "address": "20 Well Street, Monifieth DD5 4AH",
-        "priceDescription": "Offers Over £95,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 1,
-        "id": "e14b6d101bbfff8bc99f2c87e686ef56"
-    },
-    {
         "url": "https://www.sspc.co.uk/Apartment-402-Knights-Court-North-William-Street-Perth-PH1-5NB-1-Bedroom-Top-Floor-Flat-PSPC",
         "address": "Apartment 402 Knights Court, North William Street, Perth PH1 5NB",
         "priceDescription": "Offers Over £94,000",
         "summary": "Top Floor Flat",
         "bedrooms": 1,
         "id": "21e06112d65932a4b1c39b559cb727b1"
-    },
-    {
-        "url": "https://www.sspc.co.uk/26B-Gardner-Street-Dundee-DD3-6DT-3-Bedroom-First-Floor-Flat-TSPC",
-        "address": "26B Gardner Street, Dundee DD3 6DT",
-        "priceDescription": "Offers Over £94,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 3,
-        "id": "5a0382825ae2f94140919299ce8259ea"
     },
     {
         "url": "https://www.sspc.co.uk/80A-The-Loan-Loanhead-EH20-9AQ-2-Bedroom-Maindoor-Flat-ESPC",
@@ -4816,14 +4776,6 @@
         "id": "6030eff8306f080c0e45f9ebc71af21e"
     },
     {
-        "url": "https://www.sspc.co.uk/72-2-Princes-Street-Hawick-TD9-7EG-2-Bedroom-First-Floor-Flat-ESPC",
-        "address": "72/2 Princes Street, Hawick TD9 7EG",
-        "priceDescription": "Offers In The Region Of £90,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 2,
-        "id": "1ab7c8f2dbe1bfb5e1dc3010508c3f93"
-    },
-    {
         "url": "https://www.sspc.co.uk/72A-High-Street-Hawick-TD9-9HR-2-Bedroom-Ground-Floor-Flat-ESPC",
         "address": "72A, High Street, Hawick TD9 9HR",
         "priceDescription": "Offers In The Region Of £90,000",
@@ -4832,12 +4784,28 @@
         "id": "53781aba7b116017db75cb1b8f55979f"
     },
     {
+        "url": "https://www.sspc.co.uk/72-2-Princes-Street-Hawick-TD9-7EG-2-Bedroom-First-Floor-Flat-ESPC",
+        "address": "72/2 Princes Street, Hawick TD9 7EG",
+        "priceDescription": "Offers In The Region Of £90,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 2,
+        "id": "1ab7c8f2dbe1bfb5e1dc3010508c3f93"
+    },
+    {
         "url": "https://www.sspc.co.uk/10-Peffers-Place-Forfar-DD8-3BB-3-Bedroom-Ground-Floor-Flat-TSPC",
         "address": "10 Peffers Place, Forfar DD8 3BB",
         "priceDescription": "Offers Over £90,000",
         "summary": "Ground Floor Flat",
         "bedrooms": 3,
         "id": "26511474a0fa5d4f777d696614cc026a"
+    },
+    {
+        "url": "https://www.sspc.co.uk/14B-Arklay-Terrace-Dundee-DD3-7PE-2-Bedroom-Ground-Floor-Flat-TSPC",
+        "address": "14B Arklay Terrace, Dundee DD3 7PE",
+        "priceDescription": "Offers Over £90,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 2,
+        "id": "9ed00c962bf51038d94009d667c70cdd"
     },
     {
         "url": "https://www.sspc.co.uk/2-1-18-Arbroath-Road-Dundee-DD4-6EP-2-Bedroom-Second-Floor-Flat-TSPC",
@@ -4928,20 +4896,20 @@
         "id": "e07981f11beed07a46784e70594e3b45"
     },
     {
-        "url": "https://www.sspc.co.uk/37-St.-Vigeans-Road-Arbroath-DD11-4DJ-3-Bedroom-First-and-Second-Floor-Flat-TSPC",
-        "address": "37 St. Vigeans Road, Arbroath DD11 4DJ",
-        "priceDescription": "Offers Over £85,000",
-        "summary": "First & Second Floor Flat",
-        "bedrooms": 3,
-        "id": "41c498073ea03c76fdbbf4fb31850626"
-    },
-    {
         "url": "https://www.sspc.co.uk/22B-East-High-Street-Forfar-DD8-2EG-2-Bedroom-First-and-Second-Floor-Flat-TSPC",
         "address": "22B East High Street, Forfar DD8 2EG",
         "priceDescription": "Offers Over £85,000",
         "summary": "First & Second Floor Flat",
         "bedrooms": 2,
         "id": "d4945ea2842ee6075a1f660590c66cba"
+    },
+    {
+        "url": "https://www.sspc.co.uk/37-St.-Vigeans-Road-Arbroath-DD11-4DJ-3-Bedroom-First-and-Second-Floor-Flat-TSPC",
+        "address": "37 St. Vigeans Road, Arbroath DD11 4DJ",
+        "priceDescription": "Offers Over £85,000",
+        "summary": "First & Second Floor Flat",
+        "bedrooms": 3,
+        "id": "41c498073ea03c76fdbbf4fb31850626"
     },
     {
         "url": "https://www.sspc.co.uk/2b-Fleming-Gardens-South-Dundee-DD3-7ND-2-Bedroom-Ground-Floor-Flat-TSPC",
@@ -4958,14 +4926,6 @@
         "summary": "Top Floor Flat",
         "bedrooms": 2,
         "id": "67a08674d5cf2860faa2d18cf7b8a772"
-    },
-    {
-        "url": "https://www.sspc.co.uk/34-Strathmore-Court-Kirkton-Place-Forfar-DD8-2DX-1-Bedroom-Second-Floor-Flat-TSPC",
-        "address": "34 Strathmore Court, Kirkton Place, Forfar DD8 2DX",
-        "priceDescription": "Fixed £85,000",
-        "summary": "Second Floor Flat",
-        "bedrooms": 1,
-        "id": "001a534f1bd814086cd9f492cacd8606"
     },
     {
         "url": "https://www.sspc.co.uk/Flat-1-2-51-Strathmartine-Road-Dundee-DD3-7RX-2-Bedroom-First-Floor-Flat-TSPC",
@@ -5056,20 +5016,20 @@
         "id": "b0a68e575245b28be5204680ea1ffeb5"
     },
     {
-        "url": "https://www.sspc.co.uk/7b-Abbey-Place-TD8-6BE-2-Bedroom-Top-Floor-Flat-BSPC",
-        "address": "7b Abbey Place TD8 6BE",
-        "priceDescription": "In the Region Of £80,000",
-        "summary": "Top Floor Flat",
-        "bedrooms": 2,
-        "id": "80c0fc13ddc667b36de4e480ba14b2f2"
-    },
-    {
         "url": "https://www.sspc.co.uk/3-Haughhead-Buildings-TD4-6EF-2-Bedroom-First-Floor-Flat-BSPC",
         "address": "3 Haughhead Buildings TD4 6EF",
         "priceDescription": "Guide Price £80,000",
         "summary": "First Floor Flat",
         "bedrooms": 2,
         "id": "08fe8ef71648ef4715fa42d6e40999fc"
+    },
+    {
+        "url": "https://www.sspc.co.uk/7b-Abbey-Place-TD8-6BE-2-Bedroom-Top-Floor-Flat-BSPC",
+        "address": "7b Abbey Place TD8 6BE",
+        "priceDescription": "In the Region Of £80,000",
+        "summary": "Top Floor Flat",
+        "bedrooms": 2,
+        "id": "80c0fc13ddc667b36de4e480ba14b2f2"
     },
     {
         "url": "https://www.sspc.co.uk/3-Haughhead-Buildings-Earlston-TD4-6EF-2-Bedroom-First-Floor-Flat-ESPC",
@@ -5080,20 +5040,20 @@
         "id": "019d4f345899db6f0d96d3df89d9816e"
     },
     {
-        "url": "https://www.sspc.co.uk/20-Toll-Street-Motherwell-ML1-2PJ-1-Bedroom-Top-Floor-Flat-ESPC",
-        "address": "20 Toll Street, Motherwell ML1 2PJ",
-        "priceDescription": "Offers over £80,000",
-        "summary": "Top Floor Flat",
-        "bedrooms": 1,
-        "id": "bfeac4cd1398ba777e27603eb600bfdc"
-    },
-    {
         "url": "https://www.sspc.co.uk/7-Tuke-Street-DUNFERMLINE-KY12-0PP-2-Bedroom-Upper-Flat-ESPC",
         "address": "7 Tuke Street, DUNFERMLINE KY12 0PP",
         "priceDescription": "Offers over £80,000",
         "summary": "Upper Flat",
         "bedrooms": 2,
         "id": "63639ae3f0c96df1396b136e0f693736"
+    },
+    {
+        "url": "https://www.sspc.co.uk/20-Toll-Street-Motherwell-ML1-2PJ-1-Bedroom-Top-Floor-Flat-ESPC",
+        "address": "20 Toll Street, Motherwell ML1 2PJ",
+        "priceDescription": "Offers over £80,000",
+        "summary": "Top Floor Flat",
+        "bedrooms": 1,
+        "id": "bfeac4cd1398ba777e27603eb600bfdc"
     },
     {
         "url": "https://www.sspc.co.uk/25-Ericht-Court-Upper-Mill-Street-Blairgowrie-PH10-6AE-1-Bedroom-First-Floor-Flat-PSPC",
@@ -5104,12 +5064,12 @@
         "id": "bcd65d8912e370051bc6994ebaa0a34f"
     },
     {
-        "url": "https://www.sspc.co.uk/10-Balgavies-Avenue-Dundee-DD4-7NR-2-Bedroom-Ground-Floor-Flat-TSPC",
-        "address": "10 Balgavies Avenue, Dundee DD4 7NR",
-        "priceDescription": "Offers Over £80,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 2,
-        "id": "3ea2219ea76dbc06a4eeefd513f64753"
+        "url": "https://www.sspc.co.uk/123-Craigie-Drive-Dundee-DD4-7PE-1-Bedroom-Third-Floor-Flat-TSPC",
+        "address": "123 Craigie Drive, Dundee DD4 7PE",
+        "priceDescription": "Fixed £80,000",
+        "summary": "Third Floor Flat",
+        "bedrooms": 1,
+        "id": "5415ece0a1e16c491d28258a4ec5f1c6"
     },
     {
         "url": "https://www.sspc.co.uk/2-L112-Strathmartine-Road-Dundee-DD3-7SF-2-Bedroom-Second-Floor-Flat-TSPC",
@@ -5118,14 +5078,6 @@
         "summary": "Second Floor Flat",
         "bedrooms": 2,
         "id": "45a378b50b6e8828d082445c306ae938"
-    },
-    {
-        "url": "https://www.sspc.co.uk/123-Craigie-Drive-Dundee-DD4-7PE-1-Bedroom-Third-Floor-Flat-TSPC",
-        "address": "123 Craigie Drive, Dundee DD4 7PE",
-        "priceDescription": "Fixed £80,000",
-        "summary": "Third Floor Flat",
-        "bedrooms": 1,
-        "id": "5415ece0a1e16c491d28258a4ec5f1c6"
     },
     {
         "url": "https://www.sspc.co.uk/The-Bakery-Loft-23-Reform-Street-Kirriemuir-DD8-4BS-1-Bedroom-Top-Floor-Flat-TSPC",
@@ -5192,6 +5144,14 @@
         "id": "2e0d63c61d22ed973211eb2302389b90"
     },
     {
+        "url": "https://www.sspc.co.uk/34-Strathmore-Court-Kirkton-Place-Forfar-DD8-2DX-1-Bedroom-Second-Floor-Flat-TSPC",
+        "address": "34 Strathmore Court, Kirkton Place, Forfar DD8 2DX",
+        "priceDescription": "Fixed £79,000",
+        "summary": "Second Floor Flat",
+        "bedrooms": 1,
+        "id": "001a534f1bd814086cd9f492cacd8606"
+    },
+    {
         "url": "https://www.sspc.co.uk/48-Harelaw-Crescent-Glenburn-PAISLEY-PA2-8NQ-2-Bedroom-Lower-Flat-ESPC",
         "address": "48 Harelaw Crescent, Glenburn PAISLEY PA2 8NQ",
         "priceDescription": "Offers over £78,500",
@@ -5214,14 +5174,6 @@
         "summary": "Top Floor Flat",
         "bedrooms": 2,
         "id": "3f8099fa0f3a4d1c895907d5d4210c5d"
-    },
-    {
-        "url": "https://www.sspc.co.uk/5A-Loan-TD9-0AU-2-Bedroom-Ground-Floor-Flat-BSPC",
-        "address": "5A Loan TD9 0AU",
-        "priceDescription": "In the Region Of £75,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 2,
-        "id": "2a57496dc1b73b1c55455f4875ed1968"
     },
     {
         "url": "https://www.sspc.co.uk/18-3-Bourtree-Place-TD9-9HL-2-Bedroom-First-Floor-Flat-BSPC",
@@ -5264,14 +5216,6 @@
         "id": "d970429801c911e283399109aecda968"
     },
     {
-        "url": "https://www.sspc.co.uk/2-2-19-Park-Avenue-Dundee-DD4-6PN-2-Bedroom-Second-Floor-Flat-TSPC",
-        "address": "2/2 19 Park Avenue, Dundee DD4 6PN",
-        "priceDescription": "Offers Over £75,000",
-        "summary": "Second Floor Flat",
-        "bedrooms": 2,
-        "id": "53729f4cec4757fa0013b0f01c8d037f"
-    },
-    {
         "url": "https://www.sspc.co.uk/31-Clova-Road-Kirriemuir-DD8-5AS-2-Bedroom-First-Floor-Flat-TSPC",
         "address": "31 Clova Road, Kirriemuir DD8 5AS",
         "priceDescription": "Offers Over £75,000",
@@ -5296,12 +5240,28 @@
         "id": "58881dd6fc3ce291f39793a878b063cd"
     },
     {
+        "url": "https://www.sspc.co.uk/2-2-181-Strathmartine-Road-Dundee-DD3-8BL-1-Bedroom-Second-Floor-Flat-TSPC",
+        "address": "2/2 181 Strathmartine Road, Dundee DD3 8BL",
+        "priceDescription": "Fixed £75,000",
+        "summary": "Second Floor Flat",
+        "bedrooms": 1,
+        "id": "67253754415a02ed247b1efce62c4494"
+    },
+    {
         "url": "https://www.sspc.co.uk/8-Cairnie-Place-Arbroath-DD11-4DP-2-Bedroom-First-Floor-Flat-TSPC",
         "address": "8 Cairnie Place, Arbroath DD11 4DP",
         "priceDescription": "Fixed £75,000",
         "summary": "First Floor Flat",
         "bedrooms": 2,
         "id": "f2ecd8c7c8ee4403c94f505d13af4306"
+    },
+    {
+        "url": "https://www.sspc.co.uk/2-2-19-Park-Avenue-Dundee-DD4-6PN-2-Bedroom-Second-Floor-Flat-TSPC",
+        "address": "2/2 19 Park Avenue, Dundee DD4 6PN",
+        "priceDescription": "Offers Over £75,000",
+        "summary": "Second Floor Flat",
+        "bedrooms": 2,
+        "id": "53729f4cec4757fa0013b0f01c8d037f"
     },
     {
         "url": "https://www.sspc.co.uk/Flat-1-31-Howard-Street-Arbroath-DD11-4DG-1-Bedroom-Ground-Floor-Flat-TSPC",
@@ -5320,14 +5280,6 @@
         "id": "6c7212af62f000c49f8c5c19d54165ee"
     },
     {
-        "url": "https://www.sspc.co.uk/2-2-181-Strathmartine-Road-Dundee-DD3-8BL-1-Bedroom-Second-Floor-Flat-TSPC",
-        "address": "2/2 181 Strathmartine Road, Dundee DD3 8BL",
-        "priceDescription": "Fixed £75,000",
-        "summary": "Second Floor Flat",
-        "bedrooms": 1,
-        "id": "67253754415a02ed247b1efce62c4494"
-    },
-    {
         "url": "https://www.sspc.co.uk/1a-Bank-Street-Troon-KA10-6AL-1-Bedroom-Ground-Floor-Flat-ESPC",
         "address": "1a Bank Street, Troon KA10 6AL",
         "priceDescription": "Offers over £74,995",
@@ -5344,6 +5296,22 @@
         "id": "bd5b054b36eda4d120523b7d008f943e"
     },
     {
+        "url": "https://www.sspc.co.uk/5A-Loan-TD9-0AU-2-Bedroom-Ground-Floor-Flat-BSPC",
+        "address": "5A Loan TD9 0AU",
+        "priceDescription": "In the Region Of £72,500",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 2,
+        "id": "2a57496dc1b73b1c55455f4875ed1968"
+    },
+    {
+        "url": "https://www.sspc.co.uk/5A-Loan-Hawick-TD9-0AU-2-Bedroom-Flat-ESPC",
+        "address": "5A Loan, Hawick TD9 0AU",
+        "priceDescription": "Offers In The Region Of £72,500",
+        "summary": "Flat",
+        "bedrooms": 2,
+        "id": "6dbe8114944d2991a8079a736bea5646"
+    },
+    {
         "url": "https://www.sspc.co.uk/99-Byron-Street-Dundee-DD3-6ER-2-Bedroom-First-Floor-Flat-TSPC",
         "address": "99 Byron Street, Dundee DD3 6ER",
         "priceDescription": "Offers Over £72,000",
@@ -5352,20 +5320,20 @@
         "id": "20c5c8ae8b903f5598c7be76364f6340"
     },
     {
-        "url": "https://www.sspc.co.uk/9-Muthag-Court-TD7-5DP-2-Bedroom-Second-Floor-Flat-BSPC",
-        "address": "9 Muthag Court TD7 5DP",
-        "priceDescription": "In the Region Of £70,000",
-        "summary": "Second Floor Flat",
-        "bedrooms": 2,
-        "id": "d1edd57983840c11e7e4a1b14afc9b02"
-    },
-    {
         "url": "https://www.sspc.co.uk/2-1-Drumlanrig-Square-TD9-0AS-3-Bedroom-First-Floor-Flat-BSPC",
         "address": "2-1, Drumlanrig Square TD9 0AS",
         "priceDescription": "In the Region Of £70,000",
         "summary": "First Floor Flat",
         "bedrooms": 3,
         "id": "377b34d40cfc17bdb6acb47984158cf6"
+    },
+    {
+        "url": "https://www.sspc.co.uk/9-Muthag-Court-TD7-5DP-2-Bedroom-Second-Floor-Flat-BSPC",
+        "address": "9 Muthag Court TD7 5DP",
+        "priceDescription": "In the Region Of £70,000",
+        "summary": "Second Floor Flat",
+        "bedrooms": 2,
+        "id": "d1edd57983840c11e7e4a1b14afc9b02"
     },
     {
         "url": "https://www.sspc.co.uk/65-Octavia-Street-KIRKCALDY-KY2-5HH-1-Bedroom-Maindoor-Flat-ESPC",
@@ -5400,22 +5368,6 @@
         "id": "bf26b23b7b1a66115ebffb7f180bc7e7"
     },
     {
-        "url": "https://www.sspc.co.uk/2-R-143-Fintry-Drive-Dundee-DD4-9HQ-2-Bedroom-Second-Floor-Flat-TSPC",
-        "address": "2/R 143 Fintry Drive, Dundee DD4 9HQ",
-        "priceDescription": "Offers Over £70,000",
-        "summary": "Second Floor Flat",
-        "bedrooms": 2,
-        "id": "d2030629f7654c3e7eb4eefac4a3e426"
-    },
-    {
-        "url": "https://www.sspc.co.uk/3a-Baffin-Street-Dundee-DD4-6EZ-2-Bedroom-Ground-Floor-Flat-TSPC",
-        "address": "3a Baffin Street, Dundee DD4 6EZ",
-        "priceDescription": "Offers Over £70,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 2,
-        "id": "5c19b8ae1e673494b821c68a8182f3cf"
-    },
-    {
         "url": "https://www.sspc.co.uk/20-John-Street-Montrose-DD10-8LZ-2-Bedroom-Top-Floor-Flat-TSPC",
         "address": "20 John Street, Montrose DD10 8LZ",
         "priceDescription": "Fixed £70,000",
@@ -5430,6 +5382,14 @@
         "summary": "Top Floor Flat",
         "bedrooms": 2,
         "id": "528b221ed8b927a7e01ef88fdb99a48d"
+    },
+    {
+        "url": "https://www.sspc.co.uk/3a-Baffin-Street-Dundee-DD4-6EZ-2-Bedroom-Ground-Floor-Flat-TSPC",
+        "address": "3a Baffin Street, Dundee DD4 6EZ",
+        "priceDescription": "Offers Over £70,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 2,
+        "id": "5c19b8ae1e673494b821c68a8182f3cf"
     },
     {
         "url": "https://www.sspc.co.uk/18-Castle-Street-Forfar-DD8-3AD-3-Bedroom-Second-Floor-Flat-TSPC",
@@ -5536,6 +5496,30 @@
         "id": "fa3e7e00b2b4893ff160156aa115f0f3"
     },
     {
+        "url": "https://www.sspc.co.uk/31-Victoria-Street-TD1-1HH-2-Bedroom-Top-Floor-Flat-BSPC",
+        "address": "31 Victoria Street TD1 1HH",
+        "priceDescription": "Offers Over £65,000",
+        "summary": "Top Floor Flat",
+        "bedrooms": 2,
+        "id": "07bd5d53e7e9476d2185ea075fe02ffb"
+    },
+    {
+        "url": "https://www.sspc.co.uk/73-Earlston-Road-TD1-2QR-1-Bedroom-Ground-Floor-Flat-BSPC",
+        "address": "73 Earlston Road TD1 2QR",
+        "priceDescription": "Offers Over £65,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 1,
+        "id": "61de31b2cdb18b49300522c642a6bb97"
+    },
+    {
+        "url": "https://www.sspc.co.uk/5-High-Buckholmside-TD1-2HR-1-Bedroom-Terraced-Flat-BSPC",
+        "address": "5 High Buckholmside TD1 2HR",
+        "priceDescription": "In the Region Of £65,000",
+        "summary": "Terraced Flat",
+        "bedrooms": 1,
+        "id": "a8b9377c9de19379dcba2f08d7c3d952"
+    },
+    {
         "url": "https://www.sspc.co.uk/244-Scott-Street-TD1-1DT-1-Bedroom-First-Floor-Flat-BSPC",
         "address": "244 Scott Street TD1 1DT",
         "priceDescription": "Guide Price £65,000",
@@ -5558,30 +5542,6 @@
         "summary": "First Floor Flat",
         "bedrooms": 1,
         "id": "2c29b63c18ab4c3bd0ae206d4fa2d174"
-    },
-    {
-        "url": "https://www.sspc.co.uk/73-Earlston-Road-TD1-2QR-1-Bedroom-Ground-Floor-Flat-BSPC",
-        "address": "73 Earlston Road TD1 2QR",
-        "priceDescription": "Offers Over £65,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 1,
-        "id": "61de31b2cdb18b49300522c642a6bb97"
-    },
-    {
-        "url": "https://www.sspc.co.uk/5-High-Buckholmside-TD1-2HR-1-Bedroom-Terraced-Flat-BSPC",
-        "address": "5 High Buckholmside TD1 2HR",
-        "priceDescription": "In the Region Of £65,000",
-        "summary": "Terraced Flat",
-        "bedrooms": 1,
-        "id": "a8b9377c9de19379dcba2f08d7c3d952"
-    },
-    {
-        "url": "https://www.sspc.co.uk/31-Victoria-Street-TD1-1HH-2-Bedroom-Top-Floor-Flat-BSPC",
-        "address": "31 Victoria Street TD1 1HH",
-        "priceDescription": "Offers Over £65,000",
-        "summary": "Top Floor Flat",
-        "bedrooms": 2,
-        "id": "07bd5d53e7e9476d2185ea075fe02ffb"
     },
     {
         "url": "https://www.sspc.co.uk/31-Victoria-Street-Galashiels-TD1-1HH-2-Bedroom-Flat-ESPC",
@@ -5632,14 +5592,6 @@
         "id": "7fb726fba2f1d461700d40cb0da05fca"
     },
     {
-        "url": "https://www.sspc.co.uk/G-1-St.James-Road-Forfar-DD8-1LN-1-Bedroom-Ground-Floor-Flat-TSPC",
-        "address": "G/1 St.James Road, Forfar DD8 1LN",
-        "priceDescription": "Offers Over £65,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 1,
-        "id": "5ebb6b4ccfe3866875a25cb3c5b7b322"
-    },
-    {
         "url": "https://www.sspc.co.uk/4d-Aboyne-Avenue-Dundee-DD4-7SZ-2-Bedroom-First-Floor-Flat-TSPC",
         "address": "4d Aboyne Avenue, Dundee DD4 7SZ",
         "priceDescription": "Offers Over £65,000",
@@ -5648,12 +5600,12 @@
         "id": "f65006bba2f27f16d95758b8166ae806"
     },
     {
-        "url": "https://www.sspc.co.uk/46b-Market-Street-Brechin-DD9-6BB-4-Bedroom-Top-Floor-Flat-TSPC",
-        "address": "46b Market Street, Brechin DD9 6BB",
-        "priceDescription": "Fixed £65,000",
-        "summary": "Top Floor Flat",
-        "bedrooms": 4,
-        "id": "a4b3f75febcdf113a3a43c544affea7a"
+        "url": "https://www.sspc.co.uk/G-1-St.James-Road-Forfar-DD8-1LN-1-Bedroom-Ground-Floor-Flat-TSPC",
+        "address": "G/1 St.James Road, Forfar DD8 1LN",
+        "priceDescription": "Offers Over £65,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 1,
+        "id": "5ebb6b4ccfe3866875a25cb3c5b7b322"
     },
     {
         "url": "https://www.sspc.co.uk/3-L-4-Smith-Street-Dundee-DD3-8AZ-1-Bedroom-Top-Floor-Flat-TSPC",
@@ -5662,6 +5614,14 @@
         "summary": "Top Floor Flat",
         "bedrooms": 1,
         "id": "1f1fcb2b1f468159ce6d2335664202c9"
+    },
+    {
+        "url": "https://www.sspc.co.uk/46b-Market-Street-Brechin-DD9-6BB-4-Bedroom-Top-Floor-Flat-TSPC",
+        "address": "46b Market Street, Brechin DD9 6BB",
+        "priceDescription": "Fixed £65,000",
+        "summary": "Top Floor Flat",
+        "bedrooms": 4,
+        "id": "a4b3f75febcdf113a3a43c544affea7a"
     },
     {
         "url": "https://www.sspc.co.uk/79-Boglemart-Street-STEVENSTON-KA20-3JN-2-Bedroom-Ground-Floor-Flat-ESPC",
@@ -5686,6 +5646,14 @@
         "summary": "First Floor Flat",
         "bedrooms": 2,
         "id": "989d44c019ee4bff869896dac8117779"
+    },
+    {
+        "url": "https://www.sspc.co.uk/19d-Sidney-Street-SALTCOATS-KA21-5DB-2-Bedroom-First-Floor-Flat-ESPC",
+        "address": "19d Sidney Street, SALTCOATS KA21 5DB",
+        "priceDescription": "Offers over £63,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 2,
+        "id": "29d2938a7cc1144b0968050bc22391da"
     },
     {
         "url": "https://www.sspc.co.uk/28-West-Street-DG13-0DU-3-Bedroom-Top-Floor-Flat-BSPC",
@@ -5784,14 +5752,6 @@
         "id": "07861076d56f64bb617584308acf24d1"
     },
     {
-        "url": "https://www.sspc.co.uk/38-Barker's-Buildings-34-Market-Street-Perth-PH1-5QH-1-Bedroom-First-Floor-Flat-PSPC",
-        "address": "38 Barker's Buildings, 34 Market Street, Perth PH1 5QH",
-        "priceDescription": "Offers Over £60,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 1,
-        "id": "8c843d501ffc84d53d0f926df8bfbef8"
-    },
-    {
         "url": "https://www.sspc.co.uk/11-Calton-Street-Coupar-Angus-PH13-9BJ-2-Bedroom-Ground-Floor-Flat-PSPC",
         "address": "11 Calton Street, Coupar Angus PH13 9BJ",
         "priceDescription": "Offers Over £60,000",
@@ -5800,12 +5760,12 @@
         "id": "3e4c8d0271b6ced29d4658f8472fb0f2"
     },
     {
-        "url": "https://www.sspc.co.uk/52-Corlundy-Crescent-Crieff-PH7-3BH-1-Bedroom-Ground-Floor-Flat-PSPC",
-        "address": "52 Corlundy Crescent, Crieff PH7 3BH",
+        "url": "https://www.sspc.co.uk/38-Barker's-Buildings-34-Market-Street-Perth-PH1-5QH-1-Bedroom-First-Floor-Flat-PSPC",
+        "address": "38 Barker's Buildings, 34 Market Street, Perth PH1 5QH",
         "priceDescription": "Offers Over £60,000",
-        "summary": "Ground Floor Flat",
+        "summary": "First Floor Flat",
         "bedrooms": 1,
-        "id": "d66d241cddb5d1c33647c80ed1ac93ec"
+        "id": "8c843d501ffc84d53d0f926df8bfbef8"
     },
     {
         "url": "https://www.sspc.co.uk/10E-Maitland-Street-Dundee-DD4-6RR-2-Bedroom-Top-Floor-Flat-TSPC",
@@ -5864,6 +5824,22 @@
         "id": "53daa88ab91cf777e79e73911f039130"
     },
     {
+        "url": "https://www.sspc.co.uk/4-3-Northcote-Street-TD9-9QU-1-Bedroom-Second-Floor-Flat-BSPC",
+        "address": "4/3, Northcote Street TD9 9QU",
+        "priceDescription": "In the Region Of £55,000",
+        "summary": "Second Floor Flat",
+        "bedrooms": 1,
+        "id": "c002d34aad0ea890569e736449f26b4d"
+    },
+    {
+        "url": "https://www.sspc.co.uk/20-Minto-Place-TD9-9JL-1-Bedroom-Ground-Floor-Flat-BSPC",
+        "address": "20 Minto Place TD9 9JL",
+        "priceDescription": "In the Region Of £55,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 1,
+        "id": "d53fe74ad2f43182e5e09b33f5aa3df5"
+    },
+    {
         "url": "https://www.sspc.co.uk/139-High-Street-TD1-1RZ-1-Bedroom-First-Floor-Flat-BSPC",
         "address": "139 High Street TD1 1RZ",
         "priceDescription": "Offers Over £55,000",
@@ -5888,12 +5864,12 @@
         "id": "1a418bc525177ad4cdde7ef81bb9f786"
     },
     {
-        "url": "https://www.sspc.co.uk/20-Minto-Place-TD9-9JL-1-Bedroom-Ground-Floor-Flat-BSPC",
-        "address": "20 Minto Place TD9 9JL",
-        "priceDescription": "In the Region Of £55,000",
-        "summary": "Ground Floor Flat",
+        "url": "https://www.sspc.co.uk/15A-Lintburn-Street-Galashiels-TD1-1HP-1-Bedroom-Upper-Flat-ESPC",
+        "address": "15A, Lintburn Street, Galashiels TD1 1HP",
+        "priceDescription": "Guide Price £55,000",
+        "summary": "Upper Flat",
         "bedrooms": 1,
-        "id": "d53fe74ad2f43182e5e09b33f5aa3df5"
+        "id": "8cdbe42edbab3a6bbb0c2bfe6704536d"
     },
     {
         "url": "https://www.sspc.co.uk/139-High-Street-Galashiels-TD1-1RZ-1-Bedroom-First-Floor-Flat-ESPC",
@@ -5902,14 +5878,6 @@
         "summary": "First Floor Flat",
         "bedrooms": 1,
         "id": "cbd4cdc91fabc6a2e5e5afde471c339e"
-    },
-    {
-        "url": "https://www.sspc.co.uk/15A-Lintburn-Street-Galashiels-TD1-1HP-1-Bedroom-Upper-Flat-ESPC",
-        "address": "15A, Lintburn Street, Galashiels TD1 1HP",
-        "priceDescription": "Guide Price £55,000",
-        "summary": "Upper Flat",
-        "bedrooms": 1,
-        "id": "8cdbe42edbab3a6bbb0c2bfe6704536d"
     },
     {
         "url": "https://www.sspc.co.uk/30-Drove-Road-Langholm-DG13-0JW-2-Bedroom-Upper-Flat-ESPC",
@@ -5968,20 +5936,20 @@
         "id": "439ef6c7d71bc19d267bed3f03b2f47f"
     },
     {
-        "url": "https://www.sspc.co.uk/3-3-Noble-Place-TD9-9QF-2-Bedroom-First-Floor-Flat-BSPC",
-        "address": "3/3, Noble Place TD9 9QF",
-        "priceDescription": "In the Region Of £50,000",
-        "summary": "First Floor Flat",
-        "bedrooms": 2,
-        "id": "58e5e7b88e0b2c367ceec266fb3a6386"
-    },
-    {
         "url": "https://www.sspc.co.uk/12-Croft-Street-TD1-3BJ-1-Bedroom-Second-Floor-Flat-BSPC",
         "address": "12 Croft Street TD1 3BJ",
         "priceDescription": "Guide Price £50,000",
         "summary": "Second Floor Flat",
         "bedrooms": 1,
         "id": "ebbf4f843bdf00b47d3f142de9d89b16"
+    },
+    {
+        "url": "https://www.sspc.co.uk/3-3-Noble-Place-TD9-9QF-2-Bedroom-First-Floor-Flat-BSPC",
+        "address": "3/3, Noble Place TD9 9QF",
+        "priceDescription": "In the Region Of £50,000",
+        "summary": "First Floor Flat",
+        "bedrooms": 2,
+        "id": "58e5e7b88e0b2c367ceec266fb3a6386"
     },
     {
         "url": "https://www.sspc.co.uk/23a-High-Street-TD8-6AQ-1-Bedroom-First-Floor-Flat-BSPC",
@@ -6072,6 +6040,14 @@
         "id": "f0d78a44a94cf29911e48f7639cfb3aa"
     },
     {
+        "url": "https://www.sspc.co.uk/60a-Castlegate-TD8-6BB-2-Bedroom-Ground-Floor-Flat-BSPC",
+        "address": "60a Castlegate TD8 6BB",
+        "priceDescription": "In the Region Of £45,000",
+        "summary": "Ground Floor Flat",
+        "bedrooms": 2,
+        "id": "e6984b0e5b337e48fa06db684127d0e8"
+    },
+    {
         "url": "https://www.sspc.co.uk/6a-Allars-Bank-TD9-9EX-1-Bedroom-Ground-Floor-Flat-BSPC",
         "address": "6a Allars Bank TD9 9EX",
         "priceDescription": "In the Region Of £45,000",
@@ -6096,28 +6072,12 @@
         "id": "6fc5935f5c5dcafd515598327b19e8c9"
     },
     {
-        "url": "https://www.sspc.co.uk/60a-Castlegate-TD8-6BB-2-Bedroom-Ground-Floor-Flat-BSPC",
-        "address": "60a Castlegate TD8 6BB",
-        "priceDescription": "In the Region Of £45,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 2,
-        "id": "e6984b0e5b337e48fa06db684127d0e8"
-    },
-    {
         "url": "https://www.sspc.co.uk/6a-Allars-Bank-Hawick-TD9-9EX-1-Bedroom-Ground-Floor-Flat-ESPC",
         "address": "6a Allars Bank, Hawick TD9 9EX",
         "priceDescription": "Offers In The Region Of £45,000",
         "summary": "Ground Floor Flat",
         "bedrooms": 1,
         "id": "545c9fbb865d26baf3ae68af4ef0b86f"
-    },
-    {
-        "url": "https://www.sspc.co.uk/10-1-Teviot-Crescent-Hawick-TD9-9RE-2-Bedroom-Ground-Floor-Flat-ESPC",
-        "address": "10-1 Teviot Crescent, Hawick TD9 9RE",
-        "priceDescription": "Offers In The Region Of £45,000",
-        "summary": "Ground Floor Flat",
-        "bedrooms": 2,
-        "id": "22059b01c6e67bf19730ad740f483837"
     },
     {
         "url": "https://www.sspc.co.uk/6-Cairnie-Street-Arbroath-DD11-3BJ-1-Bedroom-Ground-Floor-Flat-TSPC",
