@@ -5760,20 +5760,20 @@
         "id": "6241f126e9b862aea79481befe70e394"
     },
     {
-        "url": "https://www.sspc.co.uk/85-Ogilvy-Street-Tayport-DD6-9NG-3-Bedroom-End-Terrace-House-TSPC",
-        "address": "85 Ogilvy Street, Tayport DD6 9NG",
-        "priceDescription": "Offers Over £170,000",
-        "summary": "End Terrace House",
-        "bedrooms": 3,
-        "id": "27b426b3b05641b9b6cd833a64d9126d"
-    },
-    {
         "url": "https://www.sspc.co.uk/27-Quarryside-Dundee-DD2-2QG-3-Bedroom-Semi-Detached-House-TSPC",
         "address": "27 Quarryside, Dundee DD2 2QG",
         "priceDescription": "Offers Over £170,000",
         "summary": "Semi-Detached House",
         "bedrooms": 3,
         "id": "685044acce8cf46f9fe70f2ac4dd3d22"
+    },
+    {
+        "url": "https://www.sspc.co.uk/85-Ogilvy-Street-Tayport-DD6-9NG-3-Bedroom-End-Terrace-House-TSPC",
+        "address": "85 Ogilvy Street, Tayport DD6 9NG",
+        "priceDescription": "Offers Over £170,000",
+        "summary": "End Terrace House",
+        "bedrooms": 3,
+        "id": "27b426b3b05641b9b6cd833a64d9126d"
     },
     {
         "url": "https://www.sspc.co.uk/6-Juniper-Place-Juniper-Green-EH14-5TX-1-Bedroom-Terraced-House-ESPC",
@@ -5920,14 +5920,6 @@
         "id": "4f28a1ae2621d38e724c3c651f8c788f"
     },
     {
-        "url": "https://www.sspc.co.uk/5-Anderson-Terrace-Kirriemuir-DD8-4GR-2-Bedroom-Terraced-House-TSPC",
-        "address": "5 Anderson Terrace, Kirriemuir DD8 4GR",
-        "priceDescription": "Offers Over £160,000",
-        "summary": "Terraced House",
-        "bedrooms": 2,
-        "id": "9296a3677c821593bdcc739f4f6cbd03"
-    },
-    {
         "url": "https://www.sspc.co.uk/12-Little-Causeway-Forfar-DD8-2AD-3-Bedroom-Terraced-House-TSPC",
         "address": "12 Little Causeway, Forfar DD8 2AD",
         "priceDescription": "Offers Over £160,000",
@@ -5942,6 +5934,14 @@
         "summary": "Semi-Detached House",
         "bedrooms": 2,
         "id": "4f36ffdbb660e5a4f24c7157ed31bb83"
+    },
+    {
+        "url": "https://www.sspc.co.uk/5-Anderson-Terrace-Kirriemuir-DD8-4GR-2-Bedroom-Terraced-House-TSPC",
+        "address": "5 Anderson Terrace, Kirriemuir DD8 4GR",
+        "priceDescription": "Offers Over £160,000",
+        "summary": "Terraced House",
+        "bedrooms": 2,
+        "id": "9296a3677c821593bdcc739f4f6cbd03"
     },
     {
         "url": "https://www.sspc.co.uk/11-Fraser-Drive-Blackwood-ML11-9YP-4-Bedroom-Semi-Detached-House-ESPC",
@@ -6096,22 +6096,6 @@
         "id": "2e0a23e3fe76a10829573622d35edf39"
     },
     {
-        "url": "https://www.sspc.co.uk/9-Green-Street-Forfar-DD8-3AR-3-Bedroom-End-Terrace-House-TSPC",
-        "address": "9 Green Street, Forfar DD8 3AR",
-        "priceDescription": "Offers Over £150,000",
-        "summary": "End Terrace House",
-        "bedrooms": 3,
-        "id": "270f1cb43036937870594da6d17ec547"
-    },
-    {
-        "url": "https://www.sspc.co.uk/329-Strathmartine-Road-Dundee-DD3-8NE-2-Bedroom-Semi-Detached-House-TSPC",
-        "address": "329 Strathmartine Road, Dundee DD3 8NE",
-        "priceDescription": "Offers Over £150,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 2,
-        "id": "bafa5f0ba02a987df24bcafa8f629009"
-    },
-    {
         "url": "https://www.sspc.co.uk/2-The-Old-Steading-Tannadice-DD8-3TD-2-Bedroom-Semi-Detached-House-TSPC",
         "address": "2 The Old Steading, Tannadice DD8 3TD",
         "priceDescription": "Offers Over £150,000",
@@ -6126,6 +6110,22 @@
         "summary": "Terraced House",
         "bedrooms": 3,
         "id": "ff8ea0164e2bf939c4f141395b3a450c"
+    },
+    {
+        "url": "https://www.sspc.co.uk/9-Green-Street-Forfar-DD8-3AR-3-Bedroom-End-Terrace-House-TSPC",
+        "address": "9 Green Street, Forfar DD8 3AR",
+        "priceDescription": "Offers Over £150,000",
+        "summary": "End Terrace House",
+        "bedrooms": 3,
+        "id": "270f1cb43036937870594da6d17ec547"
+    },
+    {
+        "url": "https://www.sspc.co.uk/329-Strathmartine-Road-Dundee-DD3-8NE-2-Bedroom-Semi-Detached-House-TSPC",
+        "address": "329 Strathmartine Road, Dundee DD3 8NE",
+        "priceDescription": "Offers Over £150,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 2,
+        "id": "bafa5f0ba02a987df24bcafa8f629009"
     },
     {
         "url": "https://www.sspc.co.uk/12-Rowanlea-Avenue-Paisley-PA2-0RP-3-Bedroom-Semi-Detached-House-ESPC",
@@ -6288,6 +6288,22 @@
         "id": "38ca1d0a73ccecdec1fba6b77e2aed65"
     },
     {
+        "url": "https://www.sspc.co.uk/44-Roods-Kirriemuir-DD8-4HN-3-Bedroom-Terraced-House-TSPC",
+        "address": "44 Roods, Kirriemuir DD8 4HN",
+        "priceDescription": "Offers Over £140,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "d3e27b1908e3b555d7c650cdfb8a9841"
+    },
+    {
+        "url": "https://www.sspc.co.uk/11-Lochend-Road-Carnoustie-DD7-7PZ-2-Bedroom-Semi-Detached-House-TSPC",
+        "address": "11 Lochend Road, Carnoustie DD7 7PZ",
+        "priceDescription": "Offers Over £140,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 2,
+        "id": "62648490c02d664b72563c466acb0941"
+    },
+    {
         "url": "https://www.sspc.co.uk/110-High-Street-Brechin-DD9-6HE-3-Bedroom-Terraced-House-TSPC",
         "address": "110 High Street, Brechin DD9 6HE",
         "priceDescription": "Offers Over £140,000",
@@ -6318,22 +6334,6 @@
         "summary": "Semi-Detached House",
         "bedrooms": 2,
         "id": "c963ffec1ca225a03b15c3140b84afe2"
-    },
-    {
-        "url": "https://www.sspc.co.uk/44-Roods-Kirriemuir-DD8-4HN-3-Bedroom-Terraced-House-TSPC",
-        "address": "44 Roods, Kirriemuir DD8 4HN",
-        "priceDescription": "Offers Over £140,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "d3e27b1908e3b555d7c650cdfb8a9841"
-    },
-    {
-        "url": "https://www.sspc.co.uk/11-Lochend-Road-Carnoustie-DD7-7PZ-2-Bedroom-Semi-Detached-House-TSPC",
-        "address": "11 Lochend Road, Carnoustie DD7 7PZ",
-        "priceDescription": "Offers Over £140,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 2,
-        "id": "62648490c02d664b72563c466acb0941"
     },
     {
         "url": "https://www.sspc.co.uk/7-Brentwood-Square-Glasgow-G53-7RP-2-Bedroom-End-Terraced-House-ESPC",
@@ -6448,20 +6448,20 @@
         "id": "8d2f88cd3824e8c16a762e604bedb463"
     },
     {
-        "url": "https://www.sspc.co.uk/17-Trinity-Fields-Crescent-Brechin-DD9-6YF-3-Bedroom-Semi-Detached-House-TSPC",
-        "address": "17 Trinity Fields Crescent, Brechin DD9 6YF",
-        "priceDescription": "Offers Over £135,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "3e3f27c87ba879e109ba19384189ecfe"
-    },
-    {
         "url": "https://www.sspc.co.uk/1-Tannadice-Street-Dundee-DD3-7QG-3-Bedroom-Terraced-House-TSPC",
         "address": "1 Tannadice Street, Dundee DD3 7QG",
         "priceDescription": "Offers Over £135,000",
         "summary": "Terraced House",
         "bedrooms": 3,
         "id": "89d053f560c50a78faad59ea7796d797"
+    },
+    {
+        "url": "https://www.sspc.co.uk/17-Trinity-Fields-Crescent-Brechin-DD9-6YF-3-Bedroom-Semi-Detached-House-TSPC",
+        "address": "17 Trinity Fields Crescent, Brechin DD9 6YF",
+        "priceDescription": "Offers Over £135,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "3e3f27c87ba879e109ba19384189ecfe"
     },
     {
         "url": "https://www.sspc.co.uk/20-Main-Street-Newmills-DUNFERMLINE-KY12-8SS-2-Bedroom-End-Terraced-House-ESPC",
@@ -6568,30 +6568,6 @@
         "id": "f9b757a3dd9cde8241115886aae7b3f0"
     },
     {
-        "url": "https://www.sspc.co.uk/59-Dundee-Road-Forfar-DD8-1HY-3-Bedroom-Semi-Detached-House-TSPC",
-        "address": "59 Dundee Road, Forfar DD8 1HY",
-        "priceDescription": "Offers Over £130,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "0c5e47ed29107b61af53e5343e955c33"
-    },
-    {
-        "url": "https://www.sspc.co.uk/17-Primrose-Street-Carnoustie-DD7-7QB-3-Bedroom-Terraced-House-TSPC",
-        "address": "17 Primrose Street, Carnoustie DD7 7QB",
-        "priceDescription": "Offers Over £130,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "8c82af185b403a55b729aedeeb1cfbd3"
-    },
-    {
-        "url": "https://www.sspc.co.uk/24-Sidlaw-Avenue-Arbroath-DD11-4BG-3-Bedroom-Terraced-House-TSPC",
-        "address": "24 Sidlaw Avenue, Arbroath DD11 4BG",
-        "priceDescription": "Offers Over £130,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "1621d5fbd2df9f11f13198eca10d99bc"
-    },
-    {
         "url": "https://www.sspc.co.uk/29-Granton-Place-Dundee-DD4-9AW-2-Bedroom-Terraced-House-TSPC",
         "address": "29 Granton Place, Dundee DD4 9AW",
         "priceDescription": "Offers Over £130,000",
@@ -6614,6 +6590,30 @@
         "summary": "Terraced House",
         "bedrooms": 2,
         "id": "05af6d1f4f60f52a751161a7ebccff06"
+    },
+    {
+        "url": "https://www.sspc.co.uk/59-Dundee-Road-Forfar-DD8-1HY-3-Bedroom-Semi-Detached-House-TSPC",
+        "address": "59 Dundee Road, Forfar DD8 1HY",
+        "priceDescription": "Offers Over £130,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "0c5e47ed29107b61af53e5343e955c33"
+    },
+    {
+        "url": "https://www.sspc.co.uk/17-Primrose-Street-Carnoustie-DD7-7QB-3-Bedroom-Terraced-House-TSPC",
+        "address": "17 Primrose Street, Carnoustie DD7 7QB",
+        "priceDescription": "Offers Over £130,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "8c82af185b403a55b729aedeeb1cfbd3"
+    },
+    {
+        "url": "https://www.sspc.co.uk/24-Sidlaw-Avenue-Arbroath-DD11-4BG-3-Bedroom-Terraced-House-TSPC",
+        "address": "24 Sidlaw Avenue, Arbroath DD11 4BG",
+        "priceDescription": "Offers Over £130,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "1621d5fbd2df9f11f13198eca10d99bc"
     },
     {
         "url": "https://www.sspc.co.uk/7-Union-Street-East-Arbroath-DD11-1BS-3-Bedroom-Terraced-House-TSPC",
@@ -6688,6 +6688,14 @@
         "id": "5c9c667ac1b5a8b5af01a49e71f1a2a8"
     },
     {
+        "url": "https://www.sspc.co.uk/36-Roods-Kirriemuir-DD8-4HN-3-Bedroom-Terraced-House-TSPC",
+        "address": "36 Roods, Kirriemuir DD8 4HN",
+        "priceDescription": "Offers Over £125,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "cad4a2ed91a12c367c2ff2c816c24b47"
+    },
+    {
         "url": "https://www.sspc.co.uk/18-Culloden-Terrace-Arbroath-DD11-1LB-3-Bedroom-Semi-Detached-House-TSPC",
         "address": "18 Culloden Terrace, Arbroath DD11 1LB",
         "priceDescription": "Offers Over £125,000",
@@ -6742,14 +6750,6 @@
         "summary": "Semi-Detached House",
         "bedrooms": 3,
         "id": "9d9b0696a85aeb45d3269672cac32a4a"
-    },
-    {
-        "url": "https://www.sspc.co.uk/36-Roods-Kirriemuir-DD8-4HN-3-Bedroom-Terraced-House-TSPC",
-        "address": "36 Roods, Kirriemuir DD8 4HN",
-        "priceDescription": "Offers Over £125,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "cad4a2ed91a12c367c2ff2c816c24b47"
     },
     {
         "url": "https://www.sspc.co.uk/4-Cumberland-Street-DUMFRIES-DG1-2JX-4-Bedroom-End-Terraced-House-ESPC",
