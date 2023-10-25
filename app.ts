@@ -3,13 +3,14 @@ import { writeFileSync } from 'fs';
 import * as cheerio from 'cheerio';
 import { createHash } from 'crypto';
 
-interface PropertyResult {
+export interface PropertyResult {
     id: string,
     url?: string,
     address: string,
     bedrooms?: number,
     summary: string,
     priceDescription: string,
+    addedData?: object
 };
 
 function hashCode(str: string) {
