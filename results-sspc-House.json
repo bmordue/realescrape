@@ -88,6 +88,14 @@
         "id": "01ad067f49e84319acfa579d95dd31e3"
     },
     {
+        "url": "https://www.sspc.co.uk/Windwards-West-Fenton-Gullane-EH39-5AJ-6-Bedroom-Detached-House-ESPC",
+        "address": "Windwards, West Fenton, Gullane EH39 5AJ",
+        "priceDescription": "Offers over £925,000",
+        "summary": "Detached House",
+        "bedrooms": 6,
+        "id": "eec2e0a20e7ae9e0b8a9a82860f4f49b"
+    },
+    {
         "url": "https://www.sspc.co.uk/1-South-Drive-Liff-DUNDEE-DD2-5SJ-5-Bedroom-Detached-House-ESPC",
         "address": "1 South Drive, Liff, DUNDEE DD2 5SJ",
         "priceDescription": "Offers over £925,000",
@@ -126,14 +134,6 @@
         "summary": "Detached House",
         "bedrooms": 5,
         "id": "534b55cb2db903a6239ccd5496c5b83a"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Windwards-West-Fenton-Gullane-EH39-5AJ-6-Bedroom-Detached-House-ESPC",
-        "address": "Windwards, West Fenton, Gullane EH39 5AJ",
-        "priceDescription": "Offers over £925,000",
-        "summary": "Detached House",
-        "bedrooms": 6,
-        "id": "eec2e0a20e7ae9e0b8a9a82860f4f49b"
     },
     {
         "url": "https://www.sspc.co.uk/Liff-House-1-South-Drive-Liff-DD2-5SJ-5-Bedroom-Detached-House-TSPC",
@@ -304,14 +304,6 @@
         "id": "37b2bd94100f6ec2c72475ce84d68946"
     },
     {
-        "url": "https://www.sspc.co.uk/Owlsgate-Haddington-EH41-4NL-4-Bedroom-Detached-House-ESPC",
-        "address": "Owlsgate, Haddington EH41 4NL",
-        "priceDescription": "Fixed Price £775,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "a45e47cb569d0b1f7e9a8c0f31655c14"
-    },
-    {
         "url": "https://www.sspc.co.uk/Riverside-Grange-and-The-Cottage-Holywood-Dumfries-DG2-0RJ-5-Bedroom-Detached-House-ESPC",
         "address": "Riverside Grange and The Cottage, Holywood, Dumfries DG2 0RJ",
         "priceDescription": "Offers over £775,000",
@@ -320,12 +312,12 @@
         "id": "e773b5317337a4426f814f46b305b9a7"
     },
     {
-        "url": "https://www.sspc.co.uk/6C-Barnton-Avenue-West-Edinburgh-EH4-6DE-3-Bedroom-Detached-House-ESPC",
-        "address": "6C, Barnton Avenue West, Edinburgh EH4 6DE",
-        "priceDescription": "Fixed Price £770,000",
+        "url": "https://www.sspc.co.uk/Owlsgate-Haddington-EH41-4NL-4-Bedroom-Detached-House-ESPC",
+        "address": "Owlsgate, Haddington EH41 4NL",
+        "priceDescription": "Fixed Price £775,000",
         "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "69f16cb2b29a2572acfc2f7d20622747"
+        "bedrooms": 4,
+        "id": "a45e47cb569d0b1f7e9a8c0f31655c14"
     },
     {
         "url": "https://www.sspc.co.uk/1-Saltcoats-Way-Gullane-EH31-2EB-5-Bedroom-Detached-House-ESPC",
@@ -334,6 +326,14 @@
         "summary": "Detached House",
         "bedrooms": 5,
         "id": "292e2111d29cb69906702a4be9c6620e"
+    },
+    {
+        "url": "https://www.sspc.co.uk/6C-Barnton-Avenue-West-Edinburgh-EH4-6DE-3-Bedroom-Detached-House-ESPC",
+        "address": "6C, Barnton Avenue West, Edinburgh EH4 6DE",
+        "priceDescription": "Fixed Price £770,000",
+        "summary": "Detached House",
+        "bedrooms": 3,
+        "id": "69f16cb2b29a2572acfc2f7d20622747"
     },
     {
         "url": "https://www.sspc.co.uk/9-Crarae-Avenue-EDINBURGH-EH4-3JD-4-Bedroom-Semi-Detached-House-ESPC",
@@ -448,14 +448,6 @@
         "id": "bd3d4bc84326ddfba91bc05ef5b048f9"
     },
     {
-        "url": "https://www.sspc.co.uk/Cornbank-House-59-Carlops-Road-EH26-9HR-5-Bedroom-Detached-House-ESPC",
-        "address": "Cornbank House 59 Carlops Road EH26 9HR",
-        "priceDescription": "Offers over £700,000",
-        "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "814598cdf8a8ade8943fc0edceafa644"
-    },
-    {
         "url": "https://www.sspc.co.uk/Navitie-House-Ballingry-Lochgelly-KY5-8LR-8-Bedroom-Detached-House-ESPC",
         "address": "Navitie House, Ballingry, Lochgelly KY5 8LR",
         "priceDescription": "Offers over £700,000",
@@ -464,20 +456,20 @@
         "id": "85f725b5527ceb3e68b3e4345d9b5688"
     },
     {
+        "url": "https://www.sspc.co.uk/Cornbank-House-59-Carlops-Road-EH26-9HR-5-Bedroom-Detached-House-ESPC",
+        "address": "Cornbank House 59 Carlops Road EH26 9HR",
+        "priceDescription": "Offers over £700,000",
+        "summary": "Detached House",
+        "bedrooms": 5,
+        "id": "814598cdf8a8ade8943fc0edceafa644"
+    },
+    {
         "url": "https://www.sspc.co.uk/17-Bonaly-Crescent-Colinton-Edinburgh-EH13-0EN-4-Bedroom-Detached-House-ESPC",
         "address": "17 Bonaly Crescent, Colinton, Edinburgh EH13 0EN",
         "priceDescription": "Offers over £700,000",
         "summary": "Detached House",
         "bedrooms": 4,
         "id": "66d424c58c467135a474082f5b3f47cb"
-    },
-    {
-        "url": "https://www.sspc.co.uk/11-Damhead-Holdings-Lothianburn-Midlothian-EH10-7DZ-4-Bedroom-House-ESPC",
-        "address": "11 Damhead Holdings, Lothianburn, Midlothian EH10 7DZ",
-        "priceDescription": "Fixed Price £699,995",
-        "summary": "House",
-        "bedrooms": 4,
-        "id": "6ff130b1bd0f3ccad88596c18e119a90"
     },
     {
         "url": "https://www.sspc.co.uk/3-Friars-Croft-Crook-South-Queensferry-Edinburgh-EH30-9EB-5-Bedroom-Detached-House-ESPC",
@@ -494,6 +486,14 @@
         "summary": "Detached House",
         "bedrooms": 5,
         "id": "af6e9487cc400a20ac79fb5bac05a494"
+    },
+    {
+        "url": "https://www.sspc.co.uk/11-Damhead-Holdings-Lothianburn-Midlothian-EH10-7DZ-4-Bedroom-House-ESPC",
+        "address": "11 Damhead Holdings, Lothianburn, Midlothian EH10 7DZ",
+        "priceDescription": "Fixed Price £699,995",
+        "summary": "House",
+        "bedrooms": 4,
+        "id": "6ff130b1bd0f3ccad88596c18e119a90"
     },
     {
         "url": "https://www.sspc.co.uk/Midfield-39-Carberry-Road-Inveresk-EH21-8PS-4-Bedroom-Detached-House-ESPC",
@@ -632,14 +632,6 @@
         "id": "33aaeb8153804c9cd8c4bfb62edc5b8e"
     },
     {
-        "url": "https://www.sspc.co.uk/6-Gaffney-Gardens-HADDINGTON-EH41-3DJ-5-Bedroom-Detached-House-ESPC",
-        "address": "6 Gaffney Gardens, HADDINGTON EH41 3DJ",
-        "priceDescription": "Offers over £635,000",
-        "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "4bf3fd735b58aaa021b673a5e07c56b6"
-    },
-    {
         "url": "https://www.sspc.co.uk/Plot-190-Brechin-Younger-Gardens-KY16-8AB-4-Bedroom-Detached-House-ESPC",
         "address": "Plot 190 Brechin, Younger Gardens KY16 8AB",
         "priceDescription": "Offers over £625,995",
@@ -752,14 +744,6 @@
         "id": "c0528d580a3d2458e35502f77594e107"
     },
     {
-        "url": "https://www.sspc.co.uk/20-Hillpark-Way-Edinburgh-EH4-7BJ-5-Bedroom-Detached-House-ESPC",
-        "address": "20 Hillpark Way, Edinburgh EH4 7BJ",
-        "priceDescription": "Offers over £610,000",
-        "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "725505c5c422ca0f74c3d9591e291a0c"
-    },
-    {
         "url": "https://www.sspc.co.uk/15-Trinity-Grove-Trinity-Edinburgh-EH5-3HB-3-Bedroom-Terraced-House-ESPC",
         "address": "15 Trinity Grove, Trinity, Edinburgh EH5 3HB",
         "priceDescription": "Offers over £600,000",
@@ -864,20 +848,20 @@
         "id": "6734923085f801bb9c75b59fd37efacf"
     },
     {
-        "url": "https://www.sspc.co.uk/11-Traquair-Park-East-Edinburgh-EH12-7AP-4-Bedroom-Semi-Detached-House-ESPC",
-        "address": "11 Traquair Park East, Edinburgh EH12 7AP",
-        "priceDescription": "Offers over £590,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 4,
-        "id": "ec3d35c5ca03465dc44952604c0ba4e2"
-    },
-    {
         "url": "https://www.sspc.co.uk/7-West-Acres-ST.-ANDREWS-KY16-9UD-2-Bedroom-Detached-House-ESPC",
         "address": "7 West Acres, ST. ANDREWS KY16 9UD",
         "priceDescription": "Offers over £590,000",
         "summary": "Detached House",
         "bedrooms": 2,
         "id": "61294e79864cfda704b150cfe6bd0e49"
+    },
+    {
+        "url": "https://www.sspc.co.uk/11-Traquair-Park-East-Edinburgh-EH12-7AP-4-Bedroom-Semi-Detached-House-ESPC",
+        "address": "11 Traquair Park East, Edinburgh EH12 7AP",
+        "priceDescription": "Offers over £590,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 4,
+        "id": "ec3d35c5ca03465dc44952604c0ba4e2"
     },
     {
         "url": "https://www.sspc.co.uk/Dunrig-Eshiels-Mill-Peebles-EH45-8NQ-5-Bedroom-Detached-House-ESPC",
@@ -1064,6 +1048,14 @@
         "id": "dc7bdddde6da740047cb589b3cc091a5"
     },
     {
+        "url": "https://www.sspc.co.uk/27-Maplewood-Park-Edinburgh-EH12-8WU-5-Bedroom-Detached-House-ESPC",
+        "address": "27 Maplewood Park, Edinburgh EH12 8WU",
+        "priceDescription": "Offers over £550,000",
+        "summary": "Detached House",
+        "bedrooms": 5,
+        "id": "8890a46fbc218d9e7ab2753a64b383f0"
+    },
+    {
         "url": "https://www.sspc.co.uk/Plot-3-Maragrian-Queens-Road-Dunbar-East-Lothian-EH42-1QH-4-Bedroom-Detached-House-ESPC",
         "address": "Plot 3, Maragrian, Queens Road, Dunbar, East Lothian EH42 1QH",
         "priceDescription": "Offers over £550,000",
@@ -1078,14 +1070,6 @@
         "summary": "End Terraced House",
         "bedrooms": 3,
         "id": "543fd674b27d74cbf35381cfa21eb69a"
-    },
-    {
-        "url": "https://www.sspc.co.uk/27-Maplewood-Park-Edinburgh-EH12-8WU-5-Bedroom-Detached-House-ESPC",
-        "address": "27 Maplewood Park, Edinburgh EH12 8WU",
-        "priceDescription": "Offers over £550,000",
-        "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "8890a46fbc218d9e7ab2753a64b383f0"
     },
     {
         "url": "https://www.sspc.co.uk/Cheviot-Lea-Stichill-Eastfield-Kelso-TD5-7QZ-4-Bedroom-Detached-House-ESPC",
@@ -1142,6 +1126,14 @@
         "summary": "Detached House",
         "bedrooms": 6,
         "id": "83b06ecfd45c09a2ed0122d30a01bd28"
+    },
+    {
+        "url": "https://www.sspc.co.uk/11-Sycamore-Terrace-Corstorphine-Edinburgh-EH12-7HL-3-Bedroom-End-Terraced-House-ESPC",
+        "address": "11 Sycamore Terrace, Corstorphine, Edinburgh EH12 7HL",
+        "priceDescription": "Offers over £549,995",
+        "summary": "End Terraced House",
+        "bedrooms": 3,
+        "id": "d8eb6625f3b88806e690e398fa50d289"
     },
     {
         "url": "https://www.sspc.co.uk/The-Elms-Manse-East-Loan-Prestonpans-EH32-9ED-4-Bedroom-Detached-House-ESPC",
@@ -1208,20 +1200,20 @@
         "id": "730066b147fef4f556b3bbe47a7a5a25"
     },
     {
-        "url": "https://www.sspc.co.uk/11-Hawthorn-Road-East-Calder-EH53-0WQ-5-Bedroom-Detached-House-ESPC",
-        "address": "11 Hawthorn Road, East Calder EH53 0WQ",
-        "priceDescription": "Fixed Price £535,000",
-        "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "8832446ad3e3effaf3f3d60522f8eee0"
-    },
-    {
         "url": "https://www.sspc.co.uk/3-Norwal-Way-Corstorphine-Edinburgh-EH12-0EA-4-Bedroom-Semi-Detached-House-ESPC",
         "address": "3 Norwal Way, Corstorphine, Edinburgh EH12 0EA",
         "priceDescription": "Fixed Price £535,000",
         "summary": "Semi-Detached House",
         "bedrooms": 4,
         "id": "8293fe079b06c29dd7fe49c00ae76b7f"
+    },
+    {
+        "url": "https://www.sspc.co.uk/11-Hawthorn-Road-East-Calder-EH53-0WQ-5-Bedroom-Detached-House-ESPC",
+        "address": "11 Hawthorn Road, East Calder EH53 0WQ",
+        "priceDescription": "Fixed Price £535,000",
+        "summary": "Detached House",
+        "bedrooms": 5,
+        "id": "8832446ad3e3effaf3f3d60522f8eee0"
     },
     {
         "url": "https://www.sspc.co.uk/19-Pitcullen-Terrace-Perth-PH2-7EQ-5-Bedroom-Semi-Detached-House-PSPC",
@@ -1302,14 +1294,6 @@
         "summary": "Detached House",
         "bedrooms": 5,
         "id": "c30a504fc1de14cbbebf335c30458b57"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Oliver-Villa-Mayville-Park-Dunbar-EH42-1AH-4-Bedroom-Detached-House-ESPC",
-        "address": "Oliver Villa, Mayville Park, Dunbar EH42 1AH",
-        "priceDescription": "Offers over £520,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "b38d025b72ec3bc230b56df458da2c0c"
     },
     {
         "url": "https://www.sspc.co.uk/5-Ben-Avon-Drive-Livingston-EH53-0WE-5-Bedroom-Detached-House-ESPC",
@@ -1432,14 +1416,6 @@
         "id": "1d90378d36b6e51c81cd4c38086274a7"
     },
     {
-        "url": "https://www.sspc.co.uk/22-Greenside-Court-ST.-ANDREWS-KY16-9UG-4-Bedroom-Semi-Detached-House-ESPC",
-        "address": "22 Greenside Court, ST. ANDREWS KY16 9UG",
-        "priceDescription": "Offers over £500,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 4,
-        "id": "948e22b1a0936763598dc5acbb738601"
-    },
-    {
         "url": "https://www.sspc.co.uk/58-Colinton-Road-Merchiston-Edinburgh-EH14-1AH-4-Bedroom-Terraced-House-ESPC",
         "address": "58 Colinton Road, Merchiston, Edinburgh EH14 1AH",
         "priceDescription": "Offers over £500,000",
@@ -1534,14 +1510,6 @@
         "summary": "Detached House",
         "bedrooms": 5,
         "id": "8e3f9a2b8804332b7570c07e779d6d57"
-    },
-    {
-        "url": "https://www.sspc.co.uk/44-Branders-Place-South-Queensferry-EH30-9AQ-4-Bedroom-Detached-House-ESPC",
-        "address": "44 Branders Place, South Queensferry EH30 9AQ",
-        "priceDescription": "Offers over £490,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "398d45b89dcb7f16939f497b7c29e602"
     },
     {
         "url": "https://www.sspc.co.uk/33-Redford-Avenue-Redford-Edinburgh-EH13-0BX-4-Bedroom-Semi-Detached-House-ESPC",
@@ -1656,20 +1624,20 @@
         "id": "9c5d3bb9ecb4aa35a6add4a3c7be0d93"
     },
     {
-        "url": "https://www.sspc.co.uk/52-Catelbock-Close-Kirkliston-EH29-9FF-5-Bedroom-Detached-House-ESPC",
-        "address": "52 Catelbock Close, Kirkliston EH29 9FF",
-        "priceDescription": "Fixed Price £480,000",
-        "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "5cce465701e3dc18c5159241821fa8e8"
-    },
-    {
         "url": "https://www.sspc.co.uk/1-West-Braes-Pittenweem-ANSTRUTHER-KY10-2PS-3-Bedroom-Detached-House-ESPC",
         "address": "1 West Braes, Pittenweem, ANSTRUTHER KY10 2PS",
         "priceDescription": "Offers over £480,000",
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "7d324a2a73cafa49eb6060383970415b"
+    },
+    {
+        "url": "https://www.sspc.co.uk/52-Catelbock-Close-Kirkliston-EH29-9FF-5-Bedroom-Detached-House-ESPC",
+        "address": "52 Catelbock Close, Kirkliston EH29 9FF",
+        "priceDescription": "Fixed Price £480,000",
+        "summary": "Detached House",
+        "bedrooms": 5,
+        "id": "5cce465701e3dc18c5159241821fa8e8"
     },
     {
         "url": "https://www.sspc.co.uk/16-Bughties-Road-Broughty-Ferry-DD5-2LW-4-Bedroom-Detached-House-TSPC",
@@ -1744,20 +1712,12 @@
         "id": "28fe8bae4788c0567276eaddc42046ba"
     },
     {
-        "url": "https://www.sspc.co.uk/4-Stewart-Grove-Danderhall-Midlothian-EH22-1QY-4-Bedroom-Detached-House-ESPC",
-        "address": "4 Stewart Grove, Danderhall, Midlothian EH22 1QY",
-        "priceDescription": "Fixed Price £475,000",
+        "url": "https://www.sspc.co.uk/17-Broomlands-Kelso-TD5-7PR-4-Bedroom-Detached-House-ESPC",
+        "address": "17 Broomlands, Kelso TD5 7PR",
+        "priceDescription": "Guide Price £475,000",
         "summary": "Detached House",
         "bedrooms": 4,
-        "id": "28df59989cc31b61db5b9e345cdf8d31"
-    },
-    {
-        "url": "https://www.sspc.co.uk/15-Milton-Road-Pittenweem-ANSTRUTHER-KY10-2LN-5-Bedroom-Detached-House-ESPC",
-        "address": "15 Milton Road, Pittenweem, ANSTRUTHER KY10 2LN",
-        "priceDescription": "Offers over £475,000",
-        "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "529c7bb5e7ab9b9463059f89fc02f51d"
+        "id": "26fe5c480ed3e731b798f0f95864db9a"
     },
     {
         "url": "https://www.sspc.co.uk/6-Charles-Court-Limekilns-DUNFERMLINE-KY11-3LG-4-Bedroom-Detached-House-ESPC",
@@ -1768,12 +1728,28 @@
         "id": "527bab11e372f09c4ff5d0b040245516"
     },
     {
-        "url": "https://www.sspc.co.uk/17-Broomlands-Kelso-TD5-7PR-4-Bedroom-Detached-House-ESPC",
-        "address": "17 Broomlands, Kelso TD5 7PR",
-        "priceDescription": "Guide Price £475,000",
+        "url": "https://www.sspc.co.uk/15-Milton-Road-Pittenweem-ANSTRUTHER-KY10-2LN-5-Bedroom-Detached-House-ESPC",
+        "address": "15 Milton Road, Pittenweem, ANSTRUTHER KY10 2LN",
+        "priceDescription": "Offers over £475,000",
+        "summary": "Detached House",
+        "bedrooms": 5,
+        "id": "529c7bb5e7ab9b9463059f89fc02f51d"
+    },
+    {
+        "url": "https://www.sspc.co.uk/4-Stewart-Grove-Danderhall-Midlothian-EH22-1QY-4-Bedroom-Detached-House-ESPC",
+        "address": "4 Stewart Grove, Danderhall, Midlothian EH22 1QY",
+        "priceDescription": "Fixed Price £475,000",
         "summary": "Detached House",
         "bedrooms": 4,
-        "id": "26fe5c480ed3e731b798f0f95864db9a"
+        "id": "28df59989cc31b61db5b9e345cdf8d31"
+    },
+    {
+        "url": "https://www.sspc.co.uk/44-Branders-Place-South-Queensferry-EH30-9AQ-4-Bedroom-Detached-House-ESPC",
+        "address": "44 Branders Place, South Queensferry EH30 9AQ",
+        "priceDescription": "Offers over £475,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "398d45b89dcb7f16939f497b7c29e602"
     },
     {
         "url": "https://www.sspc.co.uk/1-St.-Marys-Cottage-70-South-Street-ST.-ANDREWS-KY16-9JT-2-Bedroom-House-ESPC",
@@ -1800,12 +1776,12 @@
         "id": "fcb22efdbc1876d693156d6c447afadb"
     },
     {
-        "url": "https://www.sspc.co.uk/Plot-81-Off-Murieston-Road-Livingston-EH54-9AZ-5-Bedroom-Detached-House-ESPC",
-        "address": "Plot 81, Off Murieston Road, Livingston EH54 9AZ",
-        "priceDescription": "From £469,995",
+        "url": "https://www.sspc.co.uk/2-Cramond-Glebe-Gardens-EDINBURGH-EH4-6NZ-4-Bedroom-Detached-House-ESPC",
+        "address": "2 Cramond Glebe Gardens, EDINBURGH EH4 6NZ",
+        "priceDescription": "Offers over £470,000",
         "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "b08dc11c8e0a53f4fd17cd568252b730"
+        "bedrooms": 4,
+        "id": "515b4bf81ec0af74a9b3053513af8bed"
     },
     {
         "url": "https://www.sspc.co.uk/Crutherland-View-Strathaven-Road-East-Kilbride-G75-0QZ-4-Bedroom-Semi-Detached-House-ESPC",
@@ -1816,44 +1792,12 @@
         "id": "81d4702f4ae4284b5d37f0003e751c09"
     },
     {
-        "url": "https://www.sspc.co.uk/23-Muir-Way-Milnathort-KINROSS-KY13-9AE-5-Bedroom-Detached-House-ESPC",
-        "address": "23 Muir Way, Milnathort, KINROSS KY13 9AE",
-        "priceDescription": "Offers In The Region Of £465,000",
+        "url": "https://www.sspc.co.uk/Plot-81-Off-Murieston-Road-Livingston-EH54-9AZ-5-Bedroom-Detached-House-ESPC",
+        "address": "Plot 81, Off Murieston Road, Livingston EH54 9AZ",
+        "priceDescription": "From £469,995",
         "summary": "Detached House",
         "bedrooms": 5,
-        "id": "f62cc2b67242001c02306f031596a238"
-    },
-    {
-        "url": "https://www.sspc.co.uk/17-Hawthorn-Road-East-Calder-EH53-0WQ-4-Bedroom-Detached-House-ESPC",
-        "address": "17 Hawthorn Road, East Calder EH53 0WQ",
-        "priceDescription": "Fixed Price £465,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "5621359528e9235e8e1390a04b623e63"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Inverloch-2-Lochside-Road-Castle-Douglas-DG7-1EU-5-Bedroom-Detached-House-ESPC",
-        "address": "Inverloch, 2 Lochside Road, Castle Douglas DG7 1EU",
-        "priceDescription": "Offers over £465,000",
-        "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "e8c6662f6d1dbb9bee1047a655f972c1"
-    },
-    {
-        "url": "https://www.sspc.co.uk/15-Cramond-Vale-EDINBURGH-EH4-6RB-4-Bedroom-Detached-House-ESPC",
-        "address": "15 Cramond Vale, EDINBURGH EH4 6RB",
-        "priceDescription": "Offers over £465,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "ba5423ecf6d91200a2677c373a37550d"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Sideways-Bonnington-Road-PEEBLES-EH45-9HJ-4-Bedroom-Detached-House-ESPC",
-        "address": "Sideways, Bonnington Road, PEEBLES EH45 9HJ",
-        "priceDescription": "Offers over £465,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "8f6eeaf3910ff13b6c0a4b28f57b1a52"
+        "id": "b08dc11c8e0a53f4fd17cd568252b730"
     },
     {
         "url": "https://www.sspc.co.uk/9-Doocot-Road-ST.-ANDREWS-KY16-8QP-3-Bedroom-Detached-House-ESPC",
@@ -1864,12 +1808,36 @@
         "id": "fb79e3f1056469d6b2133ac3d029d861"
     },
     {
-        "url": "https://www.sspc.co.uk/15-Buie-Brae-Kirkliston-EH29-9FB-4-Bedroom-Detached-House-ESPC",
-        "address": "15 Buie Brae, Kirkliston EH29 9FB",
-        "priceDescription": "Offers over £460,000",
+        "url": "https://www.sspc.co.uk/23-Muir-Way-Milnathort-KINROSS-KY13-9AE-5-Bedroom-Detached-House-ESPC",
+        "address": "23 Muir Way, Milnathort, KINROSS KY13 9AE",
+        "priceDescription": "Offers In The Region Of £465,000",
+        "summary": "Detached House",
+        "bedrooms": 5,
+        "id": "f62cc2b67242001c02306f031596a238"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Inverloch-2-Lochside-Road-Castle-Douglas-DG7-1EU-5-Bedroom-Detached-House-ESPC",
+        "address": "Inverloch, 2 Lochside Road, Castle Douglas DG7 1EU",
+        "priceDescription": "Offers over £465,000",
+        "summary": "Detached House",
+        "bedrooms": 5,
+        "id": "e8c6662f6d1dbb9bee1047a655f972c1"
+    },
+    {
+        "url": "https://www.sspc.co.uk/17-Hawthorn-Road-East-Calder-EH53-0WQ-4-Bedroom-Detached-House-ESPC",
+        "address": "17 Hawthorn Road, East Calder EH53 0WQ",
+        "priceDescription": "Fixed Price £465,000",
         "summary": "Detached House",
         "bedrooms": 4,
-        "id": "ef466430ef8767b2fdbd3f2ecc4cbb46"
+        "id": "5621359528e9235e8e1390a04b623e63"
+    },
+    {
+        "url": "https://www.sspc.co.uk/15-Cramond-Vale-EDINBURGH-EH4-6RB-4-Bedroom-Detached-House-ESPC",
+        "address": "15 Cramond Vale, EDINBURGH EH4 6RB",
+        "priceDescription": "Offers over £465,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "ba5423ecf6d91200a2677c373a37550d"
     },
     {
         "url": "https://www.sspc.co.uk/21-Lochside-Avenue-Bishopton-PA7-5FZ-5-Bedroom-Detached-House-ESPC",
@@ -1888,12 +1856,12 @@
         "id": "77e81e947f39a332f502e050d5e9bb41"
     },
     {
-        "url": "https://www.sspc.co.uk/3-Hillview-Drive-Corstorphine-Edinburgh-EH12-8QW-4-Bedroom-Detached-House-ESPC",
-        "address": "3 Hillview Drive, Corstorphine, Edinburgh EH12 8QW",
+        "url": "https://www.sspc.co.uk/15-Buie-Brae-Kirkliston-EH29-9FB-4-Bedroom-Detached-House-ESPC",
+        "address": "15 Buie Brae, Kirkliston EH29 9FB",
         "priceDescription": "Offers over £460,000",
         "summary": "Detached House",
         "bedrooms": 4,
-        "id": "e9ec27bcf520aa921e738a1df8250a29"
+        "id": "ef466430ef8767b2fdbd3f2ecc4cbb46"
     },
     {
         "url": "https://www.sspc.co.uk/47-Redford-Avenue-Colinton-Edinburgh-EH13-0BU-3-Bedroom-Semi-Detached-House-ESPC",
@@ -1902,6 +1870,14 @@
         "summary": "Semi-Detached House",
         "bedrooms": 3,
         "id": "eb67c25c52ff5214a6fef3886e56b171"
+    },
+    {
+        "url": "https://www.sspc.co.uk/3-Hillview-Drive-Corstorphine-Edinburgh-EH12-8QW-4-Bedroom-Detached-House-ESPC",
+        "address": "3 Hillview Drive, Corstorphine, Edinburgh EH12 8QW",
+        "priceDescription": "Offers over £460,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "e9ec27bcf520aa921e738a1df8250a29"
     },
     {
         "url": "https://www.sspc.co.uk/Plot-33-The-Sunningdale-Ladywood-View-Penicuik-EH26-0FL-5-Bedroom-Detached-House-ESPC",
@@ -1936,6 +1912,14 @@
         "id": "017d234ff54bef29319c3bad619696a8"
     },
     {
+        "url": "https://www.sspc.co.uk/19-Foxhall-View-Kirkliston-EH29-9GU-5-Bedroom-Detached-House-ESPC",
+        "address": "19 Foxhall View, Kirkliston EH29 9GU",
+        "priceDescription": "Fixed Price £452,995",
+        "summary": "Detached House",
+        "bedrooms": 5,
+        "id": "75773bf34b1578273e7946f8fa99b785"
+    },
+    {
         "url": "https://www.sspc.co.uk/Brig-House-Sprouston-Road-TD5-8ER-3-Bedroom-Detached-House-BSPC",
         "address": "Brig House, Sprouston Road TD5 8ER",
         "priceDescription": "Guide Price £450,000",
@@ -1952,12 +1936,12 @@
         "id": "be0e2a278e5cef447a489d274b728720"
     },
     {
-        "url": "https://www.sspc.co.uk/25-Villa-Dean-ROSEWELL-EH24-9ES-5-Bedroom-Detached-House-ESPC",
-        "address": "25 Villa Dean, ROSEWELL EH24 9ES",
+        "url": "https://www.sspc.co.uk/1-Caithness-Crescent-ROSLIN-EH25-9AN-4-Bedroom-Detached-House-ESPC",
+        "address": "1 Caithness Crescent, ROSLIN EH25 9AN",
         "priceDescription": "Offers over £450,000",
         "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "351ac8dc22723c93450a774ee9f93f6f"
+        "bedrooms": 4,
+        "id": "989c9d30245db57092d203e8a209e1af"
     },
     {
         "url": "https://www.sspc.co.uk/11-Villa-Dean-Rosewell-EH24-9ES-5-Bedroom-Detached-House-ESPC",
@@ -1968,12 +1952,12 @@
         "id": "7a9cbb16b04df3fc73a2c68074c82b3e"
     },
     {
-        "url": "https://www.sspc.co.uk/1-Caithness-Crescent-ROSLIN-EH25-9AN-4-Bedroom-Detached-House-ESPC",
-        "address": "1 Caithness Crescent, ROSLIN EH25 9AN",
+        "url": "https://www.sspc.co.uk/25-Villa-Dean-ROSEWELL-EH24-9ES-5-Bedroom-Detached-House-ESPC",
+        "address": "25 Villa Dean, ROSEWELL EH24 9ES",
         "priceDescription": "Offers over £450,000",
         "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "989c9d30245db57092d203e8a209e1af"
+        "bedrooms": 5,
+        "id": "351ac8dc22723c93450a774ee9f93f6f"
     },
     {
         "url": "https://www.sspc.co.uk/129-Edmonstone-Road-Danderhall-EH22-1QX-5-Bedroom-Detached-House-ESPC",
@@ -2000,28 +1984,20 @@
         "id": "6209179be912ab0ff67c8a4f3fde9d7d"
     },
     {
-        "url": "https://www.sspc.co.uk/40-Lundin-Road-Crossford-DUNFERMLINE-KY12-8PN-4-Bedroom-Detached-House-ESPC",
-        "address": "40 Lundin Road, Crossford, DUNFERMLINE KY12 8PN",
-        "priceDescription": "Offers over £450,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "0574ea14f9d210a9abf20213b20dbc10"
-    },
-    {
-        "url": "https://www.sspc.co.uk/23-Jewel-Gardens-Dalkeith-EH22-3FQ-4-Bedroom-Detached-House-ESPC",
-        "address": "23 Jewel Gardens, Dalkeith EH22 3FQ",
-        "priceDescription": "Offers over £450,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "59658d9d8265030f057eb0c87d0cd42c"
-    },
-    {
         "url": "https://www.sspc.co.uk/106-Pilmuir-Street-DUNFERMLINE-KY12-0ND-3-Bedroom-Detached-House-ESPC",
         "address": "106 Pilmuir Street, DUNFERMLINE KY12 0ND",
         "priceDescription": "Fixed Price £450,000",
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "c6554d2b0c57e5ec65fb4388d5336a9a"
+    },
+    {
+        "url": "https://www.sspc.co.uk/40-Lundin-Road-Crossford-DUNFERMLINE-KY12-8PN-4-Bedroom-Detached-House-ESPC",
+        "address": "40 Lundin Road, Crossford, DUNFERMLINE KY12 8PN",
+        "priceDescription": "Offers over £450,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "0574ea14f9d210a9abf20213b20dbc10"
     },
     {
         "url": "https://www.sspc.co.uk/6-Beech-Path-East-Calder-Livingston-EH53-0FR-5-Bedroom-Detached-House-ESPC",
@@ -2038,14 +2014,6 @@
         "summary": "Semi-Detached House",
         "bedrooms": 4,
         "id": "67b41620c924380aac963d7f902a1710"
-    },
-    {
-        "url": "https://www.sspc.co.uk/12-Parliament-Way-Kirkliston-EH29-9GY-5-Bedroom-Detached-House-ESPC",
-        "address": "12 Parliament Way, Kirkliston EH29 9GY",
-        "priceDescription": "Fixed Price £449,995",
-        "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "78fe1916d293cfd2ad58d85112dfde01"
     },
     {
         "url": "https://www.sspc.co.uk/49-Ross-Avenue-Perth-PH1-1GZ-5-Bedroom-Detached-House-PSPC",
@@ -2096,20 +2064,20 @@
         "id": "7f002c46eb98f28928322ce2d34d94cd"
     },
     {
-        "url": "https://www.sspc.co.uk/17-Quality-Street-Davidsons-Mains-EH4-5BP-3-Bedroom-House-ESPC",
-        "address": "17 Quality Street, Davidsons Mains EH4 5BP",
-        "priceDescription": "Offers over £445,000",
-        "summary": "House",
-        "bedrooms": 3,
-        "id": "5cff8496dd933a6953a39946cd689fa3"
-    },
-    {
         "url": "https://www.sspc.co.uk/1-Gilberstoun-Place-Edinburgh-EH15-2RB-5-Bedroom-Detached-House-ESPC",
         "address": "1 Gilberstoun Place, Edinburgh EH15 2RB",
         "priceDescription": "Offers over £445,000",
         "summary": "Detached House",
         "bedrooms": 5,
         "id": "a3a88c730cdc98a0bf3a948e3dcec937"
+    },
+    {
+        "url": "https://www.sspc.co.uk/17-Quality-Street-Davidsons-Mains-EH4-5BP-3-Bedroom-House-ESPC",
+        "address": "17 Quality Street, Davidsons Mains EH4 5BP",
+        "priceDescription": "Offers over £445,000",
+        "summary": "House",
+        "bedrooms": 3,
+        "id": "5cff8496dd933a6953a39946cd689fa3"
     },
     {
         "url": "https://www.sspc.co.uk/19a-Townsend-Crescent-KIRKCALDY-KY1-1DN-5-Bedroom-Semi-Detached-House-ESPC",
@@ -2144,20 +2112,20 @@
         "id": "998c680bf4a2378963e7e22dab170584"
     },
     {
-        "url": "https://www.sspc.co.uk/2-Wester-Kippielaw-Loan-DALKEITH-EH22-2GJ-4-Bedroom-Detached-House-ESPC",
-        "address": "2 Wester Kippielaw Loan, DALKEITH EH22 2GJ",
-        "priceDescription": "Offers over £440,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "141c1f7b0ad8115fdf1df910a355db29"
-    },
-    {
         "url": "https://www.sspc.co.uk/49-Riversdale-Grove-Murrayfield-Edinburgh-EH12-5QS-4-Bedroom-End-Terraced-House-ESPC",
         "address": "49 Riversdale Grove, Murrayfield, Edinburgh EH12 5QS",
         "priceDescription": "Offers over £440,000",
         "summary": "End Terraced House",
         "bedrooms": 4,
         "id": "330ace75eba83620b16ea71cd370a48f"
+    },
+    {
+        "url": "https://www.sspc.co.uk/2-Wester-Kippielaw-Loan-DALKEITH-EH22-2GJ-4-Bedroom-Detached-House-ESPC",
+        "address": "2 Wester Kippielaw Loan, DALKEITH EH22 2GJ",
+        "priceDescription": "Offers over £440,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "141c1f7b0ad8115fdf1df910a355db29"
     },
     {
         "url": "https://www.sspc.co.uk/10-Falcon-Drive-Strathmore-Fields-Forfar-DD8-3FU-4-Bedroom-Detached-House-TSPC",
@@ -2174,6 +2142,14 @@
         "summary": "Terraced House",
         "bedrooms": 6,
         "id": "96b51b088d3c101a9c5a390635f51919"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Sideways-Bonnington-Road-PEEBLES-EH45-9HJ-4-Bedroom-Detached-House-ESPC",
+        "address": "Sideways, Bonnington Road, PEEBLES EH45 9HJ",
+        "priceDescription": "Offers over £435,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "8f6eeaf3910ff13b6c0a4b28f57b1a52"
     },
     {
         "url": "https://www.sspc.co.uk/32-Clackmae-Road-EDINBURGH-EH16-6NZ-3-Bedroom-Detached-House-ESPC",
@@ -2208,6 +2184,14 @@
         "id": "b6c992235391ff0000488eb8e2b0fec8"
     },
     {
+        "url": "https://www.sspc.co.uk/15-Edwards-Wynd-Edinburgh-EH17-8XW-5-Bedroom-Detached-House-ESPC",
+        "address": "15 Edwards Wynd, Edinburgh EH17 8XW",
+        "priceDescription": "Offers over £430,000",
+        "summary": "Detached House",
+        "bedrooms": 5,
+        "id": "a292c911329549c0b2c9d3847d8fa246"
+    },
+    {
         "url": "https://www.sspc.co.uk/44-Caiystane-Avenue-EDINBURGH-EH10-6SH-4-Bedroom-Detached-House-ESPC",
         "address": "44 Caiystane Avenue, EDINBURGH EH10 6SH",
         "priceDescription": "Offers over £430,000",
@@ -2216,12 +2200,12 @@
         "id": "6a255d392d10b60b5d6cc752258e6601"
     },
     {
-        "url": "https://www.sspc.co.uk/15-Edwards-Wynd-Edinburgh-EH17-8XW-5-Bedroom-Detached-House-ESPC",
-        "address": "15 Edwards Wynd, Edinburgh EH17 8XW",
+        "url": "https://www.sspc.co.uk/18-Woodhall-Grove-EDINBURGH-EH13-0HR-3-Bedroom-Detached-House-ESPC",
+        "address": "18 Woodhall Grove, EDINBURGH EH13 0HR",
         "priceDescription": "Offers over £430,000",
         "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "a292c911329549c0b2c9d3847d8fa246"
+        "bedrooms": 3,
+        "id": "2484142fdad832bd57263aa337c43ded"
     },
     {
         "url": "https://www.sspc.co.uk/13-Moir-Crescent-ST.-ANDREWS-KY16-8XN-4-Bedroom-Detached-House-ESPC",
@@ -2272,20 +2256,20 @@
         "id": "afa7ec47188e992c0f740076d5100f13"
     },
     {
-        "url": "https://www.sspc.co.uk/9-Hewlett-Way-SOUTH-QUEENSFERRY-EH30-9AA-4-Bedroom-Detached-House-ESPC",
-        "address": "9 Hewlett Way, SOUTH QUEENSFERRY EH30 9AA",
-        "priceDescription": "Offers over £425,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "33593b79cc72d4d20765d59ae9c17ec2"
-    },
-    {
         "url": "https://www.sspc.co.uk/604-Clarkston-Road-Netherlee-GLASGOW-G44-3SQ-5-Bedroom-Terraced-House-ESPC",
         "address": "604 Clarkston Road, Netherlee, GLASGOW G44 3SQ",
         "priceDescription": "Offers over £425,000",
         "summary": "Terraced House",
         "bedrooms": 5,
         "id": "2baa7c7aed4d9123b28ce215ab085f8c"
+    },
+    {
+        "url": "https://www.sspc.co.uk/9-Hewlett-Way-SOUTH-QUEENSFERRY-EH30-9AA-4-Bedroom-Detached-House-ESPC",
+        "address": "9 Hewlett Way, SOUTH QUEENSFERRY EH30 9AA",
+        "priceDescription": "Offers over £425,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "33593b79cc72d4d20765d59ae9c17ec2"
     },
     {
         "url": "https://www.sspc.co.uk/Gladstone-(Plot-74)-Roseberry-Park-Tranent-EH33-2FB-4-Bedroom-Detached-House-ESPC",
@@ -2328,12 +2312,12 @@
         "id": "c322a145b6e9ad310e062ed14d135126"
     },
     {
-        "url": "https://www.sspc.co.uk/4-Greystonelees-Steading-Burnmouth-EYEMOUTH-TD14-5SZ-5-Bedroom-Detached-House-ESPC",
-        "address": "4 Greystonelees Steading, Burnmouth EYEMOUTH TD14 5SZ",
+        "url": "https://www.sspc.co.uk/51-Sinton-Park-Dunbar-EH42-1ZP-4-Bedroom-Detached-House-ESPC",
+        "address": "51 Sinton Park, Dunbar EH42 1ZP",
         "priceDescription": "Offers over £420,000",
         "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "1595d433ddf153b25365ded7405be42b"
+        "bedrooms": 4,
+        "id": "d1069022e97577aaa41eda93b93e1bf6"
     },
     {
         "url": "https://www.sspc.co.uk/34-Muirhead-Crescent-BO'NESS-EH51-9TH-5-Bedroom-Detached-House-ESPC",
@@ -2350,14 +2334,6 @@
         "summary": "Semi-Detached House",
         "bedrooms": 5,
         "id": "d97048278780d512032e430631c83b31"
-    },
-    {
-        "url": "https://www.sspc.co.uk/51-Sinton-Park-Dunbar-EH42-1ZP-4-Bedroom-Detached-House-ESPC",
-        "address": "51 Sinton Park, Dunbar EH42 1ZP",
-        "priceDescription": "Offers over £420,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "d1069022e97577aaa41eda93b93e1bf6"
     },
     {
         "url": "https://www.sspc.co.uk/37-Lindsay-Circus-ROSEWELL-EH24-9EN-4-Bedroom-Detached-House-ESPC",
@@ -2400,12 +2376,12 @@
         "id": "544d2771d1a0846c69be57c943ec3027"
     },
     {
-        "url": "https://www.sspc.co.uk/9-Willowbrae-Avenue-Willowbrae-Edinburgh-EH8-7HB-3-Bedroom-Terraced-House-ESPC",
-        "address": "9 Willowbrae Avenue, Willowbrae, Edinburgh EH8 7HB",
+        "url": "https://www.sspc.co.uk/67-Redford-Loan-Edinburgh-EH13-0AU-3-Bedroom-Semi-Detached-House-ESPC",
+        "address": "67 Redford Loan, Edinburgh EH13 0AU",
         "priceDescription": "Offers over £415,000",
-        "summary": "Terraced House",
+        "summary": "Semi-Detached House",
         "bedrooms": 3,
-        "id": "1a0e1991ce5e6f88111f22ec14c0e021"
+        "id": "565b9437052d24681d6b2180bd16af52"
     },
     {
         "url": "https://www.sspc.co.uk/40-Queen-Mary's-Court-Winchburgh-EH52-6FN-4-Bedroom-Detached-House-ESPC",
@@ -2414,14 +2390,6 @@
         "summary": "Detached House",
         "bedrooms": 4,
         "id": "dc5b30f45a628c373ca373825e894821"
-    },
-    {
-        "url": "https://www.sspc.co.uk/67-Redford-Loan-Edinburgh-EH13-0AU-3-Bedroom-Semi-Detached-House-ESPC",
-        "address": "67 Redford Loan, Edinburgh EH13 0AU",
-        "priceDescription": "Offers over £415,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "565b9437052d24681d6b2180bd16af52"
     },
     {
         "url": "https://www.sspc.co.uk/Plot-296-Dean-Bannerman-Cruick-EH17-8SH-4-Bedroom-Detached-House-ESPC",
@@ -2448,12 +2416,12 @@
         "id": "ce0033566a30f81cea10d82732c516bc"
     },
     {
-        "url": "https://www.sspc.co.uk/The-Old-Schoolhouse-Challoch-By-Newton-Stewart-DG8-6RB-3-Bedroom-Detached-House-ESPC",
-        "address": "The Old Schoolhouse, Challoch, By Newton Stewart DG8 6RB",
-        "priceDescription": "Fixed Price £410,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "d72a37d6106bb52a9c77f36d9b061d29"
+        "url": "https://www.sspc.co.uk/27-Cambridge-Avenue-EDINBURGH-EH6-5AW-2-Bedroom-Terraced-House-ESPC",
+        "address": "27 Cambridge Avenue, EDINBURGH EH6 5AW",
+        "priceDescription": "Offers over £405,000",
+        "summary": "Terraced House",
+        "bedrooms": 2,
+        "id": "385ffcc27955f3d0b6c0a32742125a2f"
     },
     {
         "url": "https://www.sspc.co.uk/8-Gladstone's-Gait-Bonnyrigg-EH19-3GA-5-Bedroom-Detached-House-ESPC",
@@ -2464,12 +2432,28 @@
         "id": "df7fc97b5bde011a96544cbd2e9e78b1"
     },
     {
-        "url": "https://www.sspc.co.uk/27-Cambridge-Avenue-EDINBURGH-EH6-5AW-2-Bedroom-Terraced-House-ESPC",
-        "address": "27 Cambridge Avenue, EDINBURGH EH6 5AW",
-        "priceDescription": "Offers over £405,000",
+        "url": "https://www.sspc.co.uk/37-Vinefields-Pencaitland-EH34-5HD-5-Bedroom-Detached-House-ESPC",
+        "address": "37 Vinefields, Pencaitland EH34 5HD",
+        "priceDescription": "Offers over £400,000",
+        "summary": "Detached House",
+        "bedrooms": 5,
+        "id": "4ed6e3e14b6ff2dfa0c44f58775ac91c"
+    },
+    {
+        "url": "https://www.sspc.co.uk/28-Kings-View-Crescent-Ratho-Newbridge-EH28-8AF-4-Bedroom-Terraced-House-ESPC",
+        "address": "28 Kings View Crescent, Ratho, Newbridge EH28 8AF",
+        "priceDescription": "Fixed Price £400,000",
         "summary": "Terraced House",
-        "bedrooms": 2,
-        "id": "385ffcc27955f3d0b6c0a32742125a2f"
+        "bedrooms": 4,
+        "id": "5c1a0ebbf444712e038beb67b7d6453d"
+    },
+    {
+        "url": "https://www.sspc.co.uk/10-Bonaly-Rise-EDINBURGH-EH13-0QX-3-Bedroom-Terraced-House-ESPC",
+        "address": "10 Bonaly Rise, EDINBURGH EH13 0QX",
+        "priceDescription": "Fixed Price £400,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "e4a5a420b357efa1d8d96f0a89597fe9"
     },
     {
         "url": "https://www.sspc.co.uk/12-Pomathorn-Bank-Penicuik-EH26-8LP-5-Bedroom-Detached-House-ESPC",
@@ -2504,28 +2488,12 @@
         "id": "44c9185ba65a27b1e8bf2a3225b03389"
     },
     {
-        "url": "https://www.sspc.co.uk/37-Vinefields-Pencaitland-EH34-5HD-5-Bedroom-Detached-House-ESPC",
-        "address": "37 Vinefields, Pencaitland EH34 5HD",
-        "priceDescription": "Offers over £400,000",
-        "summary": "Detached House",
+        "url": "https://www.sspc.co.uk/11-Townhead-Auchterarder-PH3-1AH-5-Bedroom-Semi-Detached-House-PSPC",
+        "address": "11 Townhead, Auchterarder PH3 1AH",
+        "priceDescription": "Offers Over £400,000",
+        "summary": "Semi-Detached House",
         "bedrooms": 5,
-        "id": "4ed6e3e14b6ff2dfa0c44f58775ac91c"
-    },
-    {
-        "url": "https://www.sspc.co.uk/28-Kings-View-Crescent-Ratho-Newbridge-EH28-8AF-4-Bedroom-Terraced-House-ESPC",
-        "address": "28 Kings View Crescent, Ratho, Newbridge EH28 8AF",
-        "priceDescription": "Fixed Price £400,000",
-        "summary": "Terraced House",
-        "bedrooms": 4,
-        "id": "5c1a0ebbf444712e038beb67b7d6453d"
-    },
-    {
-        "url": "https://www.sspc.co.uk/10-Bonaly-Rise-EDINBURGH-EH13-0QX-3-Bedroom-Terraced-House-ESPC",
-        "address": "10 Bonaly Rise, EDINBURGH EH13 0QX",
-        "priceDescription": "Fixed Price £400,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "e4a5a420b357efa1d8d96f0a89597fe9"
+        "id": "afe0f0acb77eba53b72ded7a21995030"
     },
     {
         "url": "https://www.sspc.co.uk/Middlefield-House-Knowehead-Kirriemuir-DD8-5AA-5-Bedroom-Detached-House-TSPC",
@@ -2672,14 +2640,6 @@
         "id": "729a0e491e20dfd715a2d3c27f645230"
     },
     {
-        "url": "https://www.sspc.co.uk/10-Standalane-View-Peebles-EH45-8LS-4-Bedroom-Detached-House-ESPC",
-        "address": "10 Standalane View, Peebles EH45 8LS",
-        "priceDescription": "Offers over £395,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "64d81b70ce58a06cbf2d37644b20455e"
-    },
-    {
         "url": "https://www.sspc.co.uk/21-Waverley-Mills-Innerleithen-EH44-6RH-4-Bedroom-Detached-House-ESPC",
         "address": "21 Waverley Mills, Innerleithen EH44 6RH",
         "priceDescription": "Offers over £395,000",
@@ -2688,20 +2648,20 @@
         "id": "1b4de13f092b3fbe878393af89b86c24"
     },
     {
+        "url": "https://www.sspc.co.uk/10-Standalane-View-Peebles-EH45-8LS-4-Bedroom-Detached-House-ESPC",
+        "address": "10 Standalane View, Peebles EH45 8LS",
+        "priceDescription": "Offers over £395,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "64d81b70ce58a06cbf2d37644b20455e"
+    },
+    {
         "url": "https://www.sspc.co.uk/47-Silverknowes-Grove-EDINBURGH-EH4-5NH-3-Bedroom-Detached-House-ESPC",
         "address": "47 Silverknowes Grove, EDINBURGH EH4 5NH",
         "priceDescription": "Offers over £395,000",
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "ab13229f9bd75939e38db0668e5ad55d"
-    },
-    {
-        "url": "https://www.sspc.co.uk/11-Bonaly-Wester-Bonaly-Edinburgh-EH13-0RQ-3-Bedroom-Terraced-House-ESPC",
-        "address": "11 Bonaly Wester, Bonaly, Edinburgh EH13 0RQ",
-        "priceDescription": "Offers over £395,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "700b5f923df3ca48ae494ea18662ab77"
     },
     {
         "url": "https://www.sspc.co.uk/13B-West-Burnside-Dollar-FK14-7EW-4-Bedroom-Terraced-House-ESPC",
@@ -2726,6 +2686,14 @@
         "summary": "Terraced House",
         "bedrooms": 4,
         "id": "e7d76e9e01f6f49f7af1ec7451699691"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Woodside-House-Eccles-KELSO-TD5-7QP-4-Bedroom-Detached-House-ESPC",
+        "address": "Woodside House Eccles, KELSO TD5 7QP",
+        "priceDescription": "Offers over £395,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "4c15b9566983b05b7f6d83e6babe7df1"
     },
     {
         "url": "https://www.sspc.co.uk/10-Kerr-Avenue-Dalkeith-EH22-3JW-4-Bedroom-Detached-House-ESPC",
@@ -2776,20 +2744,20 @@
         "id": "0befcebe724b5cabb38456774b78fd3d"
     },
     {
-        "url": "https://www.sspc.co.uk/9-Craigcrook-Square-Blackhall-EH4-3SH-2-Bedroom-Semi-Detached-House-ESPC",
-        "address": "9 Craigcrook Square, Blackhall EH4 3SH",
-        "priceDescription": "Offers over £390,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 2,
-        "id": "09b7514f4f154b7b576e8486911026d5"
-    },
-    {
         "url": "https://www.sspc.co.uk/7-Hawkhead-Crescent-Liberton-EH16-6LR-3-Bedroom-Terraced-House-ESPC",
         "address": "7 Hawkhead Crescent, Liberton EH16 6LR",
         "priceDescription": "Offers over £390,000",
         "summary": "Terraced House",
         "bedrooms": 3,
         "id": "200967763e9527364d54c0636c786bf2"
+    },
+    {
+        "url": "https://www.sspc.co.uk/9-Craigcrook-Square-Blackhall-EH4-3SH-2-Bedroom-Semi-Detached-House-ESPC",
+        "address": "9 Craigcrook Square, Blackhall EH4 3SH",
+        "priceDescription": "Offers over £390,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 2,
+        "id": "09b7514f4f154b7b576e8486911026d5"
     },
     {
         "url": "https://www.sspc.co.uk/8-Relugas-Gardens-Edinburgh-EH9-2PU-3-Bedroom-Terraced-House-ESPC",
@@ -2816,20 +2784,20 @@
         "id": "7a43d43896559af9cbd8117352e3989f"
     },
     {
-        "url": "https://www.sspc.co.uk/1-Foxhall-View-Kirkliston-EH29-9GU-4-Bedroom-Detached-House-ESPC",
-        "address": "1 Foxhall View, Kirkliston EH29 9GU",
-        "priceDescription": "Fixed Price £389,995",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "3da655b373ac26a83cf73d09f6a55cb9"
-    },
-    {
         "url": "https://www.sspc.co.uk/9-Miller-Street-Winchburgh-BROXBURN-EH52-6WP-4-Bedroom-Detached-House-ESPC",
         "address": "9 Miller Street, Winchburgh, BROXBURN EH52 6WP",
         "priceDescription": "Offers over £389,995",
         "summary": "Detached House",
         "bedrooms": 4,
         "id": "dc5b395493e1798691f728e87e02d18d"
+    },
+    {
+        "url": "https://www.sspc.co.uk/1-Foxhall-View-Kirkliston-EH29-9GU-4-Bedroom-Detached-House-ESPC",
+        "address": "1 Foxhall View, Kirkliston EH29 9GU",
+        "priceDescription": "Fixed Price £389,995",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "3da655b373ac26a83cf73d09f6a55cb9"
     },
     {
         "url": "https://www.sspc.co.uk/Birchwood-Campmuir-Burrelton-PH13-9LN-4-Bedroom-House-PSPC",
@@ -2848,36 +2816,12 @@
         "id": "f71a15b6ac0c2a9acd44cd0797b29748"
     },
     {
-        "url": "https://www.sspc.co.uk/67-Redcroft-Road-Danderhall-EH22-1FQ-4-Bedroom-Detached-House-ESPC",
-        "address": "67 Redcroft Road, Danderhall EH22 1FQ",
-        "priceDescription": "Offers over £385,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "1c75d1f7f309118c3d08895441721817"
-    },
-    {
         "url": "https://www.sspc.co.uk/25-Balram-Road-Aberdour-Burntisland-KY3-0ED-3-Bedroom-Semi-Detached-House-ESPC",
         "address": "25 Balram Road, Aberdour, Burntisland KY3 0ED",
         "priceDescription": "Fixed Price £385,000",
         "summary": "Semi-Detached House",
         "bedrooms": 3,
         "id": "cba7e12241967ae7c4d42d4bf871b3d1"
-    },
-    {
-        "url": "https://www.sspc.co.uk/26-Ferryfield-EDINBURGH-EH5-2PR-3-Bedroom-Terraced-House-ESPC",
-        "address": "26 Ferryfield, EDINBURGH EH5 2PR",
-        "priceDescription": "Fixed Price £385,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "0b7899b06ee9b40202666c9f966a4190"
-    },
-    {
-        "url": "https://www.sspc.co.uk/40-Whitehaugh-Park-Peebles-Eh45-9DA-EH45-9DA-4-Bedroom-Semi-Detached-House-ESPC",
-        "address": "40 Whitehaugh Park, Peebles, Eh45 9DA EH45 9DA",
-        "priceDescription": "Offers over £385,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 4,
-        "id": "3d188e00399732795817cf1c38e6114d"
     },
     {
         "url": "https://www.sspc.co.uk/The-Old-Joinery-1-Tweed-Green-Peebles-EH45-8AP-4-Bedroom-Detached-House-ESPC",
@@ -2888,20 +2832,20 @@
         "id": "bb9820c44346b247a1b7f46f4f108bfa"
     },
     {
+        "url": "https://www.sspc.co.uk/40-Whitehaugh-Park-Peebles-Eh45-9DA-EH45-9DA-4-Bedroom-Semi-Detached-House-ESPC",
+        "address": "40 Whitehaugh Park, Peebles, Eh45 9DA EH45 9DA",
+        "priceDescription": "Offers over £385,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 4,
+        "id": "3d188e00399732795817cf1c38e6114d"
+    },
+    {
         "url": "https://www.sspc.co.uk/Fernbank-Lewis-Street-STRANRAER-DG9-7AA-6-Bedroom-Detached-House-ESPC",
         "address": "Fernbank, Lewis Street, STRANRAER DG9 7AA",
         "priceDescription": "Offers over £385,000",
         "summary": "Detached House",
         "bedrooms": 6,
         "id": "84ab2423097d2a2ce88104ce9f9ab3a5"
-    },
-    {
-        "url": "https://www.sspc.co.uk/7-Kingfisher-Place-DUNFERMLINE-KY11-8JJ-4-Bedroom-Detached-House-ESPC",
-        "address": "7 Kingfisher Place, DUNFERMLINE KY11 8JJ",
-        "priceDescription": "Offers In The Region Of £385,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "96500a2a7f81bcfa77fe476c2fb17e30"
     },
     {
         "url": "https://www.sspc.co.uk/208-Dover-Drive-DUNFERMLINE-KY11-8HB-4-Bedroom-Detached-House-ESPC",
@@ -2944,20 +2888,20 @@
         "id": "0b98af40336a98a9a49080bec5b10701"
     },
     {
-        "url": "https://www.sspc.co.uk/51-Silverknowes-View-EDINBURGH-EH4-5PS-3-Bedroom-Semi-Detached-House-ESPC",
-        "address": "51 Silverknowes View, EDINBURGH EH4 5PS",
-        "priceDescription": "Offers over £380,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "f68239122d1af6046ca7d1b64d3e315f"
-    },
-    {
         "url": "https://www.sspc.co.uk/24-Orrok-Park-Edinburgh-EH16-5UW-4-Bedroom-Detached-House-ESPC",
         "address": "24 Orrok Park, Edinburgh EH16 5UW",
         "priceDescription": "Offers over £380,000",
         "summary": "Detached House",
         "bedrooms": 4,
         "id": "0827f38fe809305ef12f927538169f8d"
+    },
+    {
+        "url": "https://www.sspc.co.uk/51-Silverknowes-View-EDINBURGH-EH4-5PS-3-Bedroom-Semi-Detached-House-ESPC",
+        "address": "51 Silverknowes View, EDINBURGH EH4 5PS",
+        "priceDescription": "Offers over £380,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "f68239122d1af6046ca7d1b64d3e315f"
     },
     {
         "url": "https://www.sspc.co.uk/8-Cassalands-Laurieknowe-DUMFRIES-DG2-7NS-8-Bedroom-Detached-House-ESPC",
@@ -3064,44 +3008,12 @@
         "id": "4b10c52399d1052bed9a1b4b1764aeba"
     },
     {
-        "url": "https://www.sspc.co.uk/54-Paisley-Avenue-Willowbrae-EDINBURGH-EH8-7LQ-3-Bedroom-Detached-House-ESPC",
-        "address": "54 Paisley Avenue, Willowbrae, EDINBURGH EH8 7LQ",
-        "priceDescription": "Offers over £375,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "c732f3e8aec59263a0dbef7047bc8c4a"
-    },
-    {
         "url": "https://www.sspc.co.uk/23-Braehead-Drive-Edinburgh-EH4-6QJ-3-Bedroom-Terraced-House-ESPC",
         "address": "23 Braehead Drive, Edinburgh EH4 6QJ",
         "priceDescription": "Offers over £375,000",
         "summary": "Terraced House",
         "bedrooms": 3,
         "id": "8f1ebfa6e7f68f46903342ecf2c1096d"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Plot-72-10-Davidson-Court-Wallyford-EH21-8GR-4-Bedroom-Detached-House-ESPC",
-        "address": "Plot 72, 10 Davidson Court, Wallyford EH21 8GR",
-        "priceDescription": "Fixed Price £375,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "5c8e163c008c781539a94b77c75b0cbf"
-    },
-    {
-        "url": "https://www.sspc.co.uk/7-Davidson-Way-Wallyford-EH21-8GR-4-Bedroom-Detached-House-ESPC",
-        "address": "7 Davidson Way, Wallyford EH21 8GR",
-        "priceDescription": "Fixed Price £375,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "c699c8d0edcbdc9c937779599cfa5a9d"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Hazelbank-Cottage-8-Quality-Street-Lane-EDINBURGH-EH4-5BU-3-Bedroom-House-ESPC",
-        "address": "Hazelbank Cottage, 8 Quality Street Lane, EDINBURGH EH4 5BU",
-        "priceDescription": "Offers over £375,000",
-        "summary": "House",
-        "bedrooms": 3,
-        "id": "d0d9ce6f433291fb905f12d6da89d388"
     },
     {
         "url": "https://www.sspc.co.uk/29-Craiglockhart-Terrace-Craiglockhart-Edinburgh-EH14-1AJ-3-Bedroom-End-Terraced-House-ESPC",
@@ -3112,12 +3024,52 @@
         "id": "8aa9163728cc376dbaa7c47bf86faacd"
     },
     {
+        "url": "https://www.sspc.co.uk/7-Davidson-Way-Wallyford-EH21-8GR-4-Bedroom-Detached-House-ESPC",
+        "address": "7 Davidson Way, Wallyford EH21 8GR",
+        "priceDescription": "Fixed Price £375,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "c699c8d0edcbdc9c937779599cfa5a9d"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Plot-72-10-Davidson-Court-Wallyford-EH21-8GR-4-Bedroom-Detached-House-ESPC",
+        "address": "Plot 72, 10 Davidson Court, Wallyford EH21 8GR",
+        "priceDescription": "Fixed Price £375,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "5c8e163c008c781539a94b77c75b0cbf"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Hazelbank-Cottage-8-Quality-Street-Lane-EDINBURGH-EH4-5BU-3-Bedroom-House-ESPC",
+        "address": "Hazelbank Cottage, 8 Quality Street Lane, EDINBURGH EH4 5BU",
+        "priceDescription": "Offers over £375,000",
+        "summary": "House",
+        "bedrooms": 3,
+        "id": "d0d9ce6f433291fb905f12d6da89d388"
+    },
+    {
         "url": "https://www.sspc.co.uk/13-Knowehead-Road-Crossford-DUNFERMLINE-KY12-8PQ-5-Bedroom-Detached-House-ESPC",
         "address": "13 Knowehead Road, Crossford, DUNFERMLINE KY12 8PQ",
         "priceDescription": "Offers In The Region Of £375,000",
         "summary": "Detached House",
         "bedrooms": 5,
         "id": "6faf2521b163363d31f0f53f5fa6f65e"
+    },
+    {
+        "url": "https://www.sspc.co.uk/17-Bowmont-Street-Kelso-TD5-7JH-4-Bedroom-Detached-House-ESPC",
+        "address": "17 Bowmont Street, Kelso TD5 7JH",
+        "priceDescription": "Guide Price £375,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "81ab9bba119bd2c09c522a08931f4d06"
+    },
+    {
+        "url": "https://www.sspc.co.uk/14-Waldie-Griffiths-Drive-Kelso-TD5-7UH-4-Bedroom-Detached-House-ESPC",
+        "address": "14 Waldie Griffiths Drive, Kelso TD5 7UH",
+        "priceDescription": "Guide Price £375,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "6e21b429f61f5926ac1910f1e6069d5d"
     },
     {
         "url": "https://www.sspc.co.uk/49-Fair-A-Far-Cramond-Edinburgh-EH4-6QB-3-Bedroom-Terraced-House-ESPC",
@@ -3134,22 +3086,6 @@
         "summary": "Terraced House",
         "bedrooms": 4,
         "id": "1387e59cb404c659cd7d9992b876f0ba"
-    },
-    {
-        "url": "https://www.sspc.co.uk/14-Waldie-Griffiths-Drive-Kelso-TD5-7UH-4-Bedroom-Detached-House-ESPC",
-        "address": "14 Waldie Griffiths Drive, Kelso TD5 7UH",
-        "priceDescription": "Guide Price £375,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "6e21b429f61f5926ac1910f1e6069d5d"
-    },
-    {
-        "url": "https://www.sspc.co.uk/17-Bowmont-Street-Kelso-TD5-7JH-4-Bedroom-Detached-House-ESPC",
-        "address": "17 Bowmont Street, Kelso TD5 7JH",
-        "priceDescription": "Guide Price £375,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "81ab9bba119bd2c09c522a08931f4d06"
     },
     {
         "url": "https://www.sspc.co.uk/119-Dunnock-Road-DUNFERMLINE-KY11-8QE-4-Bedroom-Detached-House-ESPC",
@@ -3192,14 +3128,6 @@
         "id": "66a277142836d667ee233600f1ccdde1"
     },
     {
-        "url": "https://www.sspc.co.uk/15-Millcraig-Place-Winchburgh-EH52-6WH-4-Bedroom-Detached-House-ESPC",
-        "address": "15 Millcraig Place, Winchburgh EH52 6WH",
-        "priceDescription": "Offers over £375,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "09033959473f3b50bb01ae5b71429cfb"
-    },
-    {
         "url": "https://www.sspc.co.uk/19-Kirklands-Park-Crescent-EH29-9EP-4-Bedroom-Detached-House-ESPC",
         "address": "19 Kirklands Park Crescent EH29 9EP",
         "priceDescription": "Offers over £375,000",
@@ -3216,20 +3144,20 @@
         "id": "5c0309456226589815d2a1dba1d686af"
     },
     {
-        "url": "https://www.sspc.co.uk/Westview-Rossie-Mills-Montrose-DD10-9TJ-4-Bedroom-Detached-House-TSPC",
-        "address": "Westview, Rossie Mills, Montrose DD10 9TJ",
-        "priceDescription": "Offers Over £375,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "b83aa11acf39bbd395655829fa6f4163"
-    },
-    {
         "url": "https://www.sspc.co.uk/8-Westwood-Terrace-Newport-on-Tay-DD6-8JF-4-Bedroom-Semi-Detached-House-TSPC",
         "address": "8 Westwood Terrace, Newport-on-Tay DD6 8JF",
         "priceDescription": "Offers Over £375,000",
         "summary": "Semi-Detached House",
         "bedrooms": 4,
         "id": "4e0d680407dcb49f5127d227c9ae6bb6"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Westview-Rossie-Mills-Montrose-DD10-9TJ-4-Bedroom-Detached-House-TSPC",
+        "address": "Westview, Rossie Mills, Montrose DD10 9TJ",
+        "priceDescription": "Offers Over £375,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "b83aa11acf39bbd395655829fa6f4163"
     },
     {
         "url": "https://www.sspc.co.uk/35-Fairfield-Road-Broughty-Ferry-DD5-1PL-3-Bedroom-Semi-Detached-House-TSPC",
@@ -3256,20 +3184,20 @@
         "id": "9ba7d90953460ec57ddb3caaf2522c08"
     },
     {
-        "url": "https://www.sspc.co.uk/3-Darnley-Terrace-EDINBURGH-EH16-4WS-4-Bedroom-Detached-House-ESPC",
-        "address": "3 Darnley Terrace, EDINBURGH EH16 4WS",
-        "priceDescription": "Offers over £370,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "bda8c9c134919ec93c76c2438b12623d"
-    },
-    {
         "url": "https://www.sspc.co.uk/The-Gatehouse-Courtyard-Leys-Park-Road-Dunfermline-KY12-0AA-4-Bedroom-House-ESPC",
         "address": "The Gatehouse Courtyard, Leys Park Road, Dunfermline KY12 0AA",
         "priceDescription": "Guide Price £370,000",
         "summary": "House",
         "bedrooms": 4,
         "id": "bb564bd5b96e022d8b12e2c6d1d38cb4"
+    },
+    {
+        "url": "https://www.sspc.co.uk/3-Darnley-Terrace-EDINBURGH-EH16-4WS-4-Bedroom-Detached-House-ESPC",
+        "address": "3 Darnley Terrace, EDINBURGH EH16 4WS",
+        "priceDescription": "Offers over £370,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "bda8c9c134919ec93c76c2438b12623d"
     },
     {
         "url": "https://www.sspc.co.uk/30-Silverknowes-Brae-Edinburgh-EH4-5PQ-3-Bedroom-Semi-Detached-House-ESPC",
@@ -3464,6 +3392,14 @@
         "id": "03caf9b4953b05c637a65ae02b623e82"
     },
     {
+        "url": "https://www.sspc.co.uk/2-Hermitage-Park-South-EDINBURGH-EH6-8EZ-3-Bedroom-Semi-Detached-House-ESPC",
+        "address": "2 Hermitage Park South, EDINBURGH EH6 8EZ",
+        "priceDescription": "Fixed Price £360,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "04c37f71968f8b69bb56d7de374f44e3"
+    },
+    {
         "url": "https://www.sspc.co.uk/Fellnaw-Cottage-Ringford-CASTLE-DOUGLAS-DG7-2AP-3-Bedroom-Detached-House-ESPC",
         "address": "Fellnaw Cottage, Ringford, CASTLE DOUGLAS DG7 2AP",
         "priceDescription": "Offers over £360,000",
@@ -3502,14 +3438,6 @@
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "1506a8f66411e00f572bc072f0be4002"
-    },
-    {
-        "url": "https://www.sspc.co.uk/19-Mill-Road-Invergowrie-DD2-5BB-5-Bedroom-Detached-House-TSPC",
-        "address": "19 Mill Road, Invergowrie DD2 5BB",
-        "priceDescription": "Offers Over £360,000",
-        "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "56dc6881aa9c7fec0ce76e1bcf981d3e"
     },
     {
         "url": "https://www.sspc.co.uk/Firdene-1-Stanley-Drive-Brookfield-PA5-8UF-4-Bedroom-Semi-Detached-House-ESPC",
@@ -3624,6 +3552,22 @@
         "id": "8e7ac82987cb89f8c97ffdb84ae5faa4"
     },
     {
+        "url": "https://www.sspc.co.uk/43-Eilston-Loan-Kirkliston-EH29-9FL-5-Bedroom-Detached-House-ESPC",
+        "address": "43 Eilston Loan, Kirkliston EH29 9FL",
+        "priceDescription": "Offers over £350,000",
+        "summary": "Detached House",
+        "bedrooms": 5,
+        "id": "65e4169752d50b642729b97574a76464"
+    },
+    {
+        "url": "https://www.sspc.co.uk/47-Bryce-Road-Currie-EH14-5LP-3-Bedroom-Detached-House-ESPC",
+        "address": "47 Bryce Road, Currie EH14 5LP",
+        "priceDescription": "Offers over £350,000",
+        "summary": "Detached House",
+        "bedrooms": 3,
+        "id": "20d96b92f65cc39da4f365f2fd7fb0e8"
+    },
+    {
         "url": "https://www.sspc.co.uk/22-Bowbridge-Crescent-Liberton-Edinburgh-EH17-8UX-4-Bedroom-Detached-House-ESPC",
         "address": "22 Bowbridge Crescent, Liberton, Edinburgh EH17 8UX",
         "priceDescription": "Offers over £350,000",
@@ -3632,20 +3576,20 @@
         "id": "facf96a6d3f892537fc76aa426d7ea74"
     },
     {
-        "url": "https://www.sspc.co.uk/11-St-Margarets-Avenue-Loanhead-EH20-9FH-4-Bedroom-Semi-Detached-House-ESPC",
-        "address": "11 St Margarets Avenue, Loanhead EH20 9FH",
-        "priceDescription": "Fixed Price £350,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 4,
-        "id": "3d41859c7fae2ea63808201784559b81"
-    },
-    {
         "url": "https://www.sspc.co.uk/36-Carnbee-Park-Liberton-Edinburgh-EH16-6GH-3-Bedroom-Detached-House-ESPC",
         "address": "36 Carnbee Park, Liberton, Edinburgh EH16 6GH",
         "priceDescription": "Offers over £350,000",
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "797f2b8ba1e90e5903ee08ed2e642cdd"
+    },
+    {
+        "url": "https://www.sspc.co.uk/11-St-Margarets-Avenue-Loanhead-EH20-9FH-4-Bedroom-Semi-Detached-House-ESPC",
+        "address": "11 St Margarets Avenue, Loanhead EH20 9FH",
+        "priceDescription": "Fixed Price £350,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 4,
+        "id": "3d41859c7fae2ea63808201784559b81"
     },
     {
         "url": "https://www.sspc.co.uk/2-Duntreath-Place-The-Wisp-Edinburgh-EH16-4ZA-4-Bedroom-Detached-House-ESPC",
@@ -3680,20 +3624,12 @@
         "id": "86a1d11e9e9fcda4c2b531674d7968b3"
     },
     {
-        "url": "https://www.sspc.co.uk/47-Bryce-Road-Currie-EH14-5LP-3-Bedroom-Detached-House-ESPC",
-        "address": "47 Bryce Road, Currie EH14 5LP",
+        "url": "https://www.sspc.co.uk/21-Howden-Hall-Crescent-Edinburgh-EH16-6UR-3-Bedroom-Detached-House-ESPC",
+        "address": "21 Howden Hall Crescent, Edinburgh EH16 6UR",
         "priceDescription": "Offers over £350,000",
         "summary": "Detached House",
         "bedrooms": 3,
-        "id": "20d96b92f65cc39da4f365f2fd7fb0e8"
-    },
-    {
-        "url": "https://www.sspc.co.uk/43-Eilston-Loan-Kirkliston-EH29-9FL-5-Bedroom-Detached-House-ESPC",
-        "address": "43 Eilston Loan, Kirkliston EH29 9FL",
-        "priceDescription": "Offers over £350,000",
-        "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "65e4169752d50b642729b97574a76464"
+        "id": "9609735969a2584994e1c1bb289d6e11"
     },
     {
         "url": "https://www.sspc.co.uk/12-Drum-Brae-Place-Edinburgh-EH12-8TQ-3-Bedroom-Semi-Detached-House-ESPC",
@@ -3726,14 +3662,6 @@
         "summary": "Detached House",
         "bedrooms": 5,
         "id": "9743717262ec5da2a9e52523f3f57626"
-    },
-    {
-        "url": "https://www.sspc.co.uk/21-Howden-Hall-Crescent-Edinburgh-EH16-6UR-3-Bedroom-Detached-House-ESPC",
-        "address": "21 Howden Hall Crescent, Edinburgh EH16 6UR",
-        "priceDescription": "Offers over £350,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "9609735969a2584994e1c1bb289d6e11"
     },
     {
         "url": "https://www.sspc.co.uk/20-Taeping-Close-Cellardyke-ANSTRUTHER-KY10-3YL-4-Bedroom-Linked-House-ESPC",
@@ -3928,14 +3856,6 @@
         "id": "00643de4370cb0ce474447ea10f97952"
     },
     {
-        "url": "https://www.sspc.co.uk/Braehead-Cottage-11-Imrie-Place-Penicuik-EH26-8HY-3-Bedroom-Detached-House-ESPC",
-        "address": "Braehead Cottage 11, Imrie Place, Penicuik EH26 8HY",
-        "priceDescription": "Fixed Price £345,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "f58ca0a147ae5cfb6f6faeef952b3356"
-    },
-    {
         "url": "https://www.sspc.co.uk/2-Duke-Street-Brechin-DD9-6JY-4-Bedroom-Detached-House-TSPC",
         "address": "2 Duke Street, Brechin DD9 6JY",
         "priceDescription": "Offers Over £345,000",
@@ -3992,14 +3912,6 @@
         "id": "2273e7713385e91de75811828f01199d"
     },
     {
-        "url": "https://www.sspc.co.uk/27-Southfield-Farm-Grove-Duddingston-EDINBURGH-EH15-1SR-3-Bedroom-Semi-Detached-House-ESPC",
-        "address": "27 Southfield Farm Grove, Duddingston, EDINBURGH EH15 1SR",
-        "priceDescription": "Offers over £340,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "ded2c7114e98eac6ba8f7b08ad8d4e73"
-    },
-    {
         "url": "https://www.sspc.co.uk/1-Devon-Place-Haymarket-Edinburgh-EH12-5HJ-2-Bedroom-End-Terraced-House-ESPC",
         "address": "1 Devon Place, Haymarket, Edinburgh EH12 5HJ",
         "priceDescription": "Fixed Price £340,000",
@@ -4008,12 +3920,28 @@
         "id": "e6c32904a5af61d1b6d7f2f2a22fd4a6"
     },
     {
+        "url": "https://www.sspc.co.uk/27-Southfield-Farm-Grove-Duddingston-EDINBURGH-EH15-1SR-3-Bedroom-Semi-Detached-House-ESPC",
+        "address": "27 Southfield Farm Grove, Duddingston, EDINBURGH EH15 1SR",
+        "priceDescription": "Offers over £340,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "ded2c7114e98eac6ba8f7b08ad8d4e73"
+    },
+    {
         "url": "https://www.sspc.co.uk/3-Academy-Square-Limekilns-DUNFERMLINE-KY11-3HN-3-Bedroom-Detached-House-ESPC",
         "address": "3 Academy Square, Limekilns, DUNFERMLINE KY11 3HN",
         "priceDescription": "Fixed Price £340,000",
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "b143d387e435f201b36f3aa3e251f5a4"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Braehead-Cottage-11-Imrie-Place-Penicuik-EH26-8HY-3-Bedroom-Detached-House-ESPC",
+        "address": "Braehead Cottage 11, Imrie Place, Penicuik EH26 8HY",
+        "priceDescription": "Offers over £340,000",
+        "summary": "Detached House",
+        "bedrooms": 3,
+        "id": "f58ca0a147ae5cfb6f6faeef952b3356"
     },
     {
         "url": "https://www.sspc.co.uk/47-Clerwood-Park-Edinburgh-EH12-8PP-3-Bedroom-Semi-Detached-House-ESPC",
@@ -4096,6 +4024,14 @@
         "id": "c7ab42ae7eaa3f9c6e8bba2407b4ffc9"
     },
     {
+        "url": "https://www.sspc.co.uk/2-West-Haugh-Cottages-Newbridge-EH28-8LA-3-Bedroom-House-ESPC",
+        "address": "2 West Haugh Cottages, Newbridge EH28 8LA",
+        "priceDescription": "Fixed Price £335,000",
+        "summary": "House",
+        "bedrooms": 3,
+        "id": "0fa8391309cc8ae14681ccffb28df030"
+    },
+    {
         "url": "https://www.sspc.co.uk/220-Lamond-Drive-ST.-ANDREWS-KY16-8RR-3-Bedroom-Semi-Detached-House-ESPC",
         "address": "220 Lamond Drive, ST. ANDREWS KY16 8RR",
         "priceDescription": "Offers over £335,000",
@@ -4110,14 +4046,6 @@
         "summary": "Detached House",
         "bedrooms": 4,
         "id": "8c9fc73c5b15a77d0f0e2ba5bdb75f44"
-    },
-    {
-        "url": "https://www.sspc.co.uk/2-West-Haugh-Cottages-Newbridge-EH28-8LA-3-Bedroom-House-ESPC",
-        "address": "2 West Haugh Cottages, Newbridge EH28 8LA",
-        "priceDescription": "Fixed Price £335,000",
-        "summary": "House",
-        "bedrooms": 3,
-        "id": "0fa8391309cc8ae14681ccffb28df030"
     },
     {
         "url": "https://www.sspc.co.uk/3-Carneil-Gardens-Carnock-DUNFERMLINE-KY12-9LQ-5-Bedroom-Detached-House-ESPC",
@@ -4142,14 +4070,6 @@
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "fc5758d94ad04bed9f3bfd7e38587a77"
-    },
-    {
-        "url": "https://www.sspc.co.uk/2-Rowan-Place-East-Calder-West-Lothian-EH53-0HQ-4-Bedroom-Detached-House-ESPC",
-        "address": "2 Rowan Place, East Calder, West Lothian EH53 0HQ",
-        "priceDescription": "Fixed Price £334,999",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "6768d6024ca342fa562823af1871c5a0"
     },
     {
         "url": "https://www.sspc.co.uk/Plot-94-Birkwood-Boreland-Avenue-KY1-2BN-4-Bedroom-Detached-House-ESPC",
@@ -4240,14 +4160,6 @@
         "id": "73dfe0f20aaed689843ad24471f083ae"
     },
     {
-        "url": "https://www.sspc.co.uk/4-Ballumbie-Rise-Walk-Dundee-DD4-0FR-4-Bedroom-Detached-House-TSPC",
-        "address": "4 Ballumbie Rise Walk, Dundee DD4 0FR",
-        "priceDescription": "Offers Over £330,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "54d6ef4fe66c5fbfdade9874bac52187"
-    },
-    {
         "url": "https://www.sspc.co.uk/40-Southerton-Crescent-Kirkcaldy-KY2-5ND-4-Bedroom-Detached-House-ESPC",
         "address": "40 Southerton Crescent, Kirkcaldy KY2 5ND",
         "priceDescription": "Fixed Price £329,995",
@@ -4312,12 +4224,12 @@
         "id": "9e67e9aec95ca72d763773032dd425a8"
     },
     {
-        "url": "https://www.sspc.co.uk/4-Strawberry-Punnet-Ormiston-TRANENT-EH35-5AH-4-Bedroom-Detached-House-ESPC",
-        "address": "4 Strawberry Punnet, Ormiston, TRANENT EH35 5AH",
+        "url": "https://www.sspc.co.uk/18-Stein-Street-South-Queensferry-Edinburgh-EH30-9BH-3-Bedroom-Semi-Detached-House-ESPC",
+        "address": "18 Stein Street, South Queensferry, Edinburgh EH30 9BH",
         "priceDescription": "Offers over £325,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "571a4cbf0f4a11763a85308c964e5ee8"
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "05e384a2e653360a9ebd52fda85efd3a"
     },
     {
         "url": "https://www.sspc.co.uk/108-Marionville-Avenue-Marionville-Edinburgh-EH7-6AZ-3-Bedroom-Semi-Detached-House-ESPC",
@@ -4328,20 +4240,20 @@
         "id": "a50eca2cf47c265b9090fbec38417a4f"
     },
     {
+        "url": "https://www.sspc.co.uk/4-Strawberry-Punnet-Ormiston-TRANENT-EH35-5AH-4-Bedroom-Detached-House-ESPC",
+        "address": "4 Strawberry Punnet, Ormiston, TRANENT EH35 5AH",
+        "priceDescription": "Offers over £325,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "571a4cbf0f4a11763a85308c964e5ee8"
+    },
+    {
         "url": "https://www.sspc.co.uk/3B-Links-Gardens-Lane-Edinburgh-EH6-7JQ-2-Bedroom-End-Terraced-House-ESPC",
         "address": "3B, Links Gardens Lane, Edinburgh EH6 7JQ",
         "priceDescription": "Offers over £325,000",
         "summary": "End Terraced House",
         "bedrooms": 2,
         "id": "666d59f9faee45eed29805209523b223"
-    },
-    {
-        "url": "https://www.sspc.co.uk/18-Stein-Street-South-Queensferry-Edinburgh-EH30-9BH-3-Bedroom-Semi-Detached-House-ESPC",
-        "address": "18 Stein Street, South Queensferry, Edinburgh EH30 9BH",
-        "priceDescription": "Offers over £325,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "05e384a2e653360a9ebd52fda85efd3a"
     },
     {
         "url": "https://www.sspc.co.uk/8-Burnbank-Grove-Straiton-EH20-9NX-4-Bedroom-Detached-House-ESPC",
@@ -4416,20 +4328,20 @@
         "id": "3e44b66b5fe744bed28adaff4f5bff3e"
     },
     {
-        "url": "https://www.sspc.co.uk/26-Corslet-Road-Currie-EH14-5LY-3-Bedroom-Semi-Detached-House-ESPC",
-        "address": "26 Corslet Road, Currie EH14 5LY",
-        "priceDescription": "Offers over £320,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "68b6e38fc0ac0af79781ea74be2decaa"
-    },
-    {
         "url": "https://www.sspc.co.uk/12-King's-Meadow-EDINBURGH-EH16-5JW-3-Bedroom-Semi-Detached-House-ESPC",
         "address": "12 King's Meadow, EDINBURGH EH16 5JW",
         "priceDescription": "Fixed Price £320,000",
         "summary": "Semi-Detached House",
         "bedrooms": 3,
         "id": "ea226efb47ed35b892a5761cc8ec85be"
+    },
+    {
+        "url": "https://www.sspc.co.uk/26-Corslet-Road-Currie-EH14-5LY-3-Bedroom-Semi-Detached-House-ESPC",
+        "address": "26 Corslet Road, Currie EH14 5LY",
+        "priceDescription": "Offers over £320,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "68b6e38fc0ac0af79781ea74be2decaa"
     },
     {
         "url": "https://www.sspc.co.uk/49-Craigour-Drive-Little-France-Edinburgh-EH17-7NU-4-Bedroom-Semi-Detached-House-ESPC",
@@ -4488,6 +4400,14 @@
         "id": "a0ec107861c680066692813e5696a226"
     },
     {
+        "url": "https://www.sspc.co.uk/1-Skene-Street-Strathmiglo-CUPAR-KY14-7QL-4-Bedroom-House-ESPC",
+        "address": "1 Skene Street, Strathmiglo, CUPAR KY14 7QL",
+        "priceDescription": "Offers over £315,000",
+        "summary": "House",
+        "bedrooms": 4,
+        "id": "694b0d079516e7a54f6049e1a2bccb54"
+    },
+    {
         "url": "https://www.sspc.co.uk/25-Masons-Way-Wallyford-EH21-8BF-4-Bedroom-Detached-House-ESPC",
         "address": "25 Masons Way, Wallyford EH21 8BF",
         "priceDescription": "Offers over £315,000",
@@ -4496,12 +4416,20 @@
         "id": "a9e5d878f80c3a0dc15705aafcf68057"
     },
     {
-        "url": "https://www.sspc.co.uk/1-Skene-Street-Strathmiglo-CUPAR-KY14-7QL-4-Bedroom-House-ESPC",
-        "address": "1 Skene Street, Strathmiglo, CUPAR KY14 7QL",
+        "url": "https://www.sspc.co.uk/40-Ashgrove-Gardens-LOANHEAD-EH20-9GA-3-Bedroom-Terraced-House-ESPC",
+        "address": "40 Ashgrove Gardens, LOANHEAD EH20 9GA",
         "priceDescription": "Offers over £315,000",
-        "summary": "House",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "6758212e0615653dc02c093c632dda19"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Miller-Homes-Plot-11-The-Lockwood-Calender-Avenue-Kirkcaldy-KY1-2HG-4-Bedroom-Detached-House-ESPC",
+        "address": "Miller Homes, Plot 11 The Lockwood, Calender Avenue, Kirkcaldy KY1 2HG",
+        "priceDescription": "Fixed Price £315,000",
+        "summary": "Detached House",
         "bedrooms": 4,
-        "id": "694b0d079516e7a54f6049e1a2bccb54"
+        "id": "19aa81280bb9e4f3152428824ec321c6"
     },
     {
         "url": "https://www.sspc.co.uk/1-Hall-Terrace-East-Saltoun-EH34-5DX-4-Bedroom-Semi-Detached-House-ESPC",
@@ -4526,22 +4454,6 @@
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "6a382c198861cbe03760345768592e55"
-    },
-    {
-        "url": "https://www.sspc.co.uk/40-Ashgrove-Gardens-LOANHEAD-EH20-9GA-3-Bedroom-Terraced-House-ESPC",
-        "address": "40 Ashgrove Gardens, LOANHEAD EH20 9GA",
-        "priceDescription": "Offers over £315,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "6758212e0615653dc02c093c632dda19"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Miller-Homes-Plot-11-The-Lockwood-Calender-Avenue-Kirkcaldy-KY1-2HG-4-Bedroom-Detached-House-ESPC",
-        "address": "Miller Homes, Plot 11 The Lockwood, Calender Avenue, Kirkcaldy KY1 2HG",
-        "priceDescription": "Fixed Price £315,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "19aa81280bb9e4f3152428824ec321c6"
     },
     {
         "url": "https://www.sspc.co.uk/21-Templand-Crossmichael-CASTLE-DOUGLAS-DG7-3BF-3-Bedroom-Detached-House-ESPC",
@@ -4600,14 +4512,6 @@
         "id": "b27786ecfa7c690af711efa931d42fb3"
     },
     {
-        "url": "https://www.sspc.co.uk/52-Torwood-Crescent-Edinburgh-EH12-9GJ-3-Bedroom-Semi-Detached-House-ESPC",
-        "address": "52 Torwood Crescent, Edinburgh EH12 9GJ",
-        "priceDescription": "Offers over £310,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "56443ba166a64cc18cca8bad9e2faf4f"
-    },
-    {
         "url": "https://www.sspc.co.uk/71-Roundhill-Road-ST.-ANDREWS-KY16-8HE-3-Bedroom-End-Terraced-House-ESPC",
         "address": "71 Roundhill Road, ST. ANDREWS KY16 8HE",
         "priceDescription": "Offers over £310,000",
@@ -4622,6 +4526,14 @@
         "summary": "Terraced House",
         "bedrooms": 4,
         "id": "28876736ef9937c38727c76b5bb35983"
+    },
+    {
+        "url": "https://www.sspc.co.uk/27-Springfield-Crescent-South-Queensferry-EH30-9SB-4-Bedroom-Semi-Detached-House-ESPC",
+        "address": "27 Springfield Crescent, South Queensferry EH30 9SB",
+        "priceDescription": "Fixed Price £310,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 4,
+        "id": "4ef3d593332e3434e5f6afa34a7f5914"
     },
     {
         "url": "https://www.sspc.co.uk/15-Bannerman-Terrace-EDINBURGH-EH17-8YD-3-Bedroom-Semi-Detached-House-ESPC",
@@ -4640,20 +4552,20 @@
         "id": "0f93c3b0eaab75d816df3a8635dad683"
     },
     {
-        "url": "https://www.sspc.co.uk/17-Emmock-Woods-Grove-Dundee-DD4-9GD-4-Bedroom-Detached-House-TSPC",
-        "address": "17 Emmock Woods Grove, Dundee DD4 9GD",
-        "priceDescription": "Offers Over £310,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "3a663aa2989461346a554bfbc59a3a63"
-    },
-    {
         "url": "https://www.sspc.co.uk/18-Idvies-View-Letham-DD8-2DU-4-Bedroom-Detached-House-TSPC",
         "address": "18 Idvies View, Letham DD8 2DU",
         "priceDescription": "Offers Over £310,000",
         "summary": "Detached House",
         "bedrooms": 4,
         "id": "d0201c3b8dd6b4a98c9b204346df0921"
+    },
+    {
+        "url": "https://www.sspc.co.uk/17-Emmock-Woods-Grove-Dundee-DD4-9GD-4-Bedroom-Detached-House-TSPC",
+        "address": "17 Emmock Woods Grove, Dundee DD4 9GD",
+        "priceDescription": "Offers Over £310,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "3a663aa2989461346a554bfbc59a3a63"
     },
     {
         "url": "https://www.sspc.co.uk/8-Sir-James-Duncan-Gardens-Forfar-DD8-2JX-4-Bedroom-Detached-House-TSPC",
@@ -4728,28 +4640,12 @@
         "id": "69eb56df8333811f018bc14b897f9392"
     },
     {
-        "url": "https://www.sspc.co.uk/27-Springfield-Crescent-South-Queensferry-EH30-9SB-4-Bedroom-Semi-Detached-House-ESPC",
-        "address": "27 Springfield Crescent, South Queensferry EH30 9SB",
-        "priceDescription": "Offers over £300,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 4,
-        "id": "4ef3d593332e3434e5f6afa34a7f5914"
-    },
-    {
         "url": "https://www.sspc.co.uk/55-Old-Star-Road-Newtongrange-Midlothian-EH22-4NR-3-Bedroom-Detached-House-ESPC",
         "address": "55 Old Star Road, Newtongrange, Midlothian EH22 4NR",
         "priceDescription": "Offers over £300,000",
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "6f48c23342ef910745284caae4d17030"
-    },
-    {
-        "url": "https://www.sspc.co.uk/24-Retreat-Crescent-Dunbar-East-Lothian-EH42-1GW-3-Bedroom-Detached-House-ESPC",
-        "address": "24 Retreat Crescent, Dunbar, East Lothian EH42 1GW",
-        "priceDescription": "Offers over £300,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "20c1ecb2967d59dcb20839daa1af6c97"
     },
     {
         "url": "https://www.sspc.co.uk/52-Hayfield-East-Craigs-Edinburgh-EH12-8UH-3-Bedroom-Semi-Detached-House-ESPC",
@@ -4808,28 +4704,20 @@
         "id": "91032c9df6ae18a362392979368c914b"
     },
     {
+        "url": "https://www.sspc.co.uk/14-Dobson-Drive-Carnoustie-DD7-6GQ-4-Bedroom-Detached-House-TSPC",
+        "address": "14 Dobson Drive, Carnoustie DD7 6GQ",
+        "priceDescription": "Offers Over £300,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "59799412c030659e579deb0098ed0092"
+    },
+    {
         "url": "https://www.sspc.co.uk/12-Dudhope-Terrace-Dundee-DD3-6HG-3-Bedroom-Divided-House-TSPC",
         "address": "12 Dudhope Terrace, Dundee DD3 6HG",
         "priceDescription": "Offers Over £300,000",
         "summary": "Divided House",
         "bedrooms": 3,
         "id": "64dc17a403a6cd1407d60181fc6c75d8"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Cherrybank-Panmure-Road-Monikie-DD5-3QA-4-Bedroom-Detached-House-TSPC",
-        "address": "Cherrybank, Panmure Road, Monikie DD5 3QA",
-        "priceDescription": "Offers Over £300,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "e7fd4c14b45cfed05ebe1ff01de1015a"
-    },
-    {
-        "url": "https://www.sspc.co.uk/3-Panbride-View-Carnoustie-DD7-6JG-4-Bedroom-Detached-House-TSPC",
-        "address": "3 Panbride View, Carnoustie DD7 6JG",
-        "priceDescription": "Offers Over £300,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "dc9a26b6885c9f6c906297cbce5c850f"
     },
     {
         "url": "https://www.sspc.co.uk/11-Thornton-Gardens-Arbroath-DD11-3DX-5-Bedroom-Detached-House-TSPC",
@@ -4840,12 +4728,20 @@
         "id": "c2a1eb134282914be4da6fbb6cd71788"
     },
     {
-        "url": "https://www.sspc.co.uk/14-Dobson-Drive-Carnoustie-DD7-6GQ-4-Bedroom-Detached-House-TSPC",
-        "address": "14 Dobson Drive, Carnoustie DD7 6GQ",
+        "url": "https://www.sspc.co.uk/3-Panbride-View-Carnoustie-DD7-6JG-4-Bedroom-Detached-House-TSPC",
+        "address": "3 Panbride View, Carnoustie DD7 6JG",
         "priceDescription": "Offers Over £300,000",
         "summary": "Detached House",
         "bedrooms": 4,
-        "id": "59799412c030659e579deb0098ed0092"
+        "id": "dc9a26b6885c9f6c906297cbce5c850f"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Cherrybank-Panmure-Road-Monikie-DD5-3QA-4-Bedroom-Detached-House-TSPC",
+        "address": "Cherrybank, Panmure Road, Monikie DD5 3QA",
+        "priceDescription": "Offers Over £300,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "e7fd4c14b45cfed05ebe1ff01de1015a"
     },
     {
         "url": "https://www.sspc.co.uk/85-Merchiston-Oval-Brookfield-PA5-8XA-4-Bedroom-Detached-House-ESPC",
@@ -4888,6 +4784,14 @@
         "id": "2d160c91d67a9a658134cda2b583adf8"
     },
     {
+        "url": "https://www.sspc.co.uk/13-Duke-Street-Brechin-DD9-6JZ-4-Bedroom-Detached-House-TSPC",
+        "address": "13 Duke Street, Brechin DD9 6JZ",
+        "priceDescription": "Offers Over £299,950",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "57b24f784d294327379f0bc79292145d"
+    },
+    {
         "url": "https://www.sspc.co.uk/15-North-Street-Forfar-DD8-3BG-7-Bedroom-Detached-House-TSPC",
         "address": "15 North Street, Forfar DD8 3BG",
         "priceDescription": "Fixed £299,950",
@@ -4896,12 +4800,12 @@
         "id": "48b8078cab8015dc2730f4f16e075a69"
     },
     {
-        "url": "https://www.sspc.co.uk/13-Duke-Street-Brechin-DD9-6JZ-4-Bedroom-Detached-House-TSPC",
-        "address": "13 Duke Street, Brechin DD9 6JZ",
-        "priceDescription": "Offers Over £299,950",
+        "url": "https://www.sspc.co.uk/Miller-Homes-Plot-12-The-Maplewood-at-Victoria-Wynd-Calender-Avenue-Kirkcaldy-KY1-2HG-4-Bedroom-Detached-House-ESPC",
+        "address": "Miller Homes, Plot 12 The Maplewood at Victoria Wynd, Calender Avenue, Kirkcaldy KY1 2HG",
+        "priceDescription": "Fixed Price £299,000",
         "summary": "Detached House",
         "bedrooms": 4,
-        "id": "57b24f784d294327379f0bc79292145d"
+        "id": "f113a250c4d0d490db6fe4ad69f4474c"
     },
     {
         "url": "https://www.sspc.co.uk/49a-Craigour-Drive-Little-France-Edinburgh-EH17-7NU-4-Bedroom-Semi-Detached-House-ESPC",
@@ -4912,12 +4816,12 @@
         "id": "61e840b1bc2ea1473390fedbab9d843e"
     },
     {
-        "url": "https://www.sspc.co.uk/Miller-Homes-Plot-12-The-Maplewood-at-Victoria-Wynd-Calender-Avenue-Kirkcaldy-KY1-2HG-4-Bedroom-Detached-House-ESPC",
-        "address": "Miller Homes, Plot 12 The Maplewood at Victoria Wynd, Calender Avenue, Kirkcaldy KY1 2HG",
-        "priceDescription": "Fixed Price £299,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "f113a250c4d0d490db6fe4ad69f4474c"
+        "url": "https://www.sspc.co.uk/67-Greenwood-Road-Clarkston-GLASGOW-G76-7JP-3-Bedroom-Semi-Detached-House-ESPC",
+        "address": "67 Greenwood Road, Clarkston, GLASGOW G76 7JP",
+        "priceDescription": "Offers over £299,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "8711520706391d04c639a0070e8a02f4"
     },
     {
         "url": "https://www.sspc.co.uk/19-Horse-Gage-Place-Inchture-PH14-9PD-4-Bedroom-Detached-House-PSPC",
@@ -4950,14 +4854,6 @@
         "summary": "Detached House",
         "bedrooms": 4,
         "id": "2ab176913826eb7f2b3f962f600cd80c"
-    },
-    {
-        "url": "https://www.sspc.co.uk/40-Moray-Way-Musselburgh-EH21-7QY-4-Bedroom-House-ESPC",
-        "address": "40 Moray Way, Musselburgh EH21 7QY",
-        "priceDescription": "Offers over £295,000",
-        "summary": "House",
-        "bedrooms": 4,
-        "id": "de16f0d95d265ba20cb7dea81e47762c"
     },
     {
         "url": "https://www.sspc.co.uk/21-Pittenweem-Road-ANSTRUTHER-KY10-3DS-3-Bedroom-Semi-Detached-House-ESPC",
@@ -5030,6 +4926,14 @@
         "summary": "Semi-Detached House",
         "bedrooms": 4,
         "id": "8aa45016aeb60c1d2c69feba84f3f58b"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Pogglers-Cottage-2-Montgomery-Street-Innerleithen.-EH44-6JP-3-Bedroom-House-ESPC",
+        "address": "Pogglers Cottage, 2 Montgomery Street, Innerleithen. EH44 6JP",
+        "priceDescription": "Offers over £295,000",
+        "summary": "House",
+        "bedrooms": 3,
+        "id": "2c471c175a1af2f15633ef79e757d0f6"
     },
     {
         "url": "https://www.sspc.co.uk/13-Martinez-Road-Dunbar-EH42-1FE-4-Bedroom-Detached-House-ESPC",
@@ -5176,14 +5080,6 @@
         "id": "83290495ed7981dd53ed8df056da2693"
     },
     {
-        "url": "https://www.sspc.co.uk/24-Deanston-Avenue-Barrhead-Glasgow-G78-2BP-3-Bedroom-Detached-House-ESPC",
-        "address": "24 Deanston Avenue, Barrhead, Glasgow G78 2BP",
-        "priceDescription": "Offers over £290,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "a02c34c1fb6b4973fdcd31ef1ba637fa"
-    },
-    {
         "url": "https://www.sspc.co.uk/East-Cottage-Freuchie-Cupar-KY15-7JH-3-Bedroom-House-ESPC",
         "address": "East Cottage Freuchie, Cupar KY15 7JH",
         "priceDescription": "Offers over £290,000",
@@ -5200,12 +5096,12 @@
         "id": "0b67ed1d1a8c9e15b7a4af4bd321fc8e"
     },
     {
-        "url": "https://www.sspc.co.uk/38-Naughton-Road-Wormit-DD6-8PE-5-Bedroom-Detached-House-TSPC",
-        "address": "38 Naughton Road, Wormit DD6 8PE",
-        "priceDescription": "Offers Over £290,000",
+        "url": "https://www.sspc.co.uk/24-Deanston-Avenue-Barrhead-Glasgow-G78-2BP-3-Bedroom-Detached-House-ESPC",
+        "address": "24 Deanston Avenue, Barrhead, Glasgow G78 2BP",
+        "priceDescription": "Offers over £290,000",
         "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "c316a1a3fa304e35409893df1730bb65"
+        "bedrooms": 3,
+        "id": "a02c34c1fb6b4973fdcd31ef1ba637fa"
     },
     {
         "url": "https://www.sspc.co.uk/12-Gallowden-Road-Arbroath-DD11-3HP-4-Bedroom-Detached-House-TSPC",
@@ -5214,6 +5110,14 @@
         "summary": "Detached House",
         "bedrooms": 4,
         "id": "77feeec84edd7aa764ae47995657c659"
+    },
+    {
+        "url": "https://www.sspc.co.uk/38-Naughton-Road-Wormit-DD6-8PE-5-Bedroom-Detached-House-TSPC",
+        "address": "38 Naughton Road, Wormit DD6 8PE",
+        "priceDescription": "Offers Over £290,000",
+        "summary": "Detached House",
+        "bedrooms": 5,
+        "id": "c316a1a3fa304e35409893df1730bb65"
     },
     {
         "url": "https://www.sspc.co.uk/183-Crewe-Road-North-EDINBURGH-EH5-2NT-3-Bedroom-Semi-Detached-House-ESPC",
@@ -5264,12 +5168,12 @@
         "id": "260a0fb0fbea58ccd7de40e24858278a"
     },
     {
-        "url": "https://www.sspc.co.uk/11-Nether-Currie-Road-CURRIE-EH14-5JB-3-Bedroom-Semi-Detached-House-ESPC",
-        "address": "11 Nether Currie Road, CURRIE EH14 5JB",
+        "url": "https://www.sspc.co.uk/10-Coillesdene-Grove-EDINBURGH-EH15-2JE-3-Bedroom-Terraced-House-ESPC",
+        "address": "10 Coillesdene Grove, EDINBURGH EH15 2JE",
         "priceDescription": "Offers over £285,000",
-        "summary": "Semi-Detached House",
+        "summary": "Terraced House",
         "bedrooms": 3,
-        "id": "002298e0ff4367fb01e40b4d0c5c36da"
+        "id": "62c67ee6eec50b4a5d18f6ec4d762823"
     },
     {
         "url": "https://www.sspc.co.uk/10-Douglas-Avenue-PRESTWICK-KA9-1SB-3-Bedroom-Semi-Detached-House-ESPC",
@@ -5278,6 +5182,14 @@
         "summary": "Semi-Detached House",
         "bedrooms": 3,
         "id": "02919ac7a837dc6cdb36d3c2b782e2e5"
+    },
+    {
+        "url": "https://www.sspc.co.uk/11-Nether-Currie-Road-CURRIE-EH14-5JB-3-Bedroom-Semi-Detached-House-ESPC",
+        "address": "11 Nether Currie Road, CURRIE EH14 5JB",
+        "priceDescription": "Offers over £285,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "002298e0ff4367fb01e40b4d0c5c36da"
     },
     {
         "url": "https://www.sspc.co.uk/1-Thimblehall-Drive-DUNFERMLINE-KY12-7UG-4-Bedroom-Detached-House-ESPC",
@@ -5328,28 +5240,12 @@
         "id": "25695eff9355d954c5152d95779c84fa"
     },
     {
-        "url": "https://www.sspc.co.uk/Lizelle-14-Crosslaw-Burn-MOFFAT-DG10-9LP-3-Bedroom-Detached-House-ESPC",
-        "address": "Lizelle, 14 Crosslaw Burn, MOFFAT DG10 9LP",
-        "priceDescription": "Offers over £285,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "e01a94e642cae4d408c260ed92152c02"
-    },
-    {
         "url": "https://www.sspc.co.uk/Stroma-Windyknowe-Road-Galashiels-TD1-1RQ-3-Bedroom-Detached-House-ESPC",
         "address": "Stroma, Windyknowe Road, Galashiels TD1 1RQ",
         "priceDescription": "Guide Price £285,000",
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "ba7ec6bc539ed8a7e1862b3ef3af0a6b"
-    },
-    {
-        "url": "https://www.sspc.co.uk/2-Orchard-Grove-Giffnock-Glasgow-G46-7QU-2-Bedroom-Semi-Detached-House-ESPC",
-        "address": "2 Orchard Grove, Giffnock, Glasgow G46 7QU",
-        "priceDescription": "Offers over £285,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 2,
-        "id": "7a3f6eb73ddf378909f37c35f1f6e774"
     },
     {
         "url": "https://www.sspc.co.uk/7-Bluebell-Walk-Cumbernauld-Glasgow-G67-2TB-5-Bedroom-Detached-House-ESPC",
@@ -5360,6 +5256,14 @@
         "id": "476d6ad2cbff39c1413084bc739339c2"
     },
     {
+        "url": "https://www.sspc.co.uk/2-Orchard-Grove-Giffnock-Glasgow-G46-7QU-2-Bedroom-Semi-Detached-House-ESPC",
+        "address": "2 Orchard Grove, Giffnock, Glasgow G46 7QU",
+        "priceDescription": "Offers over £285,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 2,
+        "id": "7a3f6eb73ddf378909f37c35f1f6e774"
+    },
+    {
         "url": "https://www.sspc.co.uk/2-Harvey-Avenue-Wallyford-EH21-8FA-3-Bedroom-Semi-Detached-House-ESPC",
         "address": "2 Harvey Avenue, Wallyford EH21 8FA",
         "priceDescription": "Fixed Price £285,000",
@@ -5368,20 +5272,20 @@
         "id": "f1531cf7b5e62883939cb7ce5a2293cb"
     },
     {
-        "url": "https://www.sspc.co.uk/Hawthorn-Cottage-Baldovan-Strathmartine-DD3-0PD-3-Bedroom-Detached-House-TSPC",
-        "address": "Hawthorn Cottage, Baldovan, Strathmartine DD3 0PD",
-        "priceDescription": "Offers Over £285,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "f6e3d9b62ec02849deeb94c6638eb995"
-    },
-    {
         "url": "https://www.sspc.co.uk/33-Inchkeith-Avenue-Broughty-Ferry-DD5-2LS-3-Bedroom-Detached-House-TSPC",
         "address": "33 Inchkeith Avenue, Broughty Ferry DD5 2LS",
         "priceDescription": "Offers Over £285,000",
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "877e6c7e73a2dfa6f99ca9493a1b71ee"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Hawthorn-Cottage-Baldovan-Strathmartine-DD3-0PD-3-Bedroom-Detached-House-TSPC",
+        "address": "Hawthorn Cottage, Baldovan, Strathmartine DD3 0PD",
+        "priceDescription": "Offers Over £285,000",
+        "summary": "Detached House",
+        "bedrooms": 3,
+        "id": "f6e3d9b62ec02849deeb94c6638eb995"
     },
     {
         "url": "https://www.sspc.co.uk/18-North-Esk-Road-Edzell-DD9-7TW-3-Bedroom-Detached-House-TSPC",
@@ -5408,6 +5312,14 @@
         "id": "e911e9a25fb00a3b3cfa9c2480cdec5e"
     },
     {
+        "url": "https://www.sspc.co.uk/4-Bishops-View-Gairneybridge-KINROSS-KY13-9LD-5-Bedroom-Semi-Detached-House-ESPC",
+        "address": "4 Bishops View, Gairneybridge, KINROSS KY13 9LD",
+        "priceDescription": "Offers over £280,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 5,
+        "id": "d24ddc67bcf1eb1c7c251b7719c7645f"
+    },
+    {
         "url": "https://www.sspc.co.uk/40-Moredun-Park-Drive-EDINBURGH-EH17-7EP-2-Bedroom-Semi-Detached-House-ESPC",
         "address": "40 Moredun Park Drive, EDINBURGH EH17 7EP",
         "priceDescription": "Offers over £280,000",
@@ -5432,36 +5344,12 @@
         "id": "9f14803dffce854b28229cffdada0f55"
     },
     {
-        "url": "https://www.sspc.co.uk/44-Parkgrove-Crescent-Edinburgh-EH4-7RP-3-Bedroom-Semi-Detached-House-ESPC",
-        "address": "44 Parkgrove Crescent, Edinburgh EH4 7RP",
-        "priceDescription": "Offers over £280,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "7c7390e309f251605243823ccc205712"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Burnrigg-Ballplay-Road-MOFFAT-DG10-9JX-5-Bedroom-Detached-House-ESPC",
-        "address": "Burnrigg, Ballplay Road, MOFFAT DG10 9JX",
-        "priceDescription": "Offers over £280,000",
-        "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "89d4ba7515c75091ef98385c20169a56"
-    },
-    {
         "url": "https://www.sspc.co.uk/5-Colliery-View-Newtongrange-DALKEITH-EH22-4AQ-3-Bedroom-Detached-House-ESPC",
         "address": "5 Colliery View, Newtongrange, DALKEITH EH22 4AQ",
         "priceDescription": "Offers over £280,000",
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "8ad16310f3bb2c20ed4ce57ed7340aa2"
-    },
-    {
-        "url": "https://www.sspc.co.uk/10-South-Quarry-Mews-Gorebridge-EH23-4GW-3-Bedroom-Detached-House-ESPC",
-        "address": "10 South Quarry Mews, Gorebridge EH23 4GW",
-        "priceDescription": "Offers over £280,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "2224e9199c709ab23be5f5d25a0e8589"
     },
     {
         "url": "https://www.sspc.co.uk/20-Serf-Avenue-DUNFERMLINE-KY11-8YZ-4-Bedroom-Detached-House-ESPC",
@@ -5472,12 +5360,20 @@
         "id": "bf5fa5ab998bd11da56e33786f0d9c9b"
     },
     {
-        "url": "https://www.sspc.co.uk/Ruchil-Bank-Dalginross-Comrie-PH6-2HB-2-Bedroom-End-Terrace-House-PSPC",
-        "address": "Ruchil Bank, Dalginross, Comrie  PH6 2HB",
-        "priceDescription": "Fixed £280,000",
-        "summary": "End Terrace House",
-        "bedrooms": 2,
-        "id": "80958ebf2f68f6b2ba3e0fd914b0ca3f"
+        "url": "https://www.sspc.co.uk/44-Parkgrove-Crescent-Edinburgh-EH4-7RP-3-Bedroom-Semi-Detached-House-ESPC",
+        "address": "44 Parkgrove Crescent, Edinburgh EH4 7RP",
+        "priceDescription": "Offers over £280,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "7c7390e309f251605243823ccc205712"
+    },
+    {
+        "url": "https://www.sspc.co.uk/10-South-Quarry-Mews-Gorebridge-EH23-4GW-3-Bedroom-Detached-House-ESPC",
+        "address": "10 South Quarry Mews, Gorebridge EH23 4GW",
+        "priceDescription": "Offers over £280,000",
+        "summary": "Detached House",
+        "bedrooms": 3,
+        "id": "2224e9199c709ab23be5f5d25a0e8589"
     },
     {
         "url": "https://www.sspc.co.uk/90-Orchard-Way-Inchture-PH14-9RU-4-Bedroom-Detached-House-PSPC",
@@ -5496,20 +5392,20 @@
         "id": "a253d76033ee547fd546e4614e640100"
     },
     {
+        "url": "https://www.sspc.co.uk/Ruchil-Bank-Dalginross-Comrie-PH6-2HB-2-Bedroom-End-Terrace-House-PSPC",
+        "address": "Ruchil Bank, Dalginross, Comrie  PH6 2HB",
+        "priceDescription": "Fixed £280,000",
+        "summary": "End Terrace House",
+        "bedrooms": 2,
+        "id": "80958ebf2f68f6b2ba3e0fd914b0ca3f"
+    },
+    {
         "url": "https://www.sspc.co.uk/7-Bleachfield-Dundee-DD4-9FT-4-Bedroom-Detached-House-TSPC",
         "address": "7 Bleachfield, Dundee DD4 9FT",
         "priceDescription": "Offers Over £280,000",
         "summary": "Detached House",
         "bedrooms": 4,
         "id": "bc14e73c9ac7ee1fc3bdb9b6a344c0f4"
-    },
-    {
-        "url": "https://www.sspc.co.uk/53-Clover-Way-Blairhall-DUNFERMLINE-KY12-9JY-4-Bedroom-Detached-House-ESPC",
-        "address": "53 Clover Way, Blairhall, DUNFERMLINE KY12 9JY",
-        "priceDescription": "Offers over £279,950",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "6762ed39345575d1a6b460e6b142c5c3"
     },
     {
         "url": "https://www.sspc.co.uk/10-Davidson-Court-Wallyford-EH21-8GR-3-Bedroom-Semi-Detached-House-ESPC",
@@ -5552,44 +5448,20 @@
         "id": "966e983f97d05af370e85078bf175868"
     },
     {
+        "url": "https://www.sspc.co.uk/32-Grahamsdyke-Road-BO'NESS-EH51-9EA-3-Bedroom-Detached-House-ESPC",
+        "address": "32 Grahamsdyke Road, BO'NESS EH51 9EA",
+        "priceDescription": "Fixed Price £275,000",
+        "summary": "Detached House",
+        "bedrooms": 3,
+        "id": "6b389ea06fe33a17c9cce92b19a9efb9"
+    },
+    {
         "url": "https://www.sspc.co.uk/82-Kirk-Brae-EDINBURGH-EH16-6JA-4-Bedroom-Semi-Detached-House-ESPC",
         "address": "82 Kirk Brae, EDINBURGH EH16 6JA",
         "priceDescription": "Offers over £275,000",
         "summary": "Semi-Detached House",
         "bedrooms": 4,
         "id": "d84bc10cc15df292ea7397e57ebff193"
-    },
-    {
-        "url": "https://www.sspc.co.uk/32-Stuart-Park-Edinburgh-EH12-8YD-3-Bedroom-Terraced-House-ESPC",
-        "address": "32 Stuart Park, Edinburgh EH12 8YD",
-        "priceDescription": "Fixed Price £275,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "8aefece01300f251a4f6266768d740db"
-    },
-    {
-        "url": "https://www.sspc.co.uk/51-Fernwood-Drive-Danderhall-EH22-1FS-3-Bedroom-Semi-Detached-House-ESPC",
-        "address": "51 Fernwood Drive, Danderhall EH22 1FS",
-        "priceDescription": "Offers over £275,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "1bb8069128cb1819c1f4917d693fd635"
-    },
-    {
-        "url": "https://www.sspc.co.uk/110-South-Scotstoun-South-Queensferry-EH30-9YE-4-Bedroom-Semi-Detached-House-ESPC",
-        "address": "110 South Scotstoun, South Queensferry EH30 9YE",
-        "priceDescription": "Offers over £275,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 4,
-        "id": "161681a982a7f86b149ac741a4218eee"
-    },
-    {
-        "url": "https://www.sspc.co.uk/2-Lochiel-Gardens-Edinburgh-EH17-8WB-3-Bedroom-Terraced-House-ESPC",
-        "address": "2 Lochiel Gardens, Edinburgh EH17 8WB",
-        "priceDescription": "Fixed Price £275,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "dbc6fdb4e68a4cb0e592a594a8e00016"
     },
     {
         "url": "https://www.sspc.co.uk/Windrush-New-Gilston-Leven-KY8-5TF-4-Bedroom-Detached-House-ESPC",
@@ -5600,12 +5472,36 @@
         "id": "f214cc6a3136aaeee848f151c608bd34"
     },
     {
-        "url": "https://www.sspc.co.uk/6-Porterfield-Crescent-Penicuik-Midlothian-EH26-0FP-4-Bedroom-Terraced-House-ESPC",
-        "address": "6 Porterfield Crescent, Penicuik, Midlothian EH26 0FP",
-        "priceDescription": "Offers over £275,000",
+        "url": "https://www.sspc.co.uk/2-Lochiel-Gardens-Edinburgh-EH17-8WB-3-Bedroom-Terraced-House-ESPC",
+        "address": "2 Lochiel Gardens, Edinburgh EH17 8WB",
+        "priceDescription": "Fixed Price £275,000",
         "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "dbc6fdb4e68a4cb0e592a594a8e00016"
+    },
+    {
+        "url": "https://www.sspc.co.uk/51-Fernwood-Drive-Danderhall-EH22-1FS-3-Bedroom-Semi-Detached-House-ESPC",
+        "address": "51 Fernwood Drive, Danderhall EH22 1FS",
+        "priceDescription": "Offers over £275,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "1bb8069128cb1819c1f4917d693fd635"
+    },
+    {
+        "url": "https://www.sspc.co.uk/32-Stuart-Park-Edinburgh-EH12-8YD-3-Bedroom-Terraced-House-ESPC",
+        "address": "32 Stuart Park, Edinburgh EH12 8YD",
+        "priceDescription": "Fixed Price £275,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "8aefece01300f251a4f6266768d740db"
+    },
+    {
+        "url": "https://www.sspc.co.uk/110-South-Scotstoun-South-Queensferry-EH30-9YE-4-Bedroom-Semi-Detached-House-ESPC",
+        "address": "110 South Scotstoun, South Queensferry EH30 9YE",
+        "priceDescription": "Offers over £275,000",
+        "summary": "Semi-Detached House",
         "bedrooms": 4,
-        "id": "0bf9e3861de85f8c92d99b6be8d93bc7"
+        "id": "161681a982a7f86b149ac741a4218eee"
     },
     {
         "url": "https://www.sspc.co.uk/28-Mount-Melville-Crescent-Strathkinness-ST.-ANDREWS-KY16-9XS-3-Bedroom-Detached-House-ESPC",
@@ -5614,6 +5510,14 @@
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "1578b32a778482de569618b3aeb8c88f"
+    },
+    {
+        "url": "https://www.sspc.co.uk/6-Porterfield-Crescent-Penicuik-Midlothian-EH26-0FP-4-Bedroom-Terraced-House-ESPC",
+        "address": "6 Porterfield Crescent, Penicuik, Midlothian EH26 0FP",
+        "priceDescription": "Offers over £275,000",
+        "summary": "Terraced House",
+        "bedrooms": 4,
+        "id": "0bf9e3861de85f8c92d99b6be8d93bc7"
     },
     {
         "url": "https://www.sspc.co.uk/19-Keith-Gardens-Broxburn-EH52-6XS-4-Bedroom-Detached-House-ESPC",
@@ -5630,6 +5534,14 @@
         "summary": "Semi-Detached House",
         "bedrooms": 3,
         "id": "06dfd7ba2689c236de6e544ca6dc400f"
+    },
+    {
+        "url": "https://www.sspc.co.uk/11-Flass-Road-Wormit-DD6-8NL-3-Bedroom-Detached-House-TSPC",
+        "address": "11 Flass Road, Wormit DD6 8NL",
+        "priceDescription": "Offers Over £275,000",
+        "summary": "Detached House",
+        "bedrooms": 3,
+        "id": "220476a2c3a97b17d26a9ab9508a4254"
     },
     {
         "url": "https://www.sspc.co.uk/8-Coupar-Angus-Road-Dundee-DD2-3HN-10-Bedroom-Semi-Detached-House-TSPC",
@@ -5654,14 +5566,6 @@
         "summary": "Semi-Detached House",
         "bedrooms": 4,
         "id": "b292a4064f70a6657125d560b222ddfd"
-    },
-    {
-        "url": "https://www.sspc.co.uk/9-Carnie-Crescent-Danderhall-EH22-1FT-3-Bedroom-Semi-Detached-House-ESPC",
-        "address": "9 Carnie Crescent, Danderhall EH22 1FT",
-        "priceDescription": "Offers over £274,995",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "b8766e8180b1212884e9534c6808fe3a"
     },
     {
         "url": "https://www.sspc.co.uk/Miller-Homes-Plot-10-The-Hazewood-at-Victoria-Wynd-Calender-Avenue-Kirkcaldy-KY1-2HG-4-Bedroom-Detached-House-ESPC",
@@ -5704,14 +5608,6 @@
         "id": "e92f21c1372c8b1983c90f2ce73af8c8"
     },
     {
-        "url": "https://www.sspc.co.uk/32-Grahamsdyke-Road-BO'NESS-EH51-9EA-3-Bedroom-Detached-House-ESPC",
-        "address": "32 Grahamsdyke Road, BO'NESS EH51 9EA",
-        "priceDescription": "Offers over £270,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "6b389ea06fe33a17c9cce92b19a9efb9"
-    },
-    {
         "url": "https://www.sspc.co.uk/Bank-House-High-Street-Inverkeithing-KY11-1NL-5-Bedroom-House-ESPC",
         "address": "Bank House High Street, Inverkeithing KY11 1NL",
         "priceDescription": "Offers over £270,000",
@@ -5752,20 +5648,20 @@
         "id": "e9e18c1156a7c75f6be8fe631847358d"
     },
     {
-        "url": "https://www.sspc.co.uk/52-William-Fitzgerald-Way-Dundee-DD4-9FB-5-Bedroom-Detached-House-TSPC",
-        "address": "52 William Fitzgerald Way, Dundee DD4 9FB",
-        "priceDescription": "Offers Over £270,000",
-        "summary": "Detached House",
-        "bedrooms": 5,
-        "id": "f103073eff30fab49dd77bf70dd6c712"
-    },
-    {
         "url": "https://www.sspc.co.uk/59-Kilmany-Road-Wormit-DD6-8PH-2-Bedroom-Semi-Detached-House-TSPC",
         "address": "59 Kilmany Road, Wormit DD6 8PH",
         "priceDescription": "Offers Over £270,000",
         "summary": "Semi-Detached House",
         "bedrooms": 2,
         "id": "e569566c84f83904acf96e095fb101b1"
+    },
+    {
+        "url": "https://www.sspc.co.uk/52-William-Fitzgerald-Way-Dundee-DD4-9FB-5-Bedroom-Detached-House-TSPC",
+        "address": "52 William Fitzgerald Way, Dundee DD4 9FB",
+        "priceDescription": "Offers Over £270,000",
+        "summary": "Detached House",
+        "bedrooms": 5,
+        "id": "f103073eff30fab49dd77bf70dd6c712"
     },
     {
         "url": "https://www.sspc.co.uk/2-Bon-Scott-Place-Kirriemuir-DD8-4LD-4-Bedroom-Detached-House-TSPC",
@@ -5824,14 +5720,6 @@
         "id": "e9900a371d9c469ae29a09def6e5d003"
     },
     {
-        "url": "https://www.sspc.co.uk/10-Tyler's-Acre-Gardens-Corstorphine-EH12-7JH-2-Bedroom-Terraced-House-ESPC",
-        "address": "10 Tyler's Acre Gardens, Corstorphine EH12 7JH",
-        "priceDescription": "Offers over £265,000",
-        "summary": "Terraced House",
-        "bedrooms": 2,
-        "id": "189671390e633cd74142475aeb8e0f9f"
-    },
-    {
         "url": "https://www.sspc.co.uk/17-Provost-Milne-Grove-South-Queensferry-EH30-9PJ-4-Bedroom-Semi-Detached-House-ESPC",
         "address": "17 Provost Milne Grove, South Queensferry EH30 9PJ",
         "priceDescription": "Fixed Price £265,000",
@@ -5840,12 +5728,28 @@
         "id": "5bc69d2a2bdef77be81c12cdb73f410f"
     },
     {
+        "url": "https://www.sspc.co.uk/10-Tyler's-Acre-Gardens-Corstorphine-EH12-7JH-2-Bedroom-Terraced-House-ESPC",
+        "address": "10 Tyler's Acre Gardens, Corstorphine EH12 7JH",
+        "priceDescription": "Offers over £265,000",
+        "summary": "Terraced House",
+        "bedrooms": 2,
+        "id": "189671390e633cd74142475aeb8e0f9f"
+    },
+    {
         "url": "https://www.sspc.co.uk/8-Pikes-Pool-Drive-KIRKLISTON-EH29-9GH-3-Bedroom-End-Terraced-House-ESPC",
         "address": "8 Pikes Pool Drive, KIRKLISTON EH29 9GH",
         "priceDescription": "Offers over £265,000",
         "summary": "End Terraced House",
         "bedrooms": 3,
         "id": "f853e4539cf63c63e762232efa78dd68"
+    },
+    {
+        "url": "https://www.sspc.co.uk/22-Craw-Yard-Drive-EDINBURGH-EH12-9LU-2-Bedroom-Terraced-House-ESPC",
+        "address": "22 Craw Yard Drive, EDINBURGH EH12 9LU",
+        "priceDescription": "Offers over £265,000",
+        "summary": "Terraced House",
+        "bedrooms": 2,
+        "id": "37365a8802e96cd57e7f6ba7c5b0e6a6"
     },
     {
         "url": "https://www.sspc.co.uk/7-Muirhouse-Loan-Muirhouse-Edinburgh-EH4-4NZ-3-Bedroom-Semi-Detached-House-ESPC",
@@ -5904,14 +5808,6 @@
         "id": "561cb192b38a50318100455645a4501c"
     },
     {
-        "url": "https://www.sspc.co.uk/22-Craw-Yard-Drive-EDINBURGH-EH12-9LU-2-Bedroom-Terraced-House-ESPC",
-        "address": "22 Craw Yard Drive, EDINBURGH EH12 9LU",
-        "priceDescription": "Offers over £265,000",
-        "summary": "Terraced House",
-        "bedrooms": 2,
-        "id": "37365a8802e96cd57e7f6ba7c5b0e6a6"
-    },
-    {
         "url": "https://www.sspc.co.uk/10-Cospatrick-Court-Coldstream-TD12-4EL-3-Bedroom-Semi-Detached-House-ESPC",
         "address": "10 Cospatrick Court, Coldstream TD12 4EL",
         "priceDescription": "Offers over £265,000",
@@ -5920,20 +5816,20 @@
         "id": "736c76cce02a4122f7306c6ead93d5b3"
     },
     {
-        "url": "https://www.sspc.co.uk/38-Morar-Road-Crossford-DUNFERMLINE-KY12-8XY-3-Bedroom-Detached-House-ESPC",
-        "address": "38 Morar Road, Crossford, DUNFERMLINE KY12 8XY",
-        "priceDescription": "Fixed Price £265,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "978c1c60dbd261691e05fd11c91bf51c"
-    },
-    {
         "url": "https://www.sspc.co.uk/4-Chalmers-Buildings-High-Street-East-ANSTRUTHER-KY10-3DQ-3-Bedroom-Terraced-House-ESPC",
         "address": "4 Chalmers Buildings, High Street East, ANSTRUTHER KY10 3DQ",
         "priceDescription": "Offers over £265,000",
         "summary": "Terraced House",
         "bedrooms": 3,
         "id": "a5ae17b6bcdda01fd343078238c6faf7"
+    },
+    {
+        "url": "https://www.sspc.co.uk/38-Morar-Road-Crossford-DUNFERMLINE-KY12-8XY-3-Bedroom-Detached-House-ESPC",
+        "address": "38 Morar Road, Crossford, DUNFERMLINE KY12 8XY",
+        "priceDescription": "Fixed Price £265,000",
+        "summary": "Detached House",
+        "bedrooms": 3,
+        "id": "978c1c60dbd261691e05fd11c91bf51c"
     },
     {
         "url": "https://www.sspc.co.uk/53-Grangehill-Drive-Monifieth-DD5-4RR-4-Bedroom-Detached-House-TSPC",
@@ -5992,6 +5888,14 @@
         "id": "5ffbf9a7b5a67f75bee072ffae9faad5"
     },
     {
+        "url": "https://www.sspc.co.uk/53-Moat-View-Roslin-EH25-9NZ-3-Bedroom-Semi-Detached-House-ESPC",
+        "address": "53 Moat View, Roslin EH25 9NZ",
+        "priceDescription": "Offers over £260,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "2c756502116194fde3460d1c0e1a70e0"
+    },
+    {
         "url": "https://www.sspc.co.uk/27-Broomhall-Park-Edinburgh-EH12-7PU-2-Bedroom-Semi-Detached-House-ESPC",
         "address": "27 Broomhall Park, Edinburgh EH12 7PU",
         "priceDescription": "Offers over £260,000",
@@ -6000,20 +5904,20 @@
         "id": "b19cc0a4d19eb28d6e1a7c4ee715cdd2"
     },
     {
-        "url": "https://www.sspc.co.uk/11-Terregles-Penicuik-EH26-0AZ-3-Bedroom-Detached-House-ESPC",
-        "address": "11 Terregles, Penicuik EH26 0AZ",
-        "priceDescription": "Offers over £260,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "8b5c55615e5bd42dfb7e8b4060c9234d"
-    },
-    {
         "url": "https://www.sspc.co.uk/18-Teal-Place-DUNFERMLINE-KY11-8GB-4-Bedroom-Detached-House-ESPC",
         "address": "18 Teal Place, DUNFERMLINE KY11 8GB",
         "priceDescription": "Offers over £260,000",
         "summary": "Detached House",
         "bedrooms": 4,
         "id": "4842331fdc0453f1e73127c574f832ec"
+    },
+    {
+        "url": "https://www.sspc.co.uk/11-Terregles-Penicuik-EH26-0AZ-3-Bedroom-Detached-House-ESPC",
+        "address": "11 Terregles, Penicuik EH26 0AZ",
+        "priceDescription": "Offers over £260,000",
+        "summary": "Detached House",
+        "bedrooms": 3,
+        "id": "8b5c55615e5bd42dfb7e8b4060c9234d"
     },
     {
         "url": "https://www.sspc.co.uk/78-Pittencrieff-Street-DUNFERMLINE-KY12-8AH-3-Bedroom-Terraced-House-ESPC",
@@ -6048,14 +5952,6 @@
         "id": "206ac6a6931bf60ff180860a45029301"
     },
     {
-        "url": "https://www.sspc.co.uk/53-Moat-View-Roslin-EH25-9NZ-3-Bedroom-Semi-Detached-House-ESPC",
-        "address": "53 Moat View, Roslin EH25 9NZ",
-        "priceDescription": "Offers over £260,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "2c756502116194fde3460d1c0e1a70e0"
-    },
-    {
         "url": "https://www.sspc.co.uk/26-Ardshiel-Avenue-Clermiston-EH4-7HP-3-Bedroom-End-Terraced-House-ESPC",
         "address": "26 Ardshiel Avenue, Clermiston EH4 7HP",
         "priceDescription": "Offers over £260,000",
@@ -6064,20 +5960,20 @@
         "id": "ddb1261da1e876367bfb8a8c2cfe7789"
     },
     {
-        "url": "https://www.sspc.co.uk/Macalpine-Place-Dundee-DD3-9FB-3-Bedroom-Detached-House-TSPC",
-        "address": "Macalpine Place, Dundee DD3 9FB",
-        "priceDescription": "From £260,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "ca4c1a6d2764228eda893684878a9c58"
-    },
-    {
         "url": "https://www.sspc.co.uk/3-Craigview-Court-Tayport-DD6-9JQ-3-Bedroom-Detached-House-TSPC",
         "address": "3 Craigview Court, Tayport DD6 9JQ",
         "priceDescription": "Offers Over £260,000",
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "e51722d458ef3c5c9050eb81bbb00d1f"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Macalpine-Place-Dundee-DD3-9FB-3-Bedroom-Detached-House-TSPC",
+        "address": "Macalpine Place, Dundee DD3 9FB",
+        "priceDescription": "From £260,000",
+        "summary": "Detached House",
+        "bedrooms": 3,
+        "id": "ca4c1a6d2764228eda893684878a9c58"
     },
     {
         "url": "https://www.sspc.co.uk/80-Carter-Drive-EDINBURGH-EH17-8GR-3-Bedroom-End-Terraced-House-ESPC",
@@ -6136,14 +6032,6 @@
         "id": "aaa1741e332e03fd60b672e4fc1bdca3"
     },
     {
-        "url": "https://www.sspc.co.uk/9-Liney-Walk-Macmerry-EH33-1FP-3-Bedroom-End-Terraced-House-ESPC",
-        "address": "9 Liney Walk, Macmerry EH33 1FP",
-        "priceDescription": "Offers over £255,000",
-        "summary": "End Terraced House",
-        "bedrooms": 3,
-        "id": "cc623ef83c7e1ee741c8e1bea34ad6a0"
-    },
-    {
         "url": "https://www.sspc.co.uk/27-Eighth-Street-Newtongrange-EH22-4JR-3-Bedroom-Semi-Detached-House-ESPC",
         "address": "27 Eighth Street, Newtongrange EH22 4JR",
         "priceDescription": "Offers over £255,000",
@@ -6152,12 +6040,12 @@
         "id": "1aba29c2771aa40ef66f5078bb8082c1"
     },
     {
-        "url": "https://www.sspc.co.uk/41-Merchiston-Oval-Brookfield-PA5-8XA-3-Bedroom-Semi-Detached-House-ESPC",
-        "address": "41 Merchiston Oval, Brookfield PA5 8XA",
+        "url": "https://www.sspc.co.uk/9-Liney-Walk-Macmerry-EH33-1FP-3-Bedroom-End-Terraced-House-ESPC",
+        "address": "9 Liney Walk, Macmerry EH33 1FP",
         "priceDescription": "Offers over £255,000",
-        "summary": "Semi-Detached House",
+        "summary": "End Terraced House",
         "bedrooms": 3,
-        "id": "f39682febbacaa40c462a53647d99e27"
+        "id": "cc623ef83c7e1ee741c8e1bea34ad6a0"
     },
     {
         "url": "https://www.sspc.co.uk/16-Ben-Lawers-Drive-Livingston-EH53-0UL-3-Bedroom-Terraced-House-ESPC",
@@ -6296,22 +6184,6 @@
         "id": "f762140d13f5c2c1f15326865b28df0f"
     },
     {
-        "url": "https://www.sspc.co.uk/Wellpark-East-Morriston-Earlston-TD4-6BA-3-Bedroom-Detached-House-ESPC",
-        "address": "Wellpark, East Morriston, Earlston TD4 6BA",
-        "priceDescription": "Offers over £250,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "d5b3acd24c7626ec1dda5029a0a4dccb"
-    },
-    {
-        "url": "https://www.sspc.co.uk/40-Clermiston-Drive-Edinburgh-EH4-7PR-3-Bedroom-Terraced-House-ESPC",
-        "address": "40 Clermiston Drive, Edinburgh EH4 7PR",
-        "priceDescription": "Offers over £250,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "9e6ab7075480eafaa0621dc4ed117ba1"
-    },
-    {
         "url": "https://www.sspc.co.uk/New-Build--14-Glencraig-Place-Lamlash-Isle-of-Arran-KA27-8PJ-2-Bedroom-Semi-Detached-House-ESPC",
         "address": "New Build - 14 Glencraig Place, Lamlash, Isle of Arran KA27 8PJ",
         "priceDescription": "Fixed Price £250,000",
@@ -6320,20 +6192,20 @@
         "id": "04ad368462a752867510673619bce324"
     },
     {
-        "url": "https://www.sspc.co.uk/66-Gilbert-Avenue-North-Berwick-East-Lothian-EH39-4EA-3-Bedroom-Terraced-House-ESPC",
-        "address": "66 Gilbert Avenue, North Berwick, East Lothian EH39 4EA",
-        "priceDescription": "Offers over £250,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "a17ae449fcf5acd3bbfc73468e8b72e0"
-    },
-    {
         "url": "https://www.sspc.co.uk/22-Freddie-Tait-Street-ST.-ANDREWS-KY16-8HH-2-Bedroom-Terraced-House-ESPC",
         "address": "22 Freddie Tait Street, ST. ANDREWS KY16 8HH",
         "priceDescription": "Offers over £250,000",
         "summary": "Terraced House",
         "bedrooms": 2,
         "id": "29549fe0c5a7b3dfdfe6742d40c178e7"
+    },
+    {
+        "url": "https://www.sspc.co.uk/40-Clermiston-Drive-Edinburgh-EH4-7PR-3-Bedroom-Terraced-House-ESPC",
+        "address": "40 Clermiston Drive, Edinburgh EH4 7PR",
+        "priceDescription": "Offers over £250,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "9e6ab7075480eafaa0621dc4ed117ba1"
     },
     {
         "url": "https://www.sspc.co.uk/1-Struan-Wynd-Prestonpans-EH32-9FR-3-Bedroom-Semi-Detached-House-ESPC",
@@ -6392,22 +6264,6 @@
         "id": "3d63a26fb973cd7a3257f4984a05b719"
     },
     {
-        "url": "https://www.sspc.co.uk/Tarrie-Bank-Home-Farm-Arbroath-DD11-5RE-4-Bedroom-Detached-House-TSPC",
-        "address": "Tarrie Bank Home Farm, Arbroath DD11 5RE",
-        "priceDescription": "Offers Over £250,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "25c90973fbd7e171cf3173620629373d"
-    },
-    {
-        "url": "https://www.sspc.co.uk/22-Addison-Place-Arbroath-DD11-2AX-3-Bedroom-Semi-Detached-House-TSPC",
-        "address": "22 Addison Place, Arbroath DD11 2AX",
-        "priceDescription": "Offers Over £250,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "592483eab18e40d342f740fef3af11f6"
-    },
-    {
         "url": "https://www.sspc.co.uk/3-Grampian-Crescent-Northmuir-Kirriemuir-DD8-4TW-4-Bedroom-Detached-House-TSPC",
         "address": "3 Grampian Crescent, Northmuir, Kirriemuir DD8 4TW",
         "priceDescription": "Offers Over £250,000",
@@ -6422,6 +6278,14 @@
         "summary": "Semi-Detached House",
         "bedrooms": 3,
         "id": "f9dd6f304d8d6bca6b96aebb889b05c8"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Tarrie-Bank-Home-Farm-Arbroath-DD11-5RE-4-Bedroom-Detached-House-TSPC",
+        "address": "Tarrie Bank Home Farm, Arbroath DD11 5RE",
+        "priceDescription": "Offers Over £250,000",
+        "summary": "Detached House",
+        "bedrooms": 4,
+        "id": "25c90973fbd7e171cf3173620629373d"
     },
     {
         "url": "https://www.sspc.co.uk/59-Albany-Terrace-Dundee-DD3-6HQ-4-Bedroom-Divided-House-TSPC",
@@ -6488,14 +6352,6 @@
         "id": "798f8da2d56304cd57534d8a8761ea68"
     },
     {
-        "url": "https://www.sspc.co.uk/12-Park-View-West-Port-Seton-EH32-0BL-3-Bedroom-End-Terraced-House-ESPC",
-        "address": "12 Park View West, Port Seton EH32 0BL",
-        "priceDescription": "Offers over £245,000",
-        "summary": "End Terraced House",
-        "bedrooms": 3,
-        "id": "e998f88a39c0782a4e6f42aa7592bea7"
-    },
-    {
         "url": "https://www.sspc.co.uk/57c-Boswall-Drive-EDINBURGH-EH5-2BE-2-Bedroom-Semi-Detached-House-ESPC",
         "address": "57c Boswall Drive, EDINBURGH EH5 2BE",
         "priceDescription": "Offers over £245,000",
@@ -6552,28 +6408,12 @@
         "id": "c70057a07d7d5f6c48d514cbe57d99ff"
     },
     {
-        "url": "https://www.sspc.co.uk/42-Peveril-Terrace-Liberton-EH16-6DF-3-Bedroom-End-Terraced-House-ESPC",
-        "address": "42 Peveril Terrace, Liberton EH16 6DF",
-        "priceDescription": "Offers over £245,000",
-        "summary": "End Terraced House",
-        "bedrooms": 3,
-        "id": "6f7b3d96a72345346b7481f520b4444d"
-    },
-    {
         "url": "https://www.sspc.co.uk/7-Kenmore-Street-Aberfeldy-PH15-2BL-4-Bedroom-First-and-Second-Floor-House-PSPC",
         "address": "7 Kenmore Street, Aberfeldy PH15 2BL",
         "priceDescription": "Offers Over £245,000",
         "summary": "First & Second Floor House",
         "bedrooms": 4,
         "id": "6374017ae17e0e07332633e29f7ca990"
-    },
-    {
-        "url": "https://www.sspc.co.uk/30-Thornton-Gardens-Arbroath-DD11-3DX-4-Bedroom-Detached-House-TSPC",
-        "address": "30 Thornton Gardens, Arbroath DD11 3DX",
-        "priceDescription": "Fixed £245,000",
-        "summary": "Detached House",
-        "bedrooms": 4,
-        "id": "4fffba6042e0a31181fa39811f0956e8"
     },
     {
         "url": "https://www.sspc.co.uk/14-McGregor-Crescent-Whitburn-BATHGATE-EH47-0AH-3-Bedroom-Detached-House-ESPC",
@@ -6656,6 +6496,14 @@
         "id": "ba24b140721ead3f17a5e73949fdf044"
     },
     {
+        "url": "https://www.sspc.co.uk/4B-Claverhouse-Old-Road-Dundee-DD4-9BY-3-Bedroom-Detached-House-TSPC",
+        "address": "4B Claverhouse Old Road, Dundee DD4 9BY",
+        "priceDescription": "Offers Over £240,000",
+        "summary": "Detached House",
+        "bedrooms": 3,
+        "id": "41d98625088adaf73780139d236fa70c"
+    },
+    {
         "url": "https://www.sspc.co.uk/8-Prosen-Bank-Carnoustie-DD7-6GX-3-Bedroom-Detached-House-TSPC",
         "address": "8 Prosen Bank, Carnoustie DD7 6GX",
         "priceDescription": "Offers Over £240,000",
@@ -6670,22 +6518,6 @@
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "9a24aad5a1811c05e97ac4f8c03bb274"
-    },
-    {
-        "url": "https://www.sspc.co.uk/4B-Claverhouse-Old-Road-Dundee-DD4-9BY-3-Bedroom-Detached-House-TSPC",
-        "address": "4B Claverhouse Old Road, Dundee DD4 9BY",
-        "priceDescription": "Offers Over £240,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "41d98625088adaf73780139d236fa70c"
-    },
-    {
-        "url": "https://www.sspc.co.uk/29-Foxhall-Gait-Kirkliston-EH29-9GT-2-Bedroom-Terraced-House-ESPC",
-        "address": "29 Foxhall Gait, Kirkliston EH29 9GT",
-        "priceDescription": "Fixed Price £239,995",
-        "summary": "Terraced House",
-        "bedrooms": 2,
-        "id": "7811a89e3f6adb6afbcb4fc372578768"
     },
     {
         "url": "https://www.sspc.co.uk/24-Brierie-Hills-Court-Crosslee-PA6-7DU-3-Bedroom-Detached-House-ESPC",
@@ -6768,20 +6600,20 @@
         "id": "69d4872a928e2e0ca743b1c68213f331"
     },
     {
-        "url": "https://www.sspc.co.uk/3-Yorkston-Cottages-Temple-Gorebridge-EH23-4SS-2-Bedroom-House-ESPC",
-        "address": "3 Yorkston Cottages, Temple, Gorebridge EH23 4SS",
-        "priceDescription": "Fixed Price £235,000",
-        "summary": "House",
-        "bedrooms": 2,
-        "id": "c4cd4946a14e5c826d22583bd7263fae"
-    },
-    {
         "url": "https://www.sspc.co.uk/22-Collier-Place-Niddrie-EH16-4PZ-2-Bedroom-Detached-House-ESPC",
         "address": "22 Collier Place, Niddrie EH16 4PZ",
         "priceDescription": "Offers over £235,000",
         "summary": "Detached House",
         "bedrooms": 2,
         "id": "6b0faaf5cdfedbf999ec303a3f52f3ae"
+    },
+    {
+        "url": "https://www.sspc.co.uk/3-Yorkston-Cottages-Temple-Gorebridge-EH23-4SS-2-Bedroom-House-ESPC",
+        "address": "3 Yorkston Cottages, Temple, Gorebridge EH23 4SS",
+        "priceDescription": "Fixed Price £235,000",
+        "summary": "House",
+        "bedrooms": 2,
+        "id": "c4cd4946a14e5c826d22583bd7263fae"
     },
     {
         "url": "https://www.sspc.co.uk/40-Dundas-Avenue-South-Queensferry-EH30-9QA-3-Bedroom-Terraced-House-ESPC",
@@ -6880,6 +6712,14 @@
         "id": "011164a7c2b1f64a6a79d17bfd0551d3"
     },
     {
+        "url": "https://www.sspc.co.uk/33-Muirhouse-Avenue-Muirhouse-EH4-4PP-3-Bedroom-Terraced-House-ESPC",
+        "address": "33 Muirhouse Avenue, Muirhouse EH4 4PP",
+        "priceDescription": "Fixed Price £230,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "75b1818e4b73fd1fb7ffb0ac48952350"
+    },
+    {
         "url": "https://www.sspc.co.uk/10-Old-Row-Wallyford-EH21-8EP-3-Bedroom-House-ESPC",
         "address": "10 Old Row, Wallyford EH21 8EP",
         "priceDescription": "Offers over £230,000",
@@ -6928,14 +6768,6 @@
         "id": "804a1de64c79b0b7326c6329605e9079"
     },
     {
-        "url": "https://www.sspc.co.uk/Southview-A-Pittenzie-Street-Crieff-PH7-3JJ-4-Bedroom-End-Terrace-House-PSPC",
-        "address": "Southview A, Pittenzie Street, Crieff PH7 3JJ",
-        "priceDescription": "Fixed £230,000",
-        "summary": "End Terrace House",
-        "bedrooms": 4,
-        "id": "866190bfb2db5ddb8f96c800707299af"
-    },
-    {
         "url": "https://www.sspc.co.uk/24-Hayswell-Road-Arbroath-DD11-1TU-4-Bedroom-Semi-Detached-House-TSPC",
         "address": "24 Hayswell Road, Arbroath DD11 1TU",
         "priceDescription": "Offers Over £230,000",
@@ -6968,12 +6800,12 @@
         "id": "8b58dde7b6ddb832b567ddc03dbd0c96"
     },
     {
-        "url": "https://www.sspc.co.uk/1-Cupar-Road-Auchtermuchty-CUPAR-KY14-7DQ-5-Bedroom-Terraced-House-ESPC",
-        "address": "1 Cupar Road, Auchtermuchty, CUPAR KY14 7DQ",
+        "url": "https://www.sspc.co.uk/17-Headrigg-Row-Edinburgh-EH165RZ-EH16-5RZ-3-Bedroom-End-Terraced-House-ESPC",
+        "address": "17 Headrigg Row, Edinburgh, EH165RZ EH16 5RZ",
         "priceDescription": "Offers over £225,000",
-        "summary": "Terraced House",
-        "bedrooms": 5,
-        "id": "78d0016e3c567775e5b1770fde7b45e8"
+        "summary": "End Terraced House",
+        "bedrooms": 3,
+        "id": "cb58bb188d0dfa4930fe29b74c73b092"
     },
     {
         "url": "https://www.sspc.co.uk/32-Whitehouse-Gardens-GOREBRIDGE-EH23-4FQ-3-Bedroom-End-Terraced-House-ESPC",
@@ -6982,6 +6814,14 @@
         "summary": "End Terraced House",
         "bedrooms": 3,
         "id": "25fc0bf7a96900311a64941fa97269c5"
+    },
+    {
+        "url": "https://www.sspc.co.uk/1-Cupar-Road-Auchtermuchty-CUPAR-KY14-7DQ-5-Bedroom-Terraced-House-ESPC",
+        "address": "1 Cupar Road, Auchtermuchty, CUPAR KY14 7DQ",
+        "priceDescription": "Offers over £225,000",
+        "summary": "Terraced House",
+        "bedrooms": 5,
+        "id": "78d0016e3c567775e5b1770fde7b45e8"
     },
     {
         "url": "https://www.sspc.co.uk/2B-Bridge-Street-East-Linton-EH40-3AQ-3-Bedroom-End-Terraced-House-ESPC",
@@ -7016,14 +6856,6 @@
         "id": "be80526f9446d8018d6f270adb92f02c"
     },
     {
-        "url": "https://www.sspc.co.uk/30-Echline-Place-South-Queensferry-EH30-9XA-3-Bedroom-Terraced-House-ESPC",
-        "address": "30 Echline Place, South Queensferry EH30 9XA",
-        "priceDescription": "Fixed Price £225,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "d0c52dcd82c80b626546eaa6fa4b3357"
-    },
-    {
         "url": "https://www.sspc.co.uk/58-Kirkhill-Road-Penicuik-Midlothian-EH26-8JD-2-Bedroom-End-Terraced-House-ESPC",
         "address": "58 Kirkhill Road, Penicuik, Midlothian EH26 8JD",
         "priceDescription": "Offers over £225,000",
@@ -7038,6 +6870,14 @@
         "summary": "Semi-Detached House",
         "bedrooms": 2,
         "id": "2715f1414db68e16df163f2eb188c5ff"
+    },
+    {
+        "url": "https://www.sspc.co.uk/30-Echline-Place-South-Queensferry-EH30-9XA-3-Bedroom-Terraced-House-ESPC",
+        "address": "30 Echline Place, South Queensferry EH30 9XA",
+        "priceDescription": "Fixed Price £225,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "d0c52dcd82c80b626546eaa6fa4b3357"
     },
     {
         "url": "https://www.sspc.co.uk/1-John-Humble-Street-Mayfield-EH22-5QZ-3-Bedroom-Detached-House-ESPC",
@@ -7072,28 +6912,20 @@
         "id": "7f6b8eb02b9d8ab89ad8f31f563a9984"
     },
     {
-        "url": "https://www.sspc.co.uk/9-Malt-Loan-Carnoustie-DD7-7GW-3-Bedroom-Semi-Detached-House-TSPC",
-        "address": "9 Malt Loan, Carnoustie DD7 7GW",
-        "priceDescription": "Offers Over £225,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "34cc7f6c65c05610c9b79394845c5e60"
-    },
-    {
-        "url": "https://www.sspc.co.uk/1-Hayshead-Road-Arbroath-DD11-5AZ-3-Bedroom-Detached-House-TSPC",
-        "address": "1 Hayshead Road, Arbroath DD11 5AZ",
-        "priceDescription": "Offers Over £225,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "6570a0fa70d34997a61dfba33dfc1ff8"
-    },
-    {
         "url": "https://www.sspc.co.uk/21-Navarre-Street-Broughty-Ferry-DD5-2TW-3-Bedroom-Semi-Detached-House-TSPC",
         "address": "21 Navarre Street, Broughty Ferry DD5 2TW",
         "priceDescription": "Offers Over £225,000",
         "summary": "Semi-Detached House",
         "bedrooms": 3,
         "id": "ca7f72e20fb876a2366cfa259f6fa904"
+    },
+    {
+        "url": "https://www.sspc.co.uk/9-Malt-Loan-Carnoustie-DD7-7GW-3-Bedroom-Semi-Detached-House-TSPC",
+        "address": "9 Malt Loan, Carnoustie DD7 7GW",
+        "priceDescription": "Offers Over £225,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "34cc7f6c65c05610c9b79394845c5e60"
     },
     {
         "url": "https://www.sspc.co.uk/10-Glenfield-Carnock-DUNFERMLINE-KY12-9JW-3-Bedroom-Detached-House-ESPC",
@@ -7144,20 +6976,20 @@
         "id": "67b6a2a28ef0651103f2d91347c99b8e"
     },
     {
-        "url": "https://www.sspc.co.uk/32-Mulben-Terrace-Crookston-GLASGOW-G53-7LE-3-Bedroom-Detached-House-ESPC",
-        "address": "32 Mulben Terrace, Crookston, GLASGOW G53 7LE",
-        "priceDescription": "Offers over £220,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "fe0dc66aa0a17dd1ab75e492642b1060"
-    },
-    {
         "url": "https://www.sspc.co.uk/29-Gowanbrae-Drive-DUNFERMLINE-KY12-7RL-3-Bedroom-Semi-Detached-House-ESPC",
         "address": "29 Gowanbrae Drive, DUNFERMLINE KY12 7RL",
         "priceDescription": "Offers over £220,000",
         "summary": "Semi-Detached House",
         "bedrooms": 3,
         "id": "6715946a50351e601828507d234639d6"
+    },
+    {
+        "url": "https://www.sspc.co.uk/32-Mulben-Terrace-Crookston-GLASGOW-G53-7LE-3-Bedroom-Detached-House-ESPC",
+        "address": "32 Mulben Terrace, Crookston, GLASGOW G53 7LE",
+        "priceDescription": "Offers over £220,000",
+        "summary": "Detached House",
+        "bedrooms": 3,
+        "id": "fe0dc66aa0a17dd1ab75e492642b1060"
     },
     {
         "url": "https://www.sspc.co.uk/16-Rullion-Road-Penicuik-EH26-9HT-3-Bedroom-Semi-Detached-House-ESPC",
@@ -7182,14 +7014,6 @@
         "summary": "Terraced House",
         "bedrooms": 2,
         "id": "1596b1c101aa91c2125818555277810e"
-    },
-    {
-        "url": "https://www.sspc.co.uk/10-Hallcroft-Rise-Ratho-NEWBRIDGE-EH28-8RX-2-Bedroom-Detached-House-ESPC",
-        "address": "10 Hallcroft Rise, Ratho, NEWBRIDGE EH28 8RX",
-        "priceDescription": "Fixed Price £220,000",
-        "summary": "Detached House",
-        "bedrooms": 2,
-        "id": "e05c72df6f1709bf05a4bcf9fe68e013"
     },
     {
         "url": "https://www.sspc.co.uk/2-The-Avenue-Lauder-TD2-6TD-4-Bedroom-Terraced-House-ESPC",
@@ -7224,12 +7048,12 @@
         "id": "871c045dcfeb5d338540801dfe205f70"
     },
     {
-        "url": "https://www.sspc.co.uk/9-Ochil-Court-South-Queensferry-EH30-9QL-3-Bedroom-Terraced-House-ESPC",
-        "address": "9 Ochil Court, South Queensferry EH30 9QL",
-        "priceDescription": "Fixed Price £220,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "21982b85db7e55cccfe45730a98b2c27"
+        "url": "https://www.sspc.co.uk/Southview-A-Pittenzie-Street-Crieff-PH7-3JJ-4-Bedroom-End-Terrace-House-PSPC",
+        "address": "Southview A, Pittenzie Street, Crieff PH7 3JJ",
+        "priceDescription": "Fixed £220,000",
+        "summary": "End Terrace House",
+        "bedrooms": 4,
+        "id": "866190bfb2db5ddb8f96c800707299af"
     },
     {
         "url": "https://www.sspc.co.uk/Cedar-Cottage-Cedar-Cottage-John-Street-Blairgowrie-PH10-6HW-2-Bedroom-Detached-House-PSPC",
@@ -7238,14 +7062,6 @@
         "summary": "Detached House",
         "bedrooms": 2,
         "id": "9193d67b01a7f31aac9b4e827ad68142"
-    },
-    {
-        "url": "https://www.sspc.co.uk/45-Mains-Terrace-Dundee-DD4-7DB-4-Bedroom-Semi-Detached-House-TSPC",
-        "address": "45 Mains Terrace, Dundee DD4 7DB",
-        "priceDescription": "Offers Over £220,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 4,
-        "id": "df449631e2ac230f9b43a970f902f5e4"
     },
     {
         "url": "https://www.sspc.co.uk/3-Hampton-Gray-Way-Brechin-DD9-6FD-3-Bedroom-Semi-Detached-House-TSPC",
@@ -7280,28 +7096,20 @@
         "id": "0ad4529c380716e408462657f569c17b"
     },
     {
-        "url": "https://www.sspc.co.uk/13-Kirklands-Park-Rigg-KIRKLISTON-EH29-9EZ-3-Bedroom-Semi-Detached-House-ESPC",
-        "address": "13 Kirklands Park Rigg, KIRKLISTON EH29 9EZ",
-        "priceDescription": "Offers over £215,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "5054b74bba067c9c558088d0055ccbb7"
-    },
-    {
-        "url": "https://www.sspc.co.uk/131-Howden-Hall-Drive-Howdenhall-Edinburgh-EH16-6UX-2-Bedroom-Terraced-House-ESPC",
-        "address": "131 Howden Hall Drive, Howdenhall, Edinburgh EH16 6UX",
+        "url": "https://www.sspc.co.uk/52-Gilberstoun-Wynd-Brunstane-Edinburgh-EH15-2RR-2-Bedroom-Terraced-House-ESPC",
+        "address": "52 Gilberstoun Wynd, Brunstane, Edinburgh EH15 2RR",
         "priceDescription": "Fixed Price £215,000",
         "summary": "Terraced House",
         "bedrooms": 2,
-        "id": "c03aea02dd79a561500a0f6db2b117a4"
+        "id": "dcf3eb0fbdb808ae5662f21f89ffc3fd"
     },
     {
-        "url": "https://www.sspc.co.uk/333-South-Gyle-Road-South-Gyle-Edinburgh-EH12-9EE-2-Bedroom-Terraced-House-ESPC",
-        "address": "333 South Gyle Road, South Gyle, Edinburgh EH12 9EE",
+        "url": "https://www.sspc.co.uk/10-Drum-Brae-Crescent-Edinburgh-EH4-7SB-2-Bedroom-Terraced-House-ESPC",
+        "address": "10 Drum Brae Crescent, Edinburgh EH4 7SB",
         "priceDescription": "Offers over £215,000",
         "summary": "Terraced House",
         "bedrooms": 2,
-        "id": "96410405800517273ec043fb455e66f3"
+        "id": "917c8c6de9680c4f11479ef238df0f57"
     },
     {
         "url": "https://www.sspc.co.uk/13-Weavers-Knowe-Crescent-Currie-Edinburgh-EH14-5PJ-2-Bedroom-Terraced-House-ESPC",
@@ -7320,20 +7128,20 @@
         "id": "2b23ab387f3678d899be9ccc603ec387"
     },
     {
-        "url": "https://www.sspc.co.uk/10-Drum-Brae-Crescent-Edinburgh-EH4-7SB-2-Bedroom-Terraced-House-ESPC",
-        "address": "10 Drum Brae Crescent, Edinburgh EH4 7SB",
+        "url": "https://www.sspc.co.uk/333-South-Gyle-Road-South-Gyle-Edinburgh-EH12-9EE-2-Bedroom-Terraced-House-ESPC",
+        "address": "333 South Gyle Road, South Gyle, Edinburgh EH12 9EE",
         "priceDescription": "Offers over £215,000",
         "summary": "Terraced House",
         "bedrooms": 2,
-        "id": "917c8c6de9680c4f11479ef238df0f57"
+        "id": "96410405800517273ec043fb455e66f3"
     },
     {
-        "url": "https://www.sspc.co.uk/52-Gilberstoun-Wynd-Brunstane-Edinburgh-EH15-2RR-2-Bedroom-Terraced-House-ESPC",
-        "address": "52 Gilberstoun Wynd, Brunstane, Edinburgh EH15 2RR",
-        "priceDescription": "Fixed Price £215,000",
-        "summary": "Terraced House",
-        "bedrooms": 2,
-        "id": "dcf3eb0fbdb808ae5662f21f89ffc3fd"
+        "url": "https://www.sspc.co.uk/13-Kirklands-Park-Rigg-KIRKLISTON-EH29-9EZ-3-Bedroom-Semi-Detached-House-ESPC",
+        "address": "13 Kirklands Park Rigg, KIRKLISTON EH29 9EZ",
+        "priceDescription": "Offers over £215,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "5054b74bba067c9c558088d0055ccbb7"
     },
     {
         "url": "https://www.sspc.co.uk/70-Trafalgar-Lane-Leith-Edinburgh-EH6-4DQ-3-Bedroom-House-ESPC",
@@ -7368,30 +7176,6 @@
         "id": "c52c8574ba035271cf11d9d1c4fa3872"
     },
     {
-        "url": "https://www.sspc.co.uk/4-Kingspark-Street-Dundee-DD3-0AT-3-Bedroom-Semi-Detached-House-TSPC",
-        "address": "4 Kingspark Street, Dundee DD3 0AT",
-        "priceDescription": "Offers Over £215,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "a96d94347157d86321f35dc5017ec81d"
-    },
-    {
-        "url": "https://www.sspc.co.uk/The-Carlton-Malt-Loan-Victoria-Street-Carnoustie-DD7-7LW-2-Bedroom-Semi-Detached-House-TSPC",
-        "address": "The Carlton, Malt Loan, Victoria Street, Carnoustie DD7 7LW",
-        "priceDescription": "Fixed £215,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 2,
-        "id": "b6b0aef4c997fe381f2992382265d70c"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Castle-View-Dundee-DD4-0FS-2-Bedroom-House-TSPC",
-        "address": "Castle View, Dundee DD4 0FS",
-        "priceDescription": "Fixed £215,000",
-        "summary": "House",
-        "bedrooms": 2,
-        "id": "80b53b331a9172ecb2a867ac29749385"
-    },
-    {
         "url": "https://www.sspc.co.uk/19-Strathaird-Place-Dundee-DD2-4TN-2-Bedroom-Semi-Detached-House-TSPC",
         "address": "19 Strathaird Place, Dundee DD2 4TN",
         "priceDescription": "Offers Over £215,000",
@@ -7408,12 +7192,36 @@
         "id": "a2fcbd05ba3d6b68e95b8a7a7cf78440"
     },
     {
+        "url": "https://www.sspc.co.uk/4-Kingspark-Street-Dundee-DD3-0AT-3-Bedroom-Semi-Detached-House-TSPC",
+        "address": "4 Kingspark Street, Dundee DD3 0AT",
+        "priceDescription": "Offers Over £215,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "a96d94347157d86321f35dc5017ec81d"
+    },
+    {
         "url": "https://www.sspc.co.uk/5-Dempster-Place-Letham-DD8-2QY-3-Bedroom-Detached-House-TSPC",
         "address": "5 Dempster Place, Letham DD8 2QY",
         "priceDescription": "Offers Over £215,000",
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "684b7d69a962bfaeab76dc877aeee94e"
+    },
+    {
+        "url": "https://www.sspc.co.uk/The-Carlton-Malt-Loan-Victoria-Street-Carnoustie-DD7-7LW-2-Bedroom-Semi-Detached-House-TSPC",
+        "address": "The Carlton, Malt Loan, Victoria Street, Carnoustie DD7 7LW",
+        "priceDescription": "Fixed £215,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 2,
+        "id": "b6b0aef4c997fe381f2992382265d70c"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Castle-View-Dundee-DD4-0FS-2-Bedroom-House-TSPC",
+        "address": "Castle View, Dundee DD4 0FS",
+        "priceDescription": "Fixed £215,000",
+        "summary": "House",
+        "bedrooms": 2,
+        "id": "80b53b331a9172ecb2a867ac29749385"
     },
     {
         "url": "https://www.sspc.co.uk/67-Orchard-Way-Inchture-PH14-9QB-3-Bedroom-Semi-Detached-House-PSPC",
@@ -7448,28 +7256,20 @@
         "id": "e5e27801b4e6d4ab7bf2c199fa999745"
     },
     {
-        "url": "https://www.sspc.co.uk/10-Osborne-Terrace-Cockenzie-PRESTONPANS-EH32-0BY-3-Bedroom-Terraced-House-ESPC",
-        "address": "10 Osborne Terrace, Cockenzie, PRESTONPANS EH32 0BY",
-        "priceDescription": "Offers over £210,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "7cb0587d2377e3817e0edf306cfac024"
-    },
-    {
-        "url": "https://www.sspc.co.uk/3-Pentland-Place-Currie-Edinburgh-EH14-5QF-2-Bedroom-Semi-Detached-House-ESPC",
-        "address": "3 Pentland Place, Currie, Edinburgh EH14 5QF",
-        "priceDescription": "Offers over £210,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 2,
-        "id": "c07ab10c4a1c8a56b0749c4de794899a"
-    },
-    {
         "url": "https://www.sspc.co.uk/38-Fernieside-Crescent-Ferniehill-EH17-7HW-3-Bedroom-Semi-Detached-House-ESPC",
         "address": "38 Fernieside Crescent, Ferniehill EH17 7HW",
         "priceDescription": "Offers over £210,000",
         "summary": "Semi-Detached House",
         "bedrooms": 3,
         "id": "219845aa2571af879f4ee8d5a5b6ecda"
+    },
+    {
+        "url": "https://www.sspc.co.uk/10-Osborne-Terrace-Cockenzie-PRESTONPANS-EH32-0BY-3-Bedroom-Terraced-House-ESPC",
+        "address": "10 Osborne Terrace, Cockenzie, PRESTONPANS EH32 0BY",
+        "priceDescription": "Offers over £210,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "7cb0587d2377e3817e0edf306cfac024"
     },
     {
         "url": "https://www.sspc.co.uk/29-Drum-Brae-Crescent-Edinburgh-EH4-7SD-2-Bedroom-Semi-Detached-House-ESPC",
@@ -7496,38 +7296,6 @@
         "id": "0e3758081141402fd401b1f98a3d5f0f"
     },
     {
-        "url": "https://www.sspc.co.uk/19-Williams-Court-Jedburgh-TD8-6BS-3-Bedroom-House-ESPC",
-        "address": "19 Williams Court, Jedburgh TD8 6BS",
-        "priceDescription": "Offers In The Region Of £210,000",
-        "summary": "House",
-        "bedrooms": 3,
-        "id": "e7e352ec7270ea63e0cd9d3bc410fb58"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Grooms-Cottage-Borthwick-Hall-Heriot-EH38-5YE-2-Bedroom-Terraced-House-ESPC",
-        "address": "Grooms Cottage, Borthwick Hall, Heriot EH38 5YE",
-        "priceDescription": "Offers over £210,000",
-        "summary": "Terraced House",
-        "bedrooms": 2,
-        "id": "24e3c807ee2345e04e014adc394dba6c"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Old-Comrades-Hall-Hume-Near-Kelso-TD5-7TR-2-Bedroom-Detached-House-ESPC",
-        "address": "Old Comrades Hall, Hume, Near Kelso TD5 7TR",
-        "priceDescription": "Offers over £210,000",
-        "summary": "Detached House",
-        "bedrooms": 2,
-        "id": "aa7b885197bed902ec7a1f41e741f1d9"
-    },
-    {
-        "url": "https://www.sspc.co.uk/12-Moray-Way-Musselburgh-EH21-7QY-2-Bedroom-Terraced-House-ESPC",
-        "address": "12 Moray Way, Musselburgh EH21 7QY",
-        "priceDescription": "Offers over £210,000",
-        "summary": "Terraced House",
-        "bedrooms": 2,
-        "id": "03d69700f2178e75c6d98c70c491ab6d"
-    },
-    {
         "url": "https://www.sspc.co.uk/18-Redhurst-Crescent-Paisley-PA2-8PX-4-Bedroom-Semi-Detached-House-ESPC",
         "address": "18 Redhurst Crescent, Paisley PA2 8PX",
         "priceDescription": "Offers over £210,000",
@@ -7552,6 +7320,62 @@
         "id": "53fa800388d8effa48e0809a7d627668"
     },
     {
+        "url": "https://www.sspc.co.uk/Old-Comrades-Hall-Hume-Near-Kelso-TD5-7TR-2-Bedroom-Detached-House-ESPC",
+        "address": "Old Comrades Hall, Hume, Near Kelso TD5 7TR",
+        "priceDescription": "Offers over £210,000",
+        "summary": "Detached House",
+        "bedrooms": 2,
+        "id": "aa7b885197bed902ec7a1f41e741f1d9"
+    },
+    {
+        "url": "https://www.sspc.co.uk/12-Moray-Way-Musselburgh-EH21-7QY-2-Bedroom-Terraced-House-ESPC",
+        "address": "12 Moray Way, Musselburgh EH21 7QY",
+        "priceDescription": "Offers over £210,000",
+        "summary": "Terraced House",
+        "bedrooms": 2,
+        "id": "03d69700f2178e75c6d98c70c491ab6d"
+    },
+    {
+        "url": "https://www.sspc.co.uk/19-Williams-Court-Jedburgh-TD8-6BS-3-Bedroom-House-ESPC",
+        "address": "19 Williams Court, Jedburgh TD8 6BS",
+        "priceDescription": "Offers In The Region Of £210,000",
+        "summary": "House",
+        "bedrooms": 3,
+        "id": "e7e352ec7270ea63e0cd9d3bc410fb58"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Grooms-Cottage-Borthwick-Hall-Heriot-EH38-5YE-2-Bedroom-Terraced-House-ESPC",
+        "address": "Grooms Cottage, Borthwick Hall, Heriot EH38 5YE",
+        "priceDescription": "Offers over £210,000",
+        "summary": "Terraced House",
+        "bedrooms": 2,
+        "id": "24e3c807ee2345e04e014adc394dba6c"
+    },
+    {
+        "url": "https://www.sspc.co.uk/24-Southesk-Street-Brechin-DD9-6AG-3-Bedroom-Detached-House-TSPC",
+        "address": "24 Southesk Street, Brechin DD9 6AG",
+        "priceDescription": "Offers Over £210,000",
+        "summary": "Detached House",
+        "bedrooms": 3,
+        "id": "998324f1d20d542edaee82d6dadc936f"
+    },
+    {
+        "url": "https://www.sspc.co.uk/19-Westerton-Avenue-Broughty-Ferry-DD5-3NJ-3-Bedroom-Semi-Detached-House-TSPC",
+        "address": "19 Westerton Avenue, Broughty Ferry DD5 3NJ",
+        "priceDescription": "Offers Over £210,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "ab69410752e36dbce647ba5301d04efd"
+    },
+    {
+        "url": "https://www.sspc.co.uk/20-Anderson-Street-Carnoustie-DD7-7GY-3-Bedroom-End-Terrace-House-TSPC",
+        "address": "20 Anderson Street, Carnoustie DD7 7GY",
+        "priceDescription": "Offers Over £210,000",
+        "summary": "End Terrace House",
+        "bedrooms": 3,
+        "id": "22495c2c81d2b81a9dcd058063cfb382"
+    },
+    {
         "url": "https://www.sspc.co.uk/26-Finlay-Drive-Arbroath-DD11-3FE-3-Bedroom-Detached-House-TSPC",
         "address": "26 Finlay Drive, Arbroath DD11 3FE",
         "priceDescription": "Offers Over £210,000",
@@ -7566,30 +7390,6 @@
         "summary": "Terraced House",
         "bedrooms": 4,
         "id": "11d328f29d9d5dedbe3d783c5023860f"
-    },
-    {
-        "url": "https://www.sspc.co.uk/19-Westerton-Avenue-Broughty-Ferry-DD5-3NJ-3-Bedroom-Semi-Detached-House-TSPC",
-        "address": "19 Westerton Avenue, Broughty Ferry DD5 3NJ",
-        "priceDescription": "Offers Over £210,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "ab69410752e36dbce647ba5301d04efd"
-    },
-    {
-        "url": "https://www.sspc.co.uk/24-Southesk-Street-Brechin-DD9-6AG-3-Bedroom-Detached-House-TSPC",
-        "address": "24 Southesk Street, Brechin DD9 6AG",
-        "priceDescription": "Offers Over £210,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "998324f1d20d542edaee82d6dadc936f"
-    },
-    {
-        "url": "https://www.sspc.co.uk/20-Anderson-Street-Carnoustie-DD7-7GY-3-Bedroom-End-Terrace-House-TSPC",
-        "address": "20 Anderson Street, Carnoustie DD7 7GY",
-        "priceDescription": "Offers Over £210,000",
-        "summary": "End Terrace House",
-        "bedrooms": 3,
-        "id": "22495c2c81d2b81a9dcd058063cfb382"
     },
     {
         "url": "https://www.sspc.co.uk/35-Millburn-Gardens-Dundee-DD3-0SE-3-Bedroom-Detached-House-TSPC",
@@ -7622,6 +7422,14 @@
         "summary": "Semi-Detached House",
         "bedrooms": 3,
         "id": "04aea7016f680577c2a427025ce925dd"
+    },
+    {
+        "url": "https://www.sspc.co.uk/9-Ochil-Court-South-Queensferry-EH30-9QL-3-Bedroom-Terraced-House-ESPC",
+        "address": "9 Ochil Court, South Queensferry EH30 9QL",
+        "priceDescription": "Offers over £209,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "21982b85db7e55cccfe45730a98b2c27"
     },
     {
         "url": "https://www.sspc.co.uk/29-Hilton-Court-Saltcoats-KA21-6HX-3-Bedroom-Detached-House-ESPC",
@@ -7664,14 +7472,6 @@
         "id": "2bb9d9da3498141e4faec2d1dae2764f"
     },
     {
-        "url": "https://www.sspc.co.uk/5-Nisbet-Mill-Farm-Cottages-TD8-6TT-3-Bedroom-Terraced-House-BSPC",
-        "address": "5 Nisbet Mill Farm Cottages TD8 6TT",
-        "priceDescription": "In the Region Of £200,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "29a89146a463572f4c8677544fddf6f8"
-    },
-    {
         "url": "https://www.sspc.co.uk/14-Langtongate-TD11-3AE-4-Bedroom-Terraced-House-BSPC",
         "address": "14 Langtongate TD11 3AE",
         "priceDescription": "Offers Over £200,000",
@@ -7680,12 +7480,12 @@
         "id": "6c1dbabbafe2eaa676c609d9d04ed191"
     },
     {
-        "url": "https://www.sspc.co.uk/12-Lydgait-Gardens-Haddington-EH41-3DB-2-Bedroom-Semi-Detached-House-ESPC",
-        "address": "12 Lydgait Gardens, Haddington EH41 3DB",
-        "priceDescription": "Offers over £200,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 2,
-        "id": "84a112eff8bbdb12108df35b40104a08"
+        "url": "https://www.sspc.co.uk/5-Nisbet-Mill-Farm-Cottages-TD8-6TT-3-Bedroom-Terraced-House-BSPC",
+        "address": "5 Nisbet Mill Farm Cottages TD8 6TT",
+        "priceDescription": "In the Region Of £200,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "29a89146a463572f4c8677544fddf6f8"
     },
     {
         "url": "https://www.sspc.co.uk/38-Atholl-View-Prestonpans-EH32-9FL-2-Bedroom-End-Terraced-House-ESPC",
@@ -7696,12 +7496,12 @@
         "id": "81e4ace925b118c12d426d08493d0d67"
     },
     {
-        "url": "https://www.sspc.co.uk/71-Craigleith-Avenue-North-Berwick-East-Lothian-EH39-4EN-3-Bedroom-Terraced-House-ESPC",
-        "address": "71 Craigleith Avenue, North Berwick, East Lothian EH39 4EN",
+        "url": "https://www.sspc.co.uk/12-Lydgait-Gardens-Haddington-EH41-3DB-2-Bedroom-Semi-Detached-House-ESPC",
+        "address": "12 Lydgait Gardens, Haddington EH41 3DB",
         "priceDescription": "Offers over £200,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "31fee038cd21c0e07dd5c528021b67b8"
+        "summary": "Semi-Detached House",
+        "bedrooms": 2,
+        "id": "84a112eff8bbdb12108df35b40104a08"
     },
     {
         "url": "https://www.sspc.co.uk/93-Wester-Drylaw-Avenue-EDINBURGH-EH4-2SU-2-Bedroom-Terraced-House-ESPC",
@@ -7718,14 +7518,6 @@
         "summary": "House",
         "bedrooms": 1,
         "id": "a27855deb7c0ede74703db2db0bc44eb"
-    },
-    {
-        "url": "https://www.sspc.co.uk/5-Nisbet-Mill-Farm-Cottage-Jedburgh-TD8-6TT-3-Bedroom-House-ESPC",
-        "address": "5 Nisbet Mill Farm Cottage, Jedburgh TD8 6TT",
-        "priceDescription": "Offers In The Region Of £200,000",
-        "summary": "House",
-        "bedrooms": 3,
-        "id": "72867904c2a39651ae16805062d72525"
     },
     {
         "url": "https://www.sspc.co.uk/9-National-Crescent-Glasgow-G43-1AX-3-Bedroom-Terraced-House-ESPC",
@@ -7758,6 +7550,14 @@
         "summary": "Terraced House",
         "bedrooms": 3,
         "id": "001c48889c28542b72f13b19dcfd7f2a"
+    },
+    {
+        "url": "https://www.sspc.co.uk/71-Craigleith-Avenue-North-Berwick-East-Lothian-EH39-4EN-3-Bedroom-Terraced-House-ESPC",
+        "address": "71 Craigleith Avenue, North Berwick, East Lothian EH39 4EN",
+        "priceDescription": "Offers over £200,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "31fee038cd21c0e07dd5c528021b67b8"
     },
     {
         "url": "https://www.sspc.co.uk/Letters-Farm-Strathlachlan-CAIRNDOW-PA27-8BZ-3-Bedroom-Semi-Detached-House-ESPC",
@@ -7920,14 +7720,6 @@
         "id": "569e3af8f35d8ecf78930f66ff145d6c"
     },
     {
-        "url": "https://www.sspc.co.uk/26-Carlaverock-Crescent-Tranent-EH33-2DZ-2-Bedroom-Semi-Detached-House-ESPC",
-        "address": "26 Carlaverock Crescent, Tranent EH33 2DZ",
-        "priceDescription": "Offers over £195,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 2,
-        "id": "3b9cb97142020efcf1bd7645581d4add"
-    },
-    {
         "url": "https://www.sspc.co.uk/21-Sherwood-View-BONNYRIGG-EH19-3NQ-3-Bedroom-End-Terraced-House-ESPC",
         "address": "21 Sherwood View, BONNYRIGG EH19 3NQ",
         "priceDescription": "Offers over £195,000",
@@ -7942,14 +7734,6 @@
         "summary": "End Terraced House",
         "bedrooms": 1,
         "id": "75be412336bb022cd113215390fc7b9c"
-    },
-    {
-        "url": "https://www.sspc.co.uk/301B-Milton-Road-East-Joppa-Edinburgh-EH15-2LA-1-Bedroom-House-ESPC",
-        "address": "301B, Milton Road East, Joppa, Edinburgh EH15 2LA",
-        "priceDescription": "Offers over £195,000",
-        "summary": "House",
-        "bedrooms": 1,
-        "id": "ef9342b1603c19d6cb08c5a1cb0596fb"
     },
     {
         "url": "https://www.sspc.co.uk/11-Barns-Ness-Terrace-Innerwick-EH42-1SF-2-Bedroom-End-Terraced-House-ESPC",
@@ -7992,14 +7776,6 @@
         "id": "9555f59ba9c7d1b974d59280d5dfd525"
     },
     {
-        "url": "https://www.sspc.co.uk/7-Miners-Rise-Ballingry-LOCHGELLY-KY5-8BT-3-Bedroom-Terraced-House-ESPC",
-        "address": "7 Miners Rise, Ballingry, LOCHGELLY KY5 8BT",
-        "priceDescription": "Fixed Price £190,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "0601f1cf81c16fb3f3db509382287275"
-    },
-    {
         "url": "https://www.sspc.co.uk/14-Hallcroft-Close-Ratho-NEWBRIDGE-EH28-8SD-2-Bedroom-Semi-Detached-House-ESPC",
         "address": "14 Hallcroft Close, Ratho, NEWBRIDGE EH28 8SD",
         "priceDescription": "Fixed Price £190,000",
@@ -8008,12 +7784,12 @@
         "id": "8a50965ff970c2fb01fd7570b7796683"
     },
     {
-        "url": "https://www.sspc.co.uk/9-Hope-Park-Crescent-Haddington-EH41-3AN-2-Bedroom-Terraced-House-ESPC",
-        "address": "9 Hope Park Crescent, Haddington EH41 3AN",
-        "priceDescription": "Offers over £190,000",
+        "url": "https://www.sspc.co.uk/7-Miners-Rise-Ballingry-LOCHGELLY-KY5-8BT-3-Bedroom-Terraced-House-ESPC",
+        "address": "7 Miners Rise, Ballingry, LOCHGELLY KY5 8BT",
+        "priceDescription": "Fixed Price £190,000",
         "summary": "Terraced House",
-        "bedrooms": 2,
-        "id": "7734bd4d85067221932f9f8fda41dc36"
+        "bedrooms": 3,
+        "id": "0601f1cf81c16fb3f3db509382287275"
     },
     {
         "url": "https://www.sspc.co.uk/46-Back-Dykes-Terrace-Falkland-CUPAR-KY15-7BB-3-Bedroom-Terraced-House-ESPC",
@@ -8064,6 +7840,14 @@
         "id": "261a0ba72185fcf37a396a7fde057f40"
     },
     {
+        "url": "https://www.sspc.co.uk/9-Hope-Park-Crescent-Haddington-EH41-3AN-2-Bedroom-Terraced-House-ESPC",
+        "address": "9 Hope Park Crescent, Haddington EH41 3AN",
+        "priceDescription": "Offers over £190,000",
+        "summary": "Terraced House",
+        "bedrooms": 2,
+        "id": "7734bd4d85067221932f9f8fda41dc36"
+    },
+    {
         "url": "https://www.sspc.co.uk/2-Orchard-Terrace-Kinghorn-BURNTISLAND-KY3-9XW-3-Bedroom-Semi-Detached-House-ESPC",
         "address": "2 Orchard Terrace, Kinghorn, BURNTISLAND KY3 9XW",
         "priceDescription": "Offers over £190,000",
@@ -8078,14 +7862,6 @@
         "summary": "End Terraced House",
         "bedrooms": 3,
         "id": "9299c9a316948accc7eeefa35277336f"
-    },
-    {
-        "url": "https://www.sspc.co.uk/1-Blackacre-Courance-LOCKERBIE-DG11-1TR-4-Bedroom-House-ESPC",
-        "address": "1 Blackacre, Courance, LOCKERBIE DG11 1TR",
-        "priceDescription": "Offers over £190,000",
-        "summary": "House",
-        "bedrooms": 4,
-        "id": "d81b2c6cc9a03ac43f34fc749ccb102b"
     },
     {
         "url": "https://www.sspc.co.uk/Richmond-House-12-Richmond-Row-Jedburgh-TD8-6ET-3-Bedroom-End-Terraced-House-ESPC",
@@ -8112,20 +7888,20 @@
         "id": "8d8977c0936f0b3e954e4c11af44f4d1"
     },
     {
-        "url": "https://www.sspc.co.uk/7-Hillside-Road-Forfar-DD8-2AW-3-Bedroom-Detached-House-TSPC",
-        "address": "7 Hillside Road, Forfar DD8 2AW",
-        "priceDescription": "Offers Over £190,000",
-        "summary": "Detached House",
-        "bedrooms": 3,
-        "id": "5f07a427b55aa05682df521aed34b485"
-    },
-    {
         "url": "https://www.sspc.co.uk/3-Wyllie-Street-Forfar-DD8-3DN-4-Bedroom-Semi-Detached-House-TSPC",
         "address": "3 Wyllie Street, Forfar DD8 3DN",
         "priceDescription": "Offers Over £190,000",
         "summary": "Semi-Detached House",
         "bedrooms": 4,
         "id": "c7de856642af669ff2943aac56a14dc2"
+    },
+    {
+        "url": "https://www.sspc.co.uk/7-Hillside-Road-Forfar-DD8-2AW-3-Bedroom-Detached-House-TSPC",
+        "address": "7 Hillside Road, Forfar DD8 2AW",
+        "priceDescription": "Offers Over £190,000",
+        "summary": "Detached House",
+        "bedrooms": 3,
+        "id": "5f07a427b55aa05682df521aed34b485"
     },
     {
         "url": "https://www.sspc.co.uk/8-Balmossie-Avenue-Monifieth-DD5-4QN-3-Bedroom-Semi-Detached-House-TSPC",
@@ -8176,20 +7952,20 @@
         "id": "0d9bd4b4a8510e5fa06462f022862294"
     },
     {
-        "url": "https://www.sspc.co.uk/48-Niddrie-Marischal-Road-EDINBURGH-EH16-4LQ-3-Bedroom-Terraced-House-ESPC",
-        "address": "48 Niddrie Marischal Road, EDINBURGH EH16 4LQ",
-        "priceDescription": "Offers over £185,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "123068d21631d557d9bb920771603d05"
-    },
-    {
         "url": "https://www.sspc.co.uk/4-Ceres-Road-Pitscottie-CUPAR-KY15-5TD-3-Bedroom-House-ESPC",
         "address": "4 Ceres Road, Pitscottie, CUPAR KY15 5TD",
         "priceDescription": "Offers over £185,000",
         "summary": "House",
         "bedrooms": 3,
         "id": "89c35459b2e670b5dcdfafb5fa8be389"
+    },
+    {
+        "url": "https://www.sspc.co.uk/48-Niddrie-Marischal-Road-EDINBURGH-EH16-4LQ-3-Bedroom-Terraced-House-ESPC",
+        "address": "48 Niddrie Marischal Road, EDINBURGH EH16 4LQ",
+        "priceDescription": "Offers over £185,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "123068d21631d557d9bb920771603d05"
     },
     {
         "url": "https://www.sspc.co.uk/12-South-Quarry-Terrace-Gorebridge-EH23-4GQ-2-Bedroom-End-Terraced-House-ESPC",
@@ -8200,20 +7976,20 @@
         "id": "aba8a69432b43e8ec970bb2a00e52201"
     },
     {
-        "url": "https://www.sspc.co.uk/30-Springfield-View-SOUTH-QUEENSFERRY-EH30-9RZ-2-Bedroom-Terraced-House-ESPC",
-        "address": "30 Springfield View, SOUTH QUEENSFERRY EH30 9RZ",
-        "priceDescription": "Offers over £185,000",
-        "summary": "Terraced House",
-        "bedrooms": 2,
-        "id": "f1d626f4aae63f695bde7d6a2e598f8d"
-    },
-    {
         "url": "https://www.sspc.co.uk/6-Laing-Court-DUNBAR-EH42-1YU-2-Bedroom-Terraced-House-ESPC",
         "address": "6 Laing Court, DUNBAR EH42 1YU",
         "priceDescription": "Offers over £185,000",
         "summary": "Terraced House",
         "bedrooms": 2,
         "id": "572fa9cb5e7d6f307e18c1f40eb6c9b0"
+    },
+    {
+        "url": "https://www.sspc.co.uk/30-Springfield-View-SOUTH-QUEENSFERRY-EH30-9RZ-2-Bedroom-Terraced-House-ESPC",
+        "address": "30 Springfield View, SOUTH QUEENSFERRY EH30 9RZ",
+        "priceDescription": "Offers over £185,000",
+        "summary": "Terraced House",
+        "bedrooms": 2,
+        "id": "f1d626f4aae63f695bde7d6a2e598f8d"
     },
     {
         "url": "https://www.sspc.co.uk/45-Delta-Road-MUSSELBURGH-EH21-8HA-2-Bedroom-Terraced-House-ESPC",
@@ -8240,14 +8016,6 @@
         "id": "78b50110424f9e817a52a2f6858c4b31"
     },
     {
-        "url": "https://www.sspc.co.uk/11-Westfield-Road-TD4-6DX-4-Bedroom-Semi-Detached-House-BSPC",
-        "address": "11 Westfield Road TD4 6DX",
-        "priceDescription": "Guide Price £180,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 4,
-        "id": "a24b72160837efa085bb8955762d5859"
-    },
-    {
         "url": "https://www.sspc.co.uk/48-Eildon-Crescent-TD6-9RG-3-Bedroom-Semi-Detached-House-BSPC",
         "address": "48 Eildon Crescent TD6 9RG",
         "priceDescription": "Guide Price £180,000",
@@ -8270,6 +8038,14 @@
         "summary": "Terraced House",
         "bedrooms": 5,
         "id": "1e4219057e9b3acb29c202e9c243ee07"
+    },
+    {
+        "url": "https://www.sspc.co.uk/11-Westfield-Road-TD4-6DX-4-Bedroom-Semi-Detached-House-BSPC",
+        "address": "11 Westfield Road TD4 6DX",
+        "priceDescription": "Guide Price £180,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 4,
+        "id": "a24b72160837efa085bb8955762d5859"
     },
     {
         "url": "https://www.sspc.co.uk/15-Grange-Road-Prestonpans-EH32-9LL-3-Bedroom-Semi-Detached-House-ESPC",
@@ -8328,20 +8104,12 @@
         "id": "9d25c8a76215679a5446c1153c256044"
     },
     {
-        "url": "https://www.sspc.co.uk/9-Keptie-Mews-Arbroath-DD11-3EQ-3-Bedroom-Terraced-House-TSPC",
-        "address": "9 Keptie Mews, Arbroath DD11 3EQ",
+        "url": "https://www.sspc.co.uk/26-Marywell-Brae-Kirriemuir-DD8-4BJ-4-Bedroom-Semi-Detached-House-TSPC",
+        "address": "26 Marywell Brae, Kirriemuir DD8 4BJ",
         "priceDescription": "Offers Over £180,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "70fed1122dedf129c4e7e0eb3ad187a3"
-    },
-    {
-        "url": "https://www.sspc.co.uk/39-Earl-Matthew-Avenue-Arbroath-DD11-5JU-3-Bedroom-End-Terrace-House-TSPC",
-        "address": "39 Earl Matthew Avenue, Arbroath DD11 5JU",
-        "priceDescription": "Offers Over £180,000",
-        "summary": "End Terrace House",
-        "bedrooms": 3,
-        "id": "5d5ab09abeac67a9c600978091ccfd09"
+        "summary": "Semi-Detached House",
+        "bedrooms": 4,
+        "id": "238ebaf8df410c05ef545a44d0443cde"
     },
     {
         "url": "https://www.sspc.co.uk/16-Trinity-Fields-Crescent-Brechin-DD9-6YF-3-Bedroom-Detached-House-TSPC",
@@ -8352,12 +8120,12 @@
         "id": "d214495aadafe4b4a9826629ecf60df5"
     },
     {
-        "url": "https://www.sspc.co.uk/26-Marywell-Brae-Kirriemuir-DD8-4BJ-4-Bedroom-Semi-Detached-House-TSPC",
-        "address": "26 Marywell Brae, Kirriemuir DD8 4BJ",
+        "url": "https://www.sspc.co.uk/9-Keptie-Mews-Arbroath-DD11-3EQ-3-Bedroom-Terraced-House-TSPC",
+        "address": "9 Keptie Mews, Arbroath DD11 3EQ",
         "priceDescription": "Offers Over £180,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 4,
-        "id": "238ebaf8df410c05ef545a44d0443cde"
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "70fed1122dedf129c4e7e0eb3ad187a3"
     },
     {
         "url": "https://www.sspc.co.uk/13-Grampian-Crescent-Northmuir-Kirriemuir-DD8-4TW-3-Bedroom-Detached-House-TSPC",
@@ -8366,6 +8134,14 @@
         "summary": "Detached House",
         "bedrooms": 3,
         "id": "2739de70b5365a255de1eb6315bbcad9"
+    },
+    {
+        "url": "https://www.sspc.co.uk/39-Earl-Matthew-Avenue-Arbroath-DD11-5JU-3-Bedroom-End-Terrace-House-TSPC",
+        "address": "39 Earl Matthew Avenue, Arbroath DD11 5JU",
+        "priceDescription": "Offers Over £180,000",
+        "summary": "End Terrace House",
+        "bedrooms": 3,
+        "id": "5d5ab09abeac67a9c600978091ccfd09"
     },
     {
         "url": "https://www.sspc.co.uk/Kirkarrick-Duke-Street-New-Galloway-CASTLE-DOUGLAS-DG7-3RB-3-Bedroom-Semi-Detached-House-ESPC",
@@ -8448,20 +8224,20 @@
         "id": "395d2fcba250a6f2ea2982cb7455f179"
     },
     {
-        "url": "https://www.sspc.co.uk/20-Sandilands-Limekilns-DUNFERMLINE-KY11-3JD-3-Bedroom-Terraced-House-ESPC",
-        "address": "20 Sandilands, Limekilns, DUNFERMLINE KY11 3JD",
-        "priceDescription": "Offers In The Region Of £175,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "1cac985b80f3683e645e6c26dda8e739"
-    },
-    {
         "url": "https://www.sspc.co.uk/11a-Manse-Street-Aberdour-BURNTISLAND-KY3-0TT-1-Bedroom-Detached-House-ESPC",
         "address": "11a Manse Street, Aberdour, BURNTISLAND KY3 0TT",
         "priceDescription": "Offers over £175,000",
         "summary": "Detached House",
         "bedrooms": 1,
         "id": "596d903aab4f03f38573d560b84a99b6"
+    },
+    {
+        "url": "https://www.sspc.co.uk/20-Sandilands-Limekilns-DUNFERMLINE-KY11-3JD-3-Bedroom-Terraced-House-ESPC",
+        "address": "20 Sandilands, Limekilns, DUNFERMLINE KY11 3JD",
+        "priceDescription": "Offers In The Region Of £175,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "1cac985b80f3683e645e6c26dda8e739"
     },
     {
         "url": "https://www.sspc.co.uk/4-Allans-Cottages-Main-Street-Kirk-Yetholm-KELSO-TD5-8PE-3-Bedroom-House-ESPC",
@@ -8478,6 +8254,14 @@
         "summary": "Semi-Detached House",
         "bedrooms": 3,
         "id": "21fdfaff612e377fceb8f44395691002"
+    },
+    {
+        "url": "https://www.sspc.co.uk/16-Rhynie-Road-Broughty-Ferry-DD5-1RH-3-Bedroom-Semi-Detached-House-TSPC",
+        "address": "16 Rhynie Road, Broughty Ferry DD5 1RH",
+        "priceDescription": "Offers Over £175,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "4ff135490357dad2b8347f7a4c7fbd3f"
     },
     {
         "url": "https://www.sspc.co.uk/8-Barbers-Croft-Arbroath-DD11-1HB-2-Bedroom-Detached-House-TSPC",
@@ -8504,6 +8288,14 @@
         "id": "35f622c9936c3d98fa148bf25a46a67b"
     },
     {
+        "url": "https://www.sspc.co.uk/83-Castle-Crescent-East-Calder-EH53-0QQ-2-Bedroom-Semi-Detached-House-ESPC",
+        "address": "83 Castle Crescent, East Calder EH53 0QQ",
+        "priceDescription": "Offers over £170,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 2,
+        "id": "d1ac6f6a0164d34ea741ce8d40c7fb18"
+    },
+    {
         "url": "https://www.sspc.co.uk/83-McDonald-Street-Dunfermline-KY11-8NG-2-Bedroom-Terraced-House-ESPC",
         "address": "83 McDonald Street, Dunfermline KY11 8NG",
         "priceDescription": "Fixed Price £170,000",
@@ -8520,20 +8312,12 @@
         "id": "e4f6ffcbbd7cd173c23ce6144456e3b9"
     },
     {
-        "url": "https://www.sspc.co.uk/83-Castle-Crescent-East-Calder-EH53-0QQ-2-Bedroom-Semi-Detached-House-ESPC",
-        "address": "83 Castle Crescent, East Calder EH53 0QQ",
+        "url": "https://www.sspc.co.uk/6-Arranton-Place-Lamlash-Isle-of-Arran-KA27-8NW-2-Bedroom-Terraced-House-ESPC",
+        "address": "6 Arranton Place, Lamlash, Isle of Arran KA27 8NW",
         "priceDescription": "Offers over £170,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 2,
-        "id": "d1ac6f6a0164d34ea741ce8d40c7fb18"
-    },
-    {
-        "url": "https://www.sspc.co.uk/2-Bankend-Orchard-Cotton-Street-CASTLE-DOUGLAS-DG7-1AH-3-Bedroom-Terraced-House-ESPC",
-        "address": "2 Bankend Orchard, Cotton Street, CASTLE DOUGLAS DG7 1AH",
-        "priceDescription": "Guide Price £170,000",
         "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "3dc79d441a2e7c90e309abd9553f5c00"
+        "bedrooms": 2,
+        "id": "486dcad0f62f6b86c0d0d2976c4e6a4e"
     },
     {
         "url": "https://www.sspc.co.uk/Parkview-56-Edinburgh-Road-Dumfries-DG1-1JU-2-Bedroom-Detached-House-ESPC",
@@ -8544,12 +8328,12 @@
         "id": "03cf7a81610bda3e1ee378a06e798032"
     },
     {
-        "url": "https://www.sspc.co.uk/6-Arranton-Place-Lamlash-Isle-of-Arran-KA27-8NW-2-Bedroom-Terraced-House-ESPC",
-        "address": "6 Arranton Place, Lamlash, Isle of Arran KA27 8NW",
-        "priceDescription": "Offers over £170,000",
+        "url": "https://www.sspc.co.uk/2-Bankend-Orchard-Cotton-Street-CASTLE-DOUGLAS-DG7-1AH-3-Bedroom-Terraced-House-ESPC",
+        "address": "2 Bankend Orchard, Cotton Street, CASTLE DOUGLAS DG7 1AH",
+        "priceDescription": "Guide Price £170,000",
         "summary": "Terraced House",
-        "bedrooms": 2,
-        "id": "486dcad0f62f6b86c0d0d2976c4e6a4e"
+        "bedrooms": 3,
+        "id": "3dc79d441a2e7c90e309abd9553f5c00"
     },
     {
         "url": "https://www.sspc.co.uk/35-Wingate-Crescent-Dunbar-EH42-1BQ-3-Bedroom-End-Terraced-House-ESPC",
@@ -8672,6 +8456,14 @@
         "id": "ad7b28e50f849cb916a3fd3aa72fd861"
     },
     {
+        "url": "https://www.sspc.co.uk/78-Forrest-Walk-Uphall-Broxburn-EH52-5PN-2-Bedroom-Terraced-House-ESPC",
+        "address": "78 Forrest Walk, Uphall, Broxburn EH52 5PN",
+        "priceDescription": "Offers over £165,000",
+        "summary": "Terraced House",
+        "bedrooms": 2,
+        "id": "79edd317249d5a93d675e5914cfc0c5b"
+    },
+    {
         "url": "https://www.sspc.co.uk/54-Hardie-Street-Alexandria-G83-0RX-3-Bedroom-Semi-Detached-House-ESPC",
         "address": "54 Hardie Street, Alexandria G83 0RX",
         "priceDescription": "Offers over £165,000",
@@ -8696,22 +8488,6 @@
         "id": "e3a8655a19860358cdaf20c0ab5a0d29"
     },
     {
-        "url": "https://www.sspc.co.uk/78-Forrest-Walk-Uphall-Broxburn-EH52-5PN-2-Bedroom-Terraced-House-ESPC",
-        "address": "78 Forrest Walk, Uphall, Broxburn EH52 5PN",
-        "priceDescription": "Offers over £165,000",
-        "summary": "Terraced House",
-        "bedrooms": 2,
-        "id": "79edd317249d5a93d675e5914cfc0c5b"
-    },
-    {
-        "url": "https://www.sspc.co.uk/9-Pinnaclehill-Farm-Estate-Kelso-TD5-8HD-3-Bedroom-Semi-Detached-House-ESPC",
-        "address": "9 Pinnaclehill Farm Estate, Kelso TD5 8HD",
-        "priceDescription": "Guide Price £165,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "d206731b7ab04c9bb2c7d8eb76af0510"
-    },
-    {
         "url": "https://www.sspc.co.uk/23-Main-Street-Heiton-TD5-8JR-2-Bedroom-House-ESPC",
         "address": "23 Main Street, Heiton TD5 8JR",
         "priceDescription": "Offers over £165,000",
@@ -8734,6 +8510,14 @@
         "summary": "End Terraced House",
         "bedrooms": 2,
         "id": "83d29577bf0742eabaf6bac03ad06025"
+    },
+    {
+        "url": "https://www.sspc.co.uk/9-Pinnaclehill-Farm-Estate-Kelso-TD5-8HD-3-Bedroom-Semi-Detached-House-ESPC",
+        "address": "9 Pinnaclehill Farm Estate, Kelso TD5 8HD",
+        "priceDescription": "Guide Price £165,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "d206731b7ab04c9bb2c7d8eb76af0510"
     },
     {
         "url": "https://www.sspc.co.uk/2-Mowbray-Gardens-Crossgates-COWDENBEATH-KY4-8BG-4-Bedroom-Terraced-House-ESPC",
@@ -8840,14 +8624,6 @@
         "id": "567ac5a63bf4eafc6c284ceff8160d2b"
     },
     {
-        "url": "https://www.sspc.co.uk/57-Newmills-Road-Dalkeith-EH22-2AG-2-Bedroom-Semi-Detached-House-ESPC",
-        "address": "57 Newmills Road, Dalkeith EH22 2AG",
-        "priceDescription": "Offers over £160,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 2,
-        "id": "be03f940782880d2f105a589ac234c6d"
-    },
-    {
         "url": "https://www.sspc.co.uk/4-Beechgrove-Road-Mayfield-Midlothian-EH22-5PA-3-Bedroom-End-Terraced-House-ESPC",
         "address": "4 Beechgrove Road, Mayfield, Midlothian EH22 5PA",
         "priceDescription": "Offers over £160,000",
@@ -8856,12 +8632,20 @@
         "id": "96160da9e1de256e553ca0a71ce657de"
     },
     {
-        "url": "https://www.sspc.co.uk/7-Castle-View-Port-Seton-Prestonpans-EH32-0EN-2-Bedroom-Terraced-House-ESPC",
-        "address": "7 Castle View, Port Seton, Prestonpans EH32 0EN",
+        "url": "https://www.sspc.co.uk/57-Newmills-Road-Dalkeith-EH22-2AG-2-Bedroom-Semi-Detached-House-ESPC",
+        "address": "57 Newmills Road, Dalkeith EH22 2AG",
         "priceDescription": "Offers over £160,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 2,
+        "id": "be03f940782880d2f105a589ac234c6d"
+    },
+    {
+        "url": "https://www.sspc.co.uk/56-Sheriff-Stein-Place-Arbroath-DD11-5JY-2-Bedroom-Terraced-House-TSPC",
+        "address": "56 Sheriff Stein Place, Arbroath DD11 5JY",
+        "priceDescription": "Offers Over £160,000",
         "summary": "Terraced House",
         "bedrooms": 2,
-        "id": "3719ece774b08dfa38a24526df15fdae"
+        "id": "85194622f296f40ecd878609bda20148"
     },
     {
         "url": "https://www.sspc.co.uk/73-Trinity-Fields-Crescent-Brechin-DD9-6YA-3-Bedroom-Semi-Detached-House-TSPC",
@@ -8878,14 +8662,6 @@
         "summary": "Terraced House",
         "bedrooms": 3,
         "id": "bbb9b27602978e8d85ca277352621025"
-    },
-    {
-        "url": "https://www.sspc.co.uk/56-Sheriff-Stein-Place-Arbroath-DD11-5JY-2-Bedroom-Terraced-House-TSPC",
-        "address": "56 Sheriff Stein Place, Arbroath DD11 5JY",
-        "priceDescription": "Offers Over £160,000",
-        "summary": "Terraced House",
-        "bedrooms": 2,
-        "id": "85194622f296f40ecd878609bda20148"
     },
     {
         "url": "https://www.sspc.co.uk/221-Moraine-Avenue-GLASGOW-G15-6JZ-2-Bedroom-Semi-Detached-House-ESPC",
@@ -8992,14 +8768,6 @@
         "id": "4b72fecb687d35b75bd225946348a574"
     },
     {
-        "url": "https://www.sspc.co.uk/53-Dalhousie-Place-Bonnyrigg-EH19-2LL-2-Bedroom-End-Terraced-House-ESPC",
-        "address": "53 Dalhousie Place, Bonnyrigg EH19 2LL",
-        "priceDescription": "Offers over £155,000",
-        "summary": "End Terraced House",
-        "bedrooms": 2,
-        "id": "e18915ea85b7152d1b0756abce953c28"
-    },
-    {
         "url": "https://www.sspc.co.uk/15a-High-Street-Auchtermuchty-CUPAR-KY14-7AP-2-Bedroom-House-ESPC",
         "address": "15a High Street, Auchtermuchty, CUPAR KY14 7AP",
         "priceDescription": "Offers over £154,995",
@@ -9072,14 +8840,6 @@
         "id": "a1e51016a4d5eddb38681d4f6291cb52"
     },
     {
-        "url": "https://www.sspc.co.uk/72-Saughs-Drive-Robroyston-Glasgow-G33-1HG-2-Bedroom-End-Terraced-House-ESPC",
-        "address": "72 Saughs Drive, Robroyston, Glasgow G33 1HG",
-        "priceDescription": "Offers over £150,000",
-        "summary": "End Terraced House",
-        "bedrooms": 2,
-        "id": "cf9774fba5dc4792e866a76faabb44ef"
-    },
-    {
         "url": "https://www.sspc.co.uk/14-Market-Place-Selkirk-TD7-4BT-5-Bedroom-House-ESPC",
         "address": "14 Market Place, Selkirk TD7 4BT",
         "priceDescription": "Offers over £150,000",
@@ -9088,12 +8848,12 @@
         "id": "9bfa04dec3175c796f0c2fc11c74966d"
     },
     {
-        "url": "https://www.sspc.co.uk/10-Doncaster-Street-Newcastleton-TD9-0QT-2-Bedroom-House-ESPC",
-        "address": "10 Doncaster Street, Newcastleton TD9 0QT",
+        "url": "https://www.sspc.co.uk/72-Saughs-Drive-Robroyston-Glasgow-G33-1HG-2-Bedroom-End-Terraced-House-ESPC",
+        "address": "72 Saughs Drive, Robroyston, Glasgow G33 1HG",
         "priceDescription": "Offers over £150,000",
-        "summary": "House",
+        "summary": "End Terraced House",
         "bedrooms": 2,
-        "id": "70eebdb6d60b64c5ca477576f519de47"
+        "id": "cf9774fba5dc4792e866a76faabb44ef"
     },
     {
         "url": "https://www.sspc.co.uk/Rathan-High-Street-New-Galloway-CASTLE-DOUGLAS-DG7-3RN-3-Bedroom-House-ESPC",
@@ -9104,36 +8864,12 @@
         "id": "2e0a23e3fe76a10829573622d35edf39"
     },
     {
-        "url": "https://www.sspc.co.uk/15-Cobden-Street-Dundee-DD3-6DD-2-Bedroom-Terraced-House-TSPC",
-        "address": "15 Cobden Street, Dundee DD3 6DD",
-        "priceDescription": "Offers Over £150,000",
-        "summary": "Terraced House",
+        "url": "https://www.sspc.co.uk/10-Doncaster-Street-Newcastleton-TD9-0QT-2-Bedroom-House-ESPC",
+        "address": "10 Doncaster Street, Newcastleton TD9 0QT",
+        "priceDescription": "Offers over £150,000",
+        "summary": "House",
         "bedrooms": 2,
-        "id": "045d888664dda94ab155f2068227b992"
-    },
-    {
-        "url": "https://www.sspc.co.uk/6-Earlston-Avenue-Dundee-DD4-0TH-2-Bedroom-Semi-Detached-House-TSPC",
-        "address": "6 Earlston Avenue, Dundee DD4 0TH",
-        "priceDescription": "Offers Over £150,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 2,
-        "id": "9ba99a0886de9f971fe262fdc4ac1446"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Flat-5-The-Grange-12-Grange-Lane-Monifieth-DD5-4NB-1-Bedroom-Divided-House-TSPC",
-        "address": "Flat 5 The Grange, 12 Grange Lane, Monifieth DD5 4NB",
-        "priceDescription": "Offers Over £150,000",
-        "summary": "Divided House",
-        "bedrooms": 1,
-        "id": "8fd06d5b3be188acdebcc043ea226ad7"
-    },
-    {
-        "url": "https://www.sspc.co.uk/25-Rosebery-Street-Dundee-DD2-2NP-2-Bedroom-Semi-Detached-House-TSPC",
-        "address": "25 Rosebery Street, Dundee DD2 2NP",
-        "priceDescription": "Offers Over £150,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 2,
-        "id": "b3214c245937bba6aa24aa674db6ce47"
+        "id": "70eebdb6d60b64c5ca477576f519de47"
     },
     {
         "url": "https://www.sspc.co.uk/9-Green-Street-Forfar-DD8-3AR-3-Bedroom-End-Terrace-House-TSPC",
@@ -9150,6 +8886,38 @@
         "summary": "End Terrace House",
         "bedrooms": 3,
         "id": "68f8a8239198f323d6b632e21c891d80"
+    },
+    {
+        "url": "https://www.sspc.co.uk/15-Cobden-Street-Dundee-DD3-6DD-2-Bedroom-Terraced-House-TSPC",
+        "address": "15 Cobden Street, Dundee DD3 6DD",
+        "priceDescription": "Offers Over £150,000",
+        "summary": "Terraced House",
+        "bedrooms": 2,
+        "id": "045d888664dda94ab155f2068227b992"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Flat-5-The-Grange-12-Grange-Lane-Monifieth-DD5-4NB-1-Bedroom-Divided-House-TSPC",
+        "address": "Flat 5 The Grange, 12 Grange Lane, Monifieth DD5 4NB",
+        "priceDescription": "Offers Over £150,000",
+        "summary": "Divided House",
+        "bedrooms": 1,
+        "id": "8fd06d5b3be188acdebcc043ea226ad7"
+    },
+    {
+        "url": "https://www.sspc.co.uk/6-Earlston-Avenue-Dundee-DD4-0TH-2-Bedroom-Semi-Detached-House-TSPC",
+        "address": "6 Earlston Avenue, Dundee DD4 0TH",
+        "priceDescription": "Offers Over £150,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 2,
+        "id": "9ba99a0886de9f971fe262fdc4ac1446"
+    },
+    {
+        "url": "https://www.sspc.co.uk/25-Rosebery-Street-Dundee-DD2-2NP-2-Bedroom-Semi-Detached-House-TSPC",
+        "address": "25 Rosebery Street, Dundee DD2 2NP",
+        "priceDescription": "Offers Over £150,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 2,
+        "id": "b3214c245937bba6aa24aa674db6ce47"
     },
     {
         "url": "https://www.sspc.co.uk/2-Grampian-Drive-Northmuir-DD8-4TN-4-Bedroom-Detached-House-TSPC",
@@ -9224,14 +8992,6 @@
         "id": "481b7dedcbf2ec8a5cf97b736b01d786"
     },
     {
-        "url": "https://www.sspc.co.uk/78-Elphinstone-Road-Tranent-EH33-2HH-2-Bedroom-End-Terraced-House-ESPC",
-        "address": "78 Elphinstone Road, Tranent EH33 2HH",
-        "priceDescription": "Offers over £145,000",
-        "summary": "End Terraced House",
-        "bedrooms": 2,
-        "id": "06679f017b5266d8dc82ca7b6773a4fb"
-    },
-    {
         "url": "https://www.sspc.co.uk/11-Douglas-Park-DUNFERMLINE-KY12-9YE-2-Bedroom-End-Terraced-House-ESPC",
         "address": "11 Douglas Park, DUNFERMLINE KY12 9YE",
         "priceDescription": "Offers over £145,000",
@@ -9240,20 +9000,12 @@
         "id": "c8d3ea0bbcf7feeff378a1a102588263"
     },
     {
-        "url": "https://www.sspc.co.uk/27-Eastern-Avenue-LARGS-KA30-9EG-3-Bedroom-Terraced-House-ESPC",
-        "address": "27 Eastern Avenue, LARGS KA30 9EG",
+        "url": "https://www.sspc.co.uk/78-Elphinstone-Road-Tranent-EH33-2HH-2-Bedroom-End-Terraced-House-ESPC",
+        "address": "78 Elphinstone Road, Tranent EH33 2HH",
         "priceDescription": "Offers over £145,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "907cff964aadb7c6304febe85012b675"
-    },
-    {
-        "url": "https://www.sspc.co.uk/Plot-3-Kirkland-Crescent-Dalry-KA24-5EA-Terraced-House-ESPC",
-        "address": "Plot 3 Kirkland Crescent, Dalry KA24 5EA",
-        "priceDescription": "Offers over £145,000",
-        "summary": "Terraced House",
-        "bedrooms": null,
-        "id": "d15582141f966e54653ecf4421e5be45"
+        "summary": "End Terraced House",
+        "bedrooms": 2,
+        "id": "06679f017b5266d8dc82ca7b6773a4fb"
     },
     {
         "url": "https://www.sspc.co.uk/Plot-1-Kirkland-Crescent-Dalry-KA24-5EA-End-Terraced-House-ESPC",
@@ -9262,6 +9014,14 @@
         "summary": "End Terraced House",
         "bedrooms": null,
         "id": "c23555c04b0ea3ed332665e0ebc318a0"
+    },
+    {
+        "url": "https://www.sspc.co.uk/Plot-3-Kirkland-Crescent-Dalry-KA24-5EA-Terraced-House-ESPC",
+        "address": "Plot 3 Kirkland Crescent, Dalry KA24 5EA",
+        "priceDescription": "Offers over £145,000",
+        "summary": "Terraced House",
+        "bedrooms": null,
+        "id": "d15582141f966e54653ecf4421e5be45"
     },
     {
         "url": "https://www.sspc.co.uk/63-Dalmahoy-Drive-Dundee-DD2-3UU-3-Bedroom-Terraced-House-TSPC",
@@ -9344,14 +9104,6 @@
         "id": "d3e27b1908e3b555d7c650cdfb8a9841"
     },
     {
-        "url": "https://www.sspc.co.uk/142-Balgowan-Avenue-Dundee-DD3-0JX-3-Bedroom-End-Terrace-House-TSPC",
-        "address": "142 Balgowan Avenue, Dundee DD3 0JX",
-        "priceDescription": "Offers Over £140,000",
-        "summary": "End Terrace House",
-        "bedrooms": 3,
-        "id": "36491b613b79f257eac46e4c75993075"
-    },
-    {
         "url": "https://www.sspc.co.uk/19-Granton-Place-Dundee-DD4-9AW-3-Bedroom-Terraced-House-TSPC",
         "address": "19 Granton Place, Dundee DD4 9AW",
         "priceDescription": "Offers Over £140,000",
@@ -9414,6 +9166,14 @@
         "summary": "Semi-Detached House",
         "bedrooms": 3,
         "id": "04887ac3e597b63e162f6a47cebc7cc6"
+    },
+    {
+        "url": "https://www.sspc.co.uk/12-Addison-Place-Annan-DG12-5DL-3-Bedroom-Semi-Detached-House-ESPC",
+        "address": "12 Addison Place, Annan DG12 5DL",
+        "priceDescription": "Offers over £137,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "41a8dc71e5121c036c16245dc1890cf9"
     },
     {
         "url": "https://www.sspc.co.uk/46-Back-Hawkhill-Avenue-AYR-KA8-9LU-2-Bedroom-Semi-Detached-House-ESPC",
@@ -9584,6 +9344,14 @@
         "id": "f095aed91cde1df2235041ffb4627508"
     },
     {
+        "url": "https://www.sspc.co.uk/88-Hawthorn-Road-TD1-2LQ-2-Bedroom-Terraced-House-BSPC",
+        "address": "88 Hawthorn Road TD1 2LQ",
+        "priceDescription": "Offers Over £125,000",
+        "summary": "Terraced House",
+        "bedrooms": 2,
+        "id": "3348ce6b5ec4dadb44a9c54c1d1e1dfa"
+    },
+    {
         "url": "https://www.sspc.co.uk/99-Cotton-Street-CASTLE-DOUGLAS-DG7-1DQ-2-Bedroom-Terraced-House-ESPC",
         "address": "99 Cotton Street, CASTLE DOUGLAS DG7 1DQ",
         "priceDescription": "Offers over £125,000",
@@ -9606,6 +9374,14 @@
         "summary": "End Terraced House",
         "bedrooms": 3,
         "id": "82d874806904416ac317c7a3a5e6fccc"
+    },
+    {
+        "url": "https://www.sspc.co.uk/88-Hawthorn-Road-Galashiels-TD1-2LQ-2-Bedroom-End-Terraced-House-ESPC",
+        "address": "88 Hawthorn Road, Galashiels TD1 2LQ",
+        "priceDescription": "Offers over £125,000",
+        "summary": "End Terraced House",
+        "bedrooms": 2,
+        "id": "d4bd9ab45d8ee5cf29f4b276025b02d3"
     },
     {
         "url": "https://www.sspc.co.uk/35-New-Holygate-Broxburn-EH52-5RN-2-Bedroom-Terraced-House-ESPC",
@@ -9640,20 +9416,20 @@
         "id": "248536dd990d205a75dd0d754407d950"
     },
     {
-        "url": "https://www.sspc.co.uk/109-Charles-Avenue-Arbroath-DD11-2HG-2-Bedroom-Terraced-House-TSPC",
-        "address": "109 Charles Avenue, Arbroath DD11 2HG",
-        "priceDescription": "Offers Over £125,000",
-        "summary": "Terraced House",
-        "bedrooms": 2,
-        "id": "fe07ab34201ddf1a450b82d26ecf5fb6"
-    },
-    {
         "url": "https://www.sspc.co.uk/5-Munro-Place-Dundee-DD2-2TH-2-Bedroom-Semi-Detached-House-TSPC",
         "address": "5 Munro Place, Dundee DD2 2TH",
         "priceDescription": "Offers Over £125,000",
         "summary": "Semi-Detached House",
         "bedrooms": 2,
         "id": "844f567f114eec38e3d192f575382091"
+    },
+    {
+        "url": "https://www.sspc.co.uk/109-Charles-Avenue-Arbroath-DD11-2HG-2-Bedroom-Terraced-House-TSPC",
+        "address": "109 Charles Avenue, Arbroath DD11 2HG",
+        "priceDescription": "Offers Over £125,000",
+        "summary": "Terraced House",
+        "bedrooms": 2,
+        "id": "fe07ab34201ddf1a450b82d26ecf5fb6"
     },
     {
         "url": "https://www.sspc.co.uk/35-Canal-Street-Saltcoats-KA21-5JA-2-Bedroom-House-ESPC",
@@ -9720,28 +9496,12 @@
         "id": "6f3f4a46edfb2cc698408f2b1a61b19b"
     },
     {
-        "url": "https://www.sspc.co.uk/72-Hayshead-Road-Arbroath-DD11-5AT-2-Bedroom-Semi-Detached-House-TSPC",
-        "address": "72 Hayshead Road, Arbroath DD11 5AT",
-        "priceDescription": "Offers Over £120,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 2,
-        "id": "e719908ff4c11d1a6385902bb2460b3f"
-    },
-    {
         "url": "https://www.sspc.co.uk/31-Balbeggie-Terrace-Dundee-DD4-8RL-2-Bedroom-Terraced-House-TSPC",
         "address": "31 Balbeggie Terrace, Dundee DD4 8RL",
         "priceDescription": "Offers Over £120,000",
         "summary": "Terraced House",
         "bedrooms": 2,
         "id": "a374f2a4087aa874f2070308ac37b5d7"
-    },
-    {
-        "url": "https://www.sspc.co.uk/70-Finella-Gardens-Dundee-DD4-9HU-3-Bedroom-Semi-Detached-House-TSPC",
-        "address": "70 Finella Gardens, Dundee DD4 9HU",
-        "priceDescription": "Offers Over £120,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 3,
-        "id": "e22957d4a3cf33d56053f1f456c82ccb"
     },
     {
         "url": "https://www.sspc.co.uk/12-Prosen-Road-Kirriemuir-DD8-5AN-3-Bedroom-Terraced-House-TSPC",
@@ -9848,6 +9608,14 @@
         "id": "df9e3d7db4dd6e9a6c3fd73dc748cc99"
     },
     {
+        "url": "https://www.sspc.co.uk/15-Colonsay-Terrace-Dundee-DD4-9SZ-3-Bedroom-Semi-Detached-House-TSPC",
+        "address": "15 Colonsay Terrace, Dundee DD4 9SZ",
+        "priceDescription": "Offers Over £115,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 3,
+        "id": "4618ae4144f394b67f63ad3f3bead1b1"
+    },
+    {
         "url": "https://www.sspc.co.uk/65-Kemnay-Gardens-Dundee-DD4-7TR-3-Bedroom-Terraced-House-TSPC",
         "address": "65 Kemnay Gardens, Dundee DD4 7TR",
         "priceDescription": "Offers Over £115,000",
@@ -9856,12 +9624,12 @@
         "id": "888a2da2b6ce238e763931803d2b1eb9"
     },
     {
-        "url": "https://www.sspc.co.uk/15-Colonsay-Terrace-Dundee-DD4-9SZ-3-Bedroom-Semi-Detached-House-TSPC",
-        "address": "15 Colonsay Terrace, Dundee DD4 9SZ",
+        "url": "https://www.sspc.co.uk/199-Tweed-Crescent-Dundee-DD2-4DN-3-Bedroom-Terraced-House-TSPC",
+        "address": "199 Tweed Crescent, Dundee DD2 4DN",
         "priceDescription": "Offers Over £115,000",
-        "summary": "Semi-Detached House",
+        "summary": "Terraced House",
         "bedrooms": 3,
-        "id": "4618ae4144f394b67f63ad3f3bead1b1"
+        "id": "ba27afee026147f3dbda90748f77afa2"
     },
     {
         "url": "https://www.sspc.co.uk/37-Elm-Road-Kirriemuir-DD8-4DG-3-Bedroom-Terraced-House-TSPC",
@@ -9912,6 +9680,14 @@
         "id": "ea1a92ef19fd759d799460c9d85c9ecb"
     },
     {
+        "url": "https://www.sspc.co.uk/7-Greystone-Crescent-DUMFRIES-DG1-1PG-3-Bedroom-Terraced-House-ESPC",
+        "address": "7 Greystone Crescent, DUMFRIES DG1 1PG",
+        "priceDescription": "Offers over £110,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "b14c19658e2f499eb19d5afec60a5222"
+    },
+    {
         "url": "https://www.sspc.co.uk/43-Winterhope-Road-ANNAN-DG12-5JL-2-Bedroom-Semi-Detached-House-ESPC",
         "address": "43 Winterhope Road, ANNAN DG12 5JL",
         "priceDescription": "Guide Price £110,000",
@@ -9936,14 +9712,6 @@
         "id": "3874d6efe22d8043c6dcd69b3b254285"
     },
     {
-        "url": "https://www.sspc.co.uk/70-Fountainbleau-Drive-Dundee-DD4-8EZ-2-Bedroom-Semi-Detached-House-TSPC",
-        "address": "70 Fountainbleau Drive, Dundee DD4 8EZ",
-        "priceDescription": "Offers Over £110,000",
-        "summary": "Semi-Detached House",
-        "bedrooms": 2,
-        "id": "6ad98deb576502e5338de4a6bcdde2eb"
-    },
-    {
         "url": "https://www.sspc.co.uk/85-Balunie-Avenue-Dundee-DD4-8RB-3-Bedroom-Terraced-House-TSPC",
         "address": "85 Balunie Avenue, Dundee DD4 8RB",
         "priceDescription": "Offers Over £110,000",
@@ -9966,6 +9734,14 @@
         "summary": "Terraced House",
         "bedrooms": 3,
         "id": "74b9f92c40e52abd36055d731b5aa63c"
+    },
+    {
+        "url": "https://www.sspc.co.uk/70-Fountainbleau-Drive-Dundee-DD4-8EZ-2-Bedroom-Semi-Detached-House-TSPC",
+        "address": "70 Fountainbleau Drive, Dundee DD4 8EZ",
+        "priceDescription": "Offers Over £110,000",
+        "summary": "Semi-Detached House",
+        "bedrooms": 2,
+        "id": "6ad98deb576502e5338de4a6bcdde2eb"
     },
     {
         "url": "https://www.sspc.co.uk/5-Craigmount-Terrace-Dundee-DD2-4PX-2-Bedroom-Semi-Detached-House-TSPC",
@@ -10088,20 +9864,20 @@
         "id": "58d6d3deb98a261b35d6de0a892f831b"
     },
     {
-        "url": "https://www.sspc.co.uk/36-Fintry-Road-Dundee-DD4-9EJ-3-Bedroom-Terraced-House-TSPC",
-        "address": "36 Fintry Road, Dundee DD4 9EJ",
-        "priceDescription": "Offers Over £100,000",
-        "summary": "Terraced House",
-        "bedrooms": 3,
-        "id": "7b5a4bd52bcd58507fd220611dcee257"
-    },
-    {
         "url": "https://www.sspc.co.uk/83-Craigard-Road-Dundee-DD2-4PU-2-Bedroom-Terraced-House-TSPC",
         "address": "83 Craigard Road, Dundee DD2 4PU",
         "priceDescription": "Offers Over £100,000",
         "summary": "Terraced House",
         "bedrooms": 2,
         "id": "d6c0ed9bfc4d64f86277239622150896"
+    },
+    {
+        "url": "https://www.sspc.co.uk/36-Fintry-Road-Dundee-DD4-9EJ-3-Bedroom-Terraced-House-TSPC",
+        "address": "36 Fintry Road, Dundee DD4 9EJ",
+        "priceDescription": "Offers Over £100,000",
+        "summary": "Terraced House",
+        "bedrooms": 3,
+        "id": "7b5a4bd52bcd58507fd220611dcee257"
     },
     {
         "url": "https://www.sspc.co.uk/99-Dalry-Road-SALTCOATS-KA21-6HN-3-Bedroom-Semi-Detached-House-ESPC",
@@ -10314,7 +10090,7 @@
     {
         "url": "https://www.sspc.co.uk/23-Hamilton-Street-Kilwinning-KA13-7AG-3-Bedroom-Terraced-House-ESPC",
         "address": "23 Hamilton Street, Kilwinning KA13 7AG",
-        "priceDescription": "Offers over £75,000",
+        "priceDescription": "Fixed Price £73,000",
         "summary": "Terraced House",
         "bedrooms": 3,
         "id": "4d0d6b2c5f09ef679bdcdcbac1bb81ab"
