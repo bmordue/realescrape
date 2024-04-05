@@ -2,6 +2,7 @@ import fetch from 'node-fetch';
 import { writeFileSync } from 'fs';
 import * as cheerio from 'cheerio';
 import { createHash } from 'crypto';
+import { join } from 'path';
 
 export interface PropertyResult {
     id: string,
@@ -17,6 +18,14 @@ function hashCode(str: string) {
     const hash = createHash('md5');
     hash.update(str);
     return hash.digest('hex');
+}
+
+async function writePropertyDetails(url :string, filename :string) {
+    const dirName = "properties";
+
+    const resp = await fetch(url);
+    const bodyText = await resp.text();
+    writeFileSync(join(dirName, `${filename}.html`), bodyText);
 }
 
 async function writeAllResults(propertyType: string) {
@@ -43,6 +52,10 @@ async function writeAllResults(propertyType: string) {
         };
         results[i] = { ...prop, id: hashCode(prop.url) };
     });
+
+    for (let res of results) {
+        await writePropertyDetails(res.url!, res.id!);
+    }
 
     writeFileSync(outFilename, JSON.stringify(results, null, 4));
     console.log(`Wrote ${results.length} results to ${outFilename} for SSPC.`);
