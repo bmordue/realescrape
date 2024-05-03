@@ -48,8 +48,6 @@
 	<meta property="og:title" content="1 Bed Top Floor Flat for sale | 3G South Baffin Street, Dundee DD4 6JN | SPC Scotland">
 	<meta property="og:description" content="<p>Fantastic opportunity to purchase this ready to live in, spacious top floor flat located in a popular residential area within walking dis...">
 	<meta property="og:image" content="https://www.tspc.co.uk/userfiles/property/photos/140074.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="338">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://www.tspc.co.uk/userfiles/property/photos/140074.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70160498&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 02/05/2024 07:00:00 -->
+<!-- 03/05/2024 07:00:00 -->
 </body>
 
 </html>
