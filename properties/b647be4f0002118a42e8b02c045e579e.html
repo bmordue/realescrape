@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Detached Bungalow for sale | 29 James Street, Carnoustie DD7 7JY | SPC Scotland">
 	<meta property="og:description" content="<ul> 	<li>Entrance hallway&nbsp; &nbsp; &nbsp;</li> 	<li>Spacious lounge with dining area&nbsp; &nbsp;</li> 	<li>Dining kitchen&nbsp; &nb...">
 	<meta property="og:image" content="https://www.tspc.co.uk/userfiles/property/photos/140312.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="399">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -233,7 +231,7 @@
 </script>
 		<div id="b3">
 			<div id="c3">
-				<div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/photos/140312.jpg?maxwidth=600);margin:0 auto;"></div>
+				<div class="carousel"><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/photos/140312.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/01.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/02.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/03.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/04.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/05.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/06.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/07.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/08.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/09.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/10.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/11.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/12.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/13.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/14.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/15.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/16.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/17.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/18.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/19.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/20.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/21.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/22.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/23.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/24.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/25.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/26.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/27.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/28.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140312/29.jpg?maxwidth=600);"></div></div>
 			</div><!--/c3-->
 			<div class="dotholder"></div>
 		</div><!--/b3-->
@@ -310,12 +308,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://www.tspc.co.uk/userfiles/property/photos/140312.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70181353&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 08/05/2024 07:00:00 -->
+<!-- 09/05/2024 07:00:00 -->
 </body>
 
 </html>
