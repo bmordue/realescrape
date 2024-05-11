@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Fourth Floor Flat for sale | 428 Riverside Drive, Dundee DD1 4XB | SPC Scotland">
 	<meta property="og:description" content="<p>Set directly beside the River Tay in Dundee, this impressive fourth-floor apartment is a stylish two-bedroom residence which forms part o...">
 	<meta property="og:image" content="https://www.tspc.co.uk/userfiles/property/photos/140327.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="400">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -233,7 +231,7 @@
 </script>
 		<div id="b3">
 			<div id="c3">
-				<div class="carousel"><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/photos/140327.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/01.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/02.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/03.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/04.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/05.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/06.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/07.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/08.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/09.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/10.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/11.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/12.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/13.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/14.jpg?maxwidth=600);"></div></div>
+				<div class="carousel"><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/photos/140327.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/01.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/02.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/03.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/04.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/05.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/06.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/07.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/08.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/09.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/10.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/11.jpg?maxwidth=600);"></div><div class="property_photo" style="background-image:url(https://www.tspc.co.uk/userfiles/property/galleries/140327/12.jpg?maxwidth=600);"></div></div>
 			</div><!--/c3-->
 			<div class="dotholder"></div>
 		</div><!--/b3-->
@@ -310,12 +308,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://www.tspc.co.uk/userfiles/property/photos/140327.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70188327&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 10/05/2024 07:00:00 -->
+<!-- 11/05/2024 07:00:00 -->
 </body>
 
 </html>
