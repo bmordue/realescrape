@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Terraced House for sale | 53 Easter Street TD11 3DW | SPC Scotland">
 	<meta property="og:description" content="53 Easter Street is a comfortably proportioned semi-detached property located in a popular residential area of Duns, allowing easy access to the town...">
 	<meta property="og:image" content="https://www.bspc.co.uk/userfiles/property/photos/26296.jpg">
-	<meta property="og:image:width" content="1280">
-	<meta property="og:image:height" content="853">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: E</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://www.bspc.co.uk/userfiles/property/photos/26296.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70198958&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 14/05/2024 07:00:00 -->
+<!-- 15/05/2024 07:00:00 -->
 </body>
 
 </html>
