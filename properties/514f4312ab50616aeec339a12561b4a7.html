@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Terraced House for sale | 29 The Beeches TD1 3SY | SPC Scotland">
 	<meta property="og:description" content="A 2 storey mid-terrace house in a residential estate of privately owned properties. GCH & DG throughout. Lounge, kitchen, 2 double bedrooms, bathroom,...">
 	<meta property="og:image" content="https://www.bspc.co.uk/userfiles/property/photos/26265.jpg">
-	<meta property="og:image:width" content="1181">
-	<meta property="og:image:height" content="805">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://www.bspc.co.uk/userfiles/property/photos/26265.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70203869&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 15/05/2024 07:00:00 -->
+<!-- 16/05/2024 07:00:00 -->
 </body>
 
 </html>
