@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Second Floor Flat for sale | 10 (2F1) Rochester Terrace, Merchiston EH10 5AB | SPC Scotland">
 	<meta property="og:description" content="Boasting beautifully presented, modern interiors, perfectly blended with lovingly retained period features, this two-bedroom second-floor...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/549422/MainImage/549422_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/549422/MainImage/549422_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70208250&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 16/05/2024 07:00:00 -->
+<!-- 17/05/2024 07:00:00 -->
 </body>
 
 </html>
