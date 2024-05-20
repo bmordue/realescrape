@@ -48,8 +48,6 @@
 	<meta property="og:title" content="Third Floor Flat for sale | Flat 11, Almond Court East, 5 Braehead Park, Edinburgh EH4 6AZ | SPC Scotland">
 	<meta property="og:description" content="A superb three-bedroom apartment in the leafy Barnton area of Edinburgh. The property extends to almost 1200 sq ft and enjoys plentiful...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/550989/MainImage/550989_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/550989/MainImage/550989_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70218350&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 19/05/2024 07:00:00 -->
+<!-- 20/05/2024 07:00:00 -->
 </body>
 
 </html>
