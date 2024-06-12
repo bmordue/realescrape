@@ -48,8 +48,6 @@
 	<meta property="og:title" content="5 Bed Detached Bungalow for sale | 34 North Latch Road, Brechin DD9 6LE | SPC Scotland">
 	<meta property="og:description" content="<p>Extended Detached Bungalow of generous dimensions offers family accommodation in this sought after location.</p> <ul> <li>2 Reception R...">
 	<meta property="og:image" content="https://www.tspc.co.uk/userfiles/property/photos/138421.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="450">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://www.tspc.co.uk/userfiles/property/photos/138421.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70306297&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 11/06/2024 07:00:00 -->
+<!-- 12/06/2024 07:00:00 -->
 </body>
 
 </html>
