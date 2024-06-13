@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Detached Bungalow for sale | 8 Ryan Place, Crieff PH7 4EW | SPC Scotland">
 	<meta property="og:description" content="<p>Irving Geddes are delighted to offer for sale this 3 bedroom detached bungalow enjoying a most private location at the end of a quiet cul...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/962074.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="385">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/962074.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70309975&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 12/06/2024 07:00:00 -->
+<!-- 13/06/2024 07:00:00 -->
 </body>
 
 </html>
