@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed First Floor Flat for sale | 1/7 Sharp Street, Muirhouse, Edinburgh EH4 4FP | SPC Scotland">
 	<meta property="og:description" content="A well-presented modern first floor flat in the Muirhouse area to the north of the city centre. The property is in immaculate condition...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/552747/MainImage/552747_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -250,7 +248,7 @@
 </div>
 <p>
 Freehold<br>
-Council Tax Band:  <br>
+Council Tax Band: C<br>
 EPC Band: C</br>
 </p>
 <div class="fraction one_half pd_centre espc">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/552747/MainImage/552747_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70334618&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 19/06/2024 07:00:00 -->
+<!-- 20/06/2024 07:00:00 -->
 </body>
 
 </html>
