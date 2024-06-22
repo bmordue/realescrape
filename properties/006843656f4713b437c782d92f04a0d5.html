@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed  Flat for sale | New Build Apartments, 15 Panmure Street, Monifieth DD5 4EA | SPC Scotland">
 	<meta property="og:description" content="<p>Ideally located for straightforward access to local amenities and supermarket. Private car parking &amp; communal garden grounds. Now ava...">
 	<meta property="og:image" content="https://www.tspc.co.uk/userfiles/property/photos/137124.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="282">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -309,12 +307,18 @@ Freehold<br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://www.tspc.co.uk/userfiles/property/photos/137124.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70343670&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 21/06/2024 07:00:00 -->
+<!-- 22/06/2024 07:00:00 -->
 </body>
 
 </html>
