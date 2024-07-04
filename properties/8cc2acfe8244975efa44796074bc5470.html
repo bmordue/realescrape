@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Ground Floor Flat for sale | 52 Acorn Court, Cellardyke, Anstruther KY10 3FB | SPC Scotland">
 	<meta property="og:description" content="Forming part of an attractive, modern development in Cellardyke, this two-bedroom main-door flat is presented with immaculate, contemporary...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/553569/MainImage/553569_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: B</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/553569/MainImage/553569_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70372284&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 03/07/2024 07:00:00 -->
+<!-- 04/07/2024 07:00:00 -->
 </body>
 
 </html>
