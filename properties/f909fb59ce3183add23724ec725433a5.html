@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Semi-Detached House for sale | 13 Glen Crescent, Deans, Livingston EH54 8BW | SPC Scotland">
 	<meta property="og:description" content="This attractive semi-detached villa will appeal to a wide audience and in particular to first time buyers. The property is set within...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/553238/MainImage/553238_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/553238/MainImage/553238_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70374368&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 04/07/2024 07:00:00 -->
+<!-- 05/07/2024 07:00:00 -->
 </body>
 
 </html>
