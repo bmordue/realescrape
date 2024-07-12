@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Top Floor Flat for sale | 190 Main Street, Invergowrie DD2 5BD | SPC Scotland">
 	<meta property="og:description" content="<p>This spacious UPPER FLOOR TWO BEDROOM MAISONETTE is situated in a popular Village of Invergowrie on the outskirts of Dundee.&nbsp; The pr...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/140515.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="338">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/140515.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70400972&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 11/07/2024 07:00:00 -->
+<!-- 12/07/2024 07:00:00 -->
 </body>
 
 </html>
