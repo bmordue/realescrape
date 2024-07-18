@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Detached Bungalow for sale | Cobwebs, Nr Eddleston, Peebles EH45 8QY | SPC Scotland">
 	<meta property="og:description" content="Superb detached bungalow situated in a secluded rural setting at the end of a short no-through road set in just over an acre of landscaped...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/554161/MainImage/554161_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: E</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/554161/MainImage/554161_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70419213&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 17/07/2024 07:00:00 -->
+<!-- 18/07/2024 07:00:00 -->
 </body>
 
 </html>
