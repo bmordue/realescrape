@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed Semi-Detached House for sale | Sale of Burnbrae, 7 March Street, Peebles EH45 8DF | SPC Scotland">
 	<meta property="og:description" content="Expansive semi-detached whinstone villa offering flexible accommodation arranged over three floors, extending to 234m2 or thereby. The...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/549167/MainImage/549167_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/549167/MainImage/549167_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70437691&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 22/07/2024 07:00:00 -->
+<!-- 23/07/2024 07:00:00 -->
 </body>
 
 </html>
