@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Detached Bungalow for sale | Janall, 28 Crumhaughhill Road TD9 0BX | SPC Scotland">
 	<meta property="og:description" content="Arranged over a spacious 100sqm, Janall, 28 Crumhaughhill Road is a most impressive addition to the sales market. Residing within a rarely available,...">
 	<meta property="og:image" content="https://www.bspc.co.uk/userfiles/property/photos/26355.jpg">
-	<meta property="og:image:width" content="1280">
-	<meta property="og:image:height" content="853">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://www.bspc.co.uk/userfiles/property/photos/26355.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70450290&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 25/07/2024 07:00:00 -->
+<!-- 26/07/2024 07:00:00 -->
 </body>
 
 </html>

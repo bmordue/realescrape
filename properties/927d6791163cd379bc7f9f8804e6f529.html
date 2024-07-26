@@ -48,8 +48,6 @@
 	<meta property="og:title" content="1 Bed Top Floor Flat for sale | 10/10 Dorset Place, Edinburgh EH11 1JQ | SPC Scotland">
 	<meta property="og:description" content="This is a beautiful, canalside location first time buyer flat, offered for sale in move in condition. Walking distance into the West End,...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/554247/MainImage/554247_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/554247/MainImage/554247_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70451038&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 25/07/2024 07:00:00 -->
+<!-- 26/07/2024 07:00:00 -->
 </body>
 
 </html>
