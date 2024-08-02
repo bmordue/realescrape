@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Top Floor Flat for sale | 2/8 Bath Street, Portobello, Edinburgh EH15 1EY | SPC Scotland">
 	<meta property="og:description" content="Set in the heart of Portobello, moments from the beach is this immaculately presented and recently fully refurbished top floor apartment.">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/554122/MainImage/554122_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/554122/MainImage/554122_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70475869&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 01/08/2024 07:00:00 -->
+<!-- 02/08/2024 07:00:00 -->
 </body>
 
 </html>
