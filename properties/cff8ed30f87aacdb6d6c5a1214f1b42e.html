@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Detached House for sale | Puffins Bothy Eastlaw, Coldingham TD14 5PX | SPC Scotland">
 	<meta property="og:description" content="Welcome to this exquisite three-bedroom detached home in the sought-after area of Eastlaw. This stunning self-build, only three years old,...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/554179/MainImage/554179_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/554179/MainImage/554179_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70483743&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 03/08/2024 07:00:00 -->
+<!-- 04/08/2024 07:00:00 -->
 </body>
 
 </html>
