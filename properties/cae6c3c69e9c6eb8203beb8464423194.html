@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed Detached House for sale | The Stables, 4 Heriot House, Heriot EH38 5YB | SPC Scotland">
 	<meta property="og:description" content="Rare to the market! A delightful B Listed, well-maintained, stone-built, steading conversion fully renovated to an immaculate light & airy...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/547449/MainImage/547449_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/547449/MainImage/547449_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70528591&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 15/08/2024 07:00:00 -->
+<!-- 16/08/2024 07:00:00 -->
 </body>
 
 </html>
