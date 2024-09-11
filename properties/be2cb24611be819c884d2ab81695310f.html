@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed First Floor Flat for sale | 19b Burnside Street, Carnoustie DD7 7ET | SPC Scotland">
 	<meta property="og:description" content="<p>This immaculately presented two-bedroom first floor flat forms part of a modern block of flats within Carnoustie.&nbsp; The property is l...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/141167.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="450">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/141167.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70635190&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 10/09/2024 07:00:00 -->
+<!-- 11/09/2024 07:00:00 -->
 </body>
 
 </html>
