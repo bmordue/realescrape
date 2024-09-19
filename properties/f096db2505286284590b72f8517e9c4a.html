@@ -48,8 +48,6 @@
 	<meta property="og:title" content="1 Bed First Floor Flat for sale | 308/1 Portobello High Street, Portobello, Edinburgh EH15 2DA | SPC Scotland">
 	<meta property="og:description" content="19/09/24 at 12 noon   Set in the heart of Portobello, moments from the beach, excellent local bars, cafes and restaurants and close to the...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/557084/MainImage/557084_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/557084/MainImage/557084_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70663120&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 18/09/2024 07:00:00 -->
+<!-- 19/09/2024 07:00:00 -->
 </body>
 
 </html>
