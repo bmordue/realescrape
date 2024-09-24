@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed Detached House for sale | Medstead Lodge, Garden Street, Gatehouse of Fleet, Castle Douglas DG7 2JU | SPC Scotland">
 	<meta property="og:description" content="Beautifully presented 4 bedroom detached family home, located in a quiet yet central location a short walk away from all local amenities.">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/557530/MainImage/557530_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/557530/MainImage/557530_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70682792&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 23/09/2024 07:00:00 -->
+<!-- 24/09/2024 07:00:00 -->
 </body>
 
 </html>
