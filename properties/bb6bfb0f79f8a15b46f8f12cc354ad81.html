@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Detached Bungalow for sale | Woodberry, Littleton Road, Longforgan DD2 5HU | SPC Scotland">
 	<meta property="og:description" content="<p>Situated within a beautiful semi-rural setting, Woodberry sits at the end of a quiet road between open farmland and Huntly woods. This we...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/140012.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="400">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: F</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/140012.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70687381&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 24/09/2024 07:00:00 -->
+<!-- 25/09/2024 07:00:00 -->
 </body>
 
 </html>
