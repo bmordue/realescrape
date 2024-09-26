@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Terraced Bungalow for sale | 4 Hope Lane North, Edinburgh EH15 2PT | SPC Scotland">
 	<meta property="og:description" content="Light and beautifully presented, two-bedroom, mid-terrace cottage, located off-street, within a quiet, courtyard setting. Situated on a...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/555229/MainImage/555229_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/555229/MainImage/555229_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70688898&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 25/09/2024 07:00:00 -->
+<!-- 26/09/2024 07:00:00 -->
 </body>
 
 </html>
