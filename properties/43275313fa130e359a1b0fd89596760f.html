@@ -48,8 +48,6 @@
 	<meta property="og:title" content="5 Bed Ground & First Floor Flat for sale | 20  &amp; 20A, Colvill Place, Arbroath DD11 1RB | SPC Scotland">
 	<meta property="og:description" content="<p>A portfolio of a 3 bedroomed upper maisonette and ground floor 2 bedroomed flat. Both Properties are in need of upgrading and this is an...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/141338.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="400">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -309,12 +307,18 @@ Freehold<br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/141338.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70702939&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 28/09/2024 07:00:00 -->
+<!-- 29/09/2024 07:00:00 -->
 </body>
 
 </html>
