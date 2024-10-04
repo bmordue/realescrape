@@ -48,8 +48,6 @@
 	<meta property="og:title" content="1 Bed First Floor Flat for sale | 53c Stuart Street, Millport, Isle of Cumbrae KA28 0AG | SPC Scotland">
 	<meta property="og:description" content="53c Stuart Street, First Floor Flat, Millport  KA28 0AG Isle of Cumbrae     Price:                          Offers Over    �60,000...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/554917/MainImage/554917_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: G</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/554917/MainImage/554917_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70721573&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 03/10/2024 07:00:00 -->
+<!-- 04/10/2024 07:00:00 -->
 </body>
 
 </html>
