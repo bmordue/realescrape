@@ -48,8 +48,6 @@
 	<meta property="og:title" content="5 Bed Detached House for sale | PLOT 75, Off Murieston Road, Livingston EH54 9AZ | SPC Scotland">
 	<meta property="og:description" content="Wallace Quinn are delighted to offer this 5 Bedroom Detached New Build located at The Grange, Murieston.    About Hopkirk    The elegant...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/530856/MainImage/530856_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: Not Applicable</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/530856/MainImage/530856_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70762763&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 12/10/2024 07:00:00 -->
+<!-- 13/10/2024 07:00:00 -->
 </body>
 
 </html>
