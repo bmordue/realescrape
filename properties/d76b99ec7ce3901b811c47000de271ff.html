@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed Ground Floor Flat for sale | Flat B5 The Hub, 17 Hawkhill, Dundee DD1 5DL | SPC Scotland">
 	<meta property="og:description" content="<p>This contemporary ground floor flat forms part of The Hub student accommodation for full time students looking to share</p> <ul> <li>Pr...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/136946.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="400">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -309,12 +307,18 @@ Freehold<br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/136946.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70784661&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 17/10/2024 07:00:00 -->
+<!-- 18/10/2024 07:00:00 -->
 </body>
 
 </html>

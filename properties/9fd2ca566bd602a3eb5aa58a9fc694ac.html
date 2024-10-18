@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Ground Floor Flat for sale | 7c Ellieslea Road, Broughty Ferry DD5 1JG | SPC Scotland">
 	<meta property="og:description" content="<ul> <li>Highly Sought After Location</li> <li>Walking Distance of Central Broughty Ferry</li> <li>Vestibule &amp; Hallway</li> <li>Loun...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/141319.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="338">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/141319.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70784836&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 17/10/2024 07:00:00 -->
+<!-- 18/10/2024 07:00:00 -->
 </body>
 
 </html>
