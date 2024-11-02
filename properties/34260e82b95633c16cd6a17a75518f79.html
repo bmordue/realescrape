@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed First Floor Flat for sale | 1/6 Royal Apartments, Station Road, North Berwick, East Lothian EH39 4AT | SPC Scotland">
 	<meta property="og:description" content="Modern two bedroom first floor apartment with stunning sea views and an appealing layout.  Decorated in light neutral tones throughout with...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/557358/MainImage/557358_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/557358/MainImage/557358_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70836897&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 31/10/2024 07:00:00 -->
+<!-- 02/11/2024 07:00:00 -->
 </body>
 
 </html>
