@@ -48,8 +48,6 @@
 	<meta property="og:title" content="1 Bed  Flat for sale | 31B Greenholme Street, Cathcart, Glasgow G44 4DU | SPC Scotland">
 	<meta property="og:description" content="Jonny Clifford with McEwan Fraser Legal is delighted to present this stylishly refurbished one-bedroom ground-floor flat, presented in true...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/559345/MainImage/559345_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/559345/MainImage/559345_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70848081&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 04/11/2024 07:00:00 -->
+<!-- 05/11/2024 07:00:00 -->
 </body>
 
 </html>
