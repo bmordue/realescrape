@@ -48,8 +48,6 @@
 	<meta property="og:title" content="5 Bed First & Attic Flat for sale | 5 Margaret Crescent, Broughty Ferry DD5 1ND | SPC Scotland">
 	<meta property="og:description" content="<p>Situated in coastal Broughty Ferry, within easy commuting distance of Dundee city centre, this five-bedroom, two-bathroom double upper vi...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/141471.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="400">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/141471.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=70859546&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 07/11/2024 07:00:00 -->
+<!-- 08/11/2024 07:00:00 -->
 </body>
 
 </html>
