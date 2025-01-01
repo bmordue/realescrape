@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed Detached House for sale | 86 Saughton Road North, Corstorphine, Edinburgh EH12 7JU | SPC Scotland">
 	<meta property="og:description" content="Bright and exceptionally spacious detached home enviably set within the highly regarded area of Corstorphine, well placed for a superb...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/553141/MainImage/553141_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,13 +308,19 @@ EPC Band: E</br>
 
 		<div id="b7">
 			<div id="c7">
-				Copyright &copy; <strong>SPC Scotland 2024</strong>
-				
+				Copyright &copy; <strong>SPC Scotland 2025</strong>
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/553141/MainImage/553141_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71049760&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 31/12/2024 07:00:00 -->
+<!-- 01/01/2025 07:00:00 -->
 </body>
 
 </html>
