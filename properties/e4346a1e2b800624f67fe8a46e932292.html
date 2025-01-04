@@ -48,8 +48,6 @@
 	<meta property="og:title" content="6 Bed Detached House for sale | The Cart House, Newburgh Farm Steading TD7 5HS | SPC Scotland">
 	<meta property="og:description" content="Superb, Spacious Six Bed Steading Conversion in Outstanding Rural Location Set against the rolling hills of the picturesque Ettrick Valley in Area of...">
 	<meta property="og:image" content="https://www.bspc.co.uk/userfiles/property/photos/26529.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://www.bspc.co.uk/userfiles/property/photos/26529.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71057595&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 03/01/2025 07:00:00 -->
+<!-- 04/01/2025 07:00:00 -->
 </body>
 
 </html>
