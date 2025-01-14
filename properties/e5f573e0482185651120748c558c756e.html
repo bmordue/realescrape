@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed First Floor Flat for sale | Flat 10, Block B The Hub, 17 Hawkhill DD1 5DL | SPC Scotland">
 	<meta property="og:description" content="<ul> <li>Hands-off investment opportunity</li> <li>On-site management team</li> <li>Ideal for investors</li> <li>Four bedroom student ac...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/141727.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="400">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: A</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/141727.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71089841&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 13/01/2025 07:00:00 -->
+<!-- 14/01/2025 07:00:00 -->
 </body>
 
 </html>
