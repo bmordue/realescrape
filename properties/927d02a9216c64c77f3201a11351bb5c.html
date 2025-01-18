@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Top Floor Flat for sale | 15 Westfield Street TD4 6DT | SPC Scotland">
 	<meta property="og:description" content="An upper floor flat in a 2 storey property. DG throughout & partial GCH. Needs modernising, but an ideal investment opportunity for rental, or young f...">
 	<meta property="og:image" content="https://www.bspc.co.uk/userfiles/property/photos/26592.jpg">
-	<meta property="og:image:width" content="1181">
-	<meta property="og:image:height" content="787">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://www.bspc.co.uk/userfiles/property/photos/26592.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71099547&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 17/01/2025 07:00:00 -->
+<!-- 18/01/2025 07:00:00 -->
 </body>
 
 </html>
