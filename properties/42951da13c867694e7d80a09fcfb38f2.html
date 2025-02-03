@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Upper Flat for sale | 68 West Savile Terrace, Blackford, Edinburgh EH9 3EH | SPC Scotland">
 	<meta property="og:description" content="68 West Savile Terrace is a well-presented two-bedroom upper villa with private south-facing rear garden situated in the desirable...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/561397/MainImage/561397_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/561397/MainImage/561397_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71150938&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 02/02/2025 01:59:05 -->
+<!-- 03/02/2025 02:08:01 -->
 </body>
 
 </html>

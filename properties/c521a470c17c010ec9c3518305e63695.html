@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Top Floor Flat for sale | 19 (4F2) Marchmont Crescent, Marchmont, Edinburgh EH9 1HL | SPC Scotland">
 	<meta property="og:description" content="Offered �10,000 below HOme Report value. 19 (4F2) Marchmont Crescent is a bright 3 bedroom top floor flat, situated in the sought after...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/553715/MainImage/553715_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/553715/MainImage/553715_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71150555&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 02/02/2025 02:00:06 -->
+<!-- 03/02/2025 02:09:02 -->
 </body>
 
 </html>
