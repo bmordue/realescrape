@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Semi-Detached House for sale | 2 Foresters Cottage, Cardean Gardens, Meigle PH12 8RB | SPC Scotland">
 	<meta property="og:description" content="<p>This three bedroom semi-detached house is located in a semi-rural location. The property benefits from ample outside space and has the po...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/140578.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="450">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/140578.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71155515&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 03/02/2025 02:15:09 -->
+<!-- 04/02/2025 07:00:00 -->
 </body>
 
 </html>
