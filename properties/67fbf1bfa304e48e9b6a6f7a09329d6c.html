@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Detached House for sale | Stable House, Carnbee Road, Arncroach, Anstruther KY10 2RG | SPC Scotland">
 	<meta property="og:description" content="Peacefully situated bordering open farmland and countryside on the edge of the charming village of Arncroach, this characterful detached...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/553286/MainImage/553286_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: G</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/553286/MainImage/553286_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71175683&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 10/02/2025 07:00:00 -->
+<!-- 11/02/2025 07:00:00 -->
 </body>
 
 </html>
