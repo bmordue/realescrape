@@ -48,8 +48,6 @@
 	<meta property="og:title" content="5 Bed Semi-Detached House for sale | 30b West Mill Road, Colinton, EDINBURGH EH13 0NX | SPC Scotland">
 	<meta property="og:description" content="An impressive and rarely available semi detached villa which occupies a large plot and benefits from large mature private gardens, double...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/548737/MainImage/548737_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/548737/MainImage/548737_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71261696&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 09/03/2025 07:00:00 -->
+<!-- 10/03/2025 07:00:00 -->
 </body>
 
 </html>
