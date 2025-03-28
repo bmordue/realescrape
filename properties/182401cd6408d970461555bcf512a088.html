@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed First Floor Flat for sale | Flat 3, The Old Sailors Home, 62 Dock Street, Dundee DD1 3DU | SPC Scotland">
 	<meta property="og:description" content="<ul> <li>Prime Central Location&nbsp;</li> <li>Walking Distance of All Amenities</li> <li>Open Plan Lounge/Dining/Kitchen</li> <li>Showe...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/142211.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="338">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/142211.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71319266&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 27/03/2025 07:00:00 -->
+<!-- 28/03/2025 07:00:00 -->
 </body>
 
 </html>
