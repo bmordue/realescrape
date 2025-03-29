@@ -48,8 +48,6 @@
 	<meta property="og:title" content="5 Bed Semi-Detached House for sale | 23 Durham Road, Duddingston, Edinburgh EH15 1NY | SPC Scotland">
 	<meta property="og:description" content="Open viewing on Sunday 30th March between 2-4pm.  23 Durham Road is a handsome stone built semi-detached house situated on a beautiful tree...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/564131/MainImage/564131_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/564131/MainImage/564131_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71321501&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 28/03/2025 07:00:00 -->
+<!-- 29/03/2025 07:00:00 -->
 </body>
 
 </html>
