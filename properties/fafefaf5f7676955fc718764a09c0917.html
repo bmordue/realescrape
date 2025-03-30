@@ -48,8 +48,6 @@
 	<meta property="og:title" content="1 Bed Third Floor Flat for sale | Flat 6, 6 Cunningham Square, Edinburgh EH15 1BF | SPC Scotland">
 	<meta property="og:description" content="Smart Property is delighted to present this extremely well presented third-floor spacious one-bedroom flat, well situated in the highly...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/564043/MainImage/564043_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: B</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/564043/MainImage/564043_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71323889&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 29/03/2025 07:00:00 -->
+<!-- 30/03/2025 07:00:00 -->
 </body>
 
 </html>
