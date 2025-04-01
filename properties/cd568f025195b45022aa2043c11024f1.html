@@ -48,8 +48,6 @@
 	<meta property="og:title" content="1 Bed Ground Floor Flat for sale | 28 Pf2, Cathcart Place, Edinburgh EH11 2HE | SPC Scotland">
 	<meta property="og:description" content="Description  This traditional ground floor flat (42 sqm) now in need of upgrading is quite literally only a few minutes� walk away from...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/563496/MainImage/563496_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: E</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/563496/MainImage/563496_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71330052&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 31/03/2025 07:00:00 -->
+<!-- 01/04/2025 07:00:00 -->
 </body>
 
 </html>
