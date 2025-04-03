@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed First Floor Flat for sale | Flat 4, 4, Marine Drive, Edinburgh EH5 1FD | SPC Scotland">
 	<meta property="og:description" content="Well maintained by the current owners, viewing is highly recommended of this modern three bedroomed 1st floor flat located in the Granton...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/559809/MainImage/559809_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: B</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/559809/MainImage/559809_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71336758&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 02/04/2025 07:00:00 -->
+<!-- 03/04/2025 07:00:00 -->
 </body>
 
 </html>
