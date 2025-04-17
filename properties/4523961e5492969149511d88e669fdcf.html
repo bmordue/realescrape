@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Semi-Detached Bungalow for sale | 101 Denoon Terrace, Dundee DD2 2DG | SPC Scotland">
 	<meta property="og:description" content="<p>Welcome to a spacious two-bedroom semi-detached bungalow in Dundee, which is presented in excellent decorative order enjoying attractive...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/142415.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="401">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/142415.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71385955&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 16/04/2025 07:00:00 -->
+<!-- 17/04/2025 07:00:00 -->
 </body>
 
 </html>
