@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Terraced House for sale | 13 Hallidays Park TD7 4LA | SPC Scotland">
 	<meta property="og:description" content="This end terraced 3 bedroom property is the perfect family home, ideally situated in a quiet cul de sac with convenient access to the town centre.  Ex...">
 	<meta property="og:image" content="https://www.bspc.co.uk/userfiles/property/photos/26792.jpg">
-	<meta property="og:image:width" content="1280">
-	<meta property="og:image:height" content="853">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: B</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://www.bspc.co.uk/userfiles/property/photos/26792.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71392731&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 19/04/2025 07:00:00 -->
+<!-- 20/04/2025 07:00:00 -->
 </body>
 
 </html>
