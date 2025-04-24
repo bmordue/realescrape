@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Detached Bungalow for sale | 3 Balzeordie Cottages, Menmuir DD9 7RQ | SPC Scotland">
 	<meta property="og:description" content="<ul> <li>Detached Cottage with Stunning Views</li> <li>Lounge with Wood Burning Stove</li> <li>Kitchen Dining/Family Room &amp; Utility R...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/141650.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="450">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: E</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/141650.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71410364&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 23/04/2025 07:00:00 -->
+<!-- 24/04/2025 07:00:00 -->
 </body>
 
 </html>
