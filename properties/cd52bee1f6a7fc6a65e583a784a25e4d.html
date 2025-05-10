@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Second Floor Flat for sale | Flat 2/2, 6 Whitehall Crescent DD1 4AU | SPC Scotland">
 	<meta property="og:description" content="<p>Brought to market in true walk-in condition, this two-bedroom second-floor flat is a fantastic residence in the heart of Dundee city cent...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/141504.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="401">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/141504.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71467104&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 09/05/2025 07:00:00 -->
+<!-- 10/05/2025 07:00:00 -->
 </body>
 
 </html>

@@ -48,8 +48,6 @@
 	<meta property="og:title" content="1 Bed First Floor Flat for sale | 16 (Flat 7 or 1F3) Murdoch Terrace, Edinburgh EH11 1BB | SPC Scotland">
 	<meta property="og:description" content="Located within the sought after Fountainbridge area of Edinburgh and located on a quiet no through road is this lovely first floor flat....">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/566024/MainImage/566024_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/566024/MainImage/566024_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71464677&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 09/05/2025 07:00:00 -->
+<!-- 10/05/2025 07:00:00 -->
 </body>
 
 </html>
