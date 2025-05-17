@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed Detached House for sale | Holly Tree House, 13 Dundas Road, Eskbank, Midlothian EH22 3EN | SPC Scotland">
 	<meta property="og:description" content="Welcome to 13 Dundas Road, Eskbank, we a delighted to present this beautifully bespoke property to the market. Extended to provide...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/566601/MainImage/566601_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/566601/MainImage/566601_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71488218&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 16/05/2025 07:00:00 -->
+<!-- 17/05/2025 07:00:00 -->
 </body>
 
 </html>
