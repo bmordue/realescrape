@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Terraced House for sale | 5 Terregles Road, Dumfries DG2 9HE | SPC Scotland">
 	<meta property="og:description" content="Deceptively spacious and modern terraced two bedroom house,   benefitting from off-street parking, garden, double glazing and gas   central...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/566506/MainImage/566506_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: E</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/566506/MainImage/566506_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71498109&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 18/05/2025 07:00:00 -->
+<!-- 19/05/2025 07:00:00 -->
 </body>
 
 </html>
