@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Terraced House for sale | 135 Barry Road, Carnoustie DD7 7QT | SPC Scotland">
 	<meta property="og:description" content="<p>ACCOMMODATION COMPRISING: OPEN PLAN LOUNGE, KITCHEN, BATHROOM; UPPER FLOOR:- 3 BEDROOMS, BOXROOM</p> <p>135 Barry Road is a modern TERRA...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/142717.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="400">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/142717.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71505427&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 20/05/2025 07:00:00 -->
+<!-- 21/05/2025 07:00:00 -->
 </body>
 
 </html>
