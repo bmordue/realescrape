@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed Detached House for sale | New Dwelling House, Fearnan, By Aberfeldy  PH15 2FE | SPC Scotland">
 	<meta property="og:description" content="<p>We are delighted to offer for sale an exceptional 4 bedroom modern home set within beautiful surroundings, overlooking Loch Tay. Due for...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/961715.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="338">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -309,12 +307,18 @@ Freehold<br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/961715.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71515918&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 23/05/2025 07:00:00 -->
+<!-- 24/05/2025 07:00:00 -->
 </body>
 
 </html>
