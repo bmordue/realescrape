@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Semi-Detached House for sale | 5 William Street, Kirriemuir DD8 4ED | SPC Scotland">
 	<meta property="og:description" content="<ul> <li>Lounge</li> <li>Kitchen</li> <li>3 Bedrooms</li> <li>Shower Room</li> <li>Double Glazing</li> <li>Electric Heating</li> <li>...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/142713.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="799">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -309,12 +307,18 @@ Freehold<br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/142713.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71525820&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 26/05/2025 07:00:00 -->
+<!-- 27/05/2025 07:00:00 -->
 </body>
 
 </html>
