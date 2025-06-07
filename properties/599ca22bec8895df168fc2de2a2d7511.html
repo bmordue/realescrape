@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed Detached Bungalow for sale | 1 Auchenmaid Drive, Largs KA30 9JJ | SPC Scotland">
 	<meta property="og:description" content="We are delighted to welcome to the market 1 Auchenmaid Drive in the charming coastal town of Largs. This delightful house presents an...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/562565/MainImage/562565_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: E</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/562565/MainImage/562565_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71562366&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 06/06/2025 07:00:00 -->
+<!-- 07/06/2025 07:00:00 -->
 </body>
 
 </html>
