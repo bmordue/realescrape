@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed First Floor Flat for sale | 21 Viewfield Court, Arbroath DD11 2EA | SPC Scotland">
 	<meta property="og:description" content="<p>ACCOMMODATION COMPRISING: ENTRANCE HALLWAY, 2 BEDROOMS (BOTH&nbsp;WITH FITTED ROBES, SHOWER ROOM, LOUNGE OPEN PLAN TO THE KITCHEN.</p> <...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/142922.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="338">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -309,12 +307,18 @@ Freehold<br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/142922.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71584204&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 10/06/2025 07:00:00 -->
+<!-- 12/06/2025 07:00:00 -->
 </body>
 
 </html>
