@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed Detached House for sale | 16 Tay Terrace, Newport-on-Tay DD6 8AZ | SPC Scotland">
 	<meta property="og:description" content="<p>Situated just a 10-minute drive from central Dundee, this attached stone-built house enjoys a desirable coastal location with elevated vi...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/142326.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="401">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: F</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/142326.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71611853&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 19/06/2025 07:00:00 -->
+<!-- 20/06/2025 07:00:00 -->
 </body>
 
 </html>
