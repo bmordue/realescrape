@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Semi-Detached House for sale | 74 Howden Road. Jedburgh TD8 6JS | SPC Scotland">
 	<meta property="og:description" content="74 Howden Road presents a well-proportioned, two-bedroom, semi-detached home to the market, set within immaculately maintained gardens on...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/568694/MainImage/568694_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: F</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/568694/MainImage/568694_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71615767&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 21/06/2025 07:00:00 -->
+<!-- 22/06/2025 07:00:00 -->
 </body>
 
 </html>
