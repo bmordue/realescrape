@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed First Floor Flat for sale | Flat D, 17 Shepherds Loan DD2 1AW | SPC Scotland">
 	<meta property="og:description" content="<p>Boasting a desirable, west end location, this first floor apartment enjoys a beautiful open outlook and a spacious modern interior. The p...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/143023.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="400">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/143023.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71633638&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 25/06/2025 07:00:00 -->
+<!-- 26/06/2025 07:00:00 -->
 </body>
 
 </html>
