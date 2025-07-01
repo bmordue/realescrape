@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed First Floor Flat for sale | 33 West Court, Ravelston House Park, Edinburgh EH4 3NP | SPC Scotland">
 	<meta property="og:description" content="Beautifully presented, light and spacious first floor apartment nestling in a leafy cul-de-sac located within one of the city's most...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/565680/MainImage/565680_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/565680/MainImage/565680_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71648680&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 29/06/2025 07:00:00 -->
+<!-- 01/07/2025 07:00:00 -->
 </body>
 
 </html>
