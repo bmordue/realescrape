@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed End Terraced House for sale | The Byre, Williamstone Farm Steadings, North Berwick, East Lothian EH39 5DG | SPC Scotland">
 	<meta property="og:description" content="The Byre is a stunning, design-led conversion of a traditional steading, transformed into a modern three-bedroom home that blends...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/569209/MainImage/569209_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/569209/MainImage/569209_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71670055&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 06/07/2025 07:00:00 -->
+<!-- 07/07/2025 07:00:00 -->
 </body>
 
 </html>
