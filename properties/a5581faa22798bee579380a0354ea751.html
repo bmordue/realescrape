@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Lower Flat for sale | Lower Magdalene Cottage, Linglie Road, Selkirk TD7 5LT | SPC Scotland">
 	<meta property="og:description" content="Tucked away in a quiet location on the outskirts of Selkirk and providing the perfect balance of semi-rural living but within easy reach of...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/568076/MainImage/568076_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: E</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/568076/MainImage/568076_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71696875&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 13/07/2025 07:00:00 -->
+<!-- 14/07/2025 07:00:00 -->
 </body>
 
 </html>
