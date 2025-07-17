@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Detached Bungalow for sale | 57 Bellevue Gardens, Arbroath DD11 5BQ | SPC Scotland">
 	<meta property="og:description" content="<p>Introducing a spacious three-bedroom detached bungalow which occupies a large corner plot in the coastal town of Arbroath. The property f...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/143177.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="401">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/143177.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71711262&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 16/07/2025 07:00:00 -->
+<!-- 17/07/2025 07:00:00 -->
 </body>
 
 </html>

@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Top Floor Flat for sale | Flat 8, 84, Chesser Crescent, Chesser, Edinburgh EH14 1SE | SPC Scotland">
 	<meta property="og:description" content="This well-appointed two-bedroom top floor flat forms part of a contemporary, factored development in the popular Chesser area. It offers a...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/569323/MainImage/569323_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/569323/MainImage/569323_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71708421&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 16/07/2025 07:00:00 -->
+<!-- 17/07/2025 07:00:00 -->
 </body>
 
 </html>
