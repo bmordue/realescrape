@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Semi-Detached House for sale | 19 Andrew Balfour Grove, Newcraighall EH21 8RD | SPC Scotland">
 	<meta property="og:description" content="Set within a desirable modern development, this superb semi-detached villa offers stylish, contemporary living in a peaceful cul-de-sac...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/569960/MainImage/569960_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: B</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/569960/MainImage/569960_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71752929&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 28/07/2025 07:00:00 -->
+<!-- 29/07/2025 07:00:00 -->
 </body>
 
 </html>
