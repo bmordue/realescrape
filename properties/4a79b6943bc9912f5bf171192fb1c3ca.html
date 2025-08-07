@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Maindoor Flat for sale | 62 Comiston Road, Edinburgh EH10 5QQ | SPC Scotland">
 	<meta property="og:description" content="62 Comiston Road is a spacious ground-floor main door flat, offering a delightful home in the heart of highly desirable Morningside.">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/569314/MainImage/569314_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/569314/MainImage/569314_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71785195&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 06/08/2025 07:00:00 -->
+<!-- 07/08/2025 07:00:00 -->
 </body>
 
 </html>
