@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Semi-Detached House for sale | 11 Kintail Place, Broughty Ferry DD5 3TA | SPC Scotland">
 	<meta property="og:description" content="<p>This is a well presented SEMI DETACHED TWO BEDROOM VILLA located in the sought-after area of Broughty Ferry and is in move-in condition....">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/142927.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="481">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -309,12 +307,18 @@ Freehold<br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/142927.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71790648&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 07/08/2025 07:00:00 -->
+<!-- 08/08/2025 07:00:00 -->
 </body>
 
 </html>
