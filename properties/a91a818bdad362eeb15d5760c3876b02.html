@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Second Floor Flat for sale | 15/9 Caledonian Place, Dalry, Edinburgh EH11 2AW | SPC Scotland">
 	<meta property="og:description" content="Discover an ideal city sanctuary in this beautifully presented second-floor traditional tenement flat, nestled in the vibrant and...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/570676/MainImage/570676_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/570676/MainImage/570676_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71795191&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 09/08/2025 07:00:00 -->
+<!-- 10/08/2025 07:00:00 -->
 </body>
 
 </html>
