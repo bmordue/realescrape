@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Basement Flat for sale | 37a Scotland Street, New Town, Edinburgh EH3 6PY | SPC Scotland">
 	<meta property="og:description" content="Welcome to a stylish garden-level Georgian flat which offers the charm of period architecture coupled with modern practicality and on-trend...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/570437/MainImage/570437_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/570437/MainImage/570437_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71805025&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 11/08/2025 07:00:00 -->
+<!-- 12/08/2025 07:00:00 -->
 </body>
 
 </html>
