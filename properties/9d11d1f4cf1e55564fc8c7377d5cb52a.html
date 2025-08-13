@@ -48,8 +48,6 @@
 	<meta property="og:title" content="1 Bed First Floor Flat for sale | 12a St. Conals Square, Kirkconnel, Sanquhar DG4 6PH | SPC Scotland">
 	<meta property="og:description" content="First floor one bedroom flat situated in the a residential area in   the village of Kirkconnel in Upper Nithsdale.  The property benefits...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/569546/MainImage/569546_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: A</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/569546/MainImage/569546_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71809626&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 12/08/2025 07:00:00 -->
+<!-- 13/08/2025 07:00:00 -->
 </body>
 
 </html>
