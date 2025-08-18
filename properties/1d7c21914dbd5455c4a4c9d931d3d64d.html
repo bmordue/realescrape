@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Ground Floor Flat for sale | 22 Yarrow Terrace TD9 9LL | SPC Scotland">
 	<meta property="og:description" content="Located in the popular Terraces area of Hawick, 22 Yarrow Terrace is a conveniently positioned ground floor property within easy reach of the town c">
 	<meta property="og:image" content="https://www.bspc.co.uk/userfiles/property/photos/26945.jpg">
-	<meta property="og:image:width" content="1280">
-	<meta property="og:image:height" content="853">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://www.bspc.co.uk/userfiles/property/photos/26945.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71824463&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 17/08/2025 07:00:00 -->
+<!-- 18/08/2025 07:00:00 -->
 </body>
 
 </html>
