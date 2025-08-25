@@ -48,8 +48,6 @@
 	<meta property="og:title" content="1 Bed Ground Floor Flat for sale | Flat 2, 17-19 Feus Road PH1 2AS | SPC Scotland">
 	<meta property="og:description" content="<p>Ideally situated within walking distance (or a short bus/car journey) of the city centre, and close to open green space, this one-bedroom...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/962572.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="400">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: E</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/962572.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71852469&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 24/08/2025 07:00:00 -->
+<!-- 25/08/2025 07:00:00 -->
 </body>
 
 </html>
