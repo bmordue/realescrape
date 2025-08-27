@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Ground Floor Flat for sale | 91 Brucefield Avenue, Dunfermline KY11 4SZ | SPC Scotland">
 	<meta property="og:description" content="Excellent traditional ground floor garden flat situated a five minute walk to Dunfermline railway station and within a short walk to the...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/570148/MainImage/570148_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/570148/MainImage/570148_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71856238&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 26/08/2025 07:00:00 -->
+<!-- 27/08/2025 07:00:00 -->
 </body>
 
 </html>
