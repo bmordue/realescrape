@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed Detached House for sale | Springfield Cottage, Balhomie Farm, Cargill PH2 6DS | SPC Scotland">
 	<meta property="og:description" content="<p><strong>Set in large enclosed garden grounds bounded by hedging, Springfield Cottage is a delightful four bed detached cottage, which mus...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/962043.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="400">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: E</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/962043.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71873698&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 30/08/2025 07:00:00 -->
+<!-- 31/08/2025 07:00:00 -->
 </body>
 
 </html>
