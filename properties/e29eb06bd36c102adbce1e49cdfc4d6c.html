@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Detached House for sale | The Farmhouse, Ednam Road TD5 7TD | SPC Scotland">
 	<meta property="og:description" content="The Farmhouse is an immaculately presented, traditional detached home situated in the heart of the sought-after village of Stichill. Enjoying a deligh...">
 	<meta property="og:image" content="https://www.bspc.co.uk/userfiles/property/photos/26795.jpg">
-	<meta property="og:image:width" content="1280">
-	<meta property="og:image:height" content="853">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: G</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://www.bspc.co.uk/userfiles/property/photos/26795.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71937525&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 17/09/2025 07:00:00 -->
+<!-- 18/09/2025 07:00:00 -->
 </body>
 
 </html>
