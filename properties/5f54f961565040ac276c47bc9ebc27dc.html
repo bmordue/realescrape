@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Upper Flat for sale | 105/1 Whitson Road, Edinburgh EH11 3BR | SPC Scotland">
 	<meta property="og:description" content="Well Presented Two Bed Upper Villa with Private Garden Area  This immaculate upper villa is ready to move into and would make an ideal home...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/565004/MainImage/565004_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/565004/MainImage/565004_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71941569&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 18/09/2025 07:00:00 -->
+<!-- 19/09/2025 07:00:00 -->
 </body>
 
 </html>
