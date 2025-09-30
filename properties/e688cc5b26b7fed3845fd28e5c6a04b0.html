@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed First Floor Flat for sale | Newbattle House, Flat 2, 4 Newbattle Terrace, Morningside, Edinburgh EH10 4RT | SPC Scotland">
 	<meta property="og:description" content="An exceptional opportunity to own a beautifully finished home in the heart of Morningside awaits at Flat 2, Newbattle House � a stunning...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/573198/MainImage/573198_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: B</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/573198/MainImage/573198_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=71991801&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 29/09/2025 07:00:00 -->
+<!-- 30/09/2025 07:00:00 -->
 </body>
 
 </html>
