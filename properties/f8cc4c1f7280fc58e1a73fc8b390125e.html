@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed End Terrace Bungalow for sale | Craigelen, 1 Katarine Street, Forfar DD8 3JZ | SPC Scotland">
 	<meta property="og:description" content="<ul> <li>End Terraced Cottage</li> <li>Hall</li> <li>Lounge</li> <li>Kitchen/Dining</li> <li>Shower Room</li> <li>2 Bedrooms</li> <li...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/143670.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="400">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/143670.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72032820&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 10/10/2025 07:00:00 -->
+<!-- 11/10/2025 07:00:00 -->
 </body>
 
 </html>
