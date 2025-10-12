@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed Detached House for sale | Hawthorn Bank, Bonchester Bridge, Hawick TD9 8QT | SPC Scotland">
 	<meta property="og:description" content="A most desirable modern detached family home set in  a quiet rural position with stunning views of the surrounding  countryside.   Located near to the...">
 	<meta property="og:image" content="https://www.bspc.co.uk/userfiles/property/photos/27060.jpg">
-	<meta property="og:image:width" content="1280">
-	<meta property="og:image:height" content="960">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://www.bspc.co.uk/userfiles/property/photos/27060.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72033559&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 11/10/2025 07:00:00 -->
+<!-- 12/10/2025 07:00:00 -->
 </body>
 
 </html>
