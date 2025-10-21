@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Detached House for sale | Roadmans Cottage, Kirkbuddo, Forfar DD8 2NN | SPC Scotland">
 	<meta property="og:description" content="<p>HOME REPORT - &pound;180,000</p> <p>&ldquo;Charming Two-Bedroom Cottage with Fantastic Potential.&rdquo;</p> <ul> <li>Hallway</li> <l...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/143188.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="400">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: F</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/143188.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72068955&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 20/10/2025 07:00:00 -->
+<!-- 21/10/2025 07:00:00 -->
 </body>
 
 </html>
