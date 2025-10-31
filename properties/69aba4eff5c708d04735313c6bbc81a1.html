@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Third Floor Flat for sale | 1/34 Bothwell House, Bothwell Street, Easter Road, Edinburgh EH7 5YL | SPC Scotland">
 	<meta property="og:description" content="Fixed Price �4,445 under home report value.  Nestled on a quiet cul-de-sac, moments from excellent bars, cafes and restaurants quick bus,...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/571923/MainImage/571923_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: E</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/571923/MainImage/571923_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72101294&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 30/10/2025 07:00:00 -->
+<!-- 31/10/2025 07:00:00 -->
 </body>
 
 </html>
