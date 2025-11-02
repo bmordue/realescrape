@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Terraced House for sale | 25 Church Hill TD10 6YG | SPC Scotland">
 	<meta property="og:description" content="25 Church Hill is a delightful three-bedroom end-terraced home, tucked away at the end of a quiet cul-de-sac in the heart of the popular village of Gr...">
 	<meta property="og:image" content="https://www.bspc.co.uk/userfiles/property/photos/27112.jpg">
-	<meta property="og:image:width" content="1280">
-	<meta property="og:image:height" content="853">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: E</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://www.bspc.co.uk/userfiles/property/photos/27112.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72106629&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 01/11/2025 07:00:00 -->
+<!-- 02/11/2025 07:00:00 -->
 </body>
 
 </html>
