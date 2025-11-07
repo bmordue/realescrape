@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed End Terraced House for sale | 27 and 28 Hamilton Terrace, Lamlash, Isle of Arran KA27 8LR | SPC Scotland">
 	<meta property="og:description" content="28 Hamilton Terrace (Shop) and 27 Hamilton Terrace (Flat) offer a unique opportunity to acquire a mixed-use property in the heart of...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/562586/MainImage/562586_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: E</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/562586/MainImage/562586_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72126916&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 06/11/2025 07:00:00 -->
+<!-- 07/11/2025 07:00:00 -->
 </body>
 
 </html>
