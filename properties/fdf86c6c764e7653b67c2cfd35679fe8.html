@@ -48,8 +48,6 @@
 	<meta property="og:title" content="Detached Bungalow for sale | The Bungalow  Kirkconnel Hall Hotel  Ecclefechan  Lockerbie DG11 3JH | SPC Scotland">
 	<meta property="og:description" content="Deceptively spacious detached property situated on the edge of the grounds of Kirkconnel Hall Hotel.� The house, built in 1828, has good...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/544786/MainImage/544786_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: G</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/544786/MainImage/544786_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72149203&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 11/11/2025 07:00:00 -->
+<!-- 13/11/2025 07:00:00 -->
 </body>
 
 </html>
