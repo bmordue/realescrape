@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Terraced House for sale | 1, Stichill Eastfield Farm Cottages TD5 7QZ | SPC Scotland">
 	<meta property="og:description" content="1 Stichill Eastfield Farm Cottages is a spacious, stone-built two-bedroom end-terraced cottage, beautifully refurbished by the current owner to a high...">
 	<meta property="og:image" content="https://www.bspc.co.uk/userfiles/property/photos/27154.jpg">
-	<meta property="og:image:width" content="1280">
-	<meta property="og:image:height" content="853">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: E</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://www.bspc.co.uk/userfiles/property/photos/27154.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72229436&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 07/12/2025 07:00:00 -->
+<!-- 08/12/2025 07:00:00 -->
 </body>
 
 </html>

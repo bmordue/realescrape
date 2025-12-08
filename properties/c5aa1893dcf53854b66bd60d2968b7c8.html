@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Terraced House for sale | Braeside, Auchencrow TD14 5LS | SPC Scotland">
 	<meta property="og:description" content="A beautiful terraced cottage, situated in the charming village of Auchencrow, offering the perfect retreat for those seeking a peaceful rural lifestyl...">
 	<meta property="og:image" content="https://www.bspc.co.uk/userfiles/property/photos/26951.jpg">
-	<meta property="og:image:width" content="1280">
-	<meta property="og:image:height" content="853">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -309,12 +307,18 @@ Freehold<br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://www.bspc.co.uk/userfiles/property/photos/26951.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72229366&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 07/12/2025 07:00:00 -->
+<!-- 08/12/2025 07:00:00 -->
 </body>
 
 </html>
