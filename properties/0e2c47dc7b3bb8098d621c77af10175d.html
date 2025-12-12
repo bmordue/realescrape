@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Detached Bungalow for sale | Ferntower Lodge, Perth Road PH7 3LR | SPC Scotland">
 	<meta property="og:description" content="<p>Irving Geddes are delighted to offer for sale this charming two bed B-listed cottage located on the eastern periphery of the popular Pert...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/962689.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="401">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/962689.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72244169&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 11/12/2025 07:00:00 -->
+<!-- 12/12/2025 07:00:00 -->
 </body>
 
 </html>
