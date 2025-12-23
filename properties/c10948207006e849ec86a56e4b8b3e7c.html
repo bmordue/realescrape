@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed Detached House for sale | Plot 7 'Corner House', 6 Merchant Mews, Brechin DD9 6FE | SPC Scotland">
 	<meta property="og:description" content="<ul> <li>Part Exchange your existing home or receive a contribution towards your deposit</li> <li>Spacious detached house with large garag...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/142378.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="345">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: B</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/142378.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72278218&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 22/12/2025 07:00:00 -->
+<!-- 23/12/2025 07:00:00 -->
 </body>
 
 </html>
