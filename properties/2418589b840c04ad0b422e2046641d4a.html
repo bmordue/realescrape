@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed  Flat for sale | 19 Cannon Street TD7 5BP | SPC Scotland">
 	<meta property="og:description" content="A first floor 2 bedroom flat in a 3 storey block. Gas central heating & double glazing throughout. Hall, lounge, 2 double bedrooms, kitchen, box room,...">
 	<meta property="og:image" content="https://www.bspc.co.uk/userfiles/property/photos/27082.jpg">
-	<meta property="og:image:width" content="1181">
-	<meta property="og:image:height" content="787">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2025</strong>
-				
+				<br><img id="main_photo" src="https://www.bspc.co.uk/userfiles/property/photos/27082.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72295794&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 29/12/2025 07:00:00 -->
+<!-- 30/12/2025 07:00:00 -->
 </body>
 
 </html>
