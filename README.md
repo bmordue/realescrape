@@ -77,6 +77,8 @@ direnv allow
 
 ## Usage
 
+> **Tip**: If using Nix shell, you can use the `build` alias instead of `npx tsc` and `dev` alias instead of `npm start`.
+
 1. **Compile the TypeScript files:**
    ```bash
    npx tsc
@@ -97,11 +99,16 @@ direnv allow
 
 To use the AI summarization feature, you need to have an OpenAI API key.
 
-1. Create a `.env` file in the root of the project.
-2. Add your OpenAI API key to the `.env` file:
+1. Copy the example environment file:
+   ```bash
+   cp .env.example .env
+   ```
+2. Edit the `.env` file and add your OpenAI API key:
    ```
    OPENAI_API_KEY=your-api-key-here
    ```
+   You can get an API key from [OpenAI's platform](https://platform.openai.com/api-keys).
+
 The `summarise.ts` script uses `dotenv` to load the API key from the `.env` file.
 
 ---
