@@ -14,13 +14,63 @@ This project scrapes property listings from `sspc.co.uk`, saves the data, and th
 - Uses OpenAI's GPT-3.5-turbo to analyze and classify properties based on their description.
 - Configurable and extensible for other real estate websites and property features.
 
+## Development Environment
+
+This project includes a Nix development environment (`shell.nix`) that provides:
+- Node.js 16 (matching the CI environment)
+- npm package manager
+- TypeScript compiler and language server
+- Git version control
+- Automatic environment setup with helpful aliases (`build`, `dev`)
+
+The Nix environment ensures all developers have identical tooling, eliminating "works on my machine" issues.
+
 ## Installation
+
+### Option 1: Using Nix (Recommended)
+
+[Nix](https://nixos.org/) provides a reproducible development environment with all required dependencies.
+
+1. **Install Nix** (if not already installed):
+   ```bash
+   curl -L https://nixos.org/nix/install | sh
+   ```
+
+2. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd realescrape
+   ```
+
+3. **Enter the Nix shell:**
+   ```bash
+   nix-shell
+   ```
+   This will automatically set up Node.js 16, npm, TypeScript, and all development tools.
+
+4. **Install npm dependencies:**
+   ```bash
+   npm install
+   ```
+
+#### Optional: Use direnv for automatic environment loading
+
+If you have [direnv](https://direnv.net/) installed, the environment will automatically activate when you enter the project directory:
+
+```bash
+# Allow direnv for this directory
+direnv allow
+```
+
+### Option 2: Manual Installation
 
 1. **Clone the repository:**
    ```bash
    git clone <repository-url>
    ```
-2. **Install dependencies:**
+2. **Install Node.js 16** (required version)
+
+3. **Install dependencies:**
    ```bash
    npm install
    ```
