@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed Detached House for sale | Clairinch, 46 Glengate, Kirriemuir DD8 4HF | SPC Scotland">
 	<meta property="og:description" content="<p>HOME REPORT VALUATION &pound;175,000</p> <p>Thorntons are delighted to bring to the market, No. 46 Glengate, Kirriemuir, a detached vill...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/142620.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="401">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2026</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/142620.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72372983&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 23/01/2026 07:00:00 -->
+<!-- 24/01/2026 07:00:00 -->
 </body>
 
 </html>

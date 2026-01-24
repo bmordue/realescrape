@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed Detached House for sale | Campion Homes Plot 15 'Oleander', 12 Linen Court, Balmullo, St Andrews KY16 0FY | SPC Scotland">
 	<meta property="og:description" content="The Oleander is a thoughtfully designed 4 bedroom home with integral garage packed full of features from the stunning bay window through to...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/575541/MainImage/575541_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: Unknown</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2026</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/575541/MainImage/575541_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72371826&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 23/01/2026 07:00:00 -->
+<!-- 24/01/2026 07:00:00 -->
 </body>
 
 </html>
