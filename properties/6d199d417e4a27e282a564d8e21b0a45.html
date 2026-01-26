@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed Detached House for sale | Plot 141, Birkwood, Boreland Avenue KY1 2DF | SPC Scotland">
 	<meta property="og:description" content="McEwan Fraser Legal is delighted to present 'The Birkwood', a spacious four-bedroom home with an integral garage.      On the ground floor...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/527145/MainImage/527145_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: Not Applicable</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2026</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/527145/MainImage/527145_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72377845&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 25/01/2026 07:00:00 -->
+<!-- 26/01/2026 07:00:00 -->
 </body>
 
 </html>
