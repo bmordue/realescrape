@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed  House for sale | Fish House, Monks Way, Tongland, Kirkcudbright DG6 4NA | SPC Scotland">
 	<meta property="og:description" content="*NEW PRICE*  Fish House is situated at the end of a quiet country lane within the hamlet of Tongland. It is conveniently located only 2...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/569753/MainImage/569753_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2026</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/569753/MainImage/569753_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72400115&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 02/02/2026 07:00:00 -->
+<!-- 03/02/2026 07:00:00 -->
 </body>
 
 </html>
