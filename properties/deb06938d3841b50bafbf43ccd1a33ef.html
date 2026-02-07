@@ -48,8 +48,6 @@
 	<meta property="og:title" content="6 Bed Semi-Detached House for sale | 7 Windsor Park Terrace, Musselburgh, East Lothian EH21 7QN | SPC Scotland">
 	<meta property="og:description" content="Quietly situated in the ever-popular seaside town of Musselburgh, this five/sixbedroom semi-detached house has been extended and, in recent...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/576998/MainImage/576998_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2026</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/576998/MainImage/576998_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72410693&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 06/02/2026 07:00:00 -->
+<!-- 07/02/2026 07:00:00 -->
 </body>
 
 </html>
