@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed Detached House for sale | 2 Beech Walk TD8 6JE | SPC Scotland">
 	<meta property="og:description" content="Welcome to this beautifully presented detached family home, offering a perfect blend of space, style, and comfort in one of Jedburgh?s most desirable...">
 	<meta property="og:image" content="https://www.bspc.co.uk/userfiles/property/photos/26798.jpg">
-	<meta property="og:image:width" content="1280">
-	<meta property="og:image:height" content="853">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2026</strong>
-				
+				<br><img id="main_photo" src="https://www.bspc.co.uk/userfiles/property/photos/26798.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72415914&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 08/02/2026 07:00:00 -->
+<!-- 09/02/2026 07:00:00 -->
 </body>
 
 </html>
