@@ -93,13 +93,15 @@ export function validateBedrooms(bedrooms: number | undefined): ValidationResult
 }
 
 /**
- * Sanitizes HTML content by removing potentially dangerous elements
+ * Sanitizes HTML content by removing potentially dangerous elements.
+ * Note: This is a basic sanitization only. For production use with untrusted
+ * user-generated content, use a dedicated HTML sanitization library such as
+ * DOMPurify or sanitize-html.
  */
 export function sanitizeHtml(html: string): string {
-  // Basic sanitization - in production, consider using a proper HTML sanitization library
   return html
-    .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
-    .replace(/<iframe\b[^<]*(?:(?!<\/iframe>)<[^<]*)*<\/iframe>/gi, '')
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '')
+    .replace(/<iframe\b[^>]*>[\s\S]*?<\/iframe>/gi, '')
     .replace(/javascript:/gi, '')
     .replace(/on\w+="[^"]*"/gi, '')
     .trim();

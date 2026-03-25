@@ -95,13 +95,13 @@ async function writeAllResults(propertyType: string) {
 }
 
 async function main() {
-    try {
-        await Promise.all(['House', 'Flat', 'Bungalow'].map(writeAllResults));
-        console.log('Successfully completed scraping all property types.');
-    } catch (error) {
-        console.error('Fatal error during scraping:', error);
-        process.exit(1);
+    const propertyTypes = ['House', 'Flat', 'Bungalow'];
+    const results = await Promise.allSettled(propertyTypes.map(writeAllResults));
+    const failures = results.filter((r): r is PromiseRejectedResult => r.status === 'rejected');
+    if (failures.length > 0) {
+        failures.forEach(f => console.error('Scraping failure:', f.reason));
     }
+    console.log(`Completed: ${results.length - failures.length}/${results.length} property types scraped successfully.`);
 }
 
 main();
