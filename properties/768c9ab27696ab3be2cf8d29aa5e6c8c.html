@@ -48,8 +48,6 @@
 	<meta property="og:title" content="3 Bed End Terrace House for sale | 2 Kingennie Road, Wellbank, Broughty Ferry DD5 3PG | SPC Scotland">
 	<meta property="og:description" content="<p>&ldquo;Immaculate 3-bedroom end-terraced villa in move-in condition in the popular village of Wellbank.&rdquo;</p> <p>Lindsays are delig...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/144458.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="401">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2026</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/144458.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72583230&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 03/04/2026 07:00:00 -->
+<!-- 04/04/2026 07:00:00 -->
 </body>
 
 </html>
