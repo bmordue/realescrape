@@ -17,14 +17,14 @@ async function main() {
 
 function firstN(el: any, index: number, array: any) {
     //return true;
-    return index < 200;
+    return index < 50;
 }
 
 async function summariseHouseResults() {
     const houseResults: PropertyResult[] = JSON.parse(readFileSync("results-sspc-House.json", { encoding: "utf-8" }));
     console.log(`Parsed ${houseResults.length} results.`);
     // TODO: start with first ten, expand from there
-    await Promise.all(houseResults.filter(firstN).map(summariseResult));
+    await Promise.all(houseResults.reverse().filter(firstN).map(summariseResult));
 }
 
 async function summariseResult(property: PropertyResult, index: number, array: PropertyResult[]): Promise<PropertyResult> {
@@ -42,9 +42,9 @@ async function summariseResult(property: PropertyResult, index: number, array: P
         property.addedData = { summary: chatCompletion.choices[0] };
         const trimmedPrice: number = parseInt(property.priceDescription.split('£')[1].replace(',', ''));
         const thumbsUp = chatCompletion.choices[0]?.message?.content?.includes("Yes");
-        if (thumbsUp) {
-            console.log(`${property.url} (${trimmedPrice})`);
-        }
+        // if (thumbsUp) {
+        console.log(`${thumbsUp}: ${property.url} (${trimmedPrice})`);
+        // }
     }
     return property;
 }
