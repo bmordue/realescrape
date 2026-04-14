@@ -11,6 +11,10 @@ This project scrapes property listings from `sspc.co.uk`, saves the data, and th
 - Scrapes property listings for Houses, Flats, and Bungalows.
 - Saves individual property pages for offline access.
 - Extracts key information like address, price, and summary.
+- Builds postcode-area heatmap data for Scotland with:
+  - average property price
+  - average price per bedroom
+  - 6 month, 1 year, 5 year, and 10 year changes using repository history
 - Uses OpenAI's GPT-3.5-turbo to analyze and classify properties based on their description.
 - Configurable and extensible for other real estate websites and property features.
 
@@ -42,6 +46,12 @@ This project scrapes property listings from `sspc.co.uk`, saves the data, and th
    node built/summarise.js
    ```
    This will analyze the scraped data and output the URLs and prices of properties identified as "Victorian".
+
+4. **Generate postcode-area heatmap data for Scotland:**
+   ```bash
+   npm run heatmap
+   ```
+   This writes `heatmap-postcode-areas-scotland.json`, which can be used as input for parcel-based postcode area heat maps.
 
 ## Configuration
 

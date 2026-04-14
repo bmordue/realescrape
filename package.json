@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "prestart": "tsc",
-    "start": "node built/app.js"
+    "start": "node built/app.js",
+    "heatmap": "tsc && node built/heatmap.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
