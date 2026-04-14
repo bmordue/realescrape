@@ -59,6 +59,7 @@ function parsePrice(priceDescription: string): number | null {
 }
 
 function extractPostcode(address: string): string | null {
+    // Matches UK postcodes such as "AB12 3CD" and "G1 2AB" at end of address strings.
     const match = address.toUpperCase().match(/([A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2})$/);
     if (!match) {
         return null;
