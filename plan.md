@@ -1,0 +1,6 @@
+- [ ] Understand existing data formats and build/test workflow
+- [ ] Add a script to generate postcode-area heatmap metrics from repository data
+- [ ] Include average price per bedroom and average property price by postcode area
+- [ ] Include 6 month, 1 year, 5 year, and 10 year change metrics using repository history
+- [ ] Document how to generate and consume the heatmap data output
+- [ ] Build and run targeted validation for the new script
