@@ -49,9 +49,20 @@ This project scrapes property listings from `sspc.co.uk`, saves the data, and th
 
 4. **Generate postcode-area heatmap data for Scotland:**
    ```bash
+   npm run heatmap:data
+   ```
+   This writes `heatmap/data/postcode-areas-scotland.json`.
+
+5. **Render the postcode-area heatmap:**
+   ```bash
+   npm run heatmap:render
+   ```
+   This writes `heatmap/output/scotland-postcode-heatmap.html`.
+
+6. **Generate both data and rendered heatmap in one command:**
+   ```bash
    npm run heatmap
    ```
-   This writes `heatmap-postcode-areas-scotland.json`, which can be used as input for parcel-based postcode area heat maps.
 
 ## Configuration
 

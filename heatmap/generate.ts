@@ -1,5 +1,5 @@
 import { execSync } from 'child_process';
-import { readFileSync, writeFileSync } from 'fs';
+import { mkdirSync, readFileSync, writeFileSync } from 'fs';
 
 interface PropertyResult {
     address: string;
@@ -255,7 +255,8 @@ function buildHeatmapData(): { generatedAt: string; areas: HeatmapArea[] } {
 
 function main() {
     const heatmapData = buildHeatmapData();
-    const outputFile = 'heatmap-postcode-areas-scotland.json';
+    mkdirSync('heatmap/data', { recursive: true });
+    const outputFile = 'heatmap/data/postcode-areas-scotland.json';
     writeFileSync(outputFile, JSON.stringify(heatmapData, null, 2));
     console.log(`Wrote ${heatmapData.areas.length} postcode areas to ${outputFile}.`);
 }

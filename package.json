@@ -4,7 +4,9 @@
   "scripts": {
     "prestart": "tsc",
     "start": "node built/app.js",
-    "heatmap": "tsc && node built/heatmap.js"
+    "heatmap:data": "tsc && node built/heatmap/generate.js",
+    "heatmap:render": "tsc && node built/heatmap/render.js",
+    "heatmap": "tsc && node built/heatmap/generate.js && node built/heatmap/render.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
