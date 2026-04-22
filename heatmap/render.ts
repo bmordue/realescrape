@@ -1,6 +1,7 @@
 import { mkdirSync, readFileSync, writeFileSync } from 'fs';
 
 interface ChangeMetric {
+    averagePropertyPriceChange: number | null;
     averagePropertyPriceChangePct: number | null;
 }
 
@@ -65,6 +66,81 @@ function colorForValue(value: number, min: number, max: number): string {
     return `rgb(${red}, ${green}, ${blue})`;
 }
 
+function colorForDivergingValue(value: number, min: number, max: number): string {
+    // Diverging scale: red (negative) → white (zero) → green (positive)
+    const absMax = Math.max(Math.abs(min), Math.abs(max));
+    if (absMax === 0) {
+        return '#f5f5f5';
+    }
+
+    const clamped = Math.max(-absMax, Math.min(absMax, value));
+    const normalised = clamped / absMax; // -1 to +1
+
+    if (normalised < 0) {
+        // Red side: white → red as normalised goes 0 → -1
+        const t = -normalised;
+        const red = Math.round(255);
+        const green = Math.round(255 - (200 * t));
+        const blue = Math.round(255 - (200 * t));
+        return `rgb(${red}, ${green}, ${blue})`;
+    } else {
+        // Green side: white → green as normalised goes 0 → +1
+        const t = normalised;
+        const red = Math.round(255 - (200 * t));
+        const green = Math.round(200 + (30 * t));
+        const blue = Math.round(255 - (220 * t));
+        return `rgb(${red}, ${green}, ${blue})`;
+    }
+}
+
+function formatPrice(value: number): string {
+    if (value >= 1000000) {
+        return `£${(value / 1000000).toFixed(1)}m`;
+    }
+    if (value >= 1000) {
+        return `£${Math.round(value / 1000)}k`;
+    }
+    return `£${value}`;
+}
+
+function buildColorLegend(
+    min: number,
+    max: number,
+    colorFn: (value: number, min: number, max: number) => string,
+    formatFn: (value: number) => string,
+    isDiverging = false
+): string {
+    const legendWidth = 200;
+    const legendHeight = 14;
+    const steps = 20;
+    const swatchWidth = legendWidth / steps;
+    const swatches: string[] = [];
+
+    for (let i = 0; i < steps; i++) {
+        const value = isDiverging
+            ? min + ((max - min) * (i / (steps - 1)))
+            : min + ((max - min) * (i / (steps - 1)));
+        const x = i * swatchWidth;
+        swatches.push(
+            `<rect x="${x.toFixed(1)}" y="0" width="${(swatchWidth + 0.5).toFixed(1)}" height="${legendHeight}" fill="${colorFn(value, min, max)}" />`
+        );
+    }
+
+    const minLabel = formatFn(min);
+    const maxLabel = formatFn(max);
+    const midLabel = isDiverging ? formatFn(0) : formatFn((min + max) / 2);
+    const midX = legendWidth / 2;
+
+    return `
+    <g transform="translate(470, 520)">
+      ${swatches.join('')}
+      <rect x="0" y="0" width="${legendWidth}" height="${legendHeight}" fill="none" stroke="#9ca3af" stroke-width="0.5"/>
+      <text x="0" y="${legendHeight + 11}" text-anchor="start" font-size="10" fill="#374151">${escapeForHtml(minLabel)}</text>
+      <text x="${midX.toFixed(1)}" y="${legendHeight + 11}" text-anchor="middle" font-size="10" fill="#374151">${escapeForHtml(midLabel)}</text>
+      <text x="${legendWidth}" y="${legendHeight + 11}" text-anchor="end" font-size="10" fill="#374151">${escapeForHtml(maxLabel)}</text>
+    </g>`;
+}
+
 function escapeForHtml(value: string): string {
     return value
         .replace(/&/g, '&amp;')
@@ -94,7 +170,8 @@ function buildMapSvg(
     title: string,
     fillForArea: (area: PlottableArea) => string,
     radiusForArea: (area: PlottableArea) => number,
-    subtitleForArea: (area: PlottableArea) => string
+    subtitleForArea: (area: PlottableArea) => string,
+    legend = ''
 ): string {
     const width = 680;
     const height = 560;
@@ -118,6 +195,7 @@ function buildMapSvg(
       <svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeForHtml(title)}">
         <rect x="0" y="0" width="${width}" height="${height}" fill="#f8fafc" />
         ${circles}
+        ${legend}
       </svg>
     </section>`;
 }
@@ -132,13 +210,25 @@ function buildHtml(data: HeatmapFile): string {
 
     const prices = areas.map((area) => area.averagePropertyPrice);
     const counts = areas.map((area) => area.propertyCount);
+    const pricesPerBedroom = areas
+        .map((area) => area.averagePricePerBedroom)
+        .filter((value): value is number => value !== null);
     const deltas1y = areas
         .map((area) => area.changes['1y'].averagePropertyPriceChangePct)
         .filter((value): value is number => value !== null);
 
     const priceRange = numberRange(prices);
     const countRange = numberRange(counts);
+    const pricePerBedroomRange = numberRange(pricesPerBedroom);
     const deltaRange = numberRange(deltas1y);
+
+    const priceLegend = buildColorLegend(priceRange.min, priceRange.max, colorForValue, formatPrice);
+    const pricePerBedroomLegend = pricesPerBedroom.length > 0
+        ? buildColorLegend(pricePerBedroomRange.min, pricePerBedroomRange.max, colorForValue, formatPrice)
+        : '';
+    const changeLegend = deltas1y.length > 0
+        ? buildColorLegend(deltaRange.min, deltaRange.max, colorForDivergingValue, (v) => `${v.toFixed(1)}%`, true)
+        : '';
 
     const priceSvg = buildMapSvg(
         areas,
@@ -147,7 +237,21 @@ function buildHtml(data: HeatmapFile): string {
         (area) => 10 + (countRange.max > countRange.min
             ? ((area.propertyCount - countRange.min) / (countRange.max - countRange.min)) * 22
             : 12),
-        (area) => `Avg price £${area.averagePropertyPrice.toLocaleString()} | Listings ${area.propertyCount}`
+        (area) => `Avg price ${formatPrice(area.averagePropertyPrice)} | Listings ${area.propertyCount}`,
+        priceLegend
+    );
+
+    const pricePerBedroomSvg = buildMapSvg(
+        areas.filter((area) => area.averagePricePerBedroom !== null),
+        'Average Price Per Bedroom',
+        (area) => area.averagePricePerBedroom !== null
+            ? colorForValue(area.averagePricePerBedroom, pricePerBedroomRange.min, pricePerBedroomRange.max)
+            : '#9ca3af',
+        () => 14,
+        (area) => area.averagePricePerBedroom !== null
+            ? `${formatPrice(area.averagePricePerBedroom)} / bedroom`
+            : 'n/a',
+        pricePerBedroomLegend
     );
 
     const changeSvg = buildMapSvg(
@@ -158,15 +262,19 @@ function buildHtml(data: HeatmapFile): string {
             if (delta === null) {
                 return '#9ca3af';
             }
-            return colorForValue(delta, deltaRange.min, deltaRange.max);
+            return colorForDivergingValue(delta, deltaRange.min, deltaRange.max);
         },
         () => 14,
         (area) => {
             const delta = area.changes['1y'].averagePropertyPriceChangePct;
-            return delta === null
-                ? '1y change n/a'
-                : `1y change ${delta.toFixed(2)}%`;
-        }
+            const abs = area.changes['1y'].averagePropertyPriceChange;
+            if (delta === null) {
+                return '1y change n/a';
+            }
+            const absStr = abs !== null ? ` (${abs >= 0 ? '+' : ''}${formatPrice(abs)})` : '';
+            return `1y change ${delta >= 0 ? '+' : ''}${delta.toFixed(2)}%${absStr}`;
+        },
+        changeLegend
     );
 
     return `<!doctype html>
@@ -189,7 +297,7 @@ function buildHtml(data: HeatmapFile): string {
 <body>
   <h1>Scotland Postcode Area Heatmaps</h1>
   <p>Generated ${escapeForHtml(data.generatedAt)} from current SSPC data and git baselines.</p>
-  <div class="maps">${priceSvg}${changeSvg}</div>
+  <div class="maps">${priceSvg}${pricePerBedroomSvg}${changeSvg}</div>
 </body>
 </html>`;
 }
