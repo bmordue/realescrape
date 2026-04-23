@@ -48,8 +48,6 @@
 	<meta property="og:title" content="4 Bed Detached House for sale | 2 Comrie Avenue, Dunbar, East Lothian EH42 1ZN | SPC Scotland">
 	<meta property="og:description" content="2 Comrie Avenue, Dunbar is a substantial and well-presented four-bedroom family home by Avant Homes, ideally positioned to enjoy an open...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/577385/MainImage/577385_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: B</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2026</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/577385/MainImage/577385_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72645891&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 22/04/2026 07:00:00 -->
+<!-- 24/04/2026 07:00:00 -->
 </body>
 
 </html>
