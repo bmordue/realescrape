@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "scripts": {
     "prestart": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "start": "node built/app.js",
     "heatmap:data": "tsc && node built/heatmap/generate.js",
     "heatmap:render": "tsc && node built/heatmap/render.js",
@@ -16,7 +19,10 @@
     "typescript": "^4.7.4"
   },
   "devDependencies": {
-    "@types/node": "^18.6.4",
-    "@types/node-fetch": "^2.6.2"
+    "@types/jest": "^30.0.0",
+    "@types/node": "^18.19.123",
+    "@types/node-fetch": "^2.6.2",
+    "jest": "^30.1.3",
+    "ts-jest": "^29.4.1"
   }
 }
