@@ -20,14 +20,50 @@ function hashCode(str: string) {
     return hash.digest('hex');
 }
 
+function sleep(ms: number) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function fetchWithRetries(url: string, options: any = {}, retries = 3, backoff = 500) {
+    options.headers = {
+        ...(options.headers || {}),
+        'User-Agent': 'realescrape/0.0.1 (+https://github.com/)'
+    };
+
+    return await fetch(url, options);
+    // for (let attempt = 0; attempt <= retries; attempt++) {
+    //     try {
+    //         const resp = await fetch(url, options);
+    //         if (!resp.ok) {
+    //             const err = new Error(`HTTP error! status: ${resp.status} on attempt ${attempt + 1} for ${url}`);
+    //             (err as any).status = resp.status;
+    //             // Retry on server errors (5xx), otherwise fail fast
+    //             if (resp.status >= 500 && attempt < retries) {
+    //                 const jitter = Math.random() * 200;
+    //                 const delay = backoff * Math.pow(2, attempt) + jitter;
+    //                 await sleep(delay);
+    //                 continue;
+    //             }
+    //             throw err;
+    //         }
+    //         return resp;
+    //     } catch (error) {
+    //         // Network or other errors: retry until attempts exhausted
+    //         if (attempt === retries) throw error;
+    //         const jitter = Math.random() * 200;
+    //         const delay = backoff * Math.pow(2, attempt) + jitter;
+    //         await sleep(delay);
+    //     }
+    // }
+    // Should not reach here
+    // throw new Error('Unreachable: fetchWithRetries exhausted');
+}
+
 async function writePropertyDetails(url :string, filename :string) {
     const dirName = "properties";
 
     try {
-        const resp = await fetch(url);
-        if (!resp.ok) {
-            throw new Error(`HTTP error! status: ${resp.status}`);
-        }
+        const resp = await fetchWithRetries(url, undefined, 3, 500);
         const bodyText = await resp.text();
         writeFileSync(join(dirName, `${filename}.html`), bodyText);
     } catch (error) {
@@ -43,12 +79,7 @@ async function writeAllResults(propertyType: string) {
 
     try {
         const host = 'https://www.sspc.co.uk';
-        const resp = await fetch(`${host}/search.asp?searchtype=simple&q=&property_type=${propertyType}&page=1&view=all`);
-        
-        if (!resp.ok) {
-            throw new Error(`HTTP error! status: ${resp.status}`);
-        }
-
+        const resp = await fetchWithRetries(`${host}/search.asp?searchtype=simple&q=&property_type=${propertyType}&page=1&view=all`, undefined, 3, 500);
         const $ = cheerio.load(await resp.text());
 
         const resultsSelector = 'div#search_results > a';
