@@ -1,0 +1,31 @@
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug: Run built/app.js (with source maps)",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/built/app.js",
+      "preLaunchTask": "tsc: build - tsconfig.json",
+      "cwd": "${workspaceFolder}",
+      "runtimeArgs": ["--enable-source-maps"],
+      "console": "integratedTerminal",
+      "outFiles": ["${workspaceFolder}/built/**/*.js"],
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Debug (ts-node): app.ts",
+      "type": "pwa-node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["-r", "ts-node/register", "--enable-source-maps"],
+      "args": ["${workspaceFolder}/app.ts"],
+      "env": { "TS_NODE_PROJECT": "${workspaceFolder}/tsconfig.json" },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}
