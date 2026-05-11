@@ -15,6 +15,8 @@ jobs:
     - run: npm ci
     - name: Scrape
       run: npm start
+    - name: Check data integrity
+      run: npm run check:data
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"

@@ -9,7 +9,8 @@
     "start": "node built/app.js",
     "heatmap:data": "tsc && node built/heatmap/generate.js",
     "heatmap:render": "tsc && node built/heatmap/render.js",
-    "heatmap": "tsc && node built/heatmap/generate.js && node built/heatmap/render.js"
+    "heatmap": "tsc && node built/heatmap/generate.js && node built/heatmap/render.js",
+    "check:data": "tsc && node built/check-data-integrity.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
