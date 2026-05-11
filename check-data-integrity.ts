@@ -37,8 +37,8 @@ export function validatePropertyResult(entry: any, index: number): string[] {
     errors.push(`[${index}]: missing or invalid "priceDescription" (expected non-empty string)`);
   }
 
-  if (typeof entry.summary !== 'string') {
-    errors.push(`[${index}]: missing or invalid "summary" (expected string)`);
+  if (typeof entry.summary !== 'string' || entry.summary.length === 0) {
+    errors.push(`[${index}]: missing or invalid "summary" (expected non-empty string)`);
   }
 
   if (entry.url !== undefined && typeof entry.url !== 'string') {
