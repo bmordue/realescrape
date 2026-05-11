@@ -89,12 +89,12 @@ export function validateResultsFile(filePath: string): IntegrityError | null {
 
 /** Patterns that indicate the HTML page is an error response rather than a property listing. */
 const ERROR_PATTERNS = [
-  /<title>\s*Runtime Error\s*<\/title>/i,
-  /<title>\s*404\b/i,
-  /<title>\s*Page Not Found/i,
-  /<title>\s*Server Error/i,
-  /<title>\s*503\b/i,
-  /<title>\s*Access Denied/i,
+  /<title[^>]*>\s*Runtime Error\s*<\/title>/i,
+  /<title[^>]*>\s*404\b/i,
+  /<title[^>]*>\s*Page Not Found/i,
+  /<title[^>]*>\s*Server Error/i,
+  /<title[^>]*>\s*503\b/i,
+  /<title[^>]*>\s*Access Denied/i,
   /Server Error in '\/'/i,
 ];
 
@@ -123,7 +123,7 @@ export function validatePropertyHtml(filePath: string): IntegrityError | null {
   }
 
   // Expect a <title> tag with some content
-  const titleMatch = content.match(/<title>(.*?)<\/title>/i);
+  const titleMatch = content.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
   if (!titleMatch || titleMatch[1].trim().length === 0) {
     errors.push('Missing or empty <title> tag');
   }
