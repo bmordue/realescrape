@@ -1,5 +1,5 @@
-import { validatePropertyResult, validateResultsFile, validatePropertyHtml } from '../check-data-integrity';
-import { writeFileSync, mkdirSync, rmSync } from 'fs';
+import { validatePropertyResult, validateResultsFile, validatePropertyHtml, removeErroredFiles } from '../check-data-integrity';
+import { writeFileSync, mkdirSync, rmSync, existsSync } from 'fs';
 import { join } from 'path';
 
 const TMP_DIR = join(__dirname, '__tmp_integrity__');
@@ -154,5 +154,34 @@ describe('validatePropertyHtml', () => {
     const result = validatePropertyHtml(join(TMP_DIR, 'nonexistent.html'));
     expect(result).not.toBeNull();
     expect(result!.errors[0]).toContain('Cannot read');
+  });
+});
+
+describe('removeErroredFiles', () => {
+  it('should delete unique files that have integrity errors', () => {
+    const filePath = join(TMP_DIR, 'delete-me.html');
+    writeFileSync(filePath, '<html><head><title>Runtime Error</title></head></html>');
+
+    const result = removeErroredFiles([
+      { file: filePath, errors: ['Contains error response pattern'] },
+      { file: filePath, errors: ['Missing or empty <title> tag'] },
+    ]);
+
+    expect(result.deletedFiles).toEqual([filePath]);
+    expect(result.skippedFiles).toEqual([]);
+    expect(result.deleteErrors).toEqual([]);
+    expect(existsSync(filePath)).toBe(false);
+  });
+
+  it('should skip files that are already unreadable or missing', () => {
+    const missingPath = join(TMP_DIR, 'already-missing.html');
+
+    const result = removeErroredFiles([
+      { file: missingPath, errors: ['Cannot read file'] },
+    ]);
+
+    expect(result.deletedFiles).toEqual([]);
+    expect(result.skippedFiles).toEqual([missingPath]);
+    expect(result.deleteErrors).toEqual([]);
   });
 });
