@@ -48,8 +48,6 @@
 	<meta property="og:title" content="1 Bed First Floor Flat for sale | Flat 18, Hometay House, 2 High Street, Monifieth DD5 4BN | SPC Scotland">
 	<meta property="og:description" content="<p>Accommodation: hallway, lounge, kitchen, shower room and bedroom.</p> <p>This bright and spacious one bedroom first floor apartment is c...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/145072.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="428">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2026</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/145072.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72829816&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 15/06/2026 07:00:00 -->
+<!-- 16/06/2026 07:00:00 -->
 </body>
 
 </html>
