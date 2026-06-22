@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed  House for sale | Jonah Cottage, 22-24 High Street, Cockenzie, East Lothian EH32 0HP | SPC Scotland">
 	<meta property="og:description" content="Featured on Scotland�s Home of the Year in 2021, Jonah Cottage is an exceptional two bedroom semi-detached cottage occupying a truly...">
 	<meta property="og:image" content="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/582724/MainImage/582724_0.jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="683">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -311,12 +309,18 @@ EPC Band: C</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2026</strong>
-				
+				<br><img id="main_photo" src="https://espc.com/images.ashx?crop=true&width=1024&height=683&i=https://media.scottishhomereports.com/MediaServer/PropertyMarketing/582724/MainImage/582724_0.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72848242&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 21/06/2026 07:00:00 -->
+<!-- 22/06/2026 07:00:00 -->
 </body>
 
 </html>
