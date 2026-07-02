@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed Ground Floor Flat for sale | 35, Tweed Terrace TD1 3EF | SPC Scotland">
 	<meta property="og:description" content="Located in a sought after area of Galashiels, this two bedroom ground floor flat enjoys a quiet position towards the outskirts of town while still bei...">
 	<meta property="og:image" content="https://www.bspc.co.uk/userfiles/property/photos/27443.jpg">
-	<meta property="og:image:width" content="1280">
-	<meta property="og:image:height" content="853">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -233,7 +231,7 @@
 </script>
 		<div id="b3">
 			<div id="c3">
-				<div class="carousel"><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/photos/27443.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/01.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/02.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/03.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/04.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/05.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/06.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/07.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/08.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/09.jpg);"></div></div>
+				<div class="carousel"><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/photos/27443.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/01.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/02.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/03.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/04.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/05.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/06.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/07.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/08.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/09.jpg);"></div><div class="property_photo" style="background-image:url(https://www.bspc.co.uk/userfiles/property/galleries/27443/10.jpg);"></div></div>
 			</div><!--/c3-->
 			<div class="dotholder"></div>
 		</div><!--/b3-->
@@ -311,12 +309,18 @@ EPC Band: E</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2026</strong>
-				
+				<br><img id="main_photo" src="https://www.bspc.co.uk/userfiles/property/photos/27443.jpg" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72886966&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 01/07/2026 07:00:00 -->
+<!-- 02/07/2026 07:00:00 -->
 </body>
 
 </html>
