@@ -48,8 +48,6 @@
 	<meta property="og:title" content="2 Bed First Floor Flat for sale | Flat 4, 6 Claypotts Road, Broughty Ferry DD5 1BX | SPC Scotland">
 	<meta property="og:description" content="<p>Delightful, traditional upper flat just a stroll from Broughty Ferry town centre, perfect for the 1st time buyer.</p> <p>This delightful...">
 	<meta property="og:image" content="https://docs.tspc.co.uk/photos/145132.jpg?maxwidth=600">
-	<meta property="og:image:width" content="600">
-	<meta property="og:image:height" content="400">
 
 	<!-- Twitter Card Data -->
 	<meta name="twitter:card" content="summary">
@@ -310,12 +308,18 @@ EPC Band: D</br>
 		<div id="b7">
 			<div id="c7">
 				Copyright &copy; <strong>SPC Scotland 2026</strong>
-				
+				<br><img id="main_photo" src="https://docs.tspc.co.uk/photos/145132.jpg?maxwidth=600" style="opacity:0;position:absolute;left:-500em;top:-500em;">
+					<script>
+					$('img#main_photo').load(function() {
+						$.get('/ajax/report_img_size.asp?id=72904451&w='+ $(this).width() +'&h='+ $(this).height());
+					});
+					</script>
+					
 			</div><!--/c7-->
 		</div><!--/b7-->
 
 	</div><!--/a1-->
-<!-- 05/07/2026 07:00:00 -->
+<!-- 06/07/2026 07:00:00 -->
 </body>
 
 </html>
