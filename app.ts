@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 import { writeFileSync } from 'fs';
 import * as cheerio from 'cheerio';
 import { createHash } from 'crypto';
-import { join } from 'path';
+
 
 export interface PropertyResult {
     id: string,
@@ -55,38 +55,6 @@ async function fetchWithRetries(url: string, options: any = {}, retries = 3, bac
     throw new Error(`Unreachable: fetchWithRetries exhausted for ${url}`);
 }
 
-async function writePropertyDetails(url :string, filename :string, retries = 3, backoff = 500) {
-    const dirName = "properties";
-
-    for (let attempt = 0; attempt <= retries; attempt++) {
-        try {
-            const resp = await fetchWithRetries(url, undefined, 3, backoff);
-            const bodyText = await resp.text();
-            if (!bodyText || bodyText.trim().length === 0) {
-                if (attempt < retries) {
-                    const jitter = Math.random() * 200;
-                    const delay = backoff * Math.pow(2, attempt) + jitter;
-                    console.warn(`Empty document for ${url} on attempt ${attempt + 1}, retrying in ${Math.round(delay)}ms...`);
-                    await sleep(delay);
-                    continue;
-                }
-                throw new Error(`Empty document for ${url} after ${retries + 1} attempts`);
-            }
-            writeFileSync(join(dirName, `${filename}.html`), bodyText);
-            return;
-        } catch (error) {
-            if (attempt === retries) {
-                console.error(`Failed to write property details for ${url}:`, error);
-                throw error;
-            }
-            const jitter = Math.random() * 200;
-            const delay = backoff * Math.pow(2, attempt) + jitter;
-            console.warn(`Attempt ${attempt + 1} failed for ${url}, retrying in ${Math.round(delay)}ms...`);
-            await sleep(delay);
-        }
-    }
-}
-
 async function writeAllResults(propertyType: string) {
     const outFilename = `results-sspc-${propertyType}.json`;
 
@@ -117,20 +85,7 @@ async function writeAllResults(propertyType: string) {
             }
         });
 
-        // Process properties with error handling for each one
-        const successfulResults = [];
-        for (let res of results) {
-            if (res && res.url) {
-                try {
-                    await writePropertyDetails(res.url, res.id!);
-                    successfulResults.push(res);
-                } catch (error) {
-                    console.error(`Failed to fetch property details for ${res.url}:`, error);
-                    // Add property to results even if detail fetching failed
-                    successfulResults.push(res);
-                }
-            }
-        }
+        const successfulResults = results.filter((r): r is PropertyResult => !!(r && r.url));
 
         writeFileSync(outFilename, JSON.stringify(successfulResults, null, 4));
         console.log(`Wrote ${successfulResults.length} results to ${outFilename} for SSPC.`);

@@ -7,7 +7,6 @@ export interface AppConfig {
   };
   storage: {
     outputDir: string;
-    htmlDir: string;
   };
   ai: {
     model: string;
@@ -25,7 +24,6 @@ export const defaultConfig: AppConfig = {
   },
   storage: {
     outputDir: './',
-    htmlDir: 'properties',
   },
   ai: {
     model: 'gpt-3.5-turbo',
