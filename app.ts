@@ -30,45 +30,60 @@ async function fetchWithRetries(url: string, options: any = {}, retries = 3, bac
         'User-Agent': 'realescrape/0.0.1 (+https://github.com/)'
     };
 
-    return await fetch(url, options);
-    // for (let attempt = 0; attempt <= retries; attempt++) {
-    //     try {
-    //         const resp = await fetch(url, options);
-    //         if (!resp.ok) {
-    //             const err = new Error(`HTTP error! status: ${resp.status} on attempt ${attempt + 1} for ${url}`);
-    //             (err as any).status = resp.status;
-    //             // Retry on server errors (5xx), otherwise fail fast
-    //             if (resp.status >= 500 && attempt < retries) {
-    //                 const jitter = Math.random() * 200;
-    //                 const delay = backoff * Math.pow(2, attempt) + jitter;
-    //                 await sleep(delay);
-    //                 continue;
-    //             }
-    //             throw err;
-    //         }
-    //         return resp;
-    //     } catch (error) {
-    //         // Network or other errors: retry until attempts exhausted
-    //         if (attempt === retries) throw error;
-    //         const jitter = Math.random() * 200;
-    //         const delay = backoff * Math.pow(2, attempt) + jitter;
-    //         await sleep(delay);
-    //     }
-    // }
-    // Should not reach here
-    // throw new Error('Unreachable: fetchWithRetries exhausted');
+    for (let attempt = 0; attempt <= retries; attempt++) {
+        try {
+            const resp = await fetch(url, options);
+            if (!resp.ok) {
+                const err = new Error(`HTTP error! status: ${resp.status} on attempt ${attempt + 1} for ${url}`);
+                (err as any).status = resp.status;
+                if (resp.status >= 500 && attempt < retries) {
+                    const jitter = Math.random() * 200;
+                    const delay = backoff * Math.pow(2, attempt) + jitter;
+                    await sleep(delay);
+                    continue;
+                }
+                throw err;
+            }
+            return resp;
+        } catch (error) {
+            if (attempt === retries) throw error;
+            const jitter = Math.random() * 200;
+            const delay = backoff * Math.pow(2, attempt) + jitter;
+            await sleep(delay);
+        }
+    }
+    throw new Error(`Unreachable: fetchWithRetries exhausted for ${url}`);
 }
 
-async function writePropertyDetails(url :string, filename :string) {
+async function writePropertyDetails(url :string, filename :string, retries = 3, backoff = 500) {
     const dirName = "properties";
 
-    try {
-        const resp = await fetchWithRetries(url, undefined, 3, 500);
-        const bodyText = await resp.text();
-        writeFileSync(join(dirName, `${filename}.html`), bodyText);
-    } catch (error) {
-        console.error(`Failed to write property details for ${url}:`, error);
-        throw error;
+    for (let attempt = 0; attempt <= retries; attempt++) {
+        try {
+            const resp = await fetchWithRetries(url, undefined, 3, backoff);
+            const bodyText = await resp.text();
+            if (!bodyText || bodyText.trim().length === 0) {
+                if (attempt < retries) {
+                    const jitter = Math.random() * 200;
+                    const delay = backoff * Math.pow(2, attempt) + jitter;
+                    console.warn(`Empty document for ${url} on attempt ${attempt + 1}, retrying in ${Math.round(delay)}ms...`);
+                    await sleep(delay);
+                    continue;
+                }
+                throw new Error(`Empty document for ${url} after ${retries + 1} attempts`);
+            }
+            writeFileSync(join(dirName, `${filename}.html`), bodyText);
+            return;
+        } catch (error) {
+            if (attempt === retries) {
+                console.error(`Failed to write property details for ${url}:`, error);
+                throw error;
+            }
+            const jitter = Math.random() * 200;
+            const delay = backoff * Math.pow(2, attempt) + jitter;
+            console.warn(`Attempt ${attempt + 1} failed for ${url}, retrying in ${Math.round(delay)}ms...`);
+            await sleep(delay);
+        }
     }
 }
 
