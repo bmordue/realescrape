@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
-import { writeFileSync } from 'fs';
+import { writeFileSync } from 'node:fs';
 import * as cheerio from 'cheerio';
-import { createHash } from 'crypto';
+import { createHash } from 'node:crypto';
 
 
 export interface PropertyResult {
@@ -26,7 +26,7 @@ function sleep(ms: number) {
 
 async function fetchWithRetries(url: string, options: any = {}, retries = 3, backoff = 500) {
     options.headers = {
-        ...(options.headers || {}),
+        ...options.headers,
         'User-Agent': 'realescrape/0.0.1 (+https://github.com/)'
     };
 
@@ -39,9 +39,11 @@ async function fetchWithRetries(url: string, options: any = {}, retries = 3, bac
                 if (resp.status >= 500 && attempt < retries) {
                     const jitter = Math.random() * 200;
                     const delay = backoff * Math.pow(2, attempt) + jitter;
+                    console.log(`Backing off for ${delay} ms after HTTP status ${resp.status} (attempt ${attempt})`);
                     await sleep(delay);
                     continue;
                 }
+	        // console.log(await resp.text());
                 throw err;
             }
             return resp;
@@ -49,6 +51,7 @@ async function fetchWithRetries(url: string, options: any = {}, retries = 3, bac
             if (attempt === retries) throw error;
             const jitter = Math.random() * 200;
             const delay = backoff * Math.pow(2, attempt) + jitter;
+            console.log(`Backing off for ${delay} ms after error thrown (attempt ${attempt})`);
             await sleep(delay);
         }
     }
@@ -76,7 +79,7 @@ async function writeAllResults(propertyType: string) {
                     address: $(el).find('h4').text(),
                     priceDescription: $(el).find('.pp').text(),
                     summary: $(el).find('.pt').text().trim(),
-                    bedrooms: parseInt($(el).find('.pb > span').text())
+                    bedrooms: Number.parseInt($(el).find('.pb > span').text())
                 };
                 results[i] = { ...prop, id: hashCode(prop.url) };
             } catch (error) {
@@ -85,7 +88,7 @@ async function writeAllResults(propertyType: string) {
             }
         });
 
-        const successfulResults = results.filter((r): r is PropertyResult => !!(r && r.url));
+        const successfulResults = results.filter((r): r is PropertyResult => !!(r?.url));
 
         writeFileSync(outFilename, JSON.stringify(successfulResults, null, 4));
         console.log(`Wrote ${successfulResults.length} results to ${outFilename} for SSPC.`);
