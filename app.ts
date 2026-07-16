@@ -26,7 +26,7 @@ function sleep(ms: number) {
 
 async function fetchWithRetries(url: string, options: any = {}, retries = 3, backoff = 500) {
     options.headers = {
-        ...options.headers,
+        ...(options.headers || {}),
         'User-Agent': 'realescrape/0.0.1 (+https://github.com/)'
     };
 
