@@ -84,7 +84,7 @@ async function fetchOnePage(propertyType: string, page: number): Promise<Propert
         $(resultsSelector).each((i, el) => {
             try {
                 const prop = {
-                    url: url + $(el).attr('href'),
+                    url: 'https://www.sspc.co.uk' + $(el).attr('href'),
                     address: $(el).find('h4').text(),
                     priceDescription: $(el).find('.pp').text(),
                     summary: $(el).find('.pt').text().trim(),
