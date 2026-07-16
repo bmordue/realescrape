@@ -33,6 +33,7 @@ async function fetchWithRetries(url: string, options: any = {}, retries = 3, bac
     for (let attempt = 0; attempt <= retries; attempt++) {
         try {
             const resp = await fetch(url, options);
+	        // console.log(await resp.text());
             if (!resp.ok) {
                 const err = new Error(`HTTP error! status: ${resp.status} on attempt ${attempt + 1} for ${url}`);
                 (err as any).status = resp.status;
@@ -43,7 +44,6 @@ async function fetchWithRetries(url: string, options: any = {}, retries = 3, bac
                     await sleep(delay);
                     continue;
                 }
-	        // console.log(await resp.text());
                 throw err;
             }
             return resp;
@@ -58,24 +58,33 @@ async function fetchWithRetries(url: string, options: any = {}, retries = 3, bac
     throw new Error(`Unreachable: fetchWithRetries exhausted for ${url}`);
 }
 
-async function writeAllResults(propertyType: string) {
-    const outFilename = `results-sspc-${propertyType}.json`;
-
-    console.log(`Starting ${propertyType}.`);
-
-    try {
-        const host = 'https://www.sspc.co.uk';
-        const resp = await fetchWithRetries(`${host}/search.asp?searchtype=simple&q=&property_type=${propertyType}&page=1&view=all`, undefined, 3, 500);
+async function fetchOnePage(propertyType: string, page: number): Promise<PropertyResult[]> {
+        const url = 'https://www.sspc.co.uk/search.asp';
+        const options = {
+            method: 'POST',
+            body: new URLSearchParams({
+                searchtype: 'simple',
+                q: '',
+                property_type: propertyType,
+                bedrooms: '',
+                min_price: '',
+                max_price: '',
+                latitude: '',
+                longitude: '',
+                page: page.toString()
+            })
+        };
+        const resp = await fetchWithRetries(url, options, 3, 500);
         const $ = cheerio.load(await resp.text());
 
         const resultsSelector = 'div#search_results > a';
-        console.log(`Got ${$(resultsSelector).length} results.`);
+//        console.log(`Got ${$(resultsSelector).length} results.`);
 
         const results: PropertyResult[] = [];
         $(resultsSelector).each((i, el) => {
             try {
                 const prop = {
-                    url: host + $(el).attr('href'),
+                    url: url + $(el).attr('href'),
                     address: $(el).find('h4').text(),
                     priceDescription: $(el).find('.pp').text(),
                     summary: $(el).find('.pt').text().trim(),
@@ -87,7 +96,45 @@ async function writeAllResults(propertyType: string) {
                 // Continue with other properties instead of failing completely
             }
         });
+        return results;
+}
 
+async function writeAllResults(propertyType: string) {
+    const outFilename = `results-sspc-${propertyType}.json`;
+
+    console.log(`Starting ${propertyType}.`);
+
+// curl 'https://www.sspc.co.uk/search.asp' \
+//   -X POST \
+//   -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0' \
+//   -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' \
+//   -H 'Accept-Language: en-GB,en;q=0.9' \
+//   -H 'Accept-Encoding: gzip, deflate, br, zstd' \
+//   -H 'Content-Type: application/x-www-form-urlencoded' \
+//   -H 'Origin: https://www.sspc.co.uk' \
+//   -H 'Connection: keep-alive' \
+//   -H 'Referer: https://www.sspc.co.uk/search.asp?searchtype=simple&q=&property_type=Bungalow&bedrooms=&min_price=&max_price=&latitude=&longitude=&page=1&view=all' \
+//   -H 'Upgrade-Insecure-Requests: 1' \
+//   -H 'Sec-Fetch-Dest: document' \
+//   -H 'Sec-Fetch-Mode: navigate' \
+//   -H 'Sec-Fetch-Site: same-origin' \
+//   -H 'Sec-Fetch-User: ?1' \
+//   -H 'Priority: u=0, i' \
+//   --data-raw 'searchtype=simple&q=&property_type=Bungalow&bedrooms=&min_price=&max_price=&latitude=&longitude='
+
+    try {
+		let results: PropertyResult[] = [];
+		let morePages = true;
+		let page = 1;
+		while (morePages) {
+			let pageResults = await fetchOnePage(propertyType, page);
+			results = results.concat(pageResults);
+			if (pageResults.length === 0) {
+				morePages = false;
+				console.log(`No more results for ${propertyType} after page ${page}.`);
+			}
+			page++;
+		}
         const successfulResults = results.filter((r): r is PropertyResult => !!(r?.url));
 
         writeFileSync(outFilename, JSON.stringify(successfulResults, null, 4));
