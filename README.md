@@ -61,8 +61,14 @@ This project scrapes property listings from `sspc.co.uk`, saves the data, and th
 
 6. **Generate both data and rendered heatmap in one command:**
    ```bash
-   npm run heatmap
-   ```
+    npm run heatmap
+    ```
+
+7. **Generate AB postcode property market explainer:**
+    ```bash
+    npm run explainer
+    ```
+    This fetches recent data from the ASPC API and generates a self-contained HTML report with maps and charts at `explainer/output/ab-postcode-explainer.html`.
 
 ## Configuration
 
